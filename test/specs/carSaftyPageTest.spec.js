@@ -80,7 +80,7 @@ describe('Volvo Cars Safety Page Validator', async()=> {
         await browser.back()
     })
 
-    it('Validate Safety Innovations Link', async()=> {
+    /*it('Validate Safety Innovations Link', async()=> {
         const saftyInnvLink = saftyInnovationPage.saftyInnovationsLink
         //console.log(await carSaftyLink.isDisplayed())
         //expect(await carSaftyLink.isDisplayed()).toEqual(true)
@@ -97,7 +97,7 @@ describe('Volvo Cars Safety Page Validator', async()=> {
         await expect(await browser).toHaveTitle(saftyInnvTitle)
         await console.log("Browser title safty - ", await browser.getTitle())
         await browser.back()
-    })
+    })*/
     
     it('Validate EVA Initiative Link', async()=> {
         const evaInitiativeLink = saftyInnovationPage.evaInitiativeLink
