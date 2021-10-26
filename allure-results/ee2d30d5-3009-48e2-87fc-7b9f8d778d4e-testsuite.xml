@@ -1,0 +1,182 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1635236460441' stop='1635236471256'>
+    <name>Volvo XC40-Hybrid SUV Page Validator</name>
+    <title>Volvo XC40-Hybrid SUV Page Validator</title>
+    <test-cases>
+        <test-case start='1635236460442' status='passed' stop='1635236463458'>
+            <name>Launc Home Page</name>
+            <title>Launc Home Page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.81'/>
+            </parameters>
+            <steps>
+                <step start='1635236460443' status='passed' stop='1635236462482'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='7c872cc7-f172-4322-9ca8-c930e63ea886-attachment.json' type='application/json' size='73'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1635236462482' status='passed' stop='1635236462844'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='8cecf161-8b16-4710-a260-de8f270b0ad7-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1635236462845' status='passed' stop='1635236463069'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='eeba1eef-978a-4c1d-9835-67c21801174f-attachment.json' type='application/json' size='86'/>
+                        <attachment title='Response' source='e393df2a-6b87-4cdb-b368-95237f79d760-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1635236463077' status='passed' stop='1635236463457'>
+                    <name>POST /session/:sessionId/element/98c8e24f-65bb-43f4-8c81-db31074d1b7b/click</name>
+                    <title>POST /session/:sessionId/element/98c8e24f-65bb-43f4-8c81-db31074d1b7b/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1635236463458' status='passed' stop='1635236465244'>
+            <name>Validate XC40-Hybrid SUV Link</name>
+            <title>Validate XC40-Hybrid SUV Link</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.81'/>
+            </parameters>
+            <steps>
+                <step start='1635236463459' status='passed' stop='1635236463742'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='41bf5c72-0ab1-4903-813f-81aade876e2a-attachment.json' type='application/json' size='149'/>
+                        <attachment title='Response' source='dd370d42-6a43-452e-b7f8-96dcc11e4d23-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1635236463747' status='passed' stop='1635236465244'>
+                    <name>POST /session/:sessionId/element/f3bd6265-a9e8-4a31-aa1c-51d823ad6e37/click</name>
+                    <title>POST /session/:sessionId/element/f3bd6265-a9e8-4a31-aa1c-51d823ad6e37/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1635236465244' status='passed' stop='1635236465457'>
+            <name>Validate XC40-Hybrid SUV URL</name>
+            <title>Validate XC40-Hybrid SUV URL</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.81'/>
+            </parameters>
+            <steps>
+                <step start='1635236465246' status='passed' stop='1635236465454'>
+                    <name>GET /session/:sessionId/url</name>
+                    <title>GET /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Response' source='48c7ddc0-09dc-4e7e-9e0f-d1133e300805-attachment.json' type='application/json' size='51'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1635236465457' status='passed' stop='1635236465662'>
+            <name>Validate XC40-Hybrid SUV Page Title</name>
+            <title>Validate XC40-Hybrid SUV Page Title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.81'/>
+            </parameters>
+            <steps>
+                <step start='1635236465458' status='passed' stop='1635236465662'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments>
+                        <attachment title='Response' source='01f498dd-43cb-4f30-802e-656051df60a5-attachment.json' type='application/json' size='49'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1635236465663' status='passed' stop='1635236470108'>
+            <name>Validate XC40-Hybrid SUV SHOP URL Launch</name>
+            <title>Validate XC40-Hybrid SUV SHOP URL Launch</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.81'/>
+            </parameters>
+            <steps>
+                <step start='1635236465663' status='passed' stop='1635236465877'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='6c21b6e3-4d9a-4c53-9f25-3b914960ec40-attachment.json' type='application/json' size='105'/>
+                        <attachment title='Response' source='9a2b3161-3ced-4a04-9112-ef4d604851a8-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1635236465880' status='passed' stop='1635236470108'>
+                    <name>POST /session/:sessionId/element/a0a9b85a-1c59-487d-b2d2-3dd64d5698ab/click</name>
+                    <title>POST /session/:sessionId/element/a0a9b85a-1c59-487d-b2d2-3dd64d5698ab/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1635236470108' status='passed' stop='1635236471256'>
+            <name>Validate XC40-Hybrid SUV SHOP URL</name>
+            <title>Validate XC40-Hybrid SUV SHOP URL</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.81'/>
+            </parameters>
+            <steps>
+                <step start='1635236470109' status='passed' stop='1635236471255'>
+                    <name>GET /session/:sessionId/url</name>
+                    <title>GET /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Response' source='393e527e-3224-4b2a-8285-2f2ac685ee9d-attachment.json' type='application/json' size='50'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
