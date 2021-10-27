@@ -15,7 +15,7 @@ exports.config = {
     // according to your user and key information. However, if you are using a private Selenium
     // backend you should define the host address, port, and path here.
     //
-    hostname: '34.132.48.122',
+    hostname: 'localhost',
     port: 4444,
     path: '/',
     //
@@ -101,6 +101,7 @@ exports.config = {
     //
     // Level of logging verbosity: trace | debug | info | warn | error | silent
     logLevel: 'info',
+    outputDir: 'logs',
     //
     // Set specific log levels per logger
     // loggers:

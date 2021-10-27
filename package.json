@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx wdio run wdio.conf.js"
+    "docker-start": "docker-compose up -d",
+    "test": "npx wdio run wdio.conf.js",
+    "docker-stop": "docker-compose down"
   },
   "author": "",
   "license": "ISC",
