@@ -11,6 +11,8 @@ resources:
   - router-service.yml
   - chrome-driver-deployment.yml
   - chrome-driver-service.yml
+  - firefox-driver-deployment.yml
+  - firefox-driver-service.yml
 
 commonLabels:
   owner: Kiruba

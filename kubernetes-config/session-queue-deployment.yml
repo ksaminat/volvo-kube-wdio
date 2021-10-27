@@ -16,7 +16,7 @@ spec:
       labels:
         app: selenium-session-queue
         name: selenium-session-queue
-        component: "selenium-grid-4"
+        component: "selenium-grid"
     spec:
       containers:
         - name: selenium-session-queue

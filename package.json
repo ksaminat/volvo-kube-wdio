@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "kube-start": "kubectl create -k ./kubernetes-config/",
+    "kube-get": "kubectl get all",
     "docker-start": "docker-compose up -d",
     "test": "npx wdio run wdio.conf.js",
     "kube-stop": "kubectl delete all -l component=selenium-grid",

@@ -16,7 +16,7 @@ spec:
       labels:
         app: selenium-distributor
         name: selenium-distributor
-        component: "selenium-grid-4"
+        component: "selenium-grid"
     spec:
       containers:
         - name: selenium-distributor

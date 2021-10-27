@@ -15,12 +15,13 @@ exports.config = {
     // according to your user and key information. However, if you are using a private Selenium
     // backend you should define the host address, port, and path here.
     //
-    hostname: '35.239.203.141',
+    hostname: '34.132.48.122',
     port: 4444,
     path: '/',
     //
     // ==================
     // Specify Test Files
+    
     // ==================
     // Define which test specs should run. The pattern is relative to the directory
     // from which `wdio` was called.
@@ -77,7 +78,7 @@ exports.config = {
         // it is possible to configure which logTypes to include/exclude.
         // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
         // excludeDriverLogs: ['bugreport', 'server'],
-    }/*,
+    },
     {
     
         // maxInstances can get overwritten per capability. So if you have an in-house Selenium
@@ -91,7 +92,7 @@ exports.config = {
         // it is possible to configure which logTypes to include/exclude.
         // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
         // excludeDriverLogs: ['bugreport', 'server'],
-    }*/
+    }
     ],
     //
     // ===================

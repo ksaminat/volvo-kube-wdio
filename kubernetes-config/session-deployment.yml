@@ -16,7 +16,7 @@ spec:
       labels:
         app: selenium-sessions
         name: selenium-sessions
-        component: "selenium-grid-4"
+        component: "selenium-grid"
     spec:
       containers:
         - name: selenium-sessions

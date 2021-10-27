@@ -1,26 +1,26 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: selenium-chrome-node-deployment
+  name: selenium-ff-node-deployment
   labels:
-    app: selenium-chrome-node
-    name: selenium-chrome-node
+    app: selenium-ff-node
+    name: selenium-ff-node
     component: "selenium-grid"
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: selenium-chrome-node
+      app: selenium-ff-node
   template:
     metadata:
       labels:
-        app: selenium-chrome-node
-        name: selenium-chrome-node
+        app: selenium-ff-node
+        name: selenium-ff-node
         component: "selenium-grid"
     spec:
       containers:
-        - name: selenium-chrome-node
-          image: selenium/node-chrome:4.0.0-20211013
+        - name: selenium-ff-node
+          image: selenium/node-firefox:4.0.0-20211013
           env:
             - name: SE_EVENT_BUS_HOST
               value: "selenium-event-bus"

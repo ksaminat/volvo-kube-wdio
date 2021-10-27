@@ -16,7 +16,7 @@ spec:
       labels:
         app: selenium-event-bus
         name: selenium-event-bus
-        component: "selenium-grid-4"
+        component: "selenium-grid"
     spec:
       containers:
         - name: selenium-event-bus
