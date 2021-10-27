@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//*[@id=\"PdpSubmenu-1\"]/div[2]/div/section/div[1]/div[2]/div/div/a"
-}

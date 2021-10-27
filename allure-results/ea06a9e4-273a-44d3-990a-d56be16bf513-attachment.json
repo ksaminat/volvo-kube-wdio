@@ -1,5 +1,0 @@
-{
-  "error": "no such element",
-  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"ImageWithText-3\"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a\"}\n  (Session info: chrome=94.0.4606.81)",
-  "stacktrace": "#0 0x55e31694b8f3 <unknown>\n#1 0x55e316430ba8 <unknown>\n#2 0x55e3164669b5 <unknown>\n#3 0x55e316499104 <unknown>\n#4 0x55e316483e9d <unknown>\n#5 0x55e316496dac <unknown>\n#6 0x55e316483d63 <unknown>\n#7 0x55e31645a144 <unknown>\n#8 0x55e31645b135 <unknown>\n#9 0x55e31697ac3e <unknown>\n#10 0x55e3169906b7 <unknown>\n#11 0x55e31697bb95 <unknown>\n#12 0x55e316991b05 <unknown>\n#13 0x55e3169702ab <unknown>\n#14 0x55e3169ac248 <unknown>\n#15 0x55e3169ac3c8 <unknown>\n#16 0x55e3169c733d <unknown>\n#17 0x7ff7811e6609 start_thread\n"
-}

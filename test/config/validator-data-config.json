@@ -1,0 +1,22 @@
+{
+    "string": "Volvo Car Safety Testing URL and Locator Elements Config",
+    "base": {
+    },
+
+    "carSafety": {
+        "title": "A million more | Volvo Cars - International",
+        "learnMoreTitle": "Car safety | Volvo Cars - International",
+        "driverAssistanceTitle": "Driver assistance systems | Volvo Cars",
+        "childSafety" : "Child Safety innovations for our most precious passengers | Volvo Cars"
+    },
+
+    "safetyInnovation": {
+        "safetyInnovationTitle": "Safety innovations | Volvo Cars",
+        "evaInitiativeLinkTitle": "The E.V.A. Initiative | Cars safe for all"
+    },
+
+    "xc40HybridSUV": {
+        "title": "Volvo XC40 Recharge plug-in hybrid | Volvo Cars",
+        "headerText": "Volvo XC40 Recharge"
+    }
+}

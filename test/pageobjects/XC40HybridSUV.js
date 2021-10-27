@@ -1,31 +1,33 @@
-class XC40HybridSUV{
+import locatorTags from "../config/locators-config.json"
+import validatorData from "../config/validator-data-config.json"
 
+class XC40HybridSUV{
     get xc40LaunchLink(){
-        return $("//*[@id=\"ProductListCarousel-1\"]/section/div[1]/div/div/div/div[1]/div/div/div/div/div[3]/div/a/div[2]/picture")
+        return $(locatorTags.xc40HybridSUV.launchLink)
     }
 
     get xc40PageURL(){
-        return "https://www.volvocars.com/intl/v/cars/xc40-hybrid"
+        return locatorTags.xc40HybridSUV.url
     }
 
     get xc40PageTitle(){
-        return "Volvo XC40 Recharge plug-in hybrid | Volvo Cars"
+        return validatorData.xc40HybridSUV.title
     }
 
     get xc40PageHeader(){
-        return $("//*[@id=\"PdpSubmenu-1\"]/div[3]/h2")
+        return $(locatorTags.xc40HybridSUV.pageHeader)
     }
 
     get xc40PageHeaderText(){
-        return "Volvo XC40 Recharge"
+        return validatorData.xc40HybridSUV.headerText
     }
 
     get xc40PageShopButton(){
-        return $("//*[@id=\"PdpSubmenu-1\"]/div[2]/div/section/div[1]/div[2]/div/div/a")
+        return $(locatorTags.xc40HybridSUV.shopeButton)
     }
 
     get xc40ShopURL(){
-        return "https://www.volvocars.com/intl/build/xc40-hybrid"
+        return locatorTags.xc40HybridSUV.shopeurl
     }
 }
 

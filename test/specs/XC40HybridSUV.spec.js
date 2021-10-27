@@ -1,12 +1,10 @@
+const carSaftyPage = require("../pageobjects/CarSafety.page")
 const xc40HybridSUVPage = require("../pageobjects/XC40HybridSUV")
 
 describe('Volvo XC40-Hybrid SUV Page Validator', async()=> {
 
     it('Launc Home Page', async()=> {
-        await browser.url("https://www.volvocars.com/intl/v/car-safety/a-million-more");
-        await browser.maximizeWindow()
-        const cookieButton = $('/html/body/div[1]/div[2]/div[4]/div[2]/div/button')
-        await (await cookieButton).click()
+        await carSaftyPage.openCarSaftyPage()
     })
 
     it('Validate XC40-Hybrid SUV Link', async()=> {

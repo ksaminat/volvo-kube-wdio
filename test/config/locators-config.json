@@ -1,0 +1,28 @@
+{
+    "string": "Volvo Car Safety Testing URL and Locator Elements Config",
+    "base": {
+      "url": "https://www.volvocars.com/intl/v/car-safety/a-million-more",
+      "cookieButton": "/html/body/div[1]/div[2]/div[4]/div[2]/div/button"
+    },
+
+    "carSafety": {
+      "learnModeLink": "//*[@id=\"IconCallouts-1\"]/section/div/div[2]/div/a",
+      "driverAssistanceLink": "//*[@id=\"ImageWithText-1\"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a",
+      "childSaftyLink": "//*[@id=\"ImageWithText-2\"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a"
+    },
+
+    "saftyInnovations":{
+       "saftyInnovationsLink" : "//*[@id=\"ImageWithText-4\"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a",
+       "evaInitiativeLink": "//*[@id=\"ImageWithText-3\"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a",
+       "evaInitiativeVideoButton": "//*[@id=\"Video-1\"]/section/div/div/div/button",
+       "evaInitiativeVideoLink": "//*[@id=\"Video-1\"]/section/div/button/div/video"
+    },
+
+    "xc40HybridSUV":{
+        "url": "https://www.volvocars.com/intl/v/cars/xc40-hybrid",
+        "launchLink" : "//*[@id=\"ProductListCarousel-1\"]/section/div[1]/div/div/div/div[1]/div/div/div/div/div[3]/div/a/div[2]/picture",
+        "pageHeader" : "//*[@id=\"PdpSubmenu-1\"]/div[3]/h2",
+        "shopeButton" : "//*[@id=\"PdpSubmenu-1\"]/div[2]/div/section/div[1]/div[2]/div/div/a",
+        "shopeurl" : "https://www.volvocars.com/intl/build/xc40-hybrid"
+    }
+  }

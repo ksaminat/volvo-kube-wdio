@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//*[@id=\"Video-1\"]/section/div/button/div/video"
-}

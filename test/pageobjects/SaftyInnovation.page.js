@@ -1,26 +1,30 @@
+import locatorTags from "../config/locators-config.json"
+import validatorData from "../config/validator-data-config.json"
+
 class SaftyInnovationPage{
     get saftyInnovationsLink() {
-        return $("//*[@id=\"ImageWithText-4\"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
+        return $(locatorTags.saftyInnovations.saftyInnovationsLink)
       }
 
       get saftyInnovationsLinkTitle() {
-          return "Safety innovations | Volvo Cars"
+          return validatorData.safetyInnovation.safetyInnovationTitle
       }
 
       get evaInitiativeLink() {
-          return $("//*[@id=\"ImageWithText-3\"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
+          return $(locatorTags.saftyInnovations.evaInitiativeLink)
       }
 
       get evaInitiativeLinkTitle() {
-          return "The E.V.A. Initiative | Cars safe for all"
+          return validatorData.safetyInnovation.evaInitiativeLinkTitle
       }
 
       get evaInitiativeVideoButton() {
-          return $("//*[@id=\"Video-1\"]/section/div/div/div/button")
+          return $(locatorTags.saftyInnovations.evaInitiativeVideoButton
+            )
       }
 
       get evaVideoPlayerLink(){
-          return $("//*[@id=\"Video-1\"]/section/div/button/div/video")
+          return $(locatorTags.saftyInnovations.evaInitiativeVideoLink)
       }
 }
 

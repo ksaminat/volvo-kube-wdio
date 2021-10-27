@@ -1,30 +1,22 @@
+const baseConfig = require("../pageobjects/BaseConfig")
 const carSaftyPage = require("../pageobjects/CarSafety.page")
 const saftyInnovationPage = require("../pageobjects/SaftyInnovation.page")
 
 describe('Volvo Cars Safety Page Validator', async()=> {
 
     it('Launch Volvo Home', async()=> {
-        //await carSaftyPage.openCarSaftyPage()
-        await browser.url("https://www.volvocars.com/intl/v/car-safety/a-million-more");
-        await browser.maximizeWindow()
-        const cookieButton = $('/html/body/div[1]/div[2]/div[4]/div[2]/div/button')
-        await (await cookieButton).click()
-
-        
-
-        console.log(browser.getTitle())
-        
+         await carSaftyPage.openCarSaftyPage()
     })
 
     it('Validate Title', async()=> {
-        const title = carSaftyPage.getTitle();
+        const title = carSaftyPage.title;
         //browser.waitUntil(()=> browser.getTitle() == title, 5000)
         await expect(browser).toHaveTitle(title)
         
     })
 
     it('Validate Care Safety Link', async()=> {
-        const carSaftyLink = carSaftyPage.getLearnMoreAbtCarSftyLink()
+        const carSaftyLink = carSaftyPage.learnMoreAbtCarSftyLink
         //console.log(await carSaftyLink.isDisplayed())
         //expect(await carSaftyLink.isDisplayed()).toEqual(true)
         const carSaftyHelpElem = $("//*[@id=\"IconCallouts-1\"]/section/div/div[1]/div[2]/div[2]/em")
@@ -36,7 +28,7 @@ describe('Volvo Cars Safety Page Validator', async()=> {
     })
 
     it('Validate Car Safety Title', async()=> {
-        const carSaftyPageLink = carSaftyPage.getLearnMoreAbtCarSftyPageTitle();
+        const carSaftyPageLink = carSaftyPage.learnMoreAbtCarSftyPageTitle;
         await expect(await browser).toHaveTitle(carSaftyPageLink)
         await console.log("Browser title safty - ", await browser.getTitle())
     })

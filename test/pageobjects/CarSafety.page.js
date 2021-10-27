@@ -1,40 +1,40 @@
+import locatorTags from "../config/locators-config.json"
+import validatorData from "../config/validator-data-config.json"
+const baseConfig = require("../pageobjects/BaseConfig")
+
 class CarSaftyPage{
-    openCarSaftyPage() {
-        browser.url("https://www.volvocars.com/intl/v/car-safety/a-million-more");
+    async openCarSaftyPage() {
+      await baseConfig.openUrl()
+      await baseConfig.handleCookies()
+    }
+
+      get title() {
+        return validatorData.carSafety.title
       }
 
-      getTitle() {
-        return "A million more | Volvo Cars - International";
-      }
-      getInternationaVolvoTitle() {
-        return "International | Volvo Cars";
-      }
-    
-      getLearnMoreAbtCarSftyLink() {
-        return $("//*[@id=\"IconCallouts-1\"]/section/div/div[2]/div/a");
+      get learnMoreAbtCarSftyLink() {
+        return $(locatorTags.carSafety.learnModeLink);
     }
     
-      getLearnMoreAbtCarSftyPageTitle() {
-        return "Car safety | Volvo Cars - International";
+      get learnMoreAbtCarSftyPageTitle() {
+        return validatorData.carSafety.learnMoreTitle;
       }
     
       get driverAssistanceSystemLink() {
-          return $("//*[@id=\"ImageWithText-1\"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
+          return $(locatorTags.carSafety.driverAssistanceLink)
       }
       
       get driverAssistanceSystemTitle() {
-        return "Driver assistance systems | Volvo Cars"
+        return validatorData.carSafety.driverAssistanceTitle
       }
 
       get childSaftyLink(){
-        return $("//*[@id=\"ImageWithText-2\"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
+        return $(locatorTags.carSafety.childSaftyLink)
       }
 
       get childSaftyPageTitle(){
-        return "Child Safety innovations for our most precious passengers | Volvo Cars"
+        return validatorData.carSafety.childSafety
       }
-
-      
 
       get moreAboutInnovationLink() {
         return $('/html/body/div[4]/div/div/main/div[6]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a');
@@ -42,32 +42,6 @@ class CarSaftyPage{
     
       get moreAboutInnovation() {
         return "Safety innovations | Volvo Cars";
-      }
-    
-      getModelsListPreviousButton() {
-        return $("/html/body/div[4]/div/div/main/div[7]/section/div[1]/div/div/div[1]/div[2]/div/button[1]");
-      }
-    
-      getModelsListNextButton() {
-        return $("/html/body/div[4]/div/div/main/div[7]/section/div[1]/div/div/div[1]/div[2]/div/button[2]");
-      }
-      getInternationalVolvoAnchor() {
-        return $('[href="/intl"]');
-      }
-      getSiteNavigationOthersButton() {
-        return $("/html/body/div[3]/div/div/div[3]/nav/div[4]/button");
-      }
-      getBuildYourOwnLink() {
-        return $("/html/body/div[6]/div/nav/div[2]/div[1]");
-      }
-      getBuildYourOwnElem() {
-        return $("/html/body/div[6]/div/nav/div[3]/div/div/div[1]/div/a/em");
-      }
-      getWatchTheStoryButton() {
-        return $("/html/body/div[4]/div/div/main/div[2]/section/div/div/div/button");
-      }
-      getVideoPlayer() {
-        return $("//*[@id=\"movie_player\"]/div[1]/video");
       }
 }
 
