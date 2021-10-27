@@ -4,7 +4,7 @@ metadata:
   name: selenium-session-queue
   labels:
     name: selenium-session-queue
-    component: "selenium-grid-4"
+    component: "selenium-grid"
 spec:
   selector:
     app: selenium-session-queue

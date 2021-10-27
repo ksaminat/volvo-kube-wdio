@@ -4,7 +4,7 @@ metadata:
   name: selenium-event-bus
   labels:
     name: selenium-event-bus
-    component: "selenium-grid-4"
+    component: "selenium-grid"
 spec:
   selector:
     app: selenium-event-bus

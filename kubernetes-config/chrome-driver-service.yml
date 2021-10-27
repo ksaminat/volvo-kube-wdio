@@ -4,7 +4,7 @@ metadata:
   name: selenium-chrome-node
   labels:
     name: selenium-chrome-node
-    component: "selenium-grid-4"
+    component: "selenium-grid"
 spec:
   selector:
     app: selenium-chrome-node

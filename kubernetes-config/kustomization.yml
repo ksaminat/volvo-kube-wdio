@@ -1,0 +1,17 @@
+resources:
+  - event-deployment.yml
+  - event-service.yml
+  - session-deployment.yml
+  - session-service.yml
+  - session-queue-deployment.yml
+  - session-queue-service.yml
+  - distributor-deployment.yml
+  - distributor-service.yml
+  - router-deployment.yml
+  - router-service.yml
+  - chrome-driver-deployment.yml
+  - chrome-driver-service.yml
+
+commonLabels:
+  owner: Kiruba
+  

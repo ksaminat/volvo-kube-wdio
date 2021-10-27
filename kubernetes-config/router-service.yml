@@ -4,7 +4,7 @@ metadata:
   name: selenium-router
   labels:
     name: selenium-router
-    component: "selenium-grid-4"
+    component: "selenium-grid"
 spec:
   selector:
     app: selenium-router

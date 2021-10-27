@@ -5,7 +5,7 @@ metadata:
   labels:
     app: selenium-chrome-node
     name: selenium-chrome-node
-    component: "selenium-grid-4"
+    component: "selenium-grid"
 spec:
   replicas: 1
   selector:

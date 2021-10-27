@@ -4,7 +4,7 @@ metadata:
   name: selenium-sessions
   labels:
     name: selenium-sessions
-    component: "selenium-grid-4"
+    component: "selenium-grid"
 spec:
   selector:
     app: selenium-sessions

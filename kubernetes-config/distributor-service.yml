@@ -4,7 +4,7 @@ metadata:
   name: selenium-distributor
   labels:
     name: selenium-distributor
-    component: "selenium-grid-4"
+    component: "selenium-grid"
 spec:
   selector:
     app: selenium-distributor
