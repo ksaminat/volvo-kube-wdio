@@ -35,7 +35,7 @@ npm test
 npm run kube-stop
 ```
 
-10. To generate follow `Reports Generation`
+10. To generate and view reports follow `Reports Generation`
 
 
 ### 2) Report Generation
@@ -85,4 +85,4 @@ npm test
 npm run docker-stop
 ```
 
-9. To generate follow `Reports Generation`
+9. To generate and view reports follow `Reports Generation`
