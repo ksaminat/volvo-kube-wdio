@@ -10,7 +10,7 @@
 
 3.  Install Node Js
     
-4.  git clone https://github.com/hclsiva/webdriverio-for-gui.git
+4.  git clone https://github.com/ksaminat/volvo-kube.git
 
 5.  To install dependencies
 ```sh
@@ -59,7 +59,7 @@ allure generate -c . && allure open
 
 2. Install Node Js
 
-3. git clone https://github.com/hclsiva/webdriverio-for-gui.git
+3. git clone https://github.com/ksaminat/volvo-kube.git
 
 4. To install dependencies
 ```sh
