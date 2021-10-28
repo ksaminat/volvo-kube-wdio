@@ -7,8 +7,8 @@
     "kube-start": "kubectl create -k ./kubernetes-config/",
     "kube-get": "kubectl get all",
     "docker-start": "docker-compose up -d",
-    "setIpEnv": "node ./helper/setIPEnv.js",
-    "test": "npx wdio run wdio.conf.js",
+    "kube-test": "npx wdio run kube.wdio.conf.js",
+    "docker-test": "npx wdio run docker.wdio.conf.js",
     "kube-stop": "kubectl delete all -l component=selenium-grid",
     "docker-stop": "docker-compose down"
   },
