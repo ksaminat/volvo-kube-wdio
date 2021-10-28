@@ -31,9 +31,11 @@ npm test
 8. Spec report will be printed in the console
 
 9. Stop the deployments and services
-    npm run kube-stop
+```sh 
+npm run kube-stop
+```
 
-10. To generate follow `Reports Generation`
+10. To generate and view reports follow `Reports Generation`
 
 
 ### 2) Report Generation
@@ -79,6 +81,8 @@ npm test
 7. Spec report will be printed in colsole.
 
 8. Stop the conntainers
-    npm run docker-stop
+```sh
+npm run docker-stop
+```
 
-9. To generate follow `Reports Generation`
+9. To generate and view reports follow `Reports Generation`
