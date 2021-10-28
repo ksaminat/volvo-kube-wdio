@@ -31,7 +31,9 @@ npm test
 8. Spec report will be printed in the console
 
 9. Stop the deployments and services
-    npm run kube-stop
+```sh 
+npm run kube-stop
+```
 
 10. To generate follow `Reports Generation`
 
