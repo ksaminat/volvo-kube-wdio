@@ -79,6 +79,8 @@ npm test
 7. Spec report will be printed in colsole.
 
 8. Stop the conntainers
-    npm run docker-stop
+```sh
+npm run docker-stop
+```
 
 9. To generate follow `Reports Generation`
