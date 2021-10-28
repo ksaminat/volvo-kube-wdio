@@ -28,6 +28,7 @@
     "webdriverio": "^7.16.2"
   },
   "dependencies": {
-    "@wdio/cli": "^7.16.2"
+    "@wdio/cli": "^7.16.2",
+    "wdio-timeline-reporter": "^5.1.4"
   }
 }
