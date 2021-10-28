@@ -7,6 +7,7 @@
     "kube-start": "kubectl create -k ./kubernetes-config/",
     "kube-get": "kubectl get all",
     "docker-start": "docker-compose up -d",
+    "setIpEnv": "node ./helper/setIPEnv.js",
     "test": "npx wdio run wdio.conf.js",
     "kube-stop": "kubectl delete all -l component=selenium-grid",
     "docker-stop": "docker-compose down"
@@ -29,6 +30,7 @@
   },
   "dependencies": {
     "@wdio/cli": "^7.16.2",
+    "dotenv": "^10.0.0",
     "wdio-timeline-reporter": "^5.1.4"
   }
 }

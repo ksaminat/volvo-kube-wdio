@@ -1,3 +1,6 @@
+import { getSeleniumHost } from './helper/hostIPParser'
+const selennium_host = getSeleniumHost()
+
 exports.config = {
     //
     // ====================
@@ -15,8 +18,8 @@ exports.config = {
     // according to your user and key information. However, if you are using a private Selenium
     // backend you should define the host address, port, and path here.
     //
-    hostname: process.env.SE_EVENT_BUS_HOST || 'localhost',
-    port: parseInt(process.env.SE_EVENT_BUS_PORT, 10) || 4444,
+    hostname: selennium_host || 'localhost',
+    port: parseInt(process.env.SELENIUM_ROUTER_SERVICE_PORT, 10) || 4444,
     path: '/',
     //
     // ==================
