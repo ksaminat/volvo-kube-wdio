@@ -49,7 +49,7 @@ allure generate -c . && allure open
 ```
 
 2. To view Timeline reports,
-- .json reports will be generated under './reports'
+    - .json reports will be generated under './reports'
 
 
 
