@@ -33,23 +33,7 @@ npm run docker-stop
 9. To generate and view reports follow `Reports Generation`
 
 
-### 2) Report Generation
-
-1. To execute allure report
-- Install allure CLI
-```sh
-npm install -g allure-commandline --save-dev
-```
-- Generate the HTML report
-```sh
-allure generate -c . && allure open
-```
-
-2. To view Timeline reports,
-    - .json reports will be generated under './reports'
-
-
-### 3) Run using Kubernetes
+### 2) Run using Kubernetes
 
 1.  Install Docker
 
@@ -85,3 +69,25 @@ npm run kube-stop
 ```
 
 10. To generate and view reports follow `Reports Generation`
+
+
+### 3) Report Generation
+
+1. To execute allure report
+- Install allure CLI
+```sh
+npm install -g allure-commandline --save-dev
+```
+- Generate the HTML report
+```sh
+allure generate -c . && allure open
+```
+
+2. To view Timeline reports,
+    - .json reports will be generated under './reports'
+
+<img width="1680" alt="allure-report-Testcases-status" src="https://user-images.githubusercontent.com/13710428/139401906-8e02ecd8-9048-44ca-b57f-84a43545c7e3.png">
+<img width="1680" alt="Test-Suite-Report" src="https://user-images.githubusercontent.com/13710428/139401376-6e5ace32-8816-43e5-8753-56035258d593.png">
+<img width="1680" alt="Graph-Status" src="https://user-images.githubusercontent.com/13710428/139402101-153350b5-2367-41b7-87fd-9c2477249713.png">
+<img width="1680" alt="car-safty-page" src="https://user-images.githubusercontent.com/13710428/139402080-e635d978-aafa-439d-bee0-5319e0e0926b.png">
+<img width="1680" alt="XC40-Hybrid-SUV-Page" src="https://user-images.githubusercontent.com/13710428/139402119-6e8cb67f-834e-4743-bea5-2520c3375813.png">
