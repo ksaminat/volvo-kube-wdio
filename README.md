@@ -32,6 +32,7 @@ npm run docker-stop
 
 9. To generate and view reports follow `Reports Generation`
 
+
 ### 2) Report Generation
 
 1. To execute allure report
