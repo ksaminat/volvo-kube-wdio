@@ -100,9 +100,9 @@ allure generate -c allure-results/ && allure open
 #### Spec-Report - Kubernetes - Sample
 
 <img width="1680" alt="kube-start" src="https://user-images.githubusercontent.com/13710428/139542892-ee866f0e-f97e-4f87-81c1-39349b26f8d8.png">
-![kube-test1](https://user-images.githubusercontent.com/13710428/139542904-077bd730-adb5-435e-8a53-ebfb566bac89.png)
-![kube-test2](https://user-images.githubusercontent.com/13710428/139542917-4fa85cd9-e70c-46b1-9cca-5362e714f18d.png)
-![kube-test3](https://user-images.githubusercontent.com/13710428/139542926-33fbdea8-2d24-4140-a1b6-abeef3535663.png)
+<img width="1680" alt="Spec1" src="https://user-images.githubusercontent.com/13710428/139542955-1fc89aa7-281e-4465-b68b-019c3bea7a7f.png">
+<img width="1680" alt="Spec2" src="https://user-images.githubusercontent.com/13710428/139543016-ba01c3dc-5d8f-4d99-ae7c-266edfe3ebef.png">
+<img width="1680" alt="Spec3" src="https://user-images.githubusercontent.com/13710428/139543074-928f9343-4f0b-4c98-9bb9-4ed6c8e71ecc.png">
 
 #### Spec-Report - Docker - Sample
 
