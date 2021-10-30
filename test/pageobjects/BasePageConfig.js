@@ -1,10 +1,16 @@
 import config from "../config/locators-config.json"
 
-class BaseConfig{
+export default class BasePageConfig{
 
     async openUrl(){
         await browser.url(config.base.url);
         await browser.maximizeWindow()
+
+        await browser.pause(3000)
+        const cookieButton = $(config.base.cookieButton)
+        await (await cookieButton).click()
+
+        console.log(await browser.getTitle())
     }
 
     async handleCookies(){
@@ -13,6 +19,9 @@ class BaseConfig{
 
         console.log(await browser.getTitle())
     }
-}
 
-module.exports = new BaseConfig();
+    async waitThenClick(e, timeout){
+        await e.waitForDisplayed(timeout)
+        await e.click()
+    }
+}

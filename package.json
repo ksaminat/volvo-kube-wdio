@@ -12,7 +12,7 @@
     "kube-stop": "kubectl delete all -l component=selenium-grid",
     "docker-stop": "docker-compose down"
   },
-  "author": "",
+  "author": "Kiruba",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.15.8",

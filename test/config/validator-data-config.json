@@ -15,8 +15,17 @@
         "evaInitiativeLinkTitle": "The E.V.A. Initiative | Cars safe for all"
     },
 
+    "mildHybrid": {
+        "pageHeaderText" : "Mild hybrids"
+    },
+
     "xc40HybridSUV": {
         "title": "Volvo XC40 Recharge plug-in hybrid | Volvo Cars",
         "headerText": "Volvo XC40 Recharge"
+    },
+
+    "xc40PureElectric": {
+        "title": "Volvo XC40 Recharge pure electric | Volvo Cars",
+        "shopTitle": "Design your XC40 Recharge | Volvo Cars International"
     }
 }

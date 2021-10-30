@@ -1,11 +1,10 @@
 import locatorTags from "../config/locators-config.json"
 import validatorData from "../config/validator-data-config.json"
-const baseConfig = require("../pageobjects/BaseConfig")
+import BasePageConfig from "./BasePageConfig"
 
-class CarSaftyPage{
-    async openCarSaftyPage() {
-      await baseConfig.openUrl()
-      await baseConfig.handleCookies()
+class CarSaftyPage extends BasePageConfig{
+    async openUrl() {
+      await super.openUrl()
     }
 
       get title() {

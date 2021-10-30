@@ -1,26 +1,26 @@
 {
-  "start": "2021-10-28T19:45:20.734Z",
-  "end": "2021-10-28T19:45:46.348Z",
+  "start": "2021-10-30T11:32:36.677Z",
+  "end": "2021-10-30T11:33:05.631Z",
   "capabilities": {
     "acceptInsecureCerts": true,
     "browserName": "chrome",
     "browserVersion": "94.0.4606.81",
     "chrome": {
       "chromedriverVersion": "94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204})",
-      "userDataDir": "/tmp/.com.google.Chrome.iWo9uq"
+      "userDataDir": "/tmp/.com.google.Chrome.7l4Yqq"
     },
     "goog:chromeOptions": {
-      "debuggerAddress": "localhost:44411"
+      "debuggerAddress": "localhost:41561"
     },
     "networkConnectionEnabled": false,
     "pageLoadStrategy": "normal",
     "platformName": "linux",
     "proxy": {},
-    "se:cdp": "ws://localhost:4444/session/865ef35786f6fe3a58bc349a358a2917/se/cdp",
+    "se:cdp": "ws://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/se/cdp",
     "se:cdpVersion": "94.0.4606.81",
-    "se:vnc": "ws://localhost:4444/session/865ef35786f6fe3a58bc349a358a2917/se/vnc",
+    "se:vnc": "ws://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/se/vnc",
     "se:vncEnabled": true,
-    "se:vncLocalAddress": "ws://172.23.0.4:7900",
+    "se:vncLocalAddress": "ws://192.168.176.4:7900",
     "setWindowRect": true,
     "strictFileInteractability": false,
     "timeouts": {
@@ -32,105 +32,105 @@
     "webauthn:extension:credBlob": true,
     "webauthn:extension:largeBlob": true,
     "webauthn:virtualAuthenticators": true,
-    "sessionId": "865ef35786f6fe3a58bc349a358a2917"
+    "sessionId": "589f5cc2f16c9a48362aa7f712ccff09"
   },
   "host": "localhost",
   "port": 4444,
   "baseUrl": "http://localhost",
   "framework": "mocha",
-  "duration": 25614,
+  "duration": 28954,
   "suites": [
     {
       "title": "Volvo Cars Safety Page Validator",
-      "duration": 25378,
-      "start": "2021-10-28T19:45:20.740Z",
-      "end": "2021-10-28T19:45:46.118Z",
+      "duration": 28692,
+      "start": "2021-10-30T11:32:36.682Z",
+      "end": "2021-10-30T11:33:05.374Z",
       "tests": [
         {
           "title": "Launch Volvo Home",
-          "start": "2021-10-28T19:45:20.740Z",
-          "end": "2021-10-28T19:45:23.581Z",
-          "duration": 2841,
+          "start": "2021-10-30T11:32:36.683Z",
+          "end": "2021-10-30T11:32:41.912Z",
+          "duration": 5229,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Validate Title",
-          "start": "2021-10-28T19:45:23.582Z",
-          "end": "2021-10-28T19:45:23.691Z",
-          "duration": 109,
+          "start": "2021-10-30T11:32:41.912Z",
+          "end": "2021-10-30T11:32:41.952Z",
+          "duration": 40,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Validate Care Safety Link",
-          "start": "2021-10-28T19:45:23.691Z",
-          "end": "2021-10-28T19:45:26.253Z",
-          "duration": 2562,
+          "start": "2021-10-30T11:32:41.952Z",
+          "end": "2021-10-30T11:32:45.719Z",
+          "duration": 3767,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Validate Car Safety Title",
-          "start": "2021-10-28T19:45:26.253Z",
-          "end": "2021-10-28T19:45:26.555Z",
-          "duration": 302,
+          "start": "2021-10-30T11:32:45.719Z",
+          "end": "2021-10-30T11:32:45.803Z",
+          "duration": 84,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Validate Driver assistance Link",
-          "start": "2021-10-28T19:45:26.556Z",
-          "end": "2021-10-28T19:45:29.441Z",
-          "duration": 2885,
+          "start": "2021-10-30T11:32:45.803Z",
+          "end": "2021-10-30T11:32:48.346Z",
+          "duration": 2543,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Validate Driver assistance Title",
-          "start": "2021-10-28T19:45:29.441Z",
-          "end": "2021-10-28T19:45:30.026Z",
-          "duration": 585,
+          "start": "2021-10-30T11:32:48.346Z",
+          "end": "2021-10-30T11:32:48.840Z",
+          "duration": 494,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Validate Child Safety Link",
-          "start": "2021-10-28T19:45:30.026Z",
-          "end": "2021-10-28T19:45:33.778Z",
-          "duration": 3752,
+          "start": "2021-10-30T11:32:48.840Z",
+          "end": "2021-10-30T11:32:52.125Z",
+          "duration": 3285,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Validate Child Safety Title",
-          "start": "2021-10-28T19:45:33.779Z",
-          "end": "2021-10-28T19:45:34.334Z",
-          "duration": 555,
+          "start": "2021-10-30T11:32:52.126Z",
+          "end": "2021-10-30T11:32:52.944Z",
+          "duration": 818,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Validate EVA Initiative Link",
-          "start": "2021-10-28T19:45:34.334Z",
-          "end": "2021-10-28T19:45:35.868Z",
-          "duration": 1534,
+          "start": "2021-10-30T11:32:52.944Z",
+          "end": "2021-10-30T11:32:54.897Z",
+          "duration": 1953,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Validate EVA Initiative Title",
-          "start": "2021-10-28T19:45:35.868Z",
-          "end": "2021-10-28T19:45:35.911Z",
-          "duration": 43,
+          "start": "2021-10-30T11:32:54.897Z",
+          "end": "2021-10-30T11:32:55.032Z",
+          "duration": 135,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Validate EVA Initiative Video",
-          "start": "2021-10-28T19:45:35.911Z",
-          "end": "2021-10-28T19:45:46.083Z",
-          "duration": 10172,
+          "start": "2021-10-30T11:32:55.032Z",
+          "end": "2021-10-30T11:33:05.345Z",
+          "duration": 10313,
           "state": "passed",
           "screenshots": []
         }

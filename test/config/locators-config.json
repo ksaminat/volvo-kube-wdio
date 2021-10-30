@@ -6,7 +6,7 @@
     },
 
     "carSafety": {
-      "learnModeLink": "//*[@id=\"IconCallouts-1\"]/section/div/div[2]/div/a",
+      "learnModeLink": "//a[text()='Learn more about car safety']",
       "driverAssistanceLink": "//*[@id=\"ImageWithText-1\"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a",
       "childSaftyLink": "//*[@id=\"ImageWithText-2\"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a"
     },
@@ -18,11 +18,25 @@
        "evaInitiativeVideoLink": "//*[@id=\"Video-1\"]/section/div/button/div/video"
     },
 
+    "mildHybrid":{
+      "url": "https://www.volvocars.com/intl/v/cars/other-powertrains",
+      "launchLink" : "//a[text()='Mild hybrid cars']",
+      "pageHeader" : "//*[@id=\"ModelTitle-1\"]/section/div/div/div/h1",
+      "pageHeaderText" : "Mild hybrids"
+    },
+
     "xc40HybridSUV":{
         "url": "https://www.volvocars.com/intl/v/cars/xc40-hybrid",
         "launchLink" : "//*[@id=\"ProductListCarousel-1\"]/section/div[1]/div/div/div/div[1]/div/div/div/div/div[3]/div/a/div[2]/picture",
         "pageHeader" : "//*[@id=\"PdpSubmenu-1\"]/div[3]/h2",
-        "shopeButton" : "//*[@id=\"PdpSubmenu-1\"]/div[2]/div/section/div[1]/div[2]/div/div/a",
-        "shopeurl" : "https://www.volvocars.com/intl/build/xc40-hybrid"
+        "shopButton" : "//*[@id=\"PdpSubmenu-1\"]/div[2]/div/section/div[1]/div[2]/div/div/a",
+        "shopUrl" : "https://www.volvocars.com/intl/build/xc40-hybrid"
+    },
+
+    "xc40PureElectric":{
+      "url": "https://www.volvocars.com/intl/v/cars/xc40-electric",
+      "launchLink" : "//*[@id=\"ProductListCarousel-1\"]/section/div[1]/div/div/div/div[1]/div/div/div/div/div[4]/div/a/div[2]/picture",
+      "shopButton" : "//*[@id=\"PdpSubmenu-1\"]/div[2]/div/section/div[1]/div[2]/div/div/a",
+      "shopUrl" : "https://www.volvocars.com/intl/build/xc40-electric"
     }
-  }
+}

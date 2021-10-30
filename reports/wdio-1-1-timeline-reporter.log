@@ -1,17 +1,17 @@
 {
-  "start": "2021-10-28T19:45:42.839Z",
-  "end": "2021-10-28T19:45:55.651Z",
+  "start": "2021-10-30T11:32:44.028Z",
+  "end": "2021-10-30T11:32:54.135Z",
   "capabilities": {
     "acceptInsecureCerts": true,
     "browserName": "firefox",
     "browserVersion": "93.0",
     "moz:accessibilityChecks": false,
     "moz:buildID": "20210927210923",
-    "moz:debuggerAddress": "localhost:57439",
+    "moz:debuggerAddress": "localhost:58988",
     "moz:geckodriverVersion": "0.30.0",
     "moz:headless": false,
-    "moz:processID": 700,
-    "moz:profile": "/tmp/rust_mozprofile9ROE10",
+    "moz:processID": 7163,
+    "moz:profile": "/tmp/rust_mozprofilekw8tD8",
     "moz:shutdownTimeout": 60000,
     "moz:useNonSpecCompliantPointerOrigin": false,
     "moz:webdriverClick": true,
@@ -19,11 +19,11 @@
     "platformName": "linux",
     "platformVersion": "5.10.47-linuxkit",
     "proxy": {},
-    "se:cdp": "ws://localhost:4444/session/f3725f38-0604-4cb4-af74-ac0ebf590560/se/cdp",
+    "se:cdp": "ws://localhost:4444/session/90ab7a69-f0ee-4d4c-958e-22076f5616ea/se/cdp",
     "se:cdpVersion": "85",
-    "se:vnc": "ws://localhost:4444/session/f3725f38-0604-4cb4-af74-ac0ebf590560/se/vnc",
+    "se:vnc": "ws://localhost:4444/session/90ab7a69-f0ee-4d4c-958e-22076f5616ea/se/vnc",
     "se:vncEnabled": true,
-    "se:vncLocalAddress": "ws://172.23.0.3:7900",
+    "se:vncLocalAddress": "ws://192.168.176.3:7900",
     "setWindowRect": true,
     "strictFileInteractability": false,
     "timeouts": {
@@ -32,65 +32,49 @@
       "script": 30000
     },
     "unhandledPromptBehavior": "dismiss and notify",
-    "sessionId": "f3725f38-0604-4cb4-af74-ac0ebf590560"
+    "sessionId": "90ab7a69-f0ee-4d4c-958e-22076f5616ea"
   },
   "host": "localhost",
   "port": 4444,
   "baseUrl": "http://localhost",
   "framework": "mocha",
-  "duration": 12812,
+  "duration": 10107,
   "suites": [
     {
-      "title": "Volvo XC40-Hybrid SUV Page Validator",
-      "duration": 12114,
-      "start": "2021-10-28T19:45:42.845Z",
-      "end": "2021-10-28T19:45:54.959Z",
+      "title": "Volvo Mild Hybrid Page Validator",
+      "duration": 9174,
+      "start": "2021-10-30T11:32:44.032Z",
+      "end": "2021-10-30T11:32:53.206Z",
       "tests": [
         {
-          "title": "Launc Home Page",
-          "start": "2021-10-28T19:45:42.846Z",
-          "end": "2021-10-28T19:45:45.575Z",
-          "duration": 2729,
+          "title": "Launch Home Page",
+          "start": "2021-10-30T11:32:44.033Z",
+          "end": "2021-10-30T11:32:49.398Z",
+          "duration": 5365,
           "state": "passed",
           "screenshots": []
         },
         {
-          "title": "Validate XC40-Hybrid SUV Link",
-          "start": "2021-10-28T19:45:45.575Z",
-          "end": "2021-10-28T19:45:48.276Z",
-          "duration": 2701,
+          "title": "Launch Mild Hybrid Page",
+          "start": "2021-10-30T11:32:49.398Z",
+          "end": "2021-10-30T11:32:52.996Z",
+          "duration": 3598,
           "state": "passed",
           "screenshots": []
         },
         {
-          "title": "Validate XC40-Hybrid SUV URL",
-          "start": "2021-10-28T19:45:48.277Z",
-          "end": "2021-10-28T19:45:48.325Z",
-          "duration": 48,
+          "title": "Validate Mild Hybrid Page URL",
+          "start": "2021-10-30T11:32:52.996Z",
+          "end": "2021-10-30T11:32:53.036Z",
+          "duration": 40,
           "state": "passed",
           "screenshots": []
         },
         {
-          "title": "Validate XC40-Hybrid SUV Page Title",
-          "start": "2021-10-28T19:45:48.325Z",
-          "end": "2021-10-28T19:45:48.367Z",
-          "duration": 42,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Validate XC40-Hybrid SUV SHOP URL Launch",
-          "start": "2021-10-28T19:45:48.367Z",
-          "end": "2021-10-28T19:45:54.887Z",
-          "duration": 6520,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Validate XC40-Hybrid SUV SHOP URL",
-          "start": "2021-10-28T19:45:54.887Z",
-          "end": "2021-10-28T19:45:54.946Z",
-          "duration": 59,
+          "title": "Validate Mild Hybrid Page - Header",
+          "start": "2021-10-30T11:32:53.036Z",
+          "end": "2021-10-30T11:32:53.194Z",
+          "duration": 158,
           "state": "passed",
           "screenshots": []
         }
@@ -99,10 +83,10 @@
     }
   ],
   "specs": [
-    "/Users/ksaminat/testing/git_volvo/volvo-kube/test/specs/XC40HybridSUV.spec.js"
+    "/Users/ksaminat/testing/git_volvo/volvo-kube/test/specs/MildHybridPage.spec.js"
   ],
   "state": {
-    "passed": 6,
+    "passed": 4,
     "failed": 0,
     "skipped": 0
   }

@@ -3,13 +3,13 @@ const xc40HybridSUVPage = require("../pageobjects/XC40HybridSUV")
 
 describe('Volvo XC40-Hybrid SUV Page Validator', async()=> {
 
-    it('Launc Home Page', async()=> {
-        await carSaftyPage.openCarSaftyPage()
+    it('Launch Home Page', async()=> {
+        await xc40HybridSUVPage.openUrl()
     })
 
-    it('Validate XC40-Hybrid SUV Link', async()=> {
+    it('Launch XC40-Hybrid SUV Page', async()=> {
         const xc40HBPageLink = xc40HybridSUVPage.xc40LaunchLink
-        await xc40HBPageLink.click()
+        await xc40HybridSUVPage.waitThenClick(xc40HBPageLink, 6000)
     })
 
     it('Validate XC40-Hybrid SUV URL', async()=> {
@@ -22,16 +22,9 @@ describe('Volvo XC40-Hybrid SUV Page Validator', async()=> {
         await expect(await browser).toHaveTitle(xc40HBPageTitle)
     })
 
-    /*it('Validate XC40-Hybrid SUV Page Headline', async()=> {
-        const xc40HBPageHeaderLink = xc40HybridSUVPage.xc40PageHeader
-        const xc40HBPagerHeaderText = xc40HybridSUVPage.xc40PageHeaderText
-        await browser.pause(3000)
-        await expect(await xc40HBPageHeaderLink).toHaveText(xc40HBPagerHeaderText)
-    })*/
-
     it('Validate XC40-Hybrid SUV SHOP URL Launch', async()=> {
         const xc40HBShopButton = xc40HybridSUVPage.xc40PageShopButton
-        await xc40HBShopButton.click()
+        await xc40HybridSUVPage.waitThenClick(xc40HBShopButton, 6000)
     })
 
     it('Validate XC40-Hybrid SUV SHOP URL', async()=> {

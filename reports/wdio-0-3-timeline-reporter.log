@@ -1,0 +1,117 @@
+{
+  "start": "2021-10-30T11:32:16.675Z",
+  "end": "2021-10-30T11:32:31.502Z",
+  "capabilities": {
+    "acceptInsecureCerts": true,
+    "browserName": "chrome",
+    "browserVersion": "94.0.4606.81",
+    "chrome": {
+      "chromedriverVersion": "94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204})",
+      "userDataDir": "/tmp/.com.google.Chrome.DF8HQX"
+    },
+    "goog:chromeOptions": {
+      "debuggerAddress": "localhost:34189"
+    },
+    "networkConnectionEnabled": false,
+    "pageLoadStrategy": "normal",
+    "platformName": "linux",
+    "proxy": {},
+    "se:cdp": "ws://localhost:4444/session/9bf53987efe6f1cf727f666d2682db58/se/cdp",
+    "se:cdpVersion": "94.0.4606.81",
+    "se:vnc": "ws://localhost:4444/session/9bf53987efe6f1cf727f666d2682db58/se/vnc",
+    "se:vncEnabled": true,
+    "se:vncLocalAddress": "ws://192.168.176.4:7900",
+    "setWindowRect": true,
+    "strictFileInteractability": false,
+    "timeouts": {
+      "implicit": 0,
+      "pageLoad": 300000,
+      "script": 30000
+    },
+    "unhandledPromptBehavior": "dismiss and notify",
+    "webauthn:extension:credBlob": true,
+    "webauthn:extension:largeBlob": true,
+    "webauthn:virtualAuthenticators": true,
+    "sessionId": "9bf53987efe6f1cf727f666d2682db58"
+  },
+  "host": "localhost",
+  "port": 4444,
+  "baseUrl": "http://localhost",
+  "framework": "mocha",
+  "duration": 14827,
+  "suites": [
+    {
+      "title": "Volvo XC40 Pure Electric Page Validator",
+      "duration": 14528,
+      "start": "2021-10-30T11:32:16.680Z",
+      "end": "2021-10-30T11:32:31.208Z",
+      "tests": [
+        {
+          "title": "Launch Home Page",
+          "start": "2021-10-30T11:32:16.681Z",
+          "end": "2021-10-30T11:32:21.691Z",
+          "duration": 5010,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Validate XC40 Pure Electric Link",
+          "start": "2021-10-30T11:32:21.692Z",
+          "end": "2021-10-30T11:32:26.413Z",
+          "duration": 4721,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Validate XC40 Pure Electric URL",
+          "start": "2021-10-30T11:32:26.413Z",
+          "end": "2021-10-30T11:32:26.443Z",
+          "duration": 30,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Validate XC40 Pure Electric Page Title",
+          "start": "2021-10-30T11:32:26.444Z",
+          "end": "2021-10-30T11:32:26.481Z",
+          "duration": 37,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Validate XC40 Pure Electric SHOP URL Launch",
+          "start": "2021-10-30T11:32:26.481Z",
+          "end": "2021-10-30T11:32:31.076Z",
+          "duration": 4595,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Validate XC40 Pure Electric SHOP Title",
+          "start": "2021-10-30T11:32:31.076Z",
+          "end": "2021-10-30T11:32:31.151Z",
+          "duration": 75,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Validate XC40 Pure Electric SHOP Title",
+          "start": "2021-10-30T11:32:31.151Z",
+          "end": "2021-10-30T11:32:31.195Z",
+          "duration": 44,
+          "state": "passed",
+          "screenshots": []
+        }
+      ],
+      "hooks": []
+    }
+  ],
+  "specs": [
+    "/Users/ksaminat/testing/git_volvo/volvo-kube/test/specs/XC40PureElectric.spec.js"
+  ],
+  "state": {
+    "passed": 7,
+    "failed": 0,
+    "skipped": 0
+  }
+}

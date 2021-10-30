@@ -1,26 +1,26 @@
 {
-  "start": "2021-10-28T19:45:02.597Z",
-  "end": "2021-10-28T19:45:15.937Z",
+  "start": "2021-10-30T11:33:06.739Z",
+  "end": "2021-10-30T11:33:15.093Z",
   "capabilities": {
     "acceptInsecureCerts": true,
     "browserName": "chrome",
     "browserVersion": "94.0.4606.81",
     "chrome": {
       "chromedriverVersion": "94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204})",
-      "userDataDir": "/tmp/.com.google.Chrome.HwovzK"
+      "userDataDir": "/tmp/.com.google.Chrome.eWxhRL"
     },
     "goog:chromeOptions": {
-      "debuggerAddress": "localhost:45131"
+      "debuggerAddress": "localhost:39985"
     },
     "networkConnectionEnabled": false,
     "pageLoadStrategy": "normal",
     "platformName": "linux",
     "proxy": {},
-    "se:cdp": "ws://localhost:4444/session/6f7c00f535aada1e8593a014e970d4e2/se/cdp",
+    "se:cdp": "ws://localhost:4444/session/54d9c00db5a22eaaf7b2aac57051e0d4/se/cdp",
     "se:cdpVersion": "94.0.4606.81",
-    "se:vnc": "ws://localhost:4444/session/6f7c00f535aada1e8593a014e970d4e2/se/vnc",
+    "se:vnc": "ws://localhost:4444/session/54d9c00db5a22eaaf7b2aac57051e0d4/se/vnc",
     "se:vncEnabled": true,
-    "se:vncLocalAddress": "ws://172.23.0.4:7900",
+    "se:vncLocalAddress": "ws://192.168.176.4:7900",
     "setWindowRect": true,
     "strictFileInteractability": false,
     "timeouts": {
@@ -32,65 +32,49 @@
     "webauthn:extension:credBlob": true,
     "webauthn:extension:largeBlob": true,
     "webauthn:virtualAuthenticators": true,
-    "sessionId": "6f7c00f535aada1e8593a014e970d4e2"
+    "sessionId": "54d9c00db5a22eaaf7b2aac57051e0d4"
   },
   "host": "localhost",
   "port": 4444,
   "baseUrl": "http://localhost",
   "framework": "mocha",
-  "duration": 13340,
+  "duration": 8354,
   "suites": [
     {
-      "title": "Volvo XC40-Hybrid SUV Page Validator",
-      "duration": 13109,
-      "start": "2021-10-28T19:45:02.602Z",
-      "end": "2021-10-28T19:45:15.711Z",
+      "title": "Volvo Mild Hybrid Page Validator",
+      "duration": 8193,
+      "start": "2021-10-30T11:33:06.744Z",
+      "end": "2021-10-30T11:33:14.937Z",
       "tests": [
         {
-          "title": "Launc Home Page",
-          "start": "2021-10-28T19:45:02.602Z",
-          "end": "2021-10-28T19:45:06.524Z",
-          "duration": 3922,
+          "title": "Launch Home Page",
+          "start": "2021-10-30T11:33:06.745Z",
+          "end": "2021-10-30T11:33:12.372Z",
+          "duration": 5627,
           "state": "passed",
           "screenshots": []
         },
         {
-          "title": "Validate XC40-Hybrid SUV Link",
-          "start": "2021-10-28T19:45:06.525Z",
-          "end": "2021-10-28T19:45:09.020Z",
-          "duration": 2495,
+          "title": "Launch Mild Hybrid Page",
+          "start": "2021-10-30T11:33:12.372Z",
+          "end": "2021-10-30T11:33:14.599Z",
+          "duration": 2227,
           "state": "passed",
           "screenshots": []
         },
         {
-          "title": "Validate XC40-Hybrid SUV URL",
-          "start": "2021-10-28T19:45:09.020Z",
-          "end": "2021-10-28T19:45:09.212Z",
-          "duration": 192,
+          "title": "Validate Mild Hybrid Page URL",
+          "start": "2021-10-30T11:33:14.599Z",
+          "end": "2021-10-30T11:33:14.762Z",
+          "duration": 163,
           "state": "passed",
           "screenshots": []
         },
         {
-          "title": "Validate XC40-Hybrid SUV Page Title",
-          "start": "2021-10-28T19:45:09.213Z",
-          "end": "2021-10-28T19:45:09.466Z",
-          "duration": 253,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Validate XC40-Hybrid SUV SHOP URL Launch",
-          "start": "2021-10-28T19:45:09.466Z",
-          "end": "2021-10-28T19:45:15.612Z",
-          "duration": 6146,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Validate XC40-Hybrid SUV SHOP URL",
-          "start": "2021-10-28T19:45:15.612Z",
-          "end": "2021-10-28T19:45:15.699Z",
-          "duration": 87,
+          "title": "Validate Mild Hybrid Page - Header",
+          "start": "2021-10-30T11:33:14.763Z",
+          "end": "2021-10-30T11:33:14.926Z",
+          "duration": 163,
           "state": "passed",
           "screenshots": []
         }
@@ -99,10 +83,10 @@
     }
   ],
   "specs": [
-    "/Users/ksaminat/testing/git_volvo/volvo-kube/test/specs/XC40HybridSUV.spec.js"
+    "/Users/ksaminat/testing/git_volvo/volvo-kube/test/specs/MildHybridPage.spec.js"
   ],
   "state": {
-    "passed": 6,
+    "passed": 4,
     "failed": 0,
     "skipped": 0
   }

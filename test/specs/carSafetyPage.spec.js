@@ -1,11 +1,10 @@
-const baseConfig = require("../pageobjects/BaseConfig")
 const carSaftyPage = require("../pageobjects/CarSafety.page")
 const saftyInnovationPage = require("../pageobjects/SaftyInnovation.page")
 
 describe('Volvo Cars Safety Page Validator', async()=> {
 
     it('Launch Volvo Home', async()=> {
-         await carSaftyPage.openCarSaftyPage()
+         await carSaftyPage.openUrl()
     })
 
     it('Validate Title', async()=> {
@@ -19,10 +18,9 @@ describe('Volvo Cars Safety Page Validator', async()=> {
         const carSaftyLink = carSaftyPage.learnMoreAbtCarSftyLink
         //console.log(await carSaftyLink.isDisplayed())
         //expect(await carSaftyLink.isDisplayed()).toEqual(true)
-        const carSaftyHelpElem = $("//*[@id=\"IconCallouts-1\"]/section/div/div[1]/div[2]/div[2]/em")
-        await carSaftyHelpElem.scrollIntoView()
+        //const carSaftyHelpElem = $("//*[@id=\"IconCallouts-1\"]/section/div/div[1]/div[2]/div[2]/em")
+        //await carSaftyHelpElem.scrollIntoView()
         await carSaftyLink.waitForDisplayed()
-        await carSaftyLink.moveTo()
         //await browser.pause(3000)
         await carSaftyLink.click()
     })
@@ -39,8 +37,7 @@ describe('Volvo Cars Safety Page Validator', async()=> {
         //expect(await carSaftyLink.isDisplayed()).toEqual(true)
         const driverAssistLinkHelpElem = $("//*[@id=\"ImageWithText-1\"]/section/div[1]/div[2]/div/div/div/h2")
         await driverAssistLinkHelpElem.scrollIntoView()
-        await driverAssistLink.waitForDisplayed()
-        await driverAssistLink.moveTo()
+        await driverAssistLink.waitForDisplayed(6000)
         //await browser.pause(3000)
         await driverAssistLink.click()
     })
@@ -58,8 +55,7 @@ describe('Volvo Cars Safety Page Validator', async()=> {
         //expect(await carSaftyLink.isDisplayed()).toEqual(true)
         const childSaftyLinkHelpElem = $("//*[@id=\"ImageWithText-2\"]/section/div[1]/div[2]/div/div/div/h2")
         await childSaftyLinkHelpElem.scrollIntoView()
-        await childSaftyLink.waitForDisplayed()
-        await childSaftyLink.moveTo()
+        await childSaftyLink.waitForDisplayed(6000)
         //await browser.pause(3000)
         await childSaftyLink.click()
     })
@@ -71,32 +67,9 @@ describe('Volvo Cars Safety Page Validator', async()=> {
         await console.log("Browser title safty - ", await browser.getTitle())
         await browser.back()
     })
-
-    /*it('Validate Safety Innovations Link', async()=> {
-        const saftyInnvLink = saftyInnovationPage.saftyInnovationsLink
-        //console.log(await carSaftyLink.isDisplayed())
-        //expect(await carSaftyLink.isDisplayed()).toEqual(true)
-        await saftyInnvLink.scrollIntoView()
-        await saftyInnvLink.waitForDisplayed()
-        await saftyInnvLink.moveTo()
-        //await browser.pause(3000)
-        await saftyInnvLink.click()
-    })
-
-    it('Validate Safety Innovations Title', async()=> {
-        const saftyInnvTitle = saftyInnovationPage.saftyInnovationsLinkTitle
-        console.log("childSaftyPageTitle - ", saftyInnvTitle)
-        await expect(await browser).toHaveTitle(saftyInnvTitle)
-        await console.log("Browser title safty - ", await browser.getTitle())
-        await browser.back()
-    })*/
     
     it('Validate EVA Initiative Link', async()=> {
         const evaInitiativeLink = saftyInnovationPage.evaInitiativeLink
-        //console.log(await carSaftyLink.isDisplayed())
-        //expect(await carSaftyLink.isDisplayed()).toEqual(true)
-        //await expect( await evaInitiativeLink.isDisplayedInViewport()).toEqual(true)
-        //await evaInitiativeLink.scrollIntoView(true)
         browser.waitUntil(()=> evaInitiativeLink.isDisplayedInViewport(), 6000)
         /*await expect( await evaInitiativeLink.isDisplayedInViewport()).toEqual(true)
         await console.log("initiative printing - ", await evaInitiativeLink.isDisplayedInViewport())

@@ -37,6 +37,11 @@ exports.config = {
     //
     specs: [
         './test/specs/**/*.js'
+        /*'./test/specs/carSafetyPage.spec.js',
+        './test/specs/XC40HybridSUV.spec.js',
+        './test/specs/MildHybridPage.spec.js'*/
+        //'./test/specs/XC40PureElectric.spec.js'
+        //'./test/specs/MildHybridPage.spec.js'
     ],
     // Patterns to exclude.
     exclude: [

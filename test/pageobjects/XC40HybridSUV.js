@@ -1,7 +1,16 @@
 import locatorTags from "../config/locators-config.json"
 import validatorData from "../config/validator-data-config.json"
+import BasePageConfig from "./BasePageConfig"
 
-class XC40HybridSUV{
+class XC40HybridSUV extends BasePageConfig{
+    async openUrl() {
+        await super.openUrl()
+    }
+
+    async waitThenClick(e, timeout){
+        await super.waitThenClick(e, timeout)
+    }
+    
     get xc40LaunchLink(){
         return $(locatorTags.xc40HybridSUV.launchLink)
     }
@@ -23,11 +32,11 @@ class XC40HybridSUV{
     }
 
     get xc40PageShopButton(){
-        return $(locatorTags.xc40HybridSUV.shopeButton)
+        return $(locatorTags.xc40HybridSUV.shopButton)
     }
 
     get xc40ShopURL(){
-        return locatorTags.xc40HybridSUV.shopeurl
+        return locatorTags.xc40HybridSUV.shopUrl
     }
 }
 
