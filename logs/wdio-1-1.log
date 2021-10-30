@@ -1,7 +1,7 @@
-2021-10-30T13:04:34.892Z INFO @wdio/local-runner: Run worker command: run
-2021-10-30T13:04:39.552Z INFO webdriver: Initiate new session using the WebDriver protocol
-2021-10-30T13:04:39.662Z INFO webdriver: [POST] http://localhost:4444/session
-2021-10-30T13:04:39.662Z INFO webdriver: DATA {
+2021-10-30T16:05:27.130Z INFO @wdio/local-runner: Run worker command: run
+2021-10-30T16:05:31.013Z INFO webdriver: Initiate new session using the WebDriver protocol
+2021-10-30T16:05:31.089Z INFO webdriver: [POST] http://34.72.180.106:4444/session
+2021-10-30T16:05:31.090Z INFO webdriver: DATA {
   capabilities: {
     alwaysMatch: {
       browserName: 'firefox',
@@ -16,71 +16,89 @@
     'moz:firefoxOptions': { args: [Array] }
   }
 }
-2021-10-30T13:06:03.596Z INFO webdriver: COMMAND navigateTo("https://www.volvocars.com/intl/v/car-safety/a-million-more")
-2021-10-30T13:06:03.597Z INFO webdriver: [POST] http://localhost:4444/session/dc99ec44-d607-40bd-a328-c974080772ad/url
-2021-10-30T13:06:03.597Z INFO webdriver: DATA { url: 'https://www.volvocars.com/intl/v/car-safety/a-million-more' }
-2021-10-30T13:06:05.069Z INFO webdriver: COMMAND maximizeWindow()
-2021-10-30T13:06:05.070Z INFO webdriver: [POST] http://localhost:4444/session/dc99ec44-d607-40bd-a328-c974080772ad/window/maximize
-2021-10-30T13:06:05.107Z INFO webdriver: RESULT { x: 0, y: 0, width: 1360, height: 973 }
-2021-10-30T13:06:08.113Z INFO webdriver: COMMAND findElement("xpath", "/html/body/div[1]/div[2]/div[4]/div[2]/div/button")
-2021-10-30T13:06:08.114Z INFO webdriver: [POST] http://localhost:4444/session/dc99ec44-d607-40bd-a328-c974080772ad/element
-2021-10-30T13:06:08.114Z INFO webdriver: DATA {
+2021-10-30T16:06:36.187Z INFO webdriver: COMMAND navigateTo("https://www.volvocars.com/intl/v/car-safety/a-million-more")
+2021-10-30T16:06:36.187Z INFO webdriver: [POST] http://34.72.180.106:4444/session/99fab472-2108-4c51-9f7a-340aff957e31/url
+2021-10-30T16:06:36.188Z INFO webdriver: DATA { url: 'https://www.volvocars.com/intl/v/car-safety/a-million-more' }
+2021-10-30T16:06:37.943Z INFO webdriver: COMMAND maximizeWindow()
+2021-10-30T16:06:37.944Z INFO webdriver: [POST] http://34.72.180.106:4444/session/99fab472-2108-4c51-9f7a-340aff957e31/window/maximize
+2021-10-30T16:06:38.176Z INFO webdriver: RESULT { x: 0, y: 0, width: 1360, height: 973 }
+2021-10-30T16:06:41.181Z INFO webdriver: COMMAND findElement("xpath", "/html/body/div[1]/div[2]/div[4]/div[2]/div/button")
+2021-10-30T16:06:41.182Z INFO webdriver: [POST] http://34.72.180.106:4444/session/99fab472-2108-4c51-9f7a-340aff957e31/element
+2021-10-30T16:06:41.182Z INFO webdriver: DATA {
   using: 'xpath',
   value: '/html/body/div[1]/div[2]/div[4]/div[2]/div/button'
 }
-2021-10-30T13:06:08.143Z INFO webdriver: RESULT {
-  'element-6066-11e4-a52e-4f735466cecf': 'b8ea8a19-1f2d-445b-983f-646864fd77cb'
+2021-10-30T16:06:41.405Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'ca869558-0c4f-455f-9ed3-bee04fe5b1fd'
 }
-2021-10-30T13:06:08.154Z INFO webdriver: COMMAND elementClick("b8ea8a19-1f2d-445b-983f-646864fd77cb")
-2021-10-30T13:06:08.155Z INFO webdriver: [POST] http://localhost:4444/session/dc99ec44-d607-40bd-a328-c974080772ad/element/b8ea8a19-1f2d-445b-983f-646864fd77cb/click
-2021-10-30T13:06:08.533Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ProductListCarousel-1"]/section/div[1]/div/div/div/div[3]")
-2021-10-30T13:06:08.533Z INFO webdriver: [POST] http://localhost:4444/session/dc99ec44-d607-40bd-a328-c974080772ad/element
-2021-10-30T13:06:08.534Z INFO webdriver: DATA {
+2021-10-30T16:06:41.414Z INFO webdriver: COMMAND elementClick("ca869558-0c4f-455f-9ed3-bee04fe5b1fd")
+2021-10-30T16:06:41.414Z INFO webdriver: [POST] http://34.72.180.106:4444/session/99fab472-2108-4c51-9f7a-340aff957e31/element/ca869558-0c4f-455f-9ed3-bee04fe5b1fd/click
+2021-10-30T16:06:42.043Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ProductListCarousel-1"]/section/div[1]/div/div/div/div[3]")
+2021-10-30T16:06:42.043Z INFO webdriver: [POST] http://34.72.180.106:4444/session/99fab472-2108-4c51-9f7a-340aff957e31/element
+2021-10-30T16:06:42.043Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="ProductListCarousel-1"]/section/div[1]/div/div/div/div[3]'
 }
-2021-10-30T13:06:08.536Z INFO webdriver: COMMAND findElement("xpath", "//a[text()='Mild hybrid cars']")
-2021-10-30T13:06:08.536Z INFO webdriver: [POST] http://localhost:4444/session/dc99ec44-d607-40bd-a328-c974080772ad/element
-2021-10-30T13:06:08.536Z INFO webdriver: DATA { using: 'xpath', value: "//a[text()='Mild hybrid cars']" }
-2021-10-30T13:06:08.571Z INFO webdriver: RESULT {
-  'element-6066-11e4-a52e-4f735466cecf': '545e869a-4c05-4da8-b518-6c295cf0028b'
+2021-10-30T16:06:42.045Z INFO webdriver: COMMAND findElement("xpath", "//a[text()='Mild hybrid cars']")
+2021-10-30T16:06:42.045Z INFO webdriver: [POST] http://34.72.180.106:4444/session/99fab472-2108-4c51-9f7a-340aff957e31/element
+2021-10-30T16:06:42.045Z INFO webdriver: DATA { using: 'xpath', value: "//a[text()='Mild hybrid cars']" }
+2021-10-30T16:06:43.198Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '23a39c8c-f256-42e2-ab8c-03bdcf0c37d8'
 }
-2021-10-30T13:06:08.580Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
-2021-10-30T13:06:08.580Z INFO webdriver: [POST] http://localhost:4444/session/dc99ec44-d607-40bd-a328-c974080772ad/execute/sync
-2021-10-30T13:06:08.580Z INFO webdriver: DATA {
+2021-10-30T16:06:43.204Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-30T16:06:43.205Z INFO webdriver: [POST] http://34.72.180.106:4444/session/99fab472-2108-4c51-9f7a-340aff957e31/execute/sync
+2021-10-30T16:06:43.205Z INFO webdriver: DATA {
   script: 'return (function (elem, options) {\n' +
     '        elem.scrollIntoView(options);\n' +
     '    }).apply(null, arguments)',
   args: [
     {
-      'element-6066-11e4-a52e-4f735466cecf': '545e869a-4c05-4da8-b518-6c295cf0028b',
-      ELEMENT: '545e869a-4c05-4da8-b518-6c295cf0028b'
+      'element-6066-11e4-a52e-4f735466cecf': '23a39c8c-f256-42e2-ab8c-03bdcf0c37d8',
+      ELEMENT: '23a39c8c-f256-42e2-ab8c-03bdcf0c37d8'
     },
     true
   ]
 }
-2021-10-30T13:06:08.602Z INFO webdriver: RESULT {
-  'element-6066-11e4-a52e-4f735466cecf': '1fe948cf-2567-499b-b9b8-6d4c107a438e'
+2021-10-30T16:06:43.292Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '54ea1004-2ef7-486b-bac8-aa2c08fe1cae'
 }
-2021-10-30T13:06:08.634Z INFO webdriver: COMMAND isElementDisplayed("1fe948cf-2567-499b-b9b8-6d4c107a438e")
-2021-10-30T13:06:08.634Z INFO webdriver: [GET] http://localhost:4444/session/dc99ec44-d607-40bd-a328-c974080772ad/element/1fe948cf-2567-499b-b9b8-6d4c107a438e/displayed
-2021-10-30T13:06:08.694Z INFO webdriver: RESULT true
-2021-10-30T13:06:08.696Z INFO webdriver: COMMAND elementClick("1fe948cf-2567-499b-b9b8-6d4c107a438e")
-2021-10-30T13:06:08.696Z INFO webdriver: [POST] http://localhost:4444/session/dc99ec44-d607-40bd-a328-c974080772ad/element/1fe948cf-2567-499b-b9b8-6d4c107a438e/click
-2021-10-30T13:06:09.740Z INFO webdriver: COMMAND getUrl()
-2021-10-30T13:06:09.741Z INFO webdriver: [GET] http://localhost:4444/session/dc99ec44-d607-40bd-a328-c974080772ad/url
-2021-10-30T13:06:09.767Z INFO webdriver: RESULT https://www.volvocars.com/intl/v/cars/other-powertrains
-2021-10-30T13:06:09.776Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ModelTitle-1"]/section/div/div/div/h1")
-2021-10-30T13:06:09.776Z INFO webdriver: [POST] http://localhost:4444/session/dc99ec44-d607-40bd-a328-c974080772ad/element
-2021-10-30T13:06:09.776Z INFO webdriver: DATA {
+2021-10-30T16:06:43.477Z INFO webdriver: COMMAND isElementDisplayed("54ea1004-2ef7-486b-bac8-aa2c08fe1cae")
+2021-10-30T16:06:43.478Z INFO webdriver: [GET] http://34.72.180.106:4444/session/99fab472-2108-4c51-9f7a-340aff957e31/element/54ea1004-2ef7-486b-bac8-aa2c08fe1cae/displayed
+2021-10-30T16:06:43.909Z WARN webdriver: Request encountered a stale element - terminating request
+2021-10-30T16:06:43.910Z INFO webdriver: COMMAND findElement("xpath", "//a[text()='Mild hybrid cars']")
+2021-10-30T16:06:43.910Z INFO webdriver: [POST] http://34.72.180.106:4444/session/99fab472-2108-4c51-9f7a-340aff957e31/element
+2021-10-30T16:06:43.910Z INFO webdriver: DATA { using: 'xpath', value: "//a[text()='Mild hybrid cars']" }
+2021-10-30T16:06:44.165Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'a1909163-a2d2-4c57-9fec-cb5de104aa08'
+}
+2021-10-30T16:06:44.172Z INFO webdriver: COMMAND isElementDisplayed("54ea1004-2ef7-486b-bac8-aa2c08fe1cae")
+2021-10-30T16:06:44.172Z INFO webdriver: [GET] http://34.72.180.106:4444/session/99fab472-2108-4c51-9f7a-340aff957e31/element/54ea1004-2ef7-486b-bac8-aa2c08fe1cae/displayed
+2021-10-30T16:06:44.387Z WARN webdriver: Request encountered a stale element - terminating request
+2021-10-30T16:06:44.388Z INFO webdriver: COMMAND findElement("xpath", "//a[text()='Mild hybrid cars']")
+2021-10-30T16:06:44.388Z INFO webdriver: [POST] http://34.72.180.106:4444/session/99fab472-2108-4c51-9f7a-340aff957e31/element
+2021-10-30T16:06:44.388Z INFO webdriver: DATA { using: 'xpath', value: "//a[text()='Mild hybrid cars']" }
+2021-10-30T16:06:44.612Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'a1909163-a2d2-4c57-9fec-cb5de104aa08'
+}
+2021-10-30T16:06:44.615Z INFO webdriver: COMMAND isElementDisplayed("a1909163-a2d2-4c57-9fec-cb5de104aa08")
+2021-10-30T16:06:44.616Z INFO webdriver: [GET] http://34.72.180.106:4444/session/99fab472-2108-4c51-9f7a-340aff957e31/element/a1909163-a2d2-4c57-9fec-cb5de104aa08/displayed
+2021-10-30T16:06:44.868Z INFO webdriver: RESULT true
+2021-10-30T16:06:44.872Z INFO webdriver: COMMAND elementClick("a1909163-a2d2-4c57-9fec-cb5de104aa08")
+2021-10-30T16:06:44.872Z INFO webdriver: [POST] http://34.72.180.106:4444/session/99fab472-2108-4c51-9f7a-340aff957e31/element/a1909163-a2d2-4c57-9fec-cb5de104aa08/click
+2021-10-30T16:06:45.942Z INFO webdriver: COMMAND getUrl()
+2021-10-30T16:06:45.942Z INFO webdriver: [GET] http://34.72.180.106:4444/session/99fab472-2108-4c51-9f7a-340aff957e31/url
+2021-10-30T16:06:46.170Z INFO webdriver: RESULT https://www.volvocars.com/intl/v/cars/other-powertrains
+2021-10-30T16:06:46.174Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ModelTitle-1"]/section/div/div/div/h1")
+2021-10-30T16:06:46.174Z INFO webdriver: [POST] http://34.72.180.106:4444/session/99fab472-2108-4c51-9f7a-340aff957e31/element
+2021-10-30T16:06:46.174Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="ModelTitle-1"]/section/div/div/div/h1'
 }
-2021-10-30T13:06:09.909Z INFO webdriver: RESULT {
-  'element-6066-11e4-a52e-4f735466cecf': 'c7d29943-72da-457c-a336-ea0bd883d516'
+2021-10-30T16:06:46.488Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'b27f2d27-c2f3-4d23-afc0-2406a04feda0'
 }
-2021-10-30T13:06:09.916Z INFO webdriver: COMMAND getElementText("c7d29943-72da-457c-a336-ea0bd883d516")
-2021-10-30T13:06:09.916Z INFO webdriver: [GET] http://localhost:4444/session/dc99ec44-d607-40bd-a328-c974080772ad/element/c7d29943-72da-457c-a336-ea0bd883d516/text
-2021-10-30T13:06:09.983Z INFO webdriver: RESULT Mild hybrids
-2021-10-30T13:06:10.014Z INFO webdriver: COMMAND deleteSession()
-2021-10-30T13:06:10.015Z INFO webdriver: [DELETE] http://localhost:4444/session/dc99ec44-d607-40bd-a328-c974080772ad
+2021-10-30T16:06:46.496Z INFO webdriver: COMMAND getElementText("b27f2d27-c2f3-4d23-afc0-2406a04feda0")
+2021-10-30T16:06:46.496Z INFO webdriver: [GET] http://34.72.180.106:4444/session/99fab472-2108-4c51-9f7a-340aff957e31/element/b27f2d27-c2f3-4d23-afc0-2406a04feda0/text
+2021-10-30T16:06:46.717Z INFO webdriver: RESULT Mild hybrids
+2021-10-30T16:06:46.732Z INFO webdriver: COMMAND deleteSession()
+2021-10-30T16:06:46.733Z INFO webdriver: [DELETE] http://34.72.180.106:4444/session/99fab472-2108-4c51-9f7a-340aff957e31

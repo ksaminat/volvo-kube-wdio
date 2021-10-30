@@ -1,7 +1,7 @@
-2021-10-30T13:04:34.159Z INFO @wdio/local-runner: Run worker command: run
-2021-10-30T13:04:38.753Z INFO webdriver: Initiate new session using the WebDriver protocol
-2021-10-30T13:04:38.865Z INFO webdriver: [POST] http://localhost:4444/session
-2021-10-30T13:04:38.865Z INFO webdriver: DATA {
+2021-10-30T16:05:26.407Z INFO @wdio/local-runner: Run worker command: run
+2021-10-30T16:05:30.915Z INFO webdriver: Initiate new session using the WebDriver protocol
+2021-10-30T16:05:30.975Z INFO webdriver: [POST] http://34.72.180.106:4444/session
+2021-10-30T16:05:30.976Z INFO webdriver: DATA {
   capabilities: {
     alwaysMatch: {
       browserName: 'firefox',
@@ -16,449 +16,561 @@
     'moz:firefoxOptions': { args: [Array] }
   }
 }
-2021-10-30T13:05:04.946Z INFO webdriver: COMMAND navigateTo("https://www.volvocars.com/intl/v/car-safety/a-million-more")
-2021-10-30T13:05:04.947Z INFO webdriver: [POST] http://localhost:4444/session/dc5a1c78-672a-4556-a4c5-bc8dc6b847ac/url
-2021-10-30T13:05:04.947Z INFO webdriver: DATA { url: 'https://www.volvocars.com/intl/v/car-safety/a-million-more' }
-2021-10-30T13:05:06.550Z INFO webdriver: COMMAND maximizeWindow()
-2021-10-30T13:05:06.551Z INFO webdriver: [POST] http://localhost:4444/session/dc5a1c78-672a-4556-a4c5-bc8dc6b847ac/window/maximize
-2021-10-30T13:05:06.679Z INFO webdriver: RESULT { x: 0, y: 0, width: 1360, height: 973 }
-2021-10-30T13:05:09.684Z INFO webdriver: COMMAND findElement("xpath", "/html/body/div[1]/div[2]/div[4]/div[2]/div/button")
-2021-10-30T13:05:09.685Z INFO webdriver: [POST] http://localhost:4444/session/dc5a1c78-672a-4556-a4c5-bc8dc6b847ac/element
-2021-10-30T13:05:09.685Z INFO webdriver: DATA {
+2021-10-30T16:05:44.244Z INFO webdriver: COMMAND navigateTo("https://www.volvocars.com/intl/v/car-safety/a-million-more")
+2021-10-30T16:05:44.244Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/url
+2021-10-30T16:05:44.244Z INFO webdriver: DATA { url: 'https://www.volvocars.com/intl/v/car-safety/a-million-more' }
+2021-10-30T16:05:47.753Z INFO webdriver: COMMAND maximizeWindow()
+2021-10-30T16:05:47.753Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/window/maximize
+2021-10-30T16:05:47.991Z INFO webdriver: RESULT { x: 0, y: 0, width: 1360, height: 973 }
+2021-10-30T16:05:50.994Z INFO webdriver: COMMAND findElement("xpath", "/html/body/div[1]/div[2]/div[4]/div[2]/div/button")
+2021-10-30T16:05:50.994Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element
+2021-10-30T16:05:50.994Z INFO webdriver: DATA {
   using: 'xpath',
   value: '/html/body/div[1]/div[2]/div[4]/div[2]/div/button'
 }
-2021-10-30T13:05:09.712Z INFO webdriver: RESULT {
-  'element-6066-11e4-a52e-4f735466cecf': '0a18b9bb-ef50-451d-a610-26d1857e34aa'
+2021-10-30T16:05:51.261Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '1c9f3225-bc9a-4d56-afd7-882e5ed48fee'
 }
-2021-10-30T13:05:09.720Z INFO webdriver: COMMAND elementClick("0a18b9bb-ef50-451d-a610-26d1857e34aa")
-2021-10-30T13:05:09.721Z INFO webdriver: [POST] http://localhost:4444/session/dc5a1c78-672a-4556-a4c5-bc8dc6b847ac/element/0a18b9bb-ef50-451d-a610-26d1857e34aa/click
-2021-10-30T13:05:11.057Z INFO webdriver: COMMAND getTitle()
-2021-10-30T13:05:11.058Z INFO webdriver: [GET] http://localhost:4444/session/dc5a1c78-672a-4556-a4c5-bc8dc6b847ac/title
-2021-10-30T13:05:11.112Z INFO webdriver: RESULT A million more | Volvo Cars - International
-2021-10-30T13:05:11.118Z INFO webdriver: COMMAND findElement("xpath", "//a[text()='Learn more about car safety']")
-2021-10-30T13:05:11.118Z INFO webdriver: [POST] http://localhost:4444/session/dc5a1c78-672a-4556-a4c5-bc8dc6b847ac/element
-2021-10-30T13:05:11.118Z INFO webdriver: DATA { using: 'xpath', value: "//a[text()='Learn more about car safety']" }
-2021-10-30T13:05:11.186Z INFO webdriver: RESULT {
-  'element-6066-11e4-a52e-4f735466cecf': 'dce4046b-f6ba-413a-89a3-e58c9c58ec64'
+2021-10-30T16:05:51.271Z INFO webdriver: COMMAND elementClick("1c9f3225-bc9a-4d56-afd7-882e5ed48fee")
+2021-10-30T16:05:51.272Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element/1c9f3225-bc9a-4d56-afd7-882e5ed48fee/click
+2021-10-30T16:05:52.115Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:05:52.115Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:05:53.438Z INFO webdriver: RESULT A million more | Volvo Cars - International
+2021-10-30T16:05:53.443Z INFO webdriver: COMMAND findElement("xpath", "//a[text()='Learn more about car safety']")
+2021-10-30T16:05:53.443Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element
+2021-10-30T16:05:53.443Z INFO webdriver: DATA { using: 'xpath', value: "//a[text()='Learn more about car safety']" }
+2021-10-30T16:05:53.774Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'be3ecb69-c478-4a27-afd4-23d1932c5c1f'
 }
-2021-10-30T13:05:11.194Z INFO webdriver: COMMAND isElementDisplayed("dce4046b-f6ba-413a-89a3-e58c9c58ec64")
-2021-10-30T13:05:11.194Z INFO webdriver: [GET] http://localhost:4444/session/dc5a1c78-672a-4556-a4c5-bc8dc6b847ac/element/dce4046b-f6ba-413a-89a3-e58c9c58ec64/displayed
-2021-10-30T13:05:11.236Z INFO webdriver: RESULT true
-2021-10-30T13:05:11.237Z INFO webdriver: COMMAND elementClick("dce4046b-f6ba-413a-89a3-e58c9c58ec64")
-2021-10-30T13:05:11.237Z INFO webdriver: [POST] http://localhost:4444/session/dc5a1c78-672a-4556-a4c5-bc8dc6b847ac/element/dce4046b-f6ba-413a-89a3-e58c9c58ec64/click
-2021-10-30T13:05:12.484Z INFO webdriver: COMMAND getTitle()
-2021-10-30T13:05:12.485Z INFO webdriver: [GET] http://localhost:4444/session/dc5a1c78-672a-4556-a4c5-bc8dc6b847ac/title
-2021-10-30T13:05:12.511Z INFO webdriver: RESULT Car safety | Volvo Cars - International
-2021-10-30T13:05:12.512Z INFO webdriver: COMMAND getTitle()
-2021-10-30T13:05:12.512Z INFO webdriver: [GET] http://localhost:4444/session/dc5a1c78-672a-4556-a4c5-bc8dc6b847ac/title
-2021-10-30T13:05:12.565Z INFO webdriver: RESULT Car safety | Volvo Cars - International
-2021-10-30T13:05:12.569Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-1"]/section/div[1]/div[2]/div/div/div/h2")
-2021-10-30T13:05:12.569Z INFO webdriver: [POST] http://localhost:4444/session/dc5a1c78-672a-4556-a4c5-bc8dc6b847ac/element
-2021-10-30T13:05:12.569Z INFO webdriver: DATA {
+2021-10-30T16:05:53.783Z INFO webdriver: COMMAND isElementDisplayed("be3ecb69-c478-4a27-afd4-23d1932c5c1f")
+2021-10-30T16:05:53.784Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element/be3ecb69-c478-4a27-afd4-23d1932c5c1f/displayed
+2021-10-30T16:05:54.185Z INFO webdriver: RESULT true
+2021-10-30T16:05:54.186Z INFO webdriver: COMMAND elementClick("be3ecb69-c478-4a27-afd4-23d1932c5c1f")
+2021-10-30T16:05:54.186Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element/be3ecb69-c478-4a27-afd4-23d1932c5c1f/click
+2021-10-30T16:05:55.698Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:05:55.699Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:05:55.700Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:05:55.700Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:05:55.977Z INFO webdriver: RESULT Car safety | Volvo Cars - International
+2021-10-30T16:05:55.979Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-1"]/section/div[1]/div[2]/div/div/div/h2")
+2021-10-30T16:05:55.980Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element
+2021-10-30T16:05:55.980Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="ImageWithText-1"]/section/div[1]/div[2]/div/div/div/h2'
 }
-2021-10-30T13:05:12.571Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-1"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T13:05:12.571Z INFO webdriver: [POST] http://localhost:4444/session/dc5a1c78-672a-4556-a4c5-bc8dc6b847ac/element
-2021-10-30T13:05:12.571Z INFO webdriver: DATA {
+2021-10-30T16:05:55.981Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-1"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
+2021-10-30T16:05:55.981Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element
+2021-10-30T16:05:55.981Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="ImageWithText-1"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
 }
-2021-10-30T13:05:12.716Z INFO webdriver: RESULT {
-  'element-6066-11e4-a52e-4f735466cecf': '13502963-8963-4c26-8478-a55241c7b23c'
+2021-10-30T16:05:56.175Z INFO webdriver: RESULT Car safety | Volvo Cars - International
+2021-10-30T16:05:56.200Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:05:56.200Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:05:56.377Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'f445ac30-19b2-4ddc-ac30-982046bf466a'
 }
-2021-10-30T13:05:12.721Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
-2021-10-30T13:05:12.722Z INFO webdriver: [POST] http://localhost:4444/session/dc5a1c78-672a-4556-a4c5-bc8dc6b847ac/execute/sync
-2021-10-30T13:05:12.722Z INFO webdriver: DATA {
+2021-10-30T16:05:56.381Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-30T16:05:56.381Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/execute/sync
+2021-10-30T16:05:56.381Z INFO webdriver: DATA {
   script: 'return (function (elem, options) {\n' +
     '        elem.scrollIntoView(options);\n' +
     '    }).apply(null, arguments)',
   args: [
     {
-      'element-6066-11e4-a52e-4f735466cecf': '13502963-8963-4c26-8478-a55241c7b23c',
-      ELEMENT: '13502963-8963-4c26-8478-a55241c7b23c'
+      'element-6066-11e4-a52e-4f735466cecf': 'f445ac30-19b2-4ddc-ac30-982046bf466a',
+      ELEMENT: 'f445ac30-19b2-4ddc-ac30-982046bf466a'
     },
     true
   ]
 }
-2021-10-30T13:05:12.803Z INFO webdriver: RESULT {
-  'element-6066-11e4-a52e-4f735466cecf': '5e60b4e4-5b3a-4e7e-a7d0-26bb86c256c9'
+2021-10-30T16:05:56.505Z INFO webdriver: RESULT Car safety | Volvo Cars - International
+2021-10-30T16:05:56.507Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '2246cb38-0dd9-4811-9a8e-252a90d95526'
 }
-2021-10-30T13:05:12.966Z INFO webdriver: COMMAND isElementDisplayed("5e60b4e4-5b3a-4e7e-a7d0-26bb86c256c9")
-2021-10-30T13:05:12.966Z INFO webdriver: [GET] http://localhost:4444/session/dc5a1c78-672a-4556-a4c5-bc8dc6b847ac/element/5e60b4e4-5b3a-4e7e-a7d0-26bb86c256c9/displayed
-2021-10-30T13:05:13.149Z INFO webdriver: RESULT true
-2021-10-30T13:05:13.151Z INFO webdriver: COMMAND elementClick("5e60b4e4-5b3a-4e7e-a7d0-26bb86c256c9")
-2021-10-30T13:05:13.152Z INFO webdriver: [POST] http://localhost:4444/session/dc5a1c78-672a-4556-a4c5-bc8dc6b847ac/element/5e60b4e4-5b3a-4e7e-a7d0-26bb86c256c9/click
-2021-10-30T13:05:16.035Z INFO webdriver: COMMAND getTitle()
-2021-10-30T13:05:16.036Z INFO webdriver: [GET] http://localhost:4444/session/dc5a1c78-672a-4556-a4c5-bc8dc6b847ac/title
-2021-10-30T13:05:16.077Z INFO webdriver: RESULT Driver assistance systems | Volvo Cars
-2021-10-30T13:05:16.079Z INFO webdriver: COMMAND getTitle()
-2021-10-30T13:05:16.079Z INFO webdriver: [GET] http://localhost:4444/session/dc5a1c78-672a-4556-a4c5-bc8dc6b847ac/title
-2021-10-30T13:05:16.103Z INFO webdriver: RESULT Driver assistance systems | Volvo Cars
-2021-10-30T13:05:16.104Z INFO webdriver: COMMAND back()
-2021-10-30T13:05:16.105Z INFO webdriver: [POST] http://localhost:4444/session/dc5a1c78-672a-4556-a4c5-bc8dc6b847ac/back
-2021-10-30T13:05:16.982Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-2"]/section/div[1]/div[2]/div/div/div/h2")
-2021-10-30T13:05:16.982Z INFO webdriver: [POST] http://localhost:4444/session/dc5a1c78-672a-4556-a4c5-bc8dc6b847ac/element
-2021-10-30T13:05:16.982Z INFO webdriver: DATA {
+2021-10-30T16:05:56.699Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:05:56.699Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:05:56.797Z INFO webdriver: COMMAND isElementDisplayed("2246cb38-0dd9-4811-9a8e-252a90d95526")
+2021-10-30T16:05:56.797Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element/2246cb38-0dd9-4811-9a8e-252a90d95526/displayed
+2021-10-30T16:05:57.032Z INFO webdriver: RESULT Car safety | Volvo Cars - International
+2021-10-30T16:05:57.123Z INFO webdriver: RESULT true
+2021-10-30T16:05:57.124Z INFO webdriver: COMMAND elementClick("2246cb38-0dd9-4811-9a8e-252a90d95526")
+2021-10-30T16:05:57.125Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element/2246cb38-0dd9-4811-9a8e-252a90d95526/click
+2021-10-30T16:05:57.199Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:05:57.199Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:05:57.700Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:05:57.701Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:05:58.200Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:05:58.200Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:05:58.699Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:05:58.700Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:05:59.200Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:05:59.201Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:05:59.700Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:05:59.700Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:06:00.200Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:06:00.201Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:06:00.700Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:06:00.701Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:06:01.154Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:06:01.154Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:06:01.155Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:06:01.156Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:06:01.164Z INFO webdriver: RESULT Driver assistance systems | Volvo Cars
+2021-10-30T16:06:01.200Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:06:01.200Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:06:01.202Z INFO webdriver: RESULT Driver assistance systems | Volvo Cars
+2021-10-30T16:06:01.239Z INFO webdriver: RESULT Driver assistance systems | Volvo Cars
+2021-10-30T16:06:01.253Z INFO webdriver: RESULT Driver assistance systems | Volvo Cars
+2021-10-30T16:06:01.266Z INFO webdriver: RESULT Driver assistance systems | Volvo Cars
+2021-10-30T16:06:01.271Z INFO webdriver: RESULT Driver assistance systems | Volvo Cars
+2021-10-30T16:06:01.284Z INFO webdriver: RESULT Driver assistance systems | Volvo Cars
+2021-10-30T16:06:01.293Z INFO webdriver: RESULT Driver assistance systems | Volvo Cars
+2021-10-30T16:06:01.402Z INFO webdriver: RESULT Driver assistance systems | Volvo Cars
+2021-10-30T16:06:01.403Z INFO webdriver: COMMAND back()
+2021-10-30T16:06:01.403Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/back
+2021-10-30T16:06:01.447Z INFO webdriver: RESULT Driver assistance systems | Volvo Cars
+2021-10-30T16:06:01.656Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:06:01.656Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:06:01.668Z INFO webdriver: RESULT Driver assistance systems | Volvo Cars
+2021-10-30T16:06:01.700Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:06:01.700Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:06:02.156Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:06:02.157Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:06:02.200Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:06:02.201Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:06:02.656Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:06:02.656Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:06:02.700Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:06:02.700Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:06:03.156Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:06:03.157Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:06:03.200Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:06:03.200Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:06:03.578Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-2"]/section/div[1]/div[2]/div/div/div/h2")
+2021-10-30T16:06:03.579Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element
+2021-10-30T16:06:03.579Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="ImageWithText-2"]/section/div[1]/div[2]/div/div/div/h2'
 }
-2021-10-30T13:05:16.984Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-2"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T13:05:16.984Z INFO webdriver: [POST] http://localhost:4444/session/dc5a1c78-672a-4556-a4c5-bc8dc6b847ac/element
-2021-10-30T13:05:16.984Z INFO webdriver: DATA {
+2021-10-30T16:06:03.580Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-2"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
+2021-10-30T16:06:03.580Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element
+2021-10-30T16:06:03.580Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="ImageWithText-2"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
 }
-2021-10-30T13:05:17.330Z INFO webdriver: RESULT {
-  'element-6066-11e4-a52e-4f735466cecf': '0f5ca863-b613-4633-8858-66bb8f158003'
+2021-10-30T16:06:03.597Z INFO webdriver: RESULT Car safety | Volvo Cars - International
+2021-10-30T16:06:03.655Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:06:03.656Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:06:03.665Z INFO webdriver: RESULT Car safety | Volvo Cars - International
+2021-10-30T16:06:03.691Z INFO webdriver: RESULT Car safety | Volvo Cars - International
+2021-10-30T16:06:03.700Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:06:03.700Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:06:03.790Z INFO webdriver: RESULT Car safety | Volvo Cars - International
+2021-10-30T16:06:03.976Z INFO webdriver: RESULT Car safety | Volvo Cars - International
+2021-10-30T16:06:04.060Z INFO webdriver: RESULT Car safety | Volvo Cars - International
+2021-10-30T16:06:04.086Z INFO webdriver: RESULT Car safety | Volvo Cars - International
+2021-10-30T16:06:04.118Z INFO webdriver: RESULT Car safety | Volvo Cars - International
+2021-10-30T16:06:04.156Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:06:04.156Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:06:04.200Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:06:04.201Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:06:04.348Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '02ff9b44-f87f-4978-889a-5bb58136071f'
 }
-2021-10-30T13:05:17.335Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
-2021-10-30T13:05:17.335Z INFO webdriver: [POST] http://localhost:4444/session/dc5a1c78-672a-4556-a4c5-bc8dc6b847ac/execute/sync
-2021-10-30T13:05:17.335Z INFO webdriver: DATA {
+2021-10-30T16:06:04.352Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-30T16:06:04.352Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/execute/sync
+2021-10-30T16:06:04.352Z INFO webdriver: DATA {
   script: 'return (function (elem, options) {\n' +
     '        elem.scrollIntoView(options);\n' +
     '    }).apply(null, arguments)',
   args: [
     {
-      'element-6066-11e4-a52e-4f735466cecf': '0f5ca863-b613-4633-8858-66bb8f158003',
-      ELEMENT: '0f5ca863-b613-4633-8858-66bb8f158003'
+      'element-6066-11e4-a52e-4f735466cecf': '02ff9b44-f87f-4978-889a-5bb58136071f',
+      ELEMENT: '02ff9b44-f87f-4978-889a-5bb58136071f'
     },
     true
   ]
 }
-2021-10-30T13:05:17.417Z INFO webdriver: RESULT {
-  'element-6066-11e4-a52e-4f735466cecf': '99d67dbd-79bf-4e34-8ed4-ccaea6dc147a'
+2021-10-30T16:06:04.454Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'f3d8cd05-1ee6-4034-b5fb-5e2197285d9a'
 }
-2021-10-30T13:05:17.647Z INFO webdriver: COMMAND isElementDisplayed("99d67dbd-79bf-4e34-8ed4-ccaea6dc147a")
-2021-10-30T13:05:17.647Z INFO webdriver: [GET] http://localhost:4444/session/dc5a1c78-672a-4556-a4c5-bc8dc6b847ac/element/99d67dbd-79bf-4e34-8ed4-ccaea6dc147a/displayed
-2021-10-30T13:05:17.819Z INFO webdriver: RESULT true
-2021-10-30T13:05:17.820Z INFO webdriver: COMMAND elementClick("99d67dbd-79bf-4e34-8ed4-ccaea6dc147a")
-2021-10-30T13:05:17.821Z INFO webdriver: [POST] http://localhost:4444/session/dc5a1c78-672a-4556-a4c5-bc8dc6b847ac/element/99d67dbd-79bf-4e34-8ed4-ccaea6dc147a/click
-2021-10-30T13:05:20.840Z INFO webdriver: COMMAND getTitle()
-2021-10-30T13:05:20.841Z INFO webdriver: [GET] http://localhost:4444/session/dc5a1c78-672a-4556-a4c5-bc8dc6b847ac/title
-2021-10-30T13:05:20.884Z INFO webdriver: RESULT Child Safety innovations for our most precious passengers | Volvo Cars
-2021-10-30T13:05:20.885Z INFO webdriver: COMMAND getTitle()
-2021-10-30T13:05:20.886Z INFO webdriver: [GET] http://localhost:4444/session/dc5a1c78-672a-4556-a4c5-bc8dc6b847ac/title
-2021-10-30T13:05:20.926Z INFO webdriver: RESULT Child Safety innovations for our most precious passengers | Volvo Cars
-2021-10-30T13:05:20.927Z INFO webdriver: COMMAND back()
-2021-10-30T13:05:20.927Z INFO webdriver: [POST] http://localhost:4444/session/dc5a1c78-672a-4556-a4c5-bc8dc6b847ac/back
-2021-10-30T13:05:22.502Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T13:05:22.503Z INFO webdriver: [POST] http://localhost:4444/session/dc5a1c78-672a-4556-a4c5-bc8dc6b847ac/element
-2021-10-30T13:05:22.503Z INFO webdriver: DATA {
+2021-10-30T16:06:04.470Z INFO webdriver: RESULT Car safety | Volvo Cars - International
+2021-10-30T16:06:04.479Z INFO webdriver: RESULT Car safety | Volvo Cars - International
+2021-10-30T16:06:04.498Z INFO webdriver: RESULT Car safety | Volvo Cars - International
+2021-10-30T16:06:04.499Z INFO webdriver: RESULT Car safety | Volvo Cars - International
+2021-10-30T16:06:04.656Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:06:04.656Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:06:04.700Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:06:04.700Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:06:04.992Z INFO webdriver: COMMAND isElementDisplayed("f3d8cd05-1ee6-4034-b5fb-5e2197285d9a")
+2021-10-30T16:06:04.992Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element/f3d8cd05-1ee6-4034-b5fb-5e2197285d9a/displayed
+2021-10-30T16:06:05.013Z INFO webdriver: RESULT Car safety | Volvo Cars - International
+2021-10-30T16:06:05.037Z INFO webdriver: RESULT Car safety | Volvo Cars - International
+2021-10-30T16:06:05.156Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:06:05.157Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:06:05.200Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:06:05.200Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:06:05.334Z INFO webdriver: RESULT true
+2021-10-30T16:06:05.335Z INFO webdriver: COMMAND elementClick("f3d8cd05-1ee6-4034-b5fb-5e2197285d9a")
+2021-10-30T16:06:05.335Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element/f3d8cd05-1ee6-4034-b5fb-5e2197285d9a/click
+2021-10-30T16:06:05.439Z INFO webdriver: RESULT Car safety | Volvo Cars - International
+2021-10-30T16:06:05.452Z INFO webdriver: RESULT Car safety | Volvo Cars - International
+2021-10-30T16:06:05.656Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:06:05.656Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:06:06.157Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:06:06.157Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:06:06.655Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:06:06.656Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:06:07.156Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:06:07.157Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:06:07.656Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:06:07.656Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:06:08.155Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:06:08.156Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:06:08.656Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:06:08.657Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:06:09.156Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:06:09.156Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:06:09.656Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:06:09.656Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:06:10.157Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:06:10.158Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:06:10.656Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:06:10.656Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:06:11.464Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:06:11.465Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:06:11.466Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:06:11.466Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:06:11.504Z INFO webdriver: RESULT Child Safety innovations for our most precious passengers | Volvo Cars
+2021-10-30T16:06:11.606Z INFO webdriver: RESULT Child Safety innovations for our most precious passengers | Volvo Cars
+2021-10-30T16:06:11.639Z INFO webdriver: RESULT Child Safety innovations for our most precious passengers | Volvo Cars
+2021-10-30T16:06:11.642Z INFO webdriver: RESULT Child Safety innovations for our most precious passengers | Volvo Cars
+2021-10-30T16:06:11.643Z INFO webdriver: RESULT Child Safety innovations for our most precious passengers | Volvo Cars
+2021-10-30T16:06:11.669Z INFO webdriver: RESULT Child Safety innovations for our most precious passengers | Volvo Cars
+2021-10-30T16:06:11.673Z INFO webdriver: RESULT Child Safety innovations for our most precious passengers | Volvo Cars
+2021-10-30T16:06:11.697Z INFO webdriver: RESULT Child Safety innovations for our most precious passengers | Volvo Cars
+2021-10-30T16:06:11.706Z INFO webdriver: RESULT Child Safety innovations for our most precious passengers | Volvo Cars
+2021-10-30T16:06:11.723Z INFO webdriver: RESULT Child Safety innovations for our most precious passengers | Volvo Cars
+2021-10-30T16:06:11.745Z INFO webdriver: RESULT Child Safety innovations for our most precious passengers | Volvo Cars
+2021-10-30T16:06:11.746Z INFO webdriver: COMMAND back()
+2021-10-30T16:06:11.746Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/back
+2021-10-30T16:06:11.748Z INFO webdriver: RESULT Child Safety innovations for our most precious passengers | Volvo Cars
+2021-10-30T16:06:11.908Z INFO webdriver: RESULT Child Safety innovations for our most precious passengers | Volvo Cars
+2021-10-30T16:06:11.965Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:06:11.965Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:06:12.466Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:06:12.466Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:06:12.966Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:06:12.967Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:06:13.466Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:06:13.466Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:06:13.967Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:06:13.967Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:06:14.466Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:06:14.467Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:06:14.638Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
+2021-10-30T16:06:14.639Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element
+2021-10-30T16:06:14.639Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
 }
-2021-10-30T13:05:22.707Z INFO webdriver: RESULT {
-  'element-6066-11e4-a52e-4f735466cecf': '80019382-6166-4e22-821e-867d560a56a6'
+2021-10-30T16:06:14.673Z INFO webdriver: RESULT Car safety | Volvo Cars - International
+2021-10-30T16:06:14.685Z INFO webdriver: RESULT Car safety | Volvo Cars - International
+2021-10-30T16:06:14.709Z INFO webdriver: RESULT Car safety | Volvo Cars - International
+2021-10-30T16:06:14.710Z INFO webdriver: RESULT Car safety | Volvo Cars - International
+2021-10-30T16:06:14.718Z INFO webdriver: RESULT Car safety | Volvo Cars - International
+2021-10-30T16:06:14.730Z INFO webdriver: RESULT Car safety | Volvo Cars - International
+2021-10-30T16:06:14.966Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:06:14.966Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:06:15.115Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'ac7ca4a5-0408-425d-a210-06acf29edc5e'
 }
-2021-10-30T13:05:22.712Z INFO webdriver: COMMAND elementClick("80019382-6166-4e22-821e-867d560a56a6")
-2021-10-30T13:05:22.713Z INFO webdriver: [POST] http://localhost:4444/session/dc5a1c78-672a-4556-a4c5-bc8dc6b847ac/element/80019382-6166-4e22-821e-867d560a56a6/click
-2021-10-30T13:05:22.715Z INFO webdriver: COMMAND isElementDisplayed("80019382-6166-4e22-821e-867d560a56a6")
-2021-10-30T13:05:22.716Z INFO webdriver: [GET] http://localhost:4444/session/dc5a1c78-672a-4556-a4c5-bc8dc6b847ac/element/80019382-6166-4e22-821e-867d560a56a6/displayed
-2021-10-30T13:05:25.321Z INFO webdriver: COMMAND getTitle()
-2021-10-30T13:05:25.322Z INFO webdriver: [GET] http://localhost:4444/session/dc5a1c78-672a-4556-a4c5-bc8dc6b847ac/title
-2021-10-30T13:05:25.387Z WARN webdriver: Request encountered a stale element - terminating request
-2021-10-30T13:05:25.388Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T13:05:25.389Z INFO webdriver: [POST] http://localhost:4444/session/dc5a1c78-672a-4556-a4c5-bc8dc6b847ac/element
-2021-10-30T13:05:25.389Z INFO webdriver: DATA {
+2021-10-30T16:06:15.121Z INFO webdriver: COMMAND elementClick("ac7ca4a5-0408-425d-a210-06acf29edc5e")
+2021-10-30T16:06:15.121Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element/ac7ca4a5-0408-425d-a210-06acf29edc5e/click
+2021-10-30T16:06:15.123Z INFO webdriver: COMMAND isElementDisplayed("ac7ca4a5-0408-425d-a210-06acf29edc5e")
+2021-10-30T16:06:15.123Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element/ac7ca4a5-0408-425d-a210-06acf29edc5e/displayed
+2021-10-30T16:06:15.202Z INFO webdriver: RESULT Car safety | Volvo Cars - International
+2021-10-30T16:06:15.466Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:06:15.466Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:06:15.566Z INFO webdriver: RESULT true
+2021-10-30T16:06:15.567Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-30T16:06:15.567Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/execute/sync
+2021-10-30T16:06:15.567Z INFO webdriver: DATA {
+  script: 'return (function isElementInViewport(elem) {\n' +
+    '    if (!elem.getBoundingClientRect) {\n' +
+    '        return false;\n' +
+    '    }\n' +
+    '    const rect = elem.getBoundingClientRect();\n' +
+    '    const windowHeight = (window.innerHeight || document.documentElement.clientHeight);\n' +
+    '    const windowWidth = (window.innerWidth || document.documentElement.clientWidth);\n' +
+    '    const vertInView = (rect.top <= windowHeight) && ((rect.top + rect.height) > 0);\n' +
+    '    const horInView = (rect.left <= windowWidth) && ((rect.left + rect.width) > 0);\n' +
+    '    return (vertInView && horInView);\n' +
+    '}).apply(null, arguments)',
+  args: [
+    {
+      'element-6066-11e4-a52e-4f735466cecf': 'ac7ca4a5-0408-425d-a210-06acf29edc5e',
+      ELEMENT: 'ac7ca4a5-0408-425d-a210-06acf29edc5e'
+    }
+  ]
+}
+2021-10-30T16:06:15.965Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:06:15.966Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:06:16.465Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:06:16.466Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:06:16.966Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:06:16.967Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:06:17.466Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:06:17.467Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:06:17.967Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:06:17.967Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:06:18.131Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:06:18.132Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:06:18.136Z INFO webdriver: RESULT The E.V.A. Initiative | Cars safe for all
+2021-10-30T16:06:18.230Z WARN webdriver: Request encountered a stale element - terminating request
+2021-10-30T16:06:18.232Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
+2021-10-30T16:06:18.232Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element
+2021-10-30T16:06:18.232Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
 }
-2021-10-30T13:05:25.404Z INFO webdriver: RESULT The E.V.A. Initiative | Cars safe for all
-2021-10-30T13:05:25.407Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="Video-1"]/section/div/div/div/button")
-2021-10-30T13:05:25.407Z INFO webdriver: [POST] http://localhost:4444/session/dc5a1c78-672a-4556-a4c5-bc8dc6b847ac/element
-2021-10-30T13:05:25.407Z INFO webdriver: DATA {
+2021-10-30T16:06:18.245Z INFO webdriver: RESULT The E.V.A. Initiative | Cars safe for all
+2021-10-30T16:06:18.260Z INFO webdriver: RESULT The E.V.A. Initiative | Cars safe for all
+2021-10-30T16:06:18.266Z INFO webdriver: RESULT The E.V.A. Initiative | Cars safe for all
+2021-10-30T16:06:18.296Z INFO webdriver: RESULT The E.V.A. Initiative | Cars safe for all
+2021-10-30T16:06:18.312Z INFO webdriver: RESULT The E.V.A. Initiative | Cars safe for all
+2021-10-30T16:06:18.364Z INFO webdriver: RESULT The E.V.A. Initiative | Cars safe for all
+2021-10-30T16:06:18.366Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="Video-1"]/section/div/div/div/button")
+2021-10-30T16:06:18.366Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element
+2021-10-30T16:06:18.366Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="Video-1"]/section/div/div/div/button'
 }
-2021-10-30T13:05:25.679Z INFO webdriver: RESULT {
+2021-10-30T16:06:18.467Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:06:18.467Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:06:18.955Z INFO webdriver: RESULT {
   error: 'no such element',
   message: 'Unable to locate element: //*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a',
   stacktrace: 'WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:181:5\n' +
     'NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:393:5\n' +
     'element.find/</<@chrome://remote/content/marionette/element.js:305:16\n'
 }
-2021-10-30T13:05:25.688Z INFO webdriver: COMMAND isElementDisplayed("80019382-6166-4e22-821e-867d560a56a6")
-2021-10-30T13:05:25.688Z INFO webdriver: [GET] http://localhost:4444/session/dc5a1c78-672a-4556-a4c5-bc8dc6b847ac/element/80019382-6166-4e22-821e-867d560a56a6/displayed
-2021-10-30T13:05:25.813Z INFO webdriver: RESULT {
-  'element-6066-11e4-a52e-4f735466cecf': '32393595-d402-4cfe-8059-d6c969d65045'
-}
-2021-10-30T13:05:25.818Z INFO webdriver: COMMAND elementClick("32393595-d402-4cfe-8059-d6c969d65045")
-2021-10-30T13:05:25.818Z INFO webdriver: [POST] http://localhost:4444/session/dc5a1c78-672a-4556-a4c5-bc8dc6b847ac/element/32393595-d402-4cfe-8059-d6c969d65045/click
-2021-10-30T13:05:25.918Z WARN webdriver: Request encountered a stale element - terminating request
-2021-10-30T13:05:25.919Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T13:05:25.919Z INFO webdriver: [POST] http://localhost:4444/session/dc5a1c78-672a-4556-a4c5-bc8dc6b847ac/element
-2021-10-30T13:05:25.919Z INFO webdriver: DATA {
+2021-10-30T16:06:18.961Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
+2021-10-30T16:06:18.961Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element
+2021-10-30T16:06:18.961Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
 }
-2021-10-30T13:05:26.686Z INFO webdriver: RESULT {
+2021-10-30T16:06:18.965Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:06:18.965Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:06:19.061Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '9c65b296-ff7d-417c-8e8f-35d8fd5f9c6a'
+}
+2021-10-30T16:06:19.065Z INFO webdriver: COMMAND elementClick("9c65b296-ff7d-417c-8e8f-35d8fd5f9c6a")
+2021-10-30T16:06:19.065Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element/9c65b296-ff7d-417c-8e8f-35d8fd5f9c6a/click
+2021-10-30T16:06:19.073Z INFO webdriver: RESULT The E.V.A. Initiative | Cars safe for all
+2021-10-30T16:06:19.222Z INFO webdriver: RESULT The E.V.A. Initiative | Cars safe for all
+2021-10-30T16:06:19.380Z INFO webdriver: RESULT {
   error: 'no such element',
   message: 'Unable to locate element: //*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a',
   stacktrace: 'WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:181:5\n' +
     'NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:393:5\n' +
     'element.find/</<@chrome://remote/content/marionette/element.js:305:16\n'
 }
-2021-10-30T13:05:26.697Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T13:05:26.697Z INFO webdriver: [POST] http://localhost:4444/session/dc5a1c78-672a-4556-a4c5-bc8dc6b847ac/element
-2021-10-30T13:05:26.697Z INFO webdriver: DATA {
+2021-10-30T16:06:19.387Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
+2021-10-30T16:06:19.387Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element
+2021-10-30T16:06:19.387Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
 }
-2021-10-30T13:05:26.718Z INFO webdriver: RESULT {
+2021-10-30T16:06:19.464Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:06:19.465Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:06:19.966Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:06:19.966Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:06:20.177Z INFO webdriver: RESULT {
   error: 'no such element',
   message: 'Unable to locate element: //*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a',
   stacktrace: 'WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:181:5\n' +
     'NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:393:5\n' +
     'element.find/</<@chrome://remote/content/marionette/element.js:305:16\n'
 }
-2021-10-30T13:05:26.729Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T13:05:26.729Z INFO webdriver: [POST] http://localhost:4444/session/dc5a1c78-672a-4556-a4c5-bc8dc6b847ac/element
-2021-10-30T13:05:26.729Z INFO webdriver: DATA {
+2021-10-30T16:06:20.184Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
+2021-10-30T16:06:20.185Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element
+2021-10-30T16:06:20.185Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
 }
-2021-10-30T13:05:26.752Z INFO webdriver: RESULT {
+2021-10-30T16:06:20.194Z INFO webdriver: RESULT The E.V.A. Initiative | Cars safe for all
+2021-10-30T16:06:20.232Z INFO webdriver: RESULT The E.V.A. Initiative | Cars safe for all
+2021-10-30T16:06:20.465Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:06:20.466Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:06:20.967Z INFO webdriver: COMMAND getTitle()
+2021-10-30T16:06:20.967Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
+2021-10-30T16:06:21.019Z INFO webdriver: RESULT {
   error: 'no such element',
   message: 'Unable to locate element: //*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a',
   stacktrace: 'WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:181:5\n' +
     'NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:393:5\n' +
     'element.find/</<@chrome://remote/content/marionette/element.js:305:16\n'
 }
-2021-10-30T13:05:26.779Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T13:05:26.779Z INFO webdriver: [POST] http://localhost:4444/session/dc5a1c78-672a-4556-a4c5-bc8dc6b847ac/element
-2021-10-30T13:05:26.780Z INFO webdriver: DATA {
+2021-10-30T16:06:21.029Z INFO webdriver: RESULT The E.V.A. Initiative | Cars safe for all
+2021-10-30T16:06:21.030Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
+2021-10-30T16:06:21.030Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element
+2021-10-30T16:06:21.030Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
 }
-2021-10-30T13:05:26.924Z INFO webdriver: RESULT {
+2021-10-30T16:06:21.200Z INFO webdriver: RESULT The E.V.A. Initiative | Cars safe for all
+2021-10-30T16:06:21.718Z INFO webdriver: RESULT {
   error: 'no such element',
   message: 'Unable to locate element: //*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a',
   stacktrace: 'WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:181:5\n' +
     'NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:393:5\n' +
     'element.find/</<@chrome://remote/content/marionette/element.js:305:16\n'
 }
-2021-10-30T13:05:26.932Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T13:05:26.932Z INFO webdriver: [POST] http://localhost:4444/session/dc5a1c78-672a-4556-a4c5-bc8dc6b847ac/element
-2021-10-30T13:05:26.932Z INFO webdriver: DATA {
+2021-10-30T16:06:21.723Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
+2021-10-30T16:06:21.723Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element
+2021-10-30T16:06:21.723Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
 }
-2021-10-30T13:05:27.206Z INFO webdriver: RESULT {
+2021-10-30T16:06:22.204Z INFO webdriver: RESULT {
   error: 'no such element',
   message: 'Unable to locate element: //*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a',
   stacktrace: 'WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:181:5\n' +
     'NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:393:5\n' +
     'element.find/</<@chrome://remote/content/marionette/element.js:305:16\n'
 }
-2021-10-30T13:05:27.218Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T13:05:27.219Z INFO webdriver: [POST] http://localhost:4444/session/dc5a1c78-672a-4556-a4c5-bc8dc6b847ac/element
-2021-10-30T13:05:27.219Z INFO webdriver: DATA {
+2021-10-30T16:06:22.209Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
+2021-10-30T16:06:22.209Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element
+2021-10-30T16:06:22.209Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
 }
-2021-10-30T13:05:27.331Z INFO webdriver: RESULT {
+2021-10-30T16:06:22.652Z INFO webdriver: RESULT {
   error: 'no such element',
   message: 'Unable to locate element: //*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a',
   stacktrace: 'WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:181:5\n' +
     'NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:393:5\n' +
     'element.find/</<@chrome://remote/content/marionette/element.js:305:16\n'
 }
-2021-10-30T13:05:27.337Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T13:05:27.338Z INFO webdriver: [POST] http://localhost:4444/session/dc5a1c78-672a-4556-a4c5-bc8dc6b847ac/element
-2021-10-30T13:05:27.338Z INFO webdriver: DATA {
+2021-10-30T16:06:22.658Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
+2021-10-30T16:06:22.658Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element
+2021-10-30T16:06:22.658Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
 }
-2021-10-30T13:05:27.500Z INFO webdriver: RESULT {
+2021-10-30T16:06:23.032Z INFO webdriver: RESULT {
   error: 'no such element',
   message: 'Unable to locate element: //*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a',
   stacktrace: 'WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:181:5\n' +
     'NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:393:5\n' +
     'element.find/</<@chrome://remote/content/marionette/element.js:305:16\n'
 }
-2021-10-30T13:05:27.510Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T13:05:27.510Z INFO webdriver: [POST] http://localhost:4444/session/dc5a1c78-672a-4556-a4c5-bc8dc6b847ac/element
-2021-10-30T13:05:27.510Z INFO webdriver: DATA {
+2021-10-30T16:06:23.037Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
+2021-10-30T16:06:23.037Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element
+2021-10-30T16:06:23.037Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
 }
-2021-10-30T13:05:27.581Z INFO webdriver: RESULT {
+2021-10-30T16:06:23.302Z INFO webdriver: RESULT {
   error: 'no such element',
   message: 'Unable to locate element: //*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a',
   stacktrace: 'WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:181:5\n' +
     'NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:393:5\n' +
     'element.find/</<@chrome://remote/content/marionette/element.js:305:16\n'
 }
-2021-10-30T13:05:27.586Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T13:05:27.587Z INFO webdriver: [POST] http://localhost:4444/session/dc5a1c78-672a-4556-a4c5-bc8dc6b847ac/element
-2021-10-30T13:05:27.587Z INFO webdriver: DATA {
+2021-10-30T16:06:23.310Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
+2021-10-30T16:06:23.310Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element
+2021-10-30T16:06:23.310Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
 }
-2021-10-30T13:05:27.687Z INFO webdriver: RESULT {
+2021-10-30T16:06:23.606Z INFO webdriver: RESULT {
   error: 'no such element',
   message: 'Unable to locate element: //*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a',
   stacktrace: 'WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:181:5\n' +
     'NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:393:5\n' +
     'element.find/</<@chrome://remote/content/marionette/element.js:305:16\n'
 }
-2021-10-30T13:05:27.701Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T13:05:27.701Z INFO webdriver: [POST] http://localhost:4444/session/dc5a1c78-672a-4556-a4c5-bc8dc6b847ac/element
-2021-10-30T13:05:27.702Z INFO webdriver: DATA {
+2021-10-30T16:06:23.616Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
+2021-10-30T16:06:23.616Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element
+2021-10-30T16:06:23.617Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
 }
-2021-10-30T13:05:27.944Z INFO webdriver: RESULT {
+2021-10-30T16:06:23.848Z INFO webdriver: RESULT {
   error: 'no such element',
   message: 'Unable to locate element: //*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a',
   stacktrace: 'WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:181:5\n' +
     'NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:393:5\n' +
     'element.find/</<@chrome://remote/content/marionette/element.js:305:16\n'
 }
-2021-10-30T13:05:27.952Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T13:05:27.953Z INFO webdriver: [POST] http://localhost:4444/session/dc5a1c78-672a-4556-a4c5-bc8dc6b847ac/element
-2021-10-30T13:05:27.953Z INFO webdriver: DATA {
+2021-10-30T16:06:23.852Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
+2021-10-30T16:06:23.853Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element
+2021-10-30T16:06:23.853Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
 }
-2021-10-30T13:05:28.072Z INFO webdriver: RESULT {
+2021-10-30T16:06:24.075Z INFO webdriver: RESULT {
   error: 'no such element',
   message: 'Unable to locate element: //*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a',
   stacktrace: 'WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:181:5\n' +
     'NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:393:5\n' +
     'element.find/</<@chrome://remote/content/marionette/element.js:305:16\n'
 }
-2021-10-30T13:05:28.079Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T13:05:28.079Z INFO webdriver: [POST] http://localhost:4444/session/dc5a1c78-672a-4556-a4c5-bc8dc6b847ac/element
-2021-10-30T13:05:28.080Z INFO webdriver: DATA {
+2021-10-30T16:06:24.077Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
+2021-10-30T16:06:24.078Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element
+2021-10-30T16:06:24.078Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
 }
-2021-10-30T13:05:28.305Z INFO webdriver: RESULT {
+2021-10-30T16:06:24.324Z INFO webdriver: RESULT {
   error: 'no such element',
   message: 'Unable to locate element: //*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a',
   stacktrace: 'WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:181:5\n' +
     'NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:393:5\n' +
     'element.find/</<@chrome://remote/content/marionette/element.js:305:16\n'
 }
-2021-10-30T13:05:28.505Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T13:05:28.506Z INFO webdriver: [POST] http://localhost:4444/session/dc5a1c78-672a-4556-a4c5-bc8dc6b847ac/element
-2021-10-30T13:05:28.506Z INFO webdriver: DATA {
+2021-10-30T16:06:24.329Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
+2021-10-30T16:06:24.329Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element
+2021-10-30T16:06:24.329Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
 }
-2021-10-30T13:05:28.546Z INFO webdriver: RESULT {
+2021-10-30T16:06:24.563Z INFO webdriver: RESULT {
   error: 'no such element',
   message: 'Unable to locate element: //*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a',
   stacktrace: 'WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:181:5\n' +
     'NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:393:5\n' +
     'element.find/</<@chrome://remote/content/marionette/element.js:305:16\n'
 }
-2021-10-30T13:05:29.006Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T13:05:29.006Z INFO webdriver: [POST] http://localhost:4444/session/dc5a1c78-672a-4556-a4c5-bc8dc6b847ac/element
-2021-10-30T13:05:29.006Z INFO webdriver: DATA {
+2021-10-30T16:06:24.569Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
+2021-10-30T16:06:24.569Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element
+2021-10-30T16:06:24.569Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
 }
-2021-10-30T13:05:29.033Z INFO webdriver: RESULT {
+2021-10-30T16:06:24.803Z INFO webdriver: RESULT {
   error: 'no such element',
   message: 'Unable to locate element: //*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a',
   stacktrace: 'WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:181:5\n' +
     'NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:393:5\n' +
     'element.find/</<@chrome://remote/content/marionette/element.js:305:16\n'
 }
-2021-10-30T13:05:29.506Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T13:05:29.506Z INFO webdriver: [POST] http://localhost:4444/session/dc5a1c78-672a-4556-a4c5-bc8dc6b847ac/element
-2021-10-30T13:05:29.506Z INFO webdriver: DATA {
-  using: 'xpath',
-  value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
-}
-2021-10-30T13:05:29.524Z INFO webdriver: RESULT {
-  error: 'no such element',
-  message: 'Unable to locate element: //*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a',
-  stacktrace: 'WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:181:5\n' +
-    'NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:393:5\n' +
-    'element.find/</<@chrome://remote/content/marionette/element.js:305:16\n'
-}
-2021-10-30T13:05:30.006Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T13:05:30.006Z INFO webdriver: [POST] http://localhost:4444/session/dc5a1c78-672a-4556-a4c5-bc8dc6b847ac/element
-2021-10-30T13:05:30.006Z INFO webdriver: DATA {
-  using: 'xpath',
-  value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
-}
-2021-10-30T13:05:30.032Z INFO webdriver: RESULT {
-  error: 'no such element',
-  message: 'Unable to locate element: //*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a',
-  stacktrace: 'WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:181:5\n' +
-    'NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:393:5\n' +
-    'element.find/</<@chrome://remote/content/marionette/element.js:305:16\n'
-}
-2021-10-30T13:05:30.506Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T13:05:30.506Z INFO webdriver: [POST] http://localhost:4444/session/dc5a1c78-672a-4556-a4c5-bc8dc6b847ac/element
-2021-10-30T13:05:30.506Z INFO webdriver: DATA {
-  using: 'xpath',
-  value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
-}
-2021-10-30T13:05:30.528Z INFO webdriver: RESULT {
-  error: 'no such element',
-  message: 'Unable to locate element: //*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a',
-  stacktrace: 'WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:181:5\n' +
-    'NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:393:5\n' +
-    'element.find/</<@chrome://remote/content/marionette/element.js:305:16\n'
-}
-2021-10-30T13:05:31.006Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T13:05:31.006Z INFO webdriver: [POST] http://localhost:4444/session/dc5a1c78-672a-4556-a4c5-bc8dc6b847ac/element
-2021-10-30T13:05:31.006Z INFO webdriver: DATA {
-  using: 'xpath',
-  value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
-}
-2021-10-30T13:05:31.043Z INFO webdriver: RESULT {
-  error: 'no such element',
-  message: 'Unable to locate element: //*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a',
-  stacktrace: 'WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:181:5\n' +
-    'NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:393:5\n' +
-    'element.find/</<@chrome://remote/content/marionette/element.js:305:16\n'
-}
-2021-10-30T13:05:31.506Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T13:05:31.506Z INFO webdriver: [POST] http://localhost:4444/session/dc5a1c78-672a-4556-a4c5-bc8dc6b847ac/element
-2021-10-30T13:05:31.507Z INFO webdriver: DATA {
-  using: 'xpath',
-  value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
-}
-2021-10-30T13:05:31.528Z INFO webdriver: RESULT {
-  error: 'no such element',
-  message: 'Unable to locate element: //*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a',
-  stacktrace: 'WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:181:5\n' +
-    'NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:393:5\n' +
-    'element.find/</<@chrome://remote/content/marionette/element.js:305:16\n'
-}
-2021-10-30T13:05:32.006Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T13:05:32.006Z INFO webdriver: [POST] http://localhost:4444/session/dc5a1c78-672a-4556-a4c5-bc8dc6b847ac/element
-2021-10-30T13:05:32.006Z INFO webdriver: DATA {
-  using: 'xpath',
-  value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
-}
-2021-10-30T13:05:32.029Z INFO webdriver: RESULT {
-  error: 'no such element',
-  message: 'Unable to locate element: //*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a',
-  stacktrace: 'WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:181:5\n' +
-    'NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:393:5\n' +
-    'element.find/</<@chrome://remote/content/marionette/element.js:305:16\n'
-}
-2021-10-30T13:05:36.599Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="Video-1"]/section/div/button/div/video")
-2021-10-30T13:05:36.600Z INFO webdriver: [POST] http://localhost:4444/session/dc5a1c78-672a-4556-a4c5-bc8dc6b847ac/element
-2021-10-30T13:05:36.600Z INFO webdriver: DATA {
+2021-10-30T16:06:30.037Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="Video-1"]/section/div/button/div/video")
+2021-10-30T16:06:30.037Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element
+2021-10-30T16:06:30.037Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="Video-1"]/section/div/button/div/video'
 }
-2021-10-30T13:05:36.616Z INFO webdriver: RESULT {
+2021-10-30T16:06:30.261Z INFO webdriver: RESULT {
   error: 'no such element',
   message: 'Unable to locate element: //*[@id="Video-1"]/section/div/button/div/video',
   stacktrace: 'WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:181:5\n' +
     'NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:393:5\n' +
     'element.find/</<@chrome://remote/content/marionette/element.js:305:16\n'
 }
-2021-10-30T13:05:36.662Z INFO webdriver: COMMAND deleteSession()
-2021-10-30T13:05:36.662Z INFO webdriver: [DELETE] http://localhost:4444/session/dc5a1c78-672a-4556-a4c5-bc8dc6b847ac
+2021-10-30T16:06:30.318Z INFO webdriver: COMMAND deleteSession()
+2021-10-30T16:06:30.318Z INFO webdriver: [DELETE] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0

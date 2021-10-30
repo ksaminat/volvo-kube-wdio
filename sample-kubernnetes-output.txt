@@ -1,0 +1,158 @@
+
+> volvodocker@1.0.0 kube-test
+> npx wdio run kube.wdio.conf.js
+
+34.72.180.106
+
+Execution of 8 workers started at 2021-10-30T16:05:24.876Z
+
+[1-3] 34.72.180.106
+[0-2] 34.72.180.106
+[0-1] 34.72.180.106
+[1-0] 34.72.180.106
+[1-2] 34.72.180.106
+[0-0] 34.72.180.106
+[0-3] 34.72.180.106
+[1-3] RUNNING in firefox - /test/specs/XC40PureElectric.spec.js
+[1-1] 34.72.180.106
+[0-1] RUNNING in chrome - /test/specs/MildHybridPage.spec.js
+[0-2] RUNNING in chrome - /test/specs/XC40HybridSUV.spec.js
+[1-0] RUNNING in firefox - /test/specs/carSafetyPage.spec.js
+[0-0] RUNNING in chrome - /test/specs/carSafetyPage.spec.js
+[1-1] RUNNING in firefox - /test/specs/MildHybridPage.spec.js
+[0-3] RUNNING in chrome - /test/specs/XC40PureElectric.spec.js
+[1-2] RUNNING in firefox - /test/specs/XC40HybridSUV.spec.js
+[0-1] PASSED in chrome - /test/specs/MildHybridPage.spec.js
+[1-3] PASSED in firefox - /test/specs/XC40PureElectric.spec.js
+[0-2] PASSED in chrome - /test/specs/XC40HybridSUV.spec.js
+[0-3] PASSED in chrome - /test/specs/XC40PureElectric.spec.js
+[1-2] PASSED in firefox - /test/specs/XC40HybridSUV.spec.js
+[1-0] PASSED in firefox - /test/specs/carSafetyPage.spec.js
+[0-0] PASSED in chrome - /test/specs/carSafetyPage.spec.js
+[1-1] PASSED in firefox - /test/specs/MildHybridPage.spec.js
+
+ "spec" Reporter:
+------------------------------------------------------------------
+[chrome 94.0.4606.81 linux #0-1] Running: chrome (v94.0.4606.81) on linux
+[chrome 94.0.4606.81 linux #0-1] Session ID: b908a3ddbdfa97419ea9a0691fa6d285
+[chrome 94.0.4606.81 linux #0-1]
+[chrome 94.0.4606.81 linux #0-1] » /test/specs/MildHybridPage.spec.js
+[chrome 94.0.4606.81 linux #0-1] Volvo Mild Hybrid Page Validator
+[chrome 94.0.4606.81 linux #0-1]    [32m✓[39m Launch Home Page
+[chrome 94.0.4606.81 linux #0-1]    [32m✓[39m Launch Mild Hybrid Page
+[chrome 94.0.4606.81 linux #0-1]    [32m✓[39m Validate Mild Hybrid Page URL
+[chrome 94.0.4606.81 linux #0-1]    [32m✓[39m Validate Mild Hybrid Page - Header
+[chrome 94.0.4606.81 linux #0-1]
+[chrome 94.0.4606.81 linux #0-1] [32m4 passing (13.7s)[39m
+------------------------------------------------------------------
+[firefox 93.0 linux #1-3] Running: firefox (v93.0) on linux
+[firefox 93.0 linux #1-3] Session ID: f600e97d-22f8-40a5-8c07-ffc95db0885a
+[firefox 93.0 linux #1-3]
+[firefox 93.0 linux #1-3] » /test/specs/XC40PureElectric.spec.js
+[firefox 93.0 linux #1-3] Volvo XC40 Pure Electric Page Validator
+[firefox 93.0 linux #1-3]    [32m✓[39m Launch Home Page
+[firefox 93.0 linux #1-3]    [32m✓[39m Validate XC40 Pure Electric Link
+[firefox 93.0 linux #1-3]    [32m✓[39m Validate XC40 Pure Electric URL
+[firefox 93.0 linux #1-3]    [32m✓[39m Validate XC40 Pure Electric Page Title
+[firefox 93.0 linux #1-3]    [32m✓[39m Validate XC40 Pure Electric SHOP URL Launch
+[firefox 93.0 linux #1-3]    [32m✓[39m Validate XC40 Pure Electric SHOP Title
+[firefox 93.0 linux #1-3]    [32m✓[39m Validate XC40 Pure Electric SHOP Title
+[firefox 93.0 linux #1-3]
+[firefox 93.0 linux #1-3] [32m7 passing (22.4s)[39m
+------------------------------------------------------------------
+[chrome 94.0.4606.81 linux #0-2] Running: chrome (v94.0.4606.81) on linux
+[chrome 94.0.4606.81 linux #0-2] Session ID: 46604518b4b4f8fd2bc85292a39d876a
+[chrome 94.0.4606.81 linux #0-2]
+[chrome 94.0.4606.81 linux #0-2] » /test/specs/XC40HybridSUV.spec.js
+[chrome 94.0.4606.81 linux #0-2] Volvo XC40-Hybrid SUV Page Validator
+[chrome 94.0.4606.81 linux #0-2]    [32m✓[39m Launch Home Page
+[chrome 94.0.4606.81 linux #0-2]    [32m✓[39m Launch XC40-Hybrid SUV Page
+[chrome 94.0.4606.81 linux #0-2]    [32m✓[39m Validate XC40-Hybrid SUV URL
+[chrome 94.0.4606.81 linux #0-2]    [32m✓[39m Validate XC40-Hybrid SUV Page Title
+[chrome 94.0.4606.81 linux #0-2]    [32m✓[39m Validate XC40-Hybrid SUV SHOP URL Launch
+[chrome 94.0.4606.81 linux #0-2]    [32m✓[39m Validate XC40-Hybrid SUV SHOP URL
+[chrome 94.0.4606.81 linux #0-2]
+[chrome 94.0.4606.81 linux #0-2] [32m6 passing (20.5s)[39m
+------------------------------------------------------------------
+[chrome 94.0.4606.81 linux #0-3] Running: chrome (v94.0.4606.81) on linux
+[chrome 94.0.4606.81 linux #0-3] Session ID: 0df80d1f75b3c95379c014f03cd52288
+[chrome 94.0.4606.81 linux #0-3]
+[chrome 94.0.4606.81 linux #0-3] » /test/specs/XC40PureElectric.spec.js
+[chrome 94.0.4606.81 linux #0-3] Volvo XC40 Pure Electric Page Validator
+[chrome 94.0.4606.81 linux #0-3]    [32m✓[39m Launch Home Page
+[chrome 94.0.4606.81 linux #0-3]    [32m✓[39m Validate XC40 Pure Electric Link
+[chrome 94.0.4606.81 linux #0-3]    [32m✓[39m Validate XC40 Pure Electric URL
+[chrome 94.0.4606.81 linux #0-3]    [32m✓[39m Validate XC40 Pure Electric Page Title
+[chrome 94.0.4606.81 linux #0-3]    [32m✓[39m Validate XC40 Pure Electric SHOP URL Launch
+[chrome 94.0.4606.81 linux #0-3]    [32m✓[39m Validate XC40 Pure Electric SHOP Title
+[chrome 94.0.4606.81 linux #0-3]    [32m✓[39m Validate XC40 Pure Electric SHOP Title
+[chrome 94.0.4606.81 linux #0-3]
+[chrome 94.0.4606.81 linux #0-3] [32m7 passing (29.2s)[39m
+------------------------------------------------------------------
+[firefox 93.0 linux #1-2] Running: firefox (v93.0) on linux
+[firefox 93.0 linux #1-2] Session ID: 078abe73-5a6f-4802-978c-8d681066b375
+[firefox 93.0 linux #1-2]
+[firefox 93.0 linux #1-2] » /test/specs/XC40HybridSUV.spec.js
+[firefox 93.0 linux #1-2] Volvo XC40-Hybrid SUV Page Validator
+[firefox 93.0 linux #1-2]    [32m✓[39m Launch Home Page
+[firefox 93.0 linux #1-2]    [32m✓[39m Launch XC40-Hybrid SUV Page
+[firefox 93.0 linux #1-2]    [32m✓[39m Validate XC40-Hybrid SUV URL
+[firefox 93.0 linux #1-2]    [32m✓[39m Validate XC40-Hybrid SUV Page Title
+[firefox 93.0 linux #1-2]    [32m✓[39m Validate XC40-Hybrid SUV SHOP URL Launch
+[firefox 93.0 linux #1-2]    [32m✓[39m Validate XC40-Hybrid SUV SHOP URL
+[firefox 93.0 linux #1-2]
+[firefox 93.0 linux #1-2] [32m6 passing (22.5s)[39m
+------------------------------------------------------------------
+[firefox 93.0 linux #1-0] Running: firefox (v93.0) on linux
+[firefox 93.0 linux #1-0] Session ID: b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0
+[firefox 93.0 linux #1-0]
+[firefox 93.0 linux #1-0] » /test/specs/carSafetyPage.spec.js
+[firefox 93.0 linux #1-0] Volvo Cars Safety Page Validator
+[firefox 93.0 linux #1-0]    [32m✓[39m Launch Volvo Home
+[firefox 93.0 linux #1-0]    [32m✓[39m Validate Title
+[firefox 93.0 linux #1-0]    [32m✓[39m Validate Care Safety Link
+[firefox 93.0 linux #1-0]    [32m✓[39m Validate Car Safety Title
+[firefox 93.0 linux #1-0]    [32m✓[39m Validate Driver assistance Link
+[firefox 93.0 linux #1-0]    [32m✓[39m Validate Driver assistance Title
+[firefox 93.0 linux #1-0]    [32m✓[39m Validate Child Safety Link
+[firefox 93.0 linux #1-0]    [32m✓[39m Validate Child Safety Title
+[firefox 93.0 linux #1-0]    [32m✓[39m Validate EVA Initiative Link
+[firefox 93.0 linux #1-0]    [32m✓[39m Validate EVA Initiative Title
+[firefox 93.0 linux #1-0]    [32m✓[39m Validate EVA Initiative Video
+[firefox 93.0 linux #1-0]
+[firefox 93.0 linux #1-0] [32m11 passing (47.2s)[39m
+------------------------------------------------------------------
+[chrome 94.0.4606.81 linux #0-0] Running: chrome (v94.0.4606.81) on linux
+[chrome 94.0.4606.81 linux #0-0] Session ID: b592667cf158594c9aa176b7a9f2c76a
+[chrome 94.0.4606.81 linux #0-0]
+[chrome 94.0.4606.81 linux #0-0] » /test/specs/carSafetyPage.spec.js
+[chrome 94.0.4606.81 linux #0-0] Volvo Cars Safety Page Validator
+[chrome 94.0.4606.81 linux #0-0]    [32m✓[39m Launch Volvo Home
+[chrome 94.0.4606.81 linux #0-0]    [32m✓[39m Validate Title
+[chrome 94.0.4606.81 linux #0-0]    [32m✓[39m Validate Care Safety Link
+[chrome 94.0.4606.81 linux #0-0]    [32m✓[39m Validate Car Safety Title
+[chrome 94.0.4606.81 linux #0-0]    [32m✓[39m Validate Driver assistance Link
+[chrome 94.0.4606.81 linux #0-0]    [32m✓[39m Validate Driver assistance Title
+[chrome 94.0.4606.81 linux #0-0]    [32m✓[39m Validate Child Safety Link
+[chrome 94.0.4606.81 linux #0-0]    [32m✓[39m Validate Child Safety Title
+[chrome 94.0.4606.81 linux #0-0]    [32m✓[39m Validate EVA Initiative Link
+[chrome 94.0.4606.81 linux #0-0]    [32m✓[39m Validate EVA Initiative Title
+[chrome 94.0.4606.81 linux #0-0]    [32m✓[39m Validate EVA Initiative Video
+[chrome 94.0.4606.81 linux #0-0]
+[chrome 94.0.4606.81 linux #0-0] [32m11 passing (37.6s)[39m
+------------------------------------------------------------------
+[firefox 93.0 linux #1-1] Running: firefox (v93.0) on linux
+[firefox 93.0 linux #1-1] Session ID: 99fab472-2108-4c51-9f7a-340aff957e31
+[firefox 93.0 linux #1-1]
+[firefox 93.0 linux #1-1] » /test/specs/MildHybridPage.spec.js
+[firefox 93.0 linux #1-1] Volvo Mild Hybrid Page Validator
+[firefox 93.0 linux #1-1]    [32m✓[39m Launch Home Page
+[firefox 93.0 linux #1-1]    [32m✓[39m Launch Mild Hybrid Page
+[firefox 93.0 linux #1-1]    [32m✓[39m Validate Mild Hybrid Page URL
+[firefox 93.0 linux #1-1]    [32m✓[39m Validate Mild Hybrid Page - Header
+[firefox 93.0 linux #1-1]
+[firefox 93.0 linux #1-1] [32m4 passing (11.5s)[39m
+
+
+Spec Files:	 8 passed, 8 total (100% completed) in 00:01:22 
+

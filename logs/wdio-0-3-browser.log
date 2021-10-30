@@ -1,1 +1,1 @@
-{"level":"SEVERE","message":"https://sentry-ng.infrastructure.volvo.care/api/17/envelope/?sentry_key=b1745306e4124bb6b9780b43168ed004&sentry_version=7 - Failed to load resource: the server responded with a status of 429 ()","source":"network","timestamp":1635599041029}
+{"level":"SEVERE","message":"https://sentry-ng.infrastructure.volvo.care/api/17/envelope/?sentry_key=b1745306e4124bb6b9780b43168ed004&sentry_version=7 - Failed to load resource: the server responded with a status of 429 ()","source":"network","timestamp":1635609981647}

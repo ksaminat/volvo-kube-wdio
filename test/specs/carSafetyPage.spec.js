@@ -20,15 +20,14 @@ describe('Volvo Cars Safety Page Validator', async()=> {
         //expect(await carSaftyLink.isDisplayed()).toEqual(true)
         //const carSaftyHelpElem = $("//*[@id=\"IconCallouts-1\"]/section/div/div[1]/div[2]/div[2]/em")
         //await carSaftyHelpElem.scrollIntoView()
-        await carSaftyLink.waitForDisplayed()
-        //await browser.pause(3000)
-        await carSaftyLink.click()
+        await carSaftyPage.waitThenClick(carSaftyLink)
     })
 
     it('Validate Car Safety Title', async()=> {
-        const carSaftyPageLink = carSaftyPage.learnMoreAbtCarSftyPageTitle;
-        await expect(await browser).toHaveTitle(carSaftyPageLink)
-        await console.log("Browser title safty - ", await browser.getTitle())
+        const carSaftyPageTitle = carSaftyPage.learnMoreAbtCarSftyPageTitle;
+        browser.waitUntil(()=> browser.getTitle() == carSaftyPageTitle, 6000)
+        await expect(await browser).toHaveTitle(carSaftyPageTitle)
+        //await console.log("Browser title safty - ", await browser.getTitle())
     })
 
     it('Validate Driver assistance Link', async()=> {
@@ -37,14 +36,15 @@ describe('Volvo Cars Safety Page Validator', async()=> {
         //expect(await carSaftyLink.isDisplayed()).toEqual(true)
         const driverAssistLinkHelpElem = $("//*[@id=\"ImageWithText-1\"]/section/div[1]/div[2]/div/div/div/h2")
         await driverAssistLinkHelpElem.scrollIntoView()
-        await driverAssistLink.waitForDisplayed(6000)
-        await driverAssistLink.click()
+        await carSaftyPage.waitThenClick(driverAssistLink)
+        //await driverAssistLink.click()
     })
 
     it('Validate Driver assistance Title', async()=> {
         const driverAssistTitle = carSaftyPage.driverAssistanceSystemTitle;
+        browser.waitUntil(()=> browser.getTitle() == driverAssistTitle, 6000)
         await expect(await browser).toHaveTitle(driverAssistTitle)
-        await console.log("Browser title safty - ", await browser.getTitle())
+        //await console.log("Browser title safty - ", await browser.getTitle())
         await browser.back()
     })
 
@@ -54,16 +54,15 @@ describe('Volvo Cars Safety Page Validator', async()=> {
         //expect(await carSaftyLink.isDisplayed()).toEqual(true)
         const childSaftyLinkHelpElem = $("//*[@id=\"ImageWithText-2\"]/section/div[1]/div[2]/div/div/div/h2")
         await childSaftyLinkHelpElem.scrollIntoView()
-        await childSaftyLink.waitForDisplayed(6000)
-        //await browser.pause(3000)
-        await childSaftyLink.click()
+        await carSaftyPage.waitThenClick(childSaftyLink)
     })
 
     it('Validate Child Safety Title', async()=> {
         const childSaftyTitle = carSaftyPage.childSaftyPageTitle
-        console.log("childSaftyPageTitle - ", childSaftyTitle)
+        //console.log("childSaftyPageTitle - ", childSaftyTitle)
+        browser.waitUntil(()=> browser.getTitle() == childSaftyTitle, 6000)
         await expect(await browser).toHaveTitle(childSaftyTitle)
-        await console.log("Browser title safty - ", await browser.getTitle())
+        //await console.log("Browser title safty - ", await browser.getTitle())
         await browser.back()
     })
     
