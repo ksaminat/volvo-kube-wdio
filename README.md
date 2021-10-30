@@ -80,7 +80,7 @@ npm install -g allure-commandline --save-dev
 ```
 - Generate the HTML report
 ```sh
-allure generate -c . && allure open
+allure generate -c allure-results/ && allure open
 ```
 
 2. To view Timeline reports,
