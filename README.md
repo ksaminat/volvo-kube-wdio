@@ -89,7 +89,7 @@ allure generate -c allure-results/ && allure open
 
 ### 4) Sample Output
 
-#### Allure HTML Report
+#### HTML Report
 
 <img width="1680" alt="Overall-Test-Result" src="https://user-images.githubusercontent.com/13710428/139538753-4a4396b4-b76f-4fad-a507-e3a05fe243b7.png">
 <img width="1680" alt="Suites-Wise-Result" src="https://user-images.githubusercontent.com/13710428/139538767-8e390b65-71c1-422f-9d14-7d6123c6e5d7.png">
