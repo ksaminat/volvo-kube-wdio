@@ -1,7 +1,7 @@
-2021-10-30T11:31:52.757Z INFO @wdio/local-runner: Run worker command: run
-2021-10-30T11:31:54.850Z INFO webdriver: Initiate new session using the WebDriver protocol
-2021-10-30T11:31:54.921Z INFO webdriver: [POST] http://localhost:4444/session
-2021-10-30T11:31:54.921Z INFO webdriver: DATA {
+2021-10-30T13:04:34.307Z INFO @wdio/local-runner: Run worker command: run
+2021-10-30T13:04:37.073Z INFO webdriver: Initiate new session using the WebDriver protocol
+2021-10-30T13:04:37.144Z INFO webdriver: [POST] http://localhost:4444/session
+2021-10-30T13:04:37.145Z INFO webdriver: DATA {
   capabilities: {
     alwaysMatch: {
       browserName: 'firefox',
@@ -16,65 +16,62 @@
     'moz:firefoxOptions': { args: [Array] }
   }
 }
-2021-10-30T11:31:59.015Z INFO webdriver: COMMAND navigateTo("https://www.volvocars.com/intl/v/car-safety/a-million-more")
-2021-10-30T11:31:59.016Z INFO webdriver: [POST] http://localhost:4444/session/b39794e2-549b-4ff2-ad1f-0c24fc9da4b2/url
-2021-10-30T11:31:59.016Z INFO webdriver: DATA { url: 'https://www.volvocars.com/intl/v/car-safety/a-million-more' }
-2021-10-30T11:32:00.633Z INFO webdriver: COMMAND maximizeWindow()
-2021-10-30T11:32:00.633Z INFO webdriver: [POST] http://localhost:4444/session/b39794e2-549b-4ff2-ad1f-0c24fc9da4b2/window/maximize
-2021-10-30T11:32:00.691Z INFO webdriver: RESULT { x: 0, y: 0, width: 1360, height: 973 }
-2021-10-30T11:32:03.694Z INFO webdriver: COMMAND findElement("xpath", "/html/body/div[1]/div[2]/div[4]/div[2]/div/button")
-2021-10-30T11:32:03.694Z INFO webdriver: [POST] http://localhost:4444/session/b39794e2-549b-4ff2-ad1f-0c24fc9da4b2/element
-2021-10-30T11:32:03.694Z INFO webdriver: DATA {
+2021-10-30T13:04:44.656Z INFO webdriver: COMMAND navigateTo("https://www.volvocars.com/intl/v/car-safety/a-million-more")
+2021-10-30T13:04:44.657Z INFO webdriver: [POST] http://localhost:4444/session/46d5315f-c170-4c9d-a821-407b1bcb5039/url
+2021-10-30T13:04:44.657Z INFO webdriver: DATA { url: 'https://www.volvocars.com/intl/v/car-safety/a-million-more' }
+2021-10-30T13:04:45.765Z INFO webdriver: COMMAND maximizeWindow()
+2021-10-30T13:04:45.766Z INFO webdriver: [POST] http://localhost:4444/session/46d5315f-c170-4c9d-a821-407b1bcb5039/window/maximize
+2021-10-30T13:04:45.812Z INFO webdriver: RESULT { x: 0, y: 0, width: 1360, height: 973 }
+2021-10-30T13:04:48.819Z INFO webdriver: COMMAND findElement("xpath", "/html/body/div[1]/div[2]/div[4]/div[2]/div/button")
+2021-10-30T13:04:48.820Z INFO webdriver: [POST] http://localhost:4444/session/46d5315f-c170-4c9d-a821-407b1bcb5039/element
+2021-10-30T13:04:48.820Z INFO webdriver: DATA {
   using: 'xpath',
   value: '/html/body/div[1]/div[2]/div[4]/div[2]/div/button'
 }
-2021-10-30T11:32:03.739Z INFO webdriver: RESULT {
-  'element-6066-11e4-a52e-4f735466cecf': '7b5b7da2-aebf-48bb-932b-d6619d4edb2d'
+2021-10-30T13:04:48.853Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'efd24401-41d1-43f6-9f7a-ea97c4570c6a'
 }
-2021-10-30T11:32:03.744Z INFO webdriver: COMMAND elementClick("7b5b7da2-aebf-48bb-932b-d6619d4edb2d")
-2021-10-30T11:32:03.745Z INFO webdriver: [POST] http://localhost:4444/session/b39794e2-549b-4ff2-ad1f-0c24fc9da4b2/element/7b5b7da2-aebf-48bb-932b-d6619d4edb2d/click
-2021-10-30T11:32:04.122Z INFO webdriver: COMMAND getTitle()
-2021-10-30T11:32:04.123Z INFO webdriver: [GET] http://localhost:4444/session/b39794e2-549b-4ff2-ad1f-0c24fc9da4b2/title
-2021-10-30T11:32:04.163Z INFO webdriver: RESULT A million more | Volvo Cars - International
-2021-10-30T11:32:04.175Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ProductListCarousel-1"]/section/div[1]/div/div/div/div[1]/div/div/div/div/div[4]/div/a/div[2]/picture")
-2021-10-30T11:32:04.176Z INFO webdriver: [POST] http://localhost:4444/session/b39794e2-549b-4ff2-ad1f-0c24fc9da4b2/element
-2021-10-30T11:32:04.176Z INFO webdriver: DATA {
+2021-10-30T13:04:48.862Z INFO webdriver: COMMAND elementClick("efd24401-41d1-43f6-9f7a-ea97c4570c6a")
+2021-10-30T13:04:48.862Z INFO webdriver: [POST] http://localhost:4444/session/46d5315f-c170-4c9d-a821-407b1bcb5039/element/efd24401-41d1-43f6-9f7a-ea97c4570c6a/click
+2021-10-30T13:04:49.399Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ProductListCarousel-1"]/section/div[1]/div/div/div/div[1]/div/div/div/div/div[4]/div/a/div[2]/picture")
+2021-10-30T13:04:49.401Z INFO webdriver: [POST] http://localhost:4444/session/46d5315f-c170-4c9d-a821-407b1bcb5039/element
+2021-10-30T13:04:49.401Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="ProductListCarousel-1"]/section/div[1]/div/div/div/div[1]/div/div/div/div/div[4]/div/a/div[2]/picture'
 }
-2021-10-30T11:32:04.229Z INFO webdriver: RESULT {
-  'element-6066-11e4-a52e-4f735466cecf': '51056222-53a7-4d76-8ccd-1d706a4c5e2a'
+2021-10-30T13:04:49.449Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '6f7fe5a9-15c1-407b-b7b7-9072d43cac66'
 }
-2021-10-30T11:32:04.234Z INFO webdriver: COMMAND isElementDisplayed("51056222-53a7-4d76-8ccd-1d706a4c5e2a")
-2021-10-30T11:32:04.234Z INFO webdriver: [GET] http://localhost:4444/session/b39794e2-549b-4ff2-ad1f-0c24fc9da4b2/element/51056222-53a7-4d76-8ccd-1d706a4c5e2a/displayed
-2021-10-30T11:32:04.363Z INFO webdriver: RESULT true
-2021-10-30T11:32:04.364Z INFO webdriver: COMMAND elementClick("51056222-53a7-4d76-8ccd-1d706a4c5e2a")
-2021-10-30T11:32:04.364Z INFO webdriver: [POST] http://localhost:4444/session/b39794e2-549b-4ff2-ad1f-0c24fc9da4b2/element/51056222-53a7-4d76-8ccd-1d706a4c5e2a/click
-2021-10-30T11:32:08.624Z INFO webdriver: COMMAND getUrl()
-2021-10-30T11:32:08.624Z INFO webdriver: [GET] http://localhost:4444/session/b39794e2-549b-4ff2-ad1f-0c24fc9da4b2/url
-2021-10-30T11:32:08.660Z INFO webdriver: RESULT https://www.volvocars.com/intl/v/cars/xc40-electric
-2021-10-30T11:32:08.664Z INFO webdriver: COMMAND getTitle()
-2021-10-30T11:32:08.664Z INFO webdriver: [GET] http://localhost:4444/session/b39794e2-549b-4ff2-ad1f-0c24fc9da4b2/title
-2021-10-30T11:32:08.686Z INFO webdriver: RESULT Volvo XC40 Recharge pure electric | Volvo Cars
-2021-10-30T11:32:08.688Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="PdpSubmenu-1"]/div[2]/div/section/div[1]/div[2]/div/div/a")
-2021-10-30T11:32:08.688Z INFO webdriver: [POST] http://localhost:4444/session/b39794e2-549b-4ff2-ad1f-0c24fc9da4b2/element
-2021-10-30T11:32:08.688Z INFO webdriver: DATA {
+2021-10-30T13:04:49.458Z INFO webdriver: COMMAND isElementDisplayed("6f7fe5a9-15c1-407b-b7b7-9072d43cac66")
+2021-10-30T13:04:49.458Z INFO webdriver: [GET] http://localhost:4444/session/46d5315f-c170-4c9d-a821-407b1bcb5039/element/6f7fe5a9-15c1-407b-b7b7-9072d43cac66/displayed
+2021-10-30T13:04:49.521Z INFO webdriver: RESULT true
+2021-10-30T13:04:49.524Z INFO webdriver: COMMAND elementClick("6f7fe5a9-15c1-407b-b7b7-9072d43cac66")
+2021-10-30T13:04:49.524Z INFO webdriver: [POST] http://localhost:4444/session/46d5315f-c170-4c9d-a821-407b1bcb5039/element/6f7fe5a9-15c1-407b-b7b7-9072d43cac66/click
+2021-10-30T13:04:53.479Z INFO webdriver: COMMAND getUrl()
+2021-10-30T13:04:53.479Z INFO webdriver: [GET] http://localhost:4444/session/46d5315f-c170-4c9d-a821-407b1bcb5039/url
+2021-10-30T13:04:53.502Z INFO webdriver: RESULT https://www.volvocars.com/intl/v/cars/xc40-electric
+2021-10-30T13:04:53.507Z INFO webdriver: COMMAND getTitle()
+2021-10-30T13:04:53.508Z INFO webdriver: [GET] http://localhost:4444/session/46d5315f-c170-4c9d-a821-407b1bcb5039/title
+2021-10-30T13:04:53.527Z INFO webdriver: RESULT Volvo XC40 Recharge pure electric | Volvo Cars
+2021-10-30T13:04:53.530Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="PdpSubmenu-1"]/div[2]/div/section/div[1]/div[2]/div/div/a")
+2021-10-30T13:04:53.530Z INFO webdriver: [POST] http://localhost:4444/session/46d5315f-c170-4c9d-a821-407b1bcb5039/element
+2021-10-30T13:04:53.530Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="PdpSubmenu-1"]/div[2]/div/section/div[1]/div[2]/div/div/a'
 }
-2021-10-30T11:32:08.734Z INFO webdriver: RESULT {
-  'element-6066-11e4-a52e-4f735466cecf': '95ffba00-0cdb-46c6-a2dc-edd1244e7b44'
+2021-10-30T13:04:53.715Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '1c4032d8-a975-4a9a-9b67-e376f1711212'
 }
-2021-10-30T11:32:08.737Z INFO webdriver: COMMAND isElementDisplayed("95ffba00-0cdb-46c6-a2dc-edd1244e7b44")
-2021-10-30T11:32:08.737Z INFO webdriver: [GET] http://localhost:4444/session/b39794e2-549b-4ff2-ad1f-0c24fc9da4b2/element/95ffba00-0cdb-46c6-a2dc-edd1244e7b44/displayed
-2021-10-30T11:32:08.777Z INFO webdriver: RESULT true
-2021-10-30T11:32:08.777Z INFO webdriver: COMMAND elementClick("95ffba00-0cdb-46c6-a2dc-edd1244e7b44")
-2021-10-30T11:32:08.778Z INFO webdriver: [POST] http://localhost:4444/session/b39794e2-549b-4ff2-ad1f-0c24fc9da4b2/element/95ffba00-0cdb-46c6-a2dc-edd1244e7b44/click
-2021-10-30T11:32:15.733Z INFO webdriver: COMMAND getUrl()
-2021-10-30T11:32:15.733Z INFO webdriver: [GET] http://localhost:4444/session/b39794e2-549b-4ff2-ad1f-0c24fc9da4b2/url
-2021-10-30T11:32:15.772Z INFO webdriver: RESULT https://www.volvocars.com/intl/build/xc40-electric
-2021-10-30T11:32:15.774Z INFO webdriver: COMMAND getTitle()
-2021-10-30T11:32:15.774Z INFO webdriver: [GET] http://localhost:4444/session/b39794e2-549b-4ff2-ad1f-0c24fc9da4b2/title
-2021-10-30T11:32:15.811Z INFO webdriver: RESULT Design your XC40 Recharge | Volvo Cars International
-2021-10-30T11:32:15.824Z INFO webdriver: COMMAND deleteSession()
-2021-10-30T11:32:15.824Z INFO webdriver: [DELETE] http://localhost:4444/session/b39794e2-549b-4ff2-ad1f-0c24fc9da4b2
+2021-10-30T13:04:53.720Z INFO webdriver: COMMAND isElementDisplayed("1c4032d8-a975-4a9a-9b67-e376f1711212")
+2021-10-30T13:04:53.721Z INFO webdriver: [GET] http://localhost:4444/session/46d5315f-c170-4c9d-a821-407b1bcb5039/element/1c4032d8-a975-4a9a-9b67-e376f1711212/displayed
+2021-10-30T13:04:53.814Z INFO webdriver: RESULT true
+2021-10-30T13:04:53.815Z INFO webdriver: COMMAND elementClick("1c4032d8-a975-4a9a-9b67-e376f1711212")
+2021-10-30T13:04:53.816Z INFO webdriver: [POST] http://localhost:4444/session/46d5315f-c170-4c9d-a821-407b1bcb5039/element/1c4032d8-a975-4a9a-9b67-e376f1711212/click
+2021-10-30T13:04:56.752Z INFO webdriver: COMMAND getUrl()
+2021-10-30T13:04:56.752Z INFO webdriver: [GET] http://localhost:4444/session/46d5315f-c170-4c9d-a821-407b1bcb5039/url
+2021-10-30T13:04:56.768Z INFO webdriver: RESULT https://www.volvocars.com/intl/build/xc40-electric
+2021-10-30T13:04:56.771Z INFO webdriver: COMMAND getTitle()
+2021-10-30T13:04:56.772Z INFO webdriver: [GET] http://localhost:4444/session/46d5315f-c170-4c9d-a821-407b1bcb5039/title
+2021-10-30T13:04:56.789Z INFO webdriver: RESULT Design your XC40 Recharge | Volvo Cars International
+2021-10-30T13:04:56.806Z INFO webdriver: COMMAND deleteSession()
+2021-10-30T13:04:56.807Z INFO webdriver: [DELETE] http://localhost:4444/session/46d5315f-c170-4c9d-a821-407b1bcb5039

@@ -11,6 +11,10 @@ class XC40HybridSUV extends BasePageConfig{
         await super.waitThenClick(e, timeout)
     }
     
+    async waitThenClick(e){
+        await super.waitThenClick(e)
+    }
+    
     get xc40LaunchLink(){
         return $(locatorTags.xc40HybridSUV.launchLink)
     }

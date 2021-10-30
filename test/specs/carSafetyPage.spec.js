@@ -38,7 +38,6 @@ describe('Volvo Cars Safety Page Validator', async()=> {
         const driverAssistLinkHelpElem = $("//*[@id=\"ImageWithText-1\"]/section/div[1]/div[2]/div/div/div/h2")
         await driverAssistLinkHelpElem.scrollIntoView()
         await driverAssistLink.waitForDisplayed(6000)
-        //await browser.pause(3000)
         await driverAssistLink.click()
     })
 

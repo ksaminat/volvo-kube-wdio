@@ -11,6 +11,10 @@ class MildHybridPage extends BasePageConfig{
         await super.waitThenClick(e, timeout)
     }
 
+    async waitThenClick(e){
+        await super.waitThenClick(e)
+    }
+
     get launchLink(){
         return $(locatorTags.mildHybrid.launchLink)
     }

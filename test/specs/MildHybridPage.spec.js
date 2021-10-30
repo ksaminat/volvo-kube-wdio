@@ -11,7 +11,7 @@ describe('Volvo Mild Hybrid Page Validator', async()=> {
         const navigationLink = mildHybridPage.launchLink
         const linkHelper = $("//*[@id=\"ProductListCarousel-1\"]/section/div[1]/div/div/div/div[3]")
         await linkHelper.scrollIntoView()
-        await mildHybridPage.waitThenClick(navigationLink, 6000)
+        await mildHybridPage.waitThenClick(navigationLink)
         //browser.waitUntil(()=> navigationLink.isDisplayedInViewport(), 6000)
         //await navigationLink.click()
     })

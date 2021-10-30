@@ -1,4 +1,5 @@
 import config from "../config/locators-config.json"
+import timeouts from "../config/timeout-settings.json"
 
 export default class BasePageConfig{
 
@@ -10,7 +11,7 @@ export default class BasePageConfig{
         const cookieButton = $(config.base.cookieButton)
         await (await cookieButton).click()
 
-        console.log(await browser.getTitle())
+        //console.log(await browser.getTitle())
     }
 
     async handleCookies(){
@@ -22,6 +23,11 @@ export default class BasePageConfig{
 
     async waitThenClick(e, timeout){
         await e.waitForDisplayed(timeout)
+        await e.click()
+    }
+
+    async waitThenClick(e){
+        await e.waitForDisplayed(timeouts.global.click)
         await e.click()
     }
 }

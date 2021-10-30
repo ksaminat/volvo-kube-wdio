@@ -1,45 +1,42 @@
-2021-10-30T11:31:52.777Z INFO @wdio/local-runner: Run worker command: run
-2021-10-30T11:31:55.081Z INFO webdriver: Initiate new session using the WebDriver protocol
-2021-10-30T11:31:55.144Z INFO webdriver: [POST] http://localhost:4444/session
-2021-10-30T11:31:55.144Z INFO webdriver: DATA {
+2021-10-30T13:04:34.643Z INFO @wdio/local-runner: Run worker command: run
+2021-10-30T13:04:38.733Z INFO webdriver: Initiate new session using the WebDriver protocol
+2021-10-30T13:04:38.997Z INFO webdriver: [POST] http://localhost:4444/session
+2021-10-30T13:04:38.998Z INFO webdriver: DATA {
   capabilities: {
     alwaysMatch: { browserName: 'chrome', acceptInsecureCerts: true },
     firstMatch: [ {} ]
   },
   desiredCapabilities: { browserName: 'chrome', acceptInsecureCerts: true }
 }
-2021-10-30T11:32:36.687Z INFO webdriver: COMMAND navigateTo("https://www.volvocars.com/intl/v/car-safety/a-million-more")
-2021-10-30T11:32:36.687Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/url
-2021-10-30T11:32:36.687Z INFO webdriver: DATA { url: 'https://www.volvocars.com/intl/v/car-safety/a-million-more' }
-2021-10-30T11:32:38.377Z INFO webdriver: COMMAND maximizeWindow()
-2021-10-30T11:32:38.377Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/window/maximize
-2021-10-30T11:32:38.551Z INFO webdriver: RESULT { height: 998, width: 1360, x: 0, y: 0 }
-2021-10-30T11:32:41.559Z INFO webdriver: COMMAND findElement("xpath", "/html/body/div[1]/div[2]/div[4]/div[2]/div/button")
-2021-10-30T11:32:41.559Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/element
-2021-10-30T11:32:41.559Z INFO webdriver: DATA {
+2021-10-30T13:05:11.750Z INFO webdriver: COMMAND navigateTo("https://www.volvocars.com/intl/v/car-safety/a-million-more")
+2021-10-30T13:05:11.750Z INFO webdriver: [POST] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/url
+2021-10-30T13:05:11.750Z INFO webdriver: DATA { url: 'https://www.volvocars.com/intl/v/car-safety/a-million-more' }
+2021-10-30T13:05:13.571Z INFO webdriver: COMMAND maximizeWindow()
+2021-10-30T13:05:13.571Z INFO webdriver: [POST] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/window/maximize
+2021-10-30T13:05:13.709Z INFO webdriver: RESULT { height: 998, width: 1360, x: 0, y: 0 }
+2021-10-30T13:05:16.715Z INFO webdriver: COMMAND findElement("xpath", "/html/body/div[1]/div[2]/div[4]/div[2]/div/button")
+2021-10-30T13:05:16.715Z INFO webdriver: [POST] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/element
+2021-10-30T13:05:16.715Z INFO webdriver: DATA {
   using: 'xpath',
   value: '/html/body/div[1]/div[2]/div[4]/div[2]/div/button'
 }
-2021-10-30T11:32:41.601Z INFO webdriver: RESULT {
-  'element-6066-11e4-a52e-4f735466cecf': '8068ea1c-06cb-4a38-af7a-7a5dd699f34d'
+2021-10-30T13:05:16.755Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'e6c44ae7-0995-477e-b85b-7c1240d88278'
 }
-2021-10-30T11:32:41.608Z INFO webdriver: COMMAND elementClick("8068ea1c-06cb-4a38-af7a-7a5dd699f34d")
-2021-10-30T11:32:41.608Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/element/8068ea1c-06cb-4a38-af7a-7a5dd699f34d/click
-2021-10-30T11:32:41.882Z INFO webdriver: COMMAND getTitle()
-2021-10-30T11:32:41.883Z INFO webdriver: [GET] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/title
-2021-10-30T11:32:41.910Z INFO webdriver: RESULT A million more | Volvo Cars - International
-2021-10-30T11:32:41.914Z INFO webdriver: COMMAND getTitle()
-2021-10-30T11:32:41.914Z INFO webdriver: [GET] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/title
-2021-10-30T11:32:41.949Z INFO webdriver: RESULT A million more | Volvo Cars - International
-2021-10-30T11:32:41.953Z INFO webdriver: COMMAND findElement("xpath", "//a[text()='Learn more about car safety']")
-2021-10-30T11:32:41.953Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/element
-2021-10-30T11:32:41.953Z INFO webdriver: DATA { using: 'xpath', value: "//a[text()='Learn more about car safety']" }
-2021-10-30T11:32:42.018Z INFO webdriver: RESULT {
-  'element-6066-11e4-a52e-4f735466cecf': '1dc79e13-ae4b-47e3-aec7-0a2cc5ec4642'
+2021-10-30T13:05:16.768Z INFO webdriver: COMMAND elementClick("e6c44ae7-0995-477e-b85b-7c1240d88278")
+2021-10-30T13:05:16.768Z INFO webdriver: [POST] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/element/e6c44ae7-0995-477e-b85b-7c1240d88278/click
+2021-10-30T13:05:17.140Z INFO webdriver: COMMAND getTitle()
+2021-10-30T13:05:17.141Z INFO webdriver: [GET] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/title
+2021-10-30T13:05:17.231Z INFO webdriver: RESULT A million more | Volvo Cars - International
+2021-10-30T13:05:17.238Z INFO webdriver: COMMAND findElement("xpath", "//a[text()='Learn more about car safety']")
+2021-10-30T13:05:17.238Z INFO webdriver: [POST] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/element
+2021-10-30T13:05:17.238Z INFO webdriver: DATA { using: 'xpath', value: "//a[text()='Learn more about car safety']" }
+2021-10-30T13:05:17.480Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '3ec9ed79-225f-4f9d-9faa-60b293d94bbd'
 }
-2021-10-30T11:32:42.024Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
-2021-10-30T11:32:42.024Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/execute/sync
-2021-10-30T11:32:42.024Z INFO webdriver: DATA {
+2021-10-30T13:05:17.493Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-30T13:05:17.496Z INFO webdriver: [POST] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/execute/sync
+2021-10-30T13:05:17.496Z INFO webdriver: DATA {
   script: 'return (function isElementDisplayed(element) {\n' +
     '    function nodeIsElement(node) {\n' +
     '        if (!node) {\n' +
@@ -226,73 +223,55 @@
     '}).apply(null, arguments)',
   args: [
     {
-      'element-6066-11e4-a52e-4f735466cecf': '1dc79e13-ae4b-47e3-aec7-0a2cc5ec4642',
-      ELEMENT: '1dc79e13-ae4b-47e3-aec7-0a2cc5ec4642'
+      'element-6066-11e4-a52e-4f735466cecf': '3ec9ed79-225f-4f9d-9faa-60b293d94bbd',
+      ELEMENT: '3ec9ed79-225f-4f9d-9faa-60b293d94bbd'
     }
   ]
 }
-2021-10-30T11:32:42.065Z INFO webdriver: RESULT true
-2021-10-30T11:32:42.066Z INFO webdriver: COMMAND elementClick("1dc79e13-ae4b-47e3-aec7-0a2cc5ec4642")
-2021-10-30T11:32:42.066Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/element/1dc79e13-ae4b-47e3-aec7-0a2cc5ec4642/click
-2021-10-30T11:32:42.319Z WARN webdriver: Request encountered a stale element - terminating request
-2021-10-30T11:32:42.320Z INFO webdriver: COMMAND findElement("xpath", "//a[text()='Learn more about car safety']")
-2021-10-30T11:32:42.320Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/element
-2021-10-30T11:32:42.320Z INFO webdriver: DATA { using: 'xpath', value: "//a[text()='Learn more about car safety']" }
-2021-10-30T11:32:42.444Z INFO webdriver: RESULT {
-  'element-6066-11e4-a52e-4f735466cecf': '46bd4c60-1885-4ada-9735-90684da26b8e'
-}
-2021-10-30T11:32:42.448Z INFO webdriver: COMMAND elementClick("1dc79e13-ae4b-47e3-aec7-0a2cc5ec4642")
-2021-10-30T11:32:42.448Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/element/1dc79e13-ae4b-47e3-aec7-0a2cc5ec4642/click
-2021-10-30T11:32:42.509Z WARN webdriver: Request encountered a stale element - terminating request
-2021-10-30T11:32:42.509Z INFO webdriver: COMMAND findElement("xpath", "//a[text()='Learn more about car safety']")
-2021-10-30T11:32:42.509Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/element
-2021-10-30T11:32:42.509Z INFO webdriver: DATA { using: 'xpath', value: "//a[text()='Learn more about car safety']" }
-2021-10-30T11:32:42.541Z INFO webdriver: RESULT {
-  'element-6066-11e4-a52e-4f735466cecf': '46bd4c60-1885-4ada-9735-90684da26b8e'
-}
-2021-10-30T11:32:42.545Z INFO webdriver: COMMAND elementClick("46bd4c60-1885-4ada-9735-90684da26b8e")
-2021-10-30T11:32:42.545Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/element/46bd4c60-1885-4ada-9735-90684da26b8e/click
-2021-10-30T11:32:45.720Z INFO webdriver: COMMAND getTitle()
-2021-10-30T11:32:45.720Z INFO webdriver: [GET] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/title
-2021-10-30T11:32:45.759Z INFO webdriver: RESULT Car safety | Volvo Cars - International
-2021-10-30T11:32:45.760Z INFO webdriver: COMMAND getTitle()
-2021-10-30T11:32:45.760Z INFO webdriver: [GET] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/title
-2021-10-30T11:32:45.803Z INFO webdriver: RESULT Car safety | Volvo Cars - International
-2021-10-30T11:32:45.805Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-1"]/section/div[1]/div[2]/div/div/div/h2")
-2021-10-30T11:32:45.805Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/element
-2021-10-30T11:32:45.805Z INFO webdriver: DATA {
+2021-10-30T13:05:17.611Z INFO webdriver: RESULT true
+2021-10-30T13:05:17.612Z INFO webdriver: COMMAND elementClick("3ec9ed79-225f-4f9d-9faa-60b293d94bbd")
+2021-10-30T13:05:17.612Z INFO webdriver: [POST] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/element/3ec9ed79-225f-4f9d-9faa-60b293d94bbd/click
+2021-10-30T13:05:18.894Z INFO webdriver: COMMAND getTitle()
+2021-10-30T13:05:18.895Z INFO webdriver: [GET] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/title
+2021-10-30T13:05:19.016Z INFO webdriver: RESULT Car safety | Volvo Cars - International
+2021-10-30T13:05:19.017Z INFO webdriver: COMMAND getTitle()
+2021-10-30T13:05:19.017Z INFO webdriver: [GET] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/title
+2021-10-30T13:05:19.112Z INFO webdriver: RESULT Car safety | Volvo Cars - International
+2021-10-30T13:05:19.117Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-1"]/section/div[1]/div[2]/div/div/div/h2")
+2021-10-30T13:05:19.117Z INFO webdriver: [POST] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/element
+2021-10-30T13:05:19.117Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="ImageWithText-1"]/section/div[1]/div[2]/div/div/div/h2'
 }
-2021-10-30T11:32:45.806Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-1"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T11:32:45.806Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/element
-2021-10-30T11:32:45.806Z INFO webdriver: DATA {
+2021-10-30T13:05:19.122Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-1"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
+2021-10-30T13:05:19.122Z INFO webdriver: [POST] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/element
+2021-10-30T13:05:19.123Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="ImageWithText-1"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
 }
-2021-10-30T11:32:45.870Z INFO webdriver: RESULT {
-  'element-6066-11e4-a52e-4f735466cecf': '2c009558-a09a-43b9-b53e-db5c91e2d317'
+2021-10-30T13:05:19.176Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '6581428b-1a89-4be4-8152-38d931af1dfd'
 }
-2021-10-30T11:32:45.874Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
-2021-10-30T11:32:45.874Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/execute/sync
-2021-10-30T11:32:45.874Z INFO webdriver: DATA {
+2021-10-30T13:05:19.204Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '8a4a7876-f327-4aa8-8887-9059c419f11b'
+}
+2021-10-30T13:05:19.212Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-30T13:05:19.213Z INFO webdriver: [POST] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/execute/sync
+2021-10-30T13:05:19.213Z INFO webdriver: DATA {
   script: 'return (function (elem, options) {\n' +
     '        elem.scrollIntoView(options);\n' +
     '    }).apply(null, arguments)',
   args: [
     {
-      'element-6066-11e4-a52e-4f735466cecf': '2c009558-a09a-43b9-b53e-db5c91e2d317',
-      ELEMENT: '2c009558-a09a-43b9-b53e-db5c91e2d317'
+      'element-6066-11e4-a52e-4f735466cecf': '8a4a7876-f327-4aa8-8887-9059c419f11b',
+      ELEMENT: '8a4a7876-f327-4aa8-8887-9059c419f11b'
     },
     true
   ]
 }
-2021-10-30T11:32:45.937Z INFO webdriver: RESULT {
-  'element-6066-11e4-a52e-4f735466cecf': '0e0b4c58-cf1c-45d3-9f3a-793c0228db2c'
-}
-2021-10-30T11:32:45.976Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
-2021-10-30T11:32:45.977Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/execute/sync
-2021-10-30T11:32:45.977Z INFO webdriver: DATA {
+2021-10-30T13:05:19.241Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-30T13:05:19.241Z INFO webdriver: [POST] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/execute/sync
+2021-10-30T13:05:19.241Z INFO webdriver: DATA {
   script: 'return (function isElementDisplayed(element) {\n' +
     '    function nodeIsElement(node) {\n' +
     '        if (!node) {\n' +
@@ -479,24 +458,24 @@
     '}).apply(null, arguments)',
   args: [
     {
-      'element-6066-11e4-a52e-4f735466cecf': '0e0b4c58-cf1c-45d3-9f3a-793c0228db2c',
-      ELEMENT: '0e0b4c58-cf1c-45d3-9f3a-793c0228db2c'
+      'element-6066-11e4-a52e-4f735466cecf': '6581428b-1a89-4be4-8152-38d931af1dfd',
+      ELEMENT: '6581428b-1a89-4be4-8152-38d931af1dfd'
     }
   ]
 }
-2021-10-30T11:32:46.256Z WARN webdriver: Request encountered a stale element - terminating request
-2021-10-30T11:32:46.257Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-1"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T11:32:46.257Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/element
-2021-10-30T11:32:46.257Z INFO webdriver: DATA {
+2021-10-30T13:05:19.524Z WARN webdriver: Request encountered a stale element - terminating request
+2021-10-30T13:05:19.526Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-1"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
+2021-10-30T13:05:19.526Z INFO webdriver: [POST] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/element
+2021-10-30T13:05:19.526Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="ImageWithText-1"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
 }
-2021-10-30T11:32:46.311Z INFO webdriver: RESULT {
-  'element-6066-11e4-a52e-4f735466cecf': '5e210b55-74e1-4d89-a1fe-8f7e94f125ad'
+2021-10-30T13:05:19.560Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'a91e8b6c-16ae-4b50-a9fb-56a6d3be0627'
 }
-2021-10-30T11:32:46.315Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
-2021-10-30T11:32:46.315Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/execute/sync
-2021-10-30T11:32:46.315Z INFO webdriver: DATA {
+2021-10-30T13:05:19.573Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-30T13:05:19.574Z INFO webdriver: [POST] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/execute/sync
+2021-10-30T13:05:19.574Z INFO webdriver: DATA {
   script: 'return (function isElementDisplayed(element) {\n' +
     '    function nodeIsElement(node) {\n' +
     '        if (!node) {\n' +
@@ -683,81 +662,57 @@
     '}).apply(null, arguments)',
   args: [
     {
-      'element-6066-11e4-a52e-4f735466cecf': '5e210b55-74e1-4d89-a1fe-8f7e94f125ad',
-      ELEMENT: '5e210b55-74e1-4d89-a1fe-8f7e94f125ad'
+      'element-6066-11e4-a52e-4f735466cecf': 'a91e8b6c-16ae-4b50-a9fb-56a6d3be0627',
+      ELEMENT: 'a91e8b6c-16ae-4b50-a9fb-56a6d3be0627'
     }
   ]
 }
-2021-10-30T11:32:46.367Z INFO webdriver: RESULT true
-2021-10-30T11:32:46.367Z INFO webdriver: COMMAND elementClick("5e210b55-74e1-4d89-a1fe-8f7e94f125ad")
-2021-10-30T11:32:46.367Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/element/5e210b55-74e1-4d89-a1fe-8f7e94f125ad/click
-2021-10-30T11:32:48.348Z INFO webdriver: COMMAND getTitle()
-2021-10-30T11:32:48.348Z INFO webdriver: [GET] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/title
-2021-10-30T11:32:48.403Z INFO webdriver: RESULT Driver assistance systems | Volvo Cars
-2021-10-30T11:32:48.404Z INFO webdriver: COMMAND getTitle()
-2021-10-30T11:32:48.404Z INFO webdriver: [GET] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/title
-2021-10-30T11:32:48.454Z INFO webdriver: RESULT Driver assistance systems | Volvo Cars
-2021-10-30T11:32:48.454Z INFO webdriver: COMMAND back()
-2021-10-30T11:32:48.454Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/back
-2021-10-30T11:32:48.841Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-2"]/section/div[1]/div[2]/div/div/div/h2")
-2021-10-30T11:32:48.841Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/element
-2021-10-30T11:32:48.841Z INFO webdriver: DATA {
+2021-10-30T13:05:19.598Z INFO webdriver: RESULT true
+2021-10-30T13:05:19.599Z INFO webdriver: COMMAND elementClick("a91e8b6c-16ae-4b50-a9fb-56a6d3be0627")
+2021-10-30T13:05:19.599Z INFO webdriver: [POST] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/element/a91e8b6c-16ae-4b50-a9fb-56a6d3be0627/click
+2021-10-30T13:05:21.110Z INFO webdriver: COMMAND getTitle()
+2021-10-30T13:05:21.110Z INFO webdriver: [GET] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/title
+2021-10-30T13:05:21.148Z INFO webdriver: RESULT Driver assistance systems | Volvo Cars
+2021-10-30T13:05:21.150Z INFO webdriver: COMMAND getTitle()
+2021-10-30T13:05:21.150Z INFO webdriver: [GET] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/title
+2021-10-30T13:05:21.197Z INFO webdriver: RESULT Driver assistance systems | Volvo Cars
+2021-10-30T13:05:21.198Z INFO webdriver: COMMAND back()
+2021-10-30T13:05:21.198Z INFO webdriver: [POST] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/back
+2021-10-30T13:05:22.105Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-2"]/section/div[1]/div[2]/div/div/div/h2")
+2021-10-30T13:05:22.106Z INFO webdriver: [POST] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/element
+2021-10-30T13:05:22.106Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="ImageWithText-2"]/section/div[1]/div[2]/div/div/div/h2'
 }
-2021-10-30T11:32:48.846Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-2"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T11:32:48.846Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/element
-2021-10-30T11:32:48.846Z INFO webdriver: DATA {
+2021-10-30T13:05:22.109Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-2"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
+2021-10-30T13:05:22.109Z INFO webdriver: [POST] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/element
+2021-10-30T13:05:22.109Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="ImageWithText-2"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
 }
-2021-10-30T11:32:49.028Z INFO webdriver: RESULT {
-  'element-6066-11e4-a52e-4f735466cecf': '42fca4cd-1633-47da-82f0-de9b69a995bb'
+2021-10-30T13:05:22.160Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '9c9fda32-15e0-44ca-9d50-71ba7a60df2b'
 }
-2021-10-30T11:32:49.031Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
-2021-10-30T11:32:49.032Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/execute/sync
-2021-10-30T11:32:49.032Z INFO webdriver: DATA {
+2021-10-30T13:05:22.168Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-30T13:05:22.168Z INFO webdriver: [POST] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/execute/sync
+2021-10-30T13:05:22.168Z INFO webdriver: DATA {
   script: 'return (function (elem, options) {\n' +
     '        elem.scrollIntoView(options);\n' +
     '    }).apply(null, arguments)',
   args: [
     {
-      'element-6066-11e4-a52e-4f735466cecf': '42fca4cd-1633-47da-82f0-de9b69a995bb',
-      ELEMENT: '42fca4cd-1633-47da-82f0-de9b69a995bb'
+      'element-6066-11e4-a52e-4f735466cecf': '9c9fda32-15e0-44ca-9d50-71ba7a60df2b',
+      ELEMENT: '9c9fda32-15e0-44ca-9d50-71ba7a60df2b'
     },
     true
   ]
 }
-2021-10-30T11:32:49.217Z INFO webdriver: RESULT {
-  'element-6066-11e4-a52e-4f735466cecf': '9fde5f7e-a799-45d2-9783-1218bdde0bdb'
+2021-10-30T13:05:22.181Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'e7d8ffa7-fc6c-4687-90a9-470051706742'
 }
-2021-10-30T11:32:49.313Z WARN webdriver: Request encountered a stale element - terminating request
-2021-10-30T11:32:49.313Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-2"]/section/div[1]/div[2]/div/div/div/h2")
-2021-10-30T11:32:49.313Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/element
-2021-10-30T11:32:49.313Z INFO webdriver: DATA {
-  using: 'xpath',
-  value: '//*[@id="ImageWithText-2"]/section/div[1]/div[2]/div/div/div/h2'
-}
-2021-10-30T11:32:49.379Z INFO webdriver: RESULT {
-  'element-6066-11e4-a52e-4f735466cecf': '99c225c3-6531-4e96-bbd2-459f8b7b9c27'
-}
-2021-10-30T11:32:49.383Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
-2021-10-30T11:32:49.384Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/execute/sync
-2021-10-30T11:32:49.384Z INFO webdriver: DATA {
-  script: 'return (function (elem, options) {\n' +
-    '        elem.scrollIntoView(options);\n' +
-    '    }).apply(null, arguments)',
-  args: [
-    {
-      'element-6066-11e4-a52e-4f735466cecf': '99c225c3-6531-4e96-bbd2-459f8b7b9c27',
-      ELEMENT: '99c225c3-6531-4e96-bbd2-459f8b7b9c27'
-    },
-    true
-  ]
-}
-2021-10-30T11:32:49.455Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
-2021-10-30T11:32:49.455Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/execute/sync
-2021-10-30T11:32:49.455Z INFO webdriver: DATA {
+2021-10-30T13:05:22.219Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-30T13:05:22.220Z INFO webdriver: [POST] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/execute/sync
+2021-10-30T13:05:22.220Z INFO webdriver: DATA {
   script: 'return (function isElementDisplayed(element) {\n' +
     '    function nodeIsElement(node) {\n' +
     '        if (!node) {\n' +
@@ -944,36 +899,36 @@
     '}).apply(null, arguments)',
   args: [
     {
-      'element-6066-11e4-a52e-4f735466cecf': '9fde5f7e-a799-45d2-9783-1218bdde0bdb',
-      ELEMENT: '9fde5f7e-a799-45d2-9783-1218bdde0bdb'
+      'element-6066-11e4-a52e-4f735466cecf': 'e7d8ffa7-fc6c-4687-90a9-470051706742',
+      ELEMENT: 'e7d8ffa7-fc6c-4687-90a9-470051706742'
     }
   ]
 }
-2021-10-30T11:32:49.695Z INFO webdriver: RESULT true
-2021-10-30T11:32:49.696Z INFO webdriver: COMMAND elementClick("9fde5f7e-a799-45d2-9783-1218bdde0bdb")
-2021-10-30T11:32:49.696Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/element/9fde5f7e-a799-45d2-9783-1218bdde0bdb/click
-2021-10-30T11:32:52.126Z INFO webdriver: COMMAND getTitle()
-2021-10-30T11:32:52.127Z INFO webdriver: [GET] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/title
-2021-10-30T11:32:52.205Z INFO webdriver: RESULT Child Safety innovations for our most precious passengers | Volvo Cars
-2021-10-30T11:32:52.206Z INFO webdriver: COMMAND getTitle()
-2021-10-30T11:32:52.206Z INFO webdriver: [GET] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/title
-2021-10-30T11:32:52.325Z INFO webdriver: RESULT Child Safety innovations for our most precious passengers | Volvo Cars
-2021-10-30T11:32:52.325Z INFO webdriver: COMMAND back()
-2021-10-30T11:32:52.325Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/back
-2021-10-30T11:32:52.944Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T11:32:52.945Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/element
-2021-10-30T11:32:52.945Z INFO webdriver: DATA {
+2021-10-30T13:05:22.472Z INFO webdriver: RESULT true
+2021-10-30T13:05:22.473Z INFO webdriver: COMMAND elementClick("e7d8ffa7-fc6c-4687-90a9-470051706742")
+2021-10-30T13:05:22.473Z INFO webdriver: [POST] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/element/e7d8ffa7-fc6c-4687-90a9-470051706742/click
+2021-10-30T13:05:25.658Z INFO webdriver: COMMAND getTitle()
+2021-10-30T13:05:25.658Z INFO webdriver: [GET] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/title
+2021-10-30T13:05:25.750Z INFO webdriver: RESULT Child Safety innovations for our most precious passengers | Volvo Cars
+2021-10-30T13:05:25.751Z INFO webdriver: COMMAND getTitle()
+2021-10-30T13:05:25.752Z INFO webdriver: [GET] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/title
+2021-10-30T13:05:25.902Z INFO webdriver: RESULT Child Safety innovations for our most precious passengers | Volvo Cars
+2021-10-30T13:05:25.904Z INFO webdriver: COMMAND back()
+2021-10-30T13:05:25.904Z INFO webdriver: [POST] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/back
+2021-10-30T13:05:26.946Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
+2021-10-30T13:05:26.946Z INFO webdriver: [POST] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/element
+2021-10-30T13:05:26.946Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
 }
-2021-10-30T11:32:53.201Z INFO webdriver: RESULT {
-  'element-6066-11e4-a52e-4f735466cecf': '655987e8-d0ef-4cbc-bb7c-ffca7281d97d'
+2021-10-30T13:05:27.012Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '0ddca8cc-020c-42ab-a1bc-3f86ae829efe'
 }
-2021-10-30T11:32:53.206Z INFO webdriver: COMMAND elementClick("655987e8-d0ef-4cbc-bb7c-ffca7281d97d")
-2021-10-30T11:32:53.207Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/element/655987e8-d0ef-4cbc-bb7c-ffca7281d97d/click
-2021-10-30T11:32:53.208Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
-2021-10-30T11:32:53.208Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/execute/sync
-2021-10-30T11:32:53.208Z INFO webdriver: DATA {
+2021-10-30T13:05:27.016Z INFO webdriver: COMMAND elementClick("0ddca8cc-020c-42ab-a1bc-3f86ae829efe")
+2021-10-30T13:05:27.016Z INFO webdriver: [POST] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/element/0ddca8cc-020c-42ab-a1bc-3f86ae829efe/click
+2021-10-30T13:05:27.020Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-30T13:05:27.021Z INFO webdriver: [POST] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/execute/sync
+2021-10-30T13:05:27.021Z INFO webdriver: DATA {
   script: 'return (function isElementDisplayed(element) {\n' +
     '    function nodeIsElement(node) {\n' +
     '        if (!node) {\n' +
@@ -1160,36 +1115,36 @@
     '}).apply(null, arguments)',
   args: [
     {
-      'element-6066-11e4-a52e-4f735466cecf': '655987e8-d0ef-4cbc-bb7c-ffca7281d97d',
-      ELEMENT: '655987e8-d0ef-4cbc-bb7c-ffca7281d97d'
+      'element-6066-11e4-a52e-4f735466cecf': '0ddca8cc-020c-42ab-a1bc-3f86ae829efe',
+      ELEMENT: '0ddca8cc-020c-42ab-a1bc-3f86ae829efe'
     }
   ]
 }
-2021-10-30T11:32:53.583Z WARN webdriver: Request encountered a stale element - terminating request
-2021-10-30T11:32:53.583Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T11:32:53.584Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/element
-2021-10-30T11:32:53.584Z INFO webdriver: DATA {
+2021-10-30T13:05:27.540Z WARN webdriver: Request encountered a stale element - terminating request
+2021-10-30T13:05:27.541Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
+2021-10-30T13:05:27.542Z INFO webdriver: [POST] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/element
+2021-10-30T13:05:27.542Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
 }
-2021-10-30T11:32:53.645Z WARN webdriver: Request encountered a stale element - terminating request
-2021-10-30T11:32:53.646Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T11:32:53.646Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/element
-2021-10-30T11:32:53.646Z INFO webdriver: DATA {
+2021-10-30T13:05:27.572Z WARN webdriver: Request encountered a stale element - terminating request
+2021-10-30T13:05:27.573Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
+2021-10-30T13:05:27.573Z INFO webdriver: [POST] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/element
+2021-10-30T13:05:27.573Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
 }
-2021-10-30T11:32:53.666Z INFO webdriver: RESULT {
-  'element-6066-11e4-a52e-4f735466cecf': '40d7b593-3e23-49e6-9482-978e0adaa4a7'
+2021-10-30T13:05:27.601Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'b23cae08-9112-4999-9d45-118f4b8ab269'
 }
-2021-10-30T11:32:53.668Z INFO webdriver: COMMAND elementClick("655987e8-d0ef-4cbc-bb7c-ffca7281d97d")
-2021-10-30T11:32:53.668Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/element/655987e8-d0ef-4cbc-bb7c-ffca7281d97d/click
-2021-10-30T11:32:53.703Z INFO webdriver: RESULT {
-  'element-6066-11e4-a52e-4f735466cecf': '40d7b593-3e23-49e6-9482-978e0adaa4a7'
+2021-10-30T13:05:27.612Z INFO webdriver: COMMAND elementClick("0ddca8cc-020c-42ab-a1bc-3f86ae829efe")
+2021-10-30T13:05:27.612Z INFO webdriver: [POST] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/element/0ddca8cc-020c-42ab-a1bc-3f86ae829efe/click
+2021-10-30T13:05:27.616Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'b23cae08-9112-4999-9d45-118f4b8ab269'
 }
-2021-10-30T11:32:53.706Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
-2021-10-30T11:32:53.707Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/execute/sync
-2021-10-30T11:32:53.707Z INFO webdriver: DATA {
+2021-10-30T13:05:27.627Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-30T13:05:27.627Z INFO webdriver: [POST] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/execute/sync
+2021-10-30T13:05:27.627Z INFO webdriver: DATA {
   script: 'return (function isElementDisplayed(element) {\n' +
     '    function nodeIsElement(node) {\n' +
     '        if (!node) {\n' +
@@ -1376,22 +1331,22 @@
     '}).apply(null, arguments)',
   args: [
     {
-      'element-6066-11e4-a52e-4f735466cecf': '40d7b593-3e23-49e6-9482-978e0adaa4a7',
-      ELEMENT: '40d7b593-3e23-49e6-9482-978e0adaa4a7'
+      'element-6066-11e4-a52e-4f735466cecf': 'b23cae08-9112-4999-9d45-118f4b8ab269',
+      ELEMENT: 'b23cae08-9112-4999-9d45-118f4b8ab269'
     }
   ]
 }
-2021-10-30T11:32:53.744Z WARN webdriver: Request encountered a stale element - terminating request
-2021-10-30T11:32:53.745Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T11:32:53.745Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/element
-2021-10-30T11:32:53.745Z INFO webdriver: DATA {
+2021-10-30T13:05:27.649Z WARN webdriver: Request encountered a stale element - terminating request
+2021-10-30T13:05:27.650Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
+2021-10-30T13:05:27.650Z INFO webdriver: [POST] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/element
+2021-10-30T13:05:27.650Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
 }
-2021-10-30T11:32:53.751Z INFO webdriver: RESULT true
-2021-10-30T11:32:53.752Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
-2021-10-30T11:32:53.752Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/execute/sync
-2021-10-30T11:32:53.752Z INFO webdriver: DATA {
+2021-10-30T13:05:27.668Z INFO webdriver: RESULT true
+2021-10-30T13:05:27.670Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-30T13:05:27.670Z INFO webdriver: [POST] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/execute/sync
+2021-10-30T13:05:27.670Z INFO webdriver: DATA {
   script: 'return (function isElementInViewport(elem) {\n' +
     '    if (!elem.getBoundingClientRect) {\n' +
     '        return false;\n' +
@@ -1405,20 +1360,20 @@
     '}).apply(null, arguments)',
   args: [
     {
-      'element-6066-11e4-a52e-4f735466cecf': '40d7b593-3e23-49e6-9482-978e0adaa4a7',
-      ELEMENT: '40d7b593-3e23-49e6-9482-978e0adaa4a7'
+      'element-6066-11e4-a52e-4f735466cecf': 'b23cae08-9112-4999-9d45-118f4b8ab269',
+      ELEMENT: 'b23cae08-9112-4999-9d45-118f4b8ab269'
     }
   ]
 }
-2021-10-30T11:32:53.778Z INFO webdriver: RESULT {
-  'element-6066-11e4-a52e-4f735466cecf': '40d7b593-3e23-49e6-9482-978e0adaa4a7'
+2021-10-30T13:05:27.687Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'b23cae08-9112-4999-9d45-118f4b8ab269'
 }
-2021-10-30T11:32:53.781Z INFO webdriver: COMMAND elementClick("40d7b593-3e23-49e6-9482-978e0adaa4a7")
-2021-10-30T11:32:53.782Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/element/40d7b593-3e23-49e6-9482-978e0adaa4a7/click
-2021-10-30T11:32:53.805Z INFO webdriver: RESULT false
-2021-10-30T11:32:53.808Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
-2021-10-30T11:32:53.808Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/execute/sync
-2021-10-30T11:32:53.808Z INFO webdriver: DATA {
+2021-10-30T13:05:27.696Z INFO webdriver: COMMAND elementClick("b23cae08-9112-4999-9d45-118f4b8ab269")
+2021-10-30T13:05:27.696Z INFO webdriver: [POST] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/element/b23cae08-9112-4999-9d45-118f4b8ab269/click
+2021-10-30T13:05:27.747Z INFO webdriver: RESULT false
+2021-10-30T13:05:27.750Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-30T13:05:27.751Z INFO webdriver: [POST] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/execute/sync
+2021-10-30T13:05:27.751Z INFO webdriver: DATA {
   script: 'return (function isElementDisplayed(element) {\n' +
     '    function nodeIsElement(node) {\n' +
     '        if (!node) {\n' +
@@ -1605,682 +1560,652 @@
     '}).apply(null, arguments)',
   args: [
     {
-      'element-6066-11e4-a52e-4f735466cecf': '40d7b593-3e23-49e6-9482-978e0adaa4a7',
-      ELEMENT: '40d7b593-3e23-49e6-9482-978e0adaa4a7'
+      'element-6066-11e4-a52e-4f735466cecf': 'b23cae08-9112-4999-9d45-118f4b8ab269',
+      ELEMENT: 'b23cae08-9112-4999-9d45-118f4b8ab269'
     }
   ]
 }
-2021-10-30T11:32:54.898Z INFO webdriver: COMMAND getTitle()
-2021-10-30T11:32:54.898Z INFO webdriver: [GET] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/title
-2021-10-30T11:32:55.015Z WARN webdriver: Request encountered a stale element - terminating request
-2021-10-30T11:32:55.016Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T11:32:55.016Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/element
-2021-10-30T11:32:55.016Z INFO webdriver: DATA {
+2021-10-30T13:05:30.162Z INFO webdriver: COMMAND getTitle()
+2021-10-30T13:05:30.163Z INFO webdriver: [GET] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/title
+2021-10-30T13:05:30.239Z WARN webdriver: Request encountered a stale element - terminating request
+2021-10-30T13:05:30.240Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
+2021-10-30T13:05:30.240Z INFO webdriver: [POST] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/element
+2021-10-30T13:05:30.240Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
 }
-2021-10-30T11:32:55.020Z INFO webdriver: RESULT The E.V.A. Initiative | Cars safe for all
-2021-10-30T11:32:55.032Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="Video-1"]/section/div/div/div/button")
-2021-10-30T11:32:55.032Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/element
-2021-10-30T11:32:55.033Z INFO webdriver: DATA {
+2021-10-30T13:05:30.248Z INFO webdriver: RESULT The E.V.A. Initiative | Cars safe for all
+2021-10-30T13:05:30.250Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="Video-1"]/section/div/div/div/button")
+2021-10-30T13:05:30.251Z INFO webdriver: [POST] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/element
+2021-10-30T13:05:30.251Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="Video-1"]/section/div/div/div/button'
 }
-2021-10-30T11:32:55.053Z INFO webdriver: RESULT {
+2021-10-30T13:05:30.276Z INFO webdriver: RESULT {
   error: 'no such element',
   message: 'no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a"}\n' +
     '  (Session info: chrome=94.0.4606.81)',
-  stacktrace: '#0 0x55b9910998f3 <unknown>\n' +
-    '#1 0x55b990b7eba8 <unknown>\n' +
-    '#2 0x55b990bb49b5 <unknown>\n' +
-    '#3 0x55b990be7104 <unknown>\n' +
-    '#4 0x55b990bd1e9d <unknown>\n' +
-    '#5 0x55b990be4dac <unknown>\n' +
-    '#6 0x55b990bd1d63 <unknown>\n' +
-    '#7 0x55b990ba8144 <unknown>\n' +
-    '#8 0x55b990ba9135 <unknown>\n' +
-    '#9 0x55b9910c8c3e <unknown>\n' +
-    '#10 0x55b9910de6b7 <unknown>\n' +
-    '#11 0x55b9910c9b95 <unknown>\n' +
-    '#12 0x55b9910dfb05 <unknown>\n' +
-    '#13 0x55b9910be2ab <unknown>\n' +
-    '#14 0x55b9910fa248 <unknown>\n' +
-    '#15 0x55b9910fa3c8 <unknown>\n' +
-    '#16 0x55b99111533d <unknown>\n' +
-    '#17 0x7fd2b5c0d609 start_thread\n'
+  stacktrace: '#0 0x564d9a5f98f3 <unknown>\n' +
+    '#1 0x564d9a0deba8 <unknown>\n' +
+    '#2 0x564d9a1149b5 <unknown>\n' +
+    '#3 0x564d9a147104 <unknown>\n' +
+    '#4 0x564d9a131e9d <unknown>\n' +
+    '#5 0x564d9a144dac <unknown>\n' +
+    '#6 0x564d9a131d63 <unknown>\n' +
+    '#7 0x564d9a108144 <unknown>\n' +
+    '#8 0x564d9a109135 <unknown>\n' +
+    '#9 0x564d9a628c3e <unknown>\n' +
+    '#10 0x564d9a63e6b7 <unknown>\n' +
+    '#11 0x564d9a629b95 <unknown>\n' +
+    '#12 0x564d9a63fb05 <unknown>\n' +
+    '#13 0x564d9a61e2ab <unknown>\n' +
+    '#14 0x564d9a65a248 <unknown>\n' +
+    '#15 0x564d9a65a3c8 <unknown>\n' +
+    '#16 0x564d9a67533d <unknown>\n' +
+    '#17 0x7fefb7284609 start_thread\n'
 }
-2021-10-30T11:32:55.056Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T11:32:55.057Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/element
-2021-10-30T11:32:55.057Z INFO webdriver: DATA {
+2021-10-30T13:05:30.282Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
+2021-10-30T13:05:30.282Z INFO webdriver: [POST] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/element
+2021-10-30T13:05:30.282Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
 }
-2021-10-30T11:32:55.071Z INFO webdriver: RESULT {
-  'element-6066-11e4-a52e-4f735466cecf': '03b34692-06e6-4b6e-a743-90a1da00467c'
+2021-10-30T13:05:30.300Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '9f4df46a-0aa5-4ef0-b58f-160959bf1620'
 }
-2021-10-30T11:32:55.073Z INFO webdriver: COMMAND elementClick("03b34692-06e6-4b6e-a743-90a1da00467c")
-2021-10-30T11:32:55.073Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/element/03b34692-06e6-4b6e-a743-90a1da00467c/click
-2021-10-30T11:32:55.093Z INFO webdriver: RESULT {
+2021-10-30T13:05:30.308Z INFO webdriver: COMMAND elementClick("9f4df46a-0aa5-4ef0-b58f-160959bf1620")
+2021-10-30T13:05:30.308Z INFO webdriver: [POST] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/element/9f4df46a-0aa5-4ef0-b58f-160959bf1620/click
+2021-10-30T13:05:30.328Z INFO webdriver: RESULT {
   error: 'no such element',
   message: 'no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a"}\n' +
     '  (Session info: chrome=94.0.4606.81)',
-  stacktrace: '#0 0x55b9910998f3 <unknown>\n' +
-    '#1 0x55b990b7eba8 <unknown>\n' +
-    '#2 0x55b990bb49b5 <unknown>\n' +
-    '#3 0x55b990be7104 <unknown>\n' +
-    '#4 0x55b990bd1e9d <unknown>\n' +
-    '#5 0x55b990be4dac <unknown>\n' +
-    '#6 0x55b990bd1d63 <unknown>\n' +
-    '#7 0x55b990ba8144 <unknown>\n' +
-    '#8 0x55b990ba9135 <unknown>\n' +
-    '#9 0x55b9910c8c3e <unknown>\n' +
-    '#10 0x55b9910de6b7 <unknown>\n' +
-    '#11 0x55b9910c9b95 <unknown>\n' +
-    '#12 0x55b9910dfb05 <unknown>\n' +
-    '#13 0x55b9910be2ab <unknown>\n' +
-    '#14 0x55b9910fa248 <unknown>\n' +
-    '#15 0x55b9910fa3c8 <unknown>\n' +
-    '#16 0x55b99111533d <unknown>\n' +
-    '#17 0x7fd2b5c0d609 start_thread\n'
+  stacktrace: '#0 0x564d9a5f98f3 <unknown>\n' +
+    '#1 0x564d9a0deba8 <unknown>\n' +
+    '#2 0x564d9a1149b5 <unknown>\n' +
+    '#3 0x564d9a147104 <unknown>\n' +
+    '#4 0x564d9a131e9d <unknown>\n' +
+    '#5 0x564d9a144dac <unknown>\n' +
+    '#6 0x564d9a131d63 <unknown>\n' +
+    '#7 0x564d9a108144 <unknown>\n' +
+    '#8 0x564d9a109135 <unknown>\n' +
+    '#9 0x564d9a628c3e <unknown>\n' +
+    '#10 0x564d9a63e6b7 <unknown>\n' +
+    '#11 0x564d9a629b95 <unknown>\n' +
+    '#12 0x564d9a63fb05 <unknown>\n' +
+    '#13 0x564d9a61e2ab <unknown>\n' +
+    '#14 0x564d9a65a248 <unknown>\n' +
+    '#15 0x564d9a65a3c8 <unknown>\n' +
+    '#16 0x564d9a67533d <unknown>\n' +
+    '#17 0x7fefb7284609 start_thread\n'
 }
-2021-10-30T11:32:55.097Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T11:32:55.098Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/element
-2021-10-30T11:32:55.098Z INFO webdriver: DATA {
+2021-10-30T13:05:30.334Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
+2021-10-30T13:05:30.334Z INFO webdriver: [POST] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/element
+2021-10-30T13:05:30.334Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
 }
-2021-10-30T11:32:55.369Z INFO webdriver: RESULT {
+2021-10-30T13:05:30.695Z INFO webdriver: RESULT {
   error: 'no such element',
   message: 'no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a"}\n' +
     '  (Session info: chrome=94.0.4606.81)',
-  stacktrace: '#0 0x55b9910998f3 <unknown>\n' +
-    '#1 0x55b990b7eba8 <unknown>\n' +
-    '#2 0x55b990bb49b5 <unknown>\n' +
-    '#3 0x55b990be7104 <unknown>\n' +
-    '#4 0x55b990bd1e9d <unknown>\n' +
-    '#5 0x55b990be4dac <unknown>\n' +
-    '#6 0x55b990bd1d63 <unknown>\n' +
-    '#7 0x55b990ba8144 <unknown>\n' +
-    '#8 0x55b990ba9135 <unknown>\n' +
-    '#9 0x55b9910c8c3e <unknown>\n' +
-    '#10 0x55b9910de6b7 <unknown>\n' +
-    '#11 0x55b9910c9b95 <unknown>\n' +
-    '#12 0x55b9910dfb05 <unknown>\n' +
-    '#13 0x55b9910be2ab <unknown>\n' +
-    '#14 0x55b9910fa248 <unknown>\n' +
-    '#15 0x55b9910fa3c8 <unknown>\n' +
-    '#16 0x55b99111533d <unknown>\n' +
-    '#17 0x7fd2b5c0d609 start_thread\n'
+  stacktrace: '#0 0x564d9a5f98f3 <unknown>\n' +
+    '#1 0x564d9a0deba8 <unknown>\n' +
+    '#2 0x564d9a1149b5 <unknown>\n' +
+    '#3 0x564d9a147104 <unknown>\n' +
+    '#4 0x564d9a131e9d <unknown>\n' +
+    '#5 0x564d9a144dac <unknown>\n' +
+    '#6 0x564d9a131d63 <unknown>\n' +
+    '#7 0x564d9a108144 <unknown>\n' +
+    '#8 0x564d9a109135 <unknown>\n' +
+    '#9 0x564d9a628c3e <unknown>\n' +
+    '#10 0x564d9a63e6b7 <unknown>\n' +
+    '#11 0x564d9a629b95 <unknown>\n' +
+    '#12 0x564d9a63fb05 <unknown>\n' +
+    '#13 0x564d9a61e2ab <unknown>\n' +
+    '#14 0x564d9a65a248 <unknown>\n' +
+    '#15 0x564d9a65a3c8 <unknown>\n' +
+    '#16 0x564d9a67533d <unknown>\n' +
+    '#17 0x7fefb7284609 start_thread\n'
 }
-2021-10-30T11:32:55.373Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T11:32:55.373Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/element
-2021-10-30T11:32:55.373Z INFO webdriver: DATA {
+2021-10-30T13:05:30.701Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
+2021-10-30T13:05:30.702Z INFO webdriver: [POST] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/element
+2021-10-30T13:05:30.702Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
 }
-2021-10-30T11:32:55.409Z INFO webdriver: RESULT {
+2021-10-30T13:05:30.795Z INFO webdriver: RESULT {
   error: 'no such element',
   message: 'no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a"}\n' +
     '  (Session info: chrome=94.0.4606.81)',
-  stacktrace: '#0 0x55b9910998f3 <unknown>\n' +
-    '#1 0x55b990b7eba8 <unknown>\n' +
-    '#2 0x55b990bb49b5 <unknown>\n' +
-    '#3 0x55b990be7104 <unknown>\n' +
-    '#4 0x55b990bd1e9d <unknown>\n' +
-    '#5 0x55b990be4dac <unknown>\n' +
-    '#6 0x55b990bd1d63 <unknown>\n' +
-    '#7 0x55b990ba8144 <unknown>\n' +
-    '#8 0x55b990ba9135 <unknown>\n' +
-    '#9 0x55b9910c8c3e <unknown>\n' +
-    '#10 0x55b9910de6b7 <unknown>\n' +
-    '#11 0x55b9910c9b95 <unknown>\n' +
-    '#12 0x55b9910dfb05 <unknown>\n' +
-    '#13 0x55b9910be2ab <unknown>\n' +
-    '#14 0x55b9910fa248 <unknown>\n' +
-    '#15 0x55b9910fa3c8 <unknown>\n' +
-    '#16 0x55b99111533d <unknown>\n' +
-    '#17 0x7fd2b5c0d609 start_thread\n'
+  stacktrace: '#0 0x564d9a5f98f3 <unknown>\n' +
+    '#1 0x564d9a0deba8 <unknown>\n' +
+    '#2 0x564d9a1149b5 <unknown>\n' +
+    '#3 0x564d9a147104 <unknown>\n' +
+    '#4 0x564d9a131e9d <unknown>\n' +
+    '#5 0x564d9a144dac <unknown>\n' +
+    '#6 0x564d9a131d63 <unknown>\n' +
+    '#7 0x564d9a108144 <unknown>\n' +
+    '#8 0x564d9a109135 <unknown>\n' +
+    '#9 0x564d9a628c3e <unknown>\n' +
+    '#10 0x564d9a63e6b7 <unknown>\n' +
+    '#11 0x564d9a629b95 <unknown>\n' +
+    '#12 0x564d9a63fb05 <unknown>\n' +
+    '#13 0x564d9a61e2ab <unknown>\n' +
+    '#14 0x564d9a65a248 <unknown>\n' +
+    '#15 0x564d9a65a3c8 <unknown>\n' +
+    '#16 0x564d9a67533d <unknown>\n' +
+    '#17 0x7fefb7284609 start_thread\n'
 }
-2021-10-30T11:32:55.413Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T11:32:55.413Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/element
-2021-10-30T11:32:55.413Z INFO webdriver: DATA {
+2021-10-30T13:05:30.804Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
+2021-10-30T13:05:30.804Z INFO webdriver: [POST] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/element
+2021-10-30T13:05:30.804Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
 }
-2021-10-30T11:32:55.478Z INFO webdriver: RESULT {
+2021-10-30T13:05:30.849Z INFO webdriver: RESULT {
   error: 'no such element',
   message: 'no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a"}\n' +
     '  (Session info: chrome=94.0.4606.81)',
-  stacktrace: '#0 0x55b9910998f3 <unknown>\n' +
-    '#1 0x55b990b7eba8 <unknown>\n' +
-    '#2 0x55b990bb49b5 <unknown>\n' +
-    '#3 0x55b990be7104 <unknown>\n' +
-    '#4 0x55b990bd1e9d <unknown>\n' +
-    '#5 0x55b990be4dac <unknown>\n' +
-    '#6 0x55b990bd1d63 <unknown>\n' +
-    '#7 0x55b990ba8144 <unknown>\n' +
-    '#8 0x55b990ba9135 <unknown>\n' +
-    '#9 0x55b9910c8c3e <unknown>\n' +
-    '#10 0x55b9910de6b7 <unknown>\n' +
-    '#11 0x55b9910c9b95 <unknown>\n' +
-    '#12 0x55b9910dfb05 <unknown>\n' +
-    '#13 0x55b9910be2ab <unknown>\n' +
-    '#14 0x55b9910fa248 <unknown>\n' +
-    '#15 0x55b9910fa3c8 <unknown>\n' +
-    '#16 0x55b99111533d <unknown>\n' +
-    '#17 0x7fd2b5c0d609 start_thread\n'
+  stacktrace: '#0 0x564d9a5f98f3 <unknown>\n' +
+    '#1 0x564d9a0deba8 <unknown>\n' +
+    '#2 0x564d9a1149b5 <unknown>\n' +
+    '#3 0x564d9a147104 <unknown>\n' +
+    '#4 0x564d9a131e9d <unknown>\n' +
+    '#5 0x564d9a144dac <unknown>\n' +
+    '#6 0x564d9a131d63 <unknown>\n' +
+    '#7 0x564d9a108144 <unknown>\n' +
+    '#8 0x564d9a109135 <unknown>\n' +
+    '#9 0x564d9a628c3e <unknown>\n' +
+    '#10 0x564d9a63e6b7 <unknown>\n' +
+    '#11 0x564d9a629b95 <unknown>\n' +
+    '#12 0x564d9a63fb05 <unknown>\n' +
+    '#13 0x564d9a61e2ab <unknown>\n' +
+    '#14 0x564d9a65a248 <unknown>\n' +
+    '#15 0x564d9a65a3c8 <unknown>\n' +
+    '#16 0x564d9a67533d <unknown>\n' +
+    '#17 0x7fefb7284609 start_thread\n'
 }
-2021-10-30T11:32:55.482Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T11:32:55.482Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/element
-2021-10-30T11:32:55.482Z INFO webdriver: DATA {
+2021-10-30T13:05:30.855Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
+2021-10-30T13:05:30.855Z INFO webdriver: [POST] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/element
+2021-10-30T13:05:30.855Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
 }
-2021-10-30T11:32:55.604Z INFO webdriver: RESULT {
+2021-10-30T13:05:30.894Z INFO webdriver: RESULT {
   error: 'no such element',
   message: 'no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a"}\n' +
     '  (Session info: chrome=94.0.4606.81)',
-  stacktrace: '#0 0x55b9910998f3 <unknown>\n' +
-    '#1 0x55b990b7eba8 <unknown>\n' +
-    '#2 0x55b990bb49b5 <unknown>\n' +
-    '#3 0x55b990be7104 <unknown>\n' +
-    '#4 0x55b990bd1e9d <unknown>\n' +
-    '#5 0x55b990be4dac <unknown>\n' +
-    '#6 0x55b990bd1d63 <unknown>\n' +
-    '#7 0x55b990ba8144 <unknown>\n' +
-    '#8 0x55b990ba9135 <unknown>\n' +
-    '#9 0x55b9910c8c3e <unknown>\n' +
-    '#10 0x55b9910de6b7 <unknown>\n' +
-    '#11 0x55b9910c9b95 <unknown>\n' +
-    '#12 0x55b9910dfb05 <unknown>\n' +
-    '#13 0x55b9910be2ab <unknown>\n' +
-    '#14 0x55b9910fa248 <unknown>\n' +
-    '#15 0x55b9910fa3c8 <unknown>\n' +
-    '#16 0x55b99111533d <unknown>\n' +
-    '#17 0x7fd2b5c0d609 start_thread\n'
+  stacktrace: '#0 0x564d9a5f98f3 <unknown>\n' +
+    '#1 0x564d9a0deba8 <unknown>\n' +
+    '#2 0x564d9a1149b5 <unknown>\n' +
+    '#3 0x564d9a147104 <unknown>\n' +
+    '#4 0x564d9a131e9d <unknown>\n' +
+    '#5 0x564d9a144dac <unknown>\n' +
+    '#6 0x564d9a131d63 <unknown>\n' +
+    '#7 0x564d9a108144 <unknown>\n' +
+    '#8 0x564d9a109135 <unknown>\n' +
+    '#9 0x564d9a628c3e <unknown>\n' +
+    '#10 0x564d9a63e6b7 <unknown>\n' +
+    '#11 0x564d9a629b95 <unknown>\n' +
+    '#12 0x564d9a63fb05 <unknown>\n' +
+    '#13 0x564d9a61e2ab <unknown>\n' +
+    '#14 0x564d9a65a248 <unknown>\n' +
+    '#15 0x564d9a65a3c8 <unknown>\n' +
+    '#16 0x564d9a67533d <unknown>\n' +
+    '#17 0x7fefb7284609 start_thread\n'
 }
-2021-10-30T11:32:55.948Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T11:32:55.948Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/element
-2021-10-30T11:32:55.948Z INFO webdriver: DATA {
+2021-10-30T13:05:30.899Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
+2021-10-30T13:05:30.899Z INFO webdriver: [POST] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/element
+2021-10-30T13:05:30.899Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
 }
-2021-10-30T11:32:55.976Z INFO webdriver: RESULT {
+2021-10-30T13:05:30.934Z INFO webdriver: RESULT {
   error: 'no such element',
   message: 'no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a"}\n' +
     '  (Session info: chrome=94.0.4606.81)',
-  stacktrace: '#0 0x55b9910998f3 <unknown>\n' +
-    '#1 0x55b990b7eba8 <unknown>\n' +
-    '#2 0x55b990bb49b5 <unknown>\n' +
-    '#3 0x55b990be7104 <unknown>\n' +
-    '#4 0x55b990bd1e9d <unknown>\n' +
-    '#5 0x55b990be4dac <unknown>\n' +
-    '#6 0x55b990bd1d63 <unknown>\n' +
-    '#7 0x55b990ba8144 <unknown>\n' +
-    '#8 0x55b990ba9135 <unknown>\n' +
-    '#9 0x55b9910c8c3e <unknown>\n' +
-    '#10 0x55b9910de6b7 <unknown>\n' +
-    '#11 0x55b9910c9b95 <unknown>\n' +
-    '#12 0x55b9910dfb05 <unknown>\n' +
-    '#13 0x55b9910be2ab <unknown>\n' +
-    '#14 0x55b9910fa248 <unknown>\n' +
-    '#15 0x55b9910fa3c8 <unknown>\n' +
-    '#16 0x55b99111533d <unknown>\n' +
-    '#17 0x7fd2b5c0d609 start_thread\n'
+  stacktrace: '#0 0x564d9a5f98f3 <unknown>\n' +
+    '#1 0x564d9a0deba8 <unknown>\n' +
+    '#2 0x564d9a1149b5 <unknown>\n' +
+    '#3 0x564d9a147104 <unknown>\n' +
+    '#4 0x564d9a131e9d <unknown>\n' +
+    '#5 0x564d9a144dac <unknown>\n' +
+    '#6 0x564d9a131d63 <unknown>\n' +
+    '#7 0x564d9a108144 <unknown>\n' +
+    '#8 0x564d9a109135 <unknown>\n' +
+    '#9 0x564d9a628c3e <unknown>\n' +
+    '#10 0x564d9a63e6b7 <unknown>\n' +
+    '#11 0x564d9a629b95 <unknown>\n' +
+    '#12 0x564d9a63fb05 <unknown>\n' +
+    '#13 0x564d9a61e2ab <unknown>\n' +
+    '#14 0x564d9a65a248 <unknown>\n' +
+    '#15 0x564d9a65a3c8 <unknown>\n' +
+    '#16 0x564d9a67533d <unknown>\n' +
+    '#17 0x7fefb7284609 start_thread\n'
 }
-2021-10-30T11:32:56.449Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T11:32:56.450Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/element
-2021-10-30T11:32:56.450Z INFO webdriver: DATA {
+2021-10-30T13:05:30.940Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
+2021-10-30T13:05:30.940Z INFO webdriver: [POST] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/element
+2021-10-30T13:05:30.940Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
 }
-2021-10-30T11:32:56.481Z INFO webdriver: RESULT {
+2021-10-30T13:05:30.972Z INFO webdriver: RESULT {
   error: 'no such element',
   message: 'no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a"}\n' +
     '  (Session info: chrome=94.0.4606.81)',
-  stacktrace: '#0 0x55b9910998f3 <unknown>\n' +
-    '#1 0x55b990b7eba8 <unknown>\n' +
-    '#2 0x55b990bb49b5 <unknown>\n' +
-    '#3 0x55b990be7104 <unknown>\n' +
-    '#4 0x55b990bd1e9d <unknown>\n' +
-    '#5 0x55b990be4dac <unknown>\n' +
-    '#6 0x55b990bd1d63 <unknown>\n' +
-    '#7 0x55b990ba8144 <unknown>\n' +
-    '#8 0x55b990ba9135 <unknown>\n' +
-    '#9 0x55b9910c8c3e <unknown>\n' +
-    '#10 0x55b9910de6b7 <unknown>\n' +
-    '#11 0x55b9910c9b95 <unknown>\n' +
-    '#12 0x55b9910dfb05 <unknown>\n' +
-    '#13 0x55b9910be2ab <unknown>\n' +
-    '#14 0x55b9910fa248 <unknown>\n' +
-    '#15 0x55b9910fa3c8 <unknown>\n' +
-    '#16 0x55b99111533d <unknown>\n' +
-    '#17 0x7fd2b5c0d609 start_thread\n'
+  stacktrace: '#0 0x564d9a5f98f3 <unknown>\n' +
+    '#1 0x564d9a0deba8 <unknown>\n' +
+    '#2 0x564d9a1149b5 <unknown>\n' +
+    '#3 0x564d9a147104 <unknown>\n' +
+    '#4 0x564d9a131e9d <unknown>\n' +
+    '#5 0x564d9a144dac <unknown>\n' +
+    '#6 0x564d9a131d63 <unknown>\n' +
+    '#7 0x564d9a108144 <unknown>\n' +
+    '#8 0x564d9a109135 <unknown>\n' +
+    '#9 0x564d9a628c3e <unknown>\n' +
+    '#10 0x564d9a63e6b7 <unknown>\n' +
+    '#11 0x564d9a629b95 <unknown>\n' +
+    '#12 0x564d9a63fb05 <unknown>\n' +
+    '#13 0x564d9a61e2ab <unknown>\n' +
+    '#14 0x564d9a65a248 <unknown>\n' +
+    '#15 0x564d9a65a3c8 <unknown>\n' +
+    '#16 0x564d9a67533d <unknown>\n' +
+    '#17 0x7fefb7284609 start_thread\n'
 }
-2021-10-30T11:32:56.949Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T11:32:56.949Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/element
-2021-10-30T11:32:56.949Z INFO webdriver: DATA {
+2021-10-30T13:05:30.977Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
+2021-10-30T13:05:30.977Z INFO webdriver: [POST] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/element
+2021-10-30T13:05:30.977Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
 }
-2021-10-30T11:32:57.001Z INFO webdriver: RESULT {
+2021-10-30T13:05:31.008Z INFO webdriver: RESULT {
   error: 'no such element',
   message: 'no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a"}\n' +
     '  (Session info: chrome=94.0.4606.81)',
-  stacktrace: '#0 0x55b9910998f3 <unknown>\n' +
-    '#1 0x55b990b7eba8 <unknown>\n' +
-    '#2 0x55b990bb49b5 <unknown>\n' +
-    '#3 0x55b990be7104 <unknown>\n' +
-    '#4 0x55b990bd1e9d <unknown>\n' +
-    '#5 0x55b990be4dac <unknown>\n' +
-    '#6 0x55b990bd1d63 <unknown>\n' +
-    '#7 0x55b990ba8144 <unknown>\n' +
-    '#8 0x55b990ba9135 <unknown>\n' +
-    '#9 0x55b9910c8c3e <unknown>\n' +
-    '#10 0x55b9910de6b7 <unknown>\n' +
-    '#11 0x55b9910c9b95 <unknown>\n' +
-    '#12 0x55b9910dfb05 <unknown>\n' +
-    '#13 0x55b9910be2ab <unknown>\n' +
-    '#14 0x55b9910fa248 <unknown>\n' +
-    '#15 0x55b9910fa3c8 <unknown>\n' +
-    '#16 0x55b99111533d <unknown>\n' +
-    '#17 0x7fd2b5c0d609 start_thread\n'
+  stacktrace: '#0 0x564d9a5f98f3 <unknown>\n' +
+    '#1 0x564d9a0deba8 <unknown>\n' +
+    '#2 0x564d9a1149b5 <unknown>\n' +
+    '#3 0x564d9a147104 <unknown>\n' +
+    '#4 0x564d9a131e9d <unknown>\n' +
+    '#5 0x564d9a144dac <unknown>\n' +
+    '#6 0x564d9a131d63 <unknown>\n' +
+    '#7 0x564d9a108144 <unknown>\n' +
+    '#8 0x564d9a109135 <unknown>\n' +
+    '#9 0x564d9a628c3e <unknown>\n' +
+    '#10 0x564d9a63e6b7 <unknown>\n' +
+    '#11 0x564d9a629b95 <unknown>\n' +
+    '#12 0x564d9a63fb05 <unknown>\n' +
+    '#13 0x564d9a61e2ab <unknown>\n' +
+    '#14 0x564d9a65a248 <unknown>\n' +
+    '#15 0x564d9a65a3c8 <unknown>\n' +
+    '#16 0x564d9a67533d <unknown>\n' +
+    '#17 0x7fefb7284609 start_thread\n'
 }
-2021-10-30T11:32:57.450Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T11:32:57.450Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/element
-2021-10-30T11:32:57.450Z INFO webdriver: DATA {
+2021-10-30T13:05:31.448Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
+2021-10-30T13:05:31.449Z INFO webdriver: [POST] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/element
+2021-10-30T13:05:31.449Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
 }
-2021-10-30T11:32:57.493Z INFO webdriver: RESULT {
+2021-10-30T13:05:31.494Z INFO webdriver: RESULT {
   error: 'no such element',
   message: 'no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a"}\n' +
     '  (Session info: chrome=94.0.4606.81)',
-  stacktrace: '#0 0x55b9910998f3 <unknown>\n' +
-    '#1 0x55b990b7eba8 <unknown>\n' +
-    '#2 0x55b990bb49b5 <unknown>\n' +
-    '#3 0x55b990be7104 <unknown>\n' +
-    '#4 0x55b990bd1e9d <unknown>\n' +
-    '#5 0x55b990be4dac <unknown>\n' +
-    '#6 0x55b990bd1d63 <unknown>\n' +
-    '#7 0x55b990ba8144 <unknown>\n' +
-    '#8 0x55b990ba9135 <unknown>\n' +
-    '#9 0x55b9910c8c3e <unknown>\n' +
-    '#10 0x55b9910de6b7 <unknown>\n' +
-    '#11 0x55b9910c9b95 <unknown>\n' +
-    '#12 0x55b9910dfb05 <unknown>\n' +
-    '#13 0x55b9910be2ab <unknown>\n' +
-    '#14 0x55b9910fa248 <unknown>\n' +
-    '#15 0x55b9910fa3c8 <unknown>\n' +
-    '#16 0x55b99111533d <unknown>\n' +
-    '#17 0x7fd2b5c0d609 start_thread\n'
+  stacktrace: '#0 0x564d9a5f98f3 <unknown>\n' +
+    '#1 0x564d9a0deba8 <unknown>\n' +
+    '#2 0x564d9a1149b5 <unknown>\n' +
+    '#3 0x564d9a147104 <unknown>\n' +
+    '#4 0x564d9a131e9d <unknown>\n' +
+    '#5 0x564d9a144dac <unknown>\n' +
+    '#6 0x564d9a131d63 <unknown>\n' +
+    '#7 0x564d9a108144 <unknown>\n' +
+    '#8 0x564d9a109135 <unknown>\n' +
+    '#9 0x564d9a628c3e <unknown>\n' +
+    '#10 0x564d9a63e6b7 <unknown>\n' +
+    '#11 0x564d9a629b95 <unknown>\n' +
+    '#12 0x564d9a63fb05 <unknown>\n' +
+    '#13 0x564d9a61e2ab <unknown>\n' +
+    '#14 0x564d9a65a248 <unknown>\n' +
+    '#15 0x564d9a65a3c8 <unknown>\n' +
+    '#16 0x564d9a67533d <unknown>\n' +
+    '#17 0x7fefb7284609 start_thread\n'
 }
-2021-10-30T11:32:57.946Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T11:32:57.946Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/element
-2021-10-30T11:32:57.946Z INFO webdriver: DATA {
+2021-10-30T13:05:31.949Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
+2021-10-30T13:05:31.949Z INFO webdriver: [POST] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/element
+2021-10-30T13:05:31.949Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
 }
-2021-10-30T11:32:57.978Z INFO webdriver: RESULT {
+2021-10-30T13:05:31.980Z INFO webdriver: RESULT {
   error: 'no such element',
   message: 'no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a"}\n' +
     '  (Session info: chrome=94.0.4606.81)',
-  stacktrace: '#0 0x55b9910998f3 <unknown>\n' +
-    '#1 0x55b990b7eba8 <unknown>\n' +
-    '#2 0x55b990bb49b5 <unknown>\n' +
-    '#3 0x55b990be7104 <unknown>\n' +
-    '#4 0x55b990bd1e9d <unknown>\n' +
-    '#5 0x55b990be4dac <unknown>\n' +
-    '#6 0x55b990bd1d63 <unknown>\n' +
-    '#7 0x55b990ba8144 <unknown>\n' +
-    '#8 0x55b990ba9135 <unknown>\n' +
-    '#9 0x55b9910c8c3e <unknown>\n' +
-    '#10 0x55b9910de6b7 <unknown>\n' +
-    '#11 0x55b9910c9b95 <unknown>\n' +
-    '#12 0x55b9910dfb05 <unknown>\n' +
-    '#13 0x55b9910be2ab <unknown>\n' +
-    '#14 0x55b9910fa248 <unknown>\n' +
-    '#15 0x55b9910fa3c8 <unknown>\n' +
-    '#16 0x55b99111533d <unknown>\n' +
-    '#17 0x7fd2b5c0d609 start_thread\n'
+  stacktrace: '#0 0x564d9a5f98f3 <unknown>\n' +
+    '#1 0x564d9a0deba8 <unknown>\n' +
+    '#2 0x564d9a1149b5 <unknown>\n' +
+    '#3 0x564d9a147104 <unknown>\n' +
+    '#4 0x564d9a131e9d <unknown>\n' +
+    '#5 0x564d9a144dac <unknown>\n' +
+    '#6 0x564d9a131d63 <unknown>\n' +
+    '#7 0x564d9a108144 <unknown>\n' +
+    '#8 0x564d9a109135 <unknown>\n' +
+    '#9 0x564d9a628c3e <unknown>\n' +
+    '#10 0x564d9a63e6b7 <unknown>\n' +
+    '#11 0x564d9a629b95 <unknown>\n' +
+    '#12 0x564d9a63fb05 <unknown>\n' +
+    '#13 0x564d9a61e2ab <unknown>\n' +
+    '#14 0x564d9a65a248 <unknown>\n' +
+    '#15 0x564d9a65a3c8 <unknown>\n' +
+    '#16 0x564d9a67533d <unknown>\n' +
+    '#17 0x7fefb7284609 start_thread\n'
 }
-2021-10-30T11:32:58.446Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T11:32:58.446Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/element
-2021-10-30T11:32:58.446Z INFO webdriver: DATA {
+2021-10-30T13:05:32.447Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
+2021-10-30T13:05:32.448Z INFO webdriver: [POST] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/element
+2021-10-30T13:05:32.448Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
 }
-2021-10-30T11:32:58.479Z INFO webdriver: RESULT {
+2021-10-30T13:05:32.480Z INFO webdriver: RESULT {
   error: 'no such element',
   message: 'no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a"}\n' +
     '  (Session info: chrome=94.0.4606.81)',
-  stacktrace: '#0 0x55b9910998f3 <unknown>\n' +
-    '#1 0x55b990b7eba8 <unknown>\n' +
-    '#2 0x55b990bb49b5 <unknown>\n' +
-    '#3 0x55b990be7104 <unknown>\n' +
-    '#4 0x55b990bd1e9d <unknown>\n' +
-    '#5 0x55b990be4dac <unknown>\n' +
-    '#6 0x55b990bd1d63 <unknown>\n' +
-    '#7 0x55b990ba8144 <unknown>\n' +
-    '#8 0x55b990ba9135 <unknown>\n' +
-    '#9 0x55b9910c8c3e <unknown>\n' +
-    '#10 0x55b9910de6b7 <unknown>\n' +
-    '#11 0x55b9910c9b95 <unknown>\n' +
-    '#12 0x55b9910dfb05 <unknown>\n' +
-    '#13 0x55b9910be2ab <unknown>\n' +
-    '#14 0x55b9910fa248 <unknown>\n' +
-    '#15 0x55b9910fa3c8 <unknown>\n' +
-    '#16 0x55b99111533d <unknown>\n' +
-    '#17 0x7fd2b5c0d609 start_thread\n'
+  stacktrace: '#0 0x564d9a5f98f3 <unknown>\n' +
+    '#1 0x564d9a0deba8 <unknown>\n' +
+    '#2 0x564d9a1149b5 <unknown>\n' +
+    '#3 0x564d9a147104 <unknown>\n' +
+    '#4 0x564d9a131e9d <unknown>\n' +
+    '#5 0x564d9a144dac <unknown>\n' +
+    '#6 0x564d9a131d63 <unknown>\n' +
+    '#7 0x564d9a108144 <unknown>\n' +
+    '#8 0x564d9a109135 <unknown>\n' +
+    '#9 0x564d9a628c3e <unknown>\n' +
+    '#10 0x564d9a63e6b7 <unknown>\n' +
+    '#11 0x564d9a629b95 <unknown>\n' +
+    '#12 0x564d9a63fb05 <unknown>\n' +
+    '#13 0x564d9a61e2ab <unknown>\n' +
+    '#14 0x564d9a65a248 <unknown>\n' +
+    '#15 0x564d9a65a3c8 <unknown>\n' +
+    '#16 0x564d9a67533d <unknown>\n' +
+    '#17 0x7fefb7284609 start_thread\n'
 }
-2021-10-30T11:32:58.950Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T11:32:58.950Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/element
-2021-10-30T11:32:58.950Z INFO webdriver: DATA {
+2021-10-30T13:05:32.948Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
+2021-10-30T13:05:32.949Z INFO webdriver: [POST] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/element
+2021-10-30T13:05:32.949Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
 }
-2021-10-30T11:32:58.977Z INFO webdriver: RESULT {
+2021-10-30T13:05:32.979Z INFO webdriver: RESULT {
   error: 'no such element',
   message: 'no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a"}\n' +
     '  (Session info: chrome=94.0.4606.81)',
-  stacktrace: '#0 0x55b9910998f3 <unknown>\n' +
-    '#1 0x55b990b7eba8 <unknown>\n' +
-    '#2 0x55b990bb49b5 <unknown>\n' +
-    '#3 0x55b990be7104 <unknown>\n' +
-    '#4 0x55b990bd1e9d <unknown>\n' +
-    '#5 0x55b990be4dac <unknown>\n' +
-    '#6 0x55b990bd1d63 <unknown>\n' +
-    '#7 0x55b990ba8144 <unknown>\n' +
-    '#8 0x55b990ba9135 <unknown>\n' +
-    '#9 0x55b9910c8c3e <unknown>\n' +
-    '#10 0x55b9910de6b7 <unknown>\n' +
-    '#11 0x55b9910c9b95 <unknown>\n' +
-    '#12 0x55b9910dfb05 <unknown>\n' +
-    '#13 0x55b9910be2ab <unknown>\n' +
-    '#14 0x55b9910fa248 <unknown>\n' +
-    '#15 0x55b9910fa3c8 <unknown>\n' +
-    '#16 0x55b99111533d <unknown>\n' +
-    '#17 0x7fd2b5c0d609 start_thread\n'
+  stacktrace: '#0 0x564d9a5f98f3 <unknown>\n' +
+    '#1 0x564d9a0deba8 <unknown>\n' +
+    '#2 0x564d9a1149b5 <unknown>\n' +
+    '#3 0x564d9a147104 <unknown>\n' +
+    '#4 0x564d9a131e9d <unknown>\n' +
+    '#5 0x564d9a144dac <unknown>\n' +
+    '#6 0x564d9a131d63 <unknown>\n' +
+    '#7 0x564d9a108144 <unknown>\n' +
+    '#8 0x564d9a109135 <unknown>\n' +
+    '#9 0x564d9a628c3e <unknown>\n' +
+    '#10 0x564d9a63e6b7 <unknown>\n' +
+    '#11 0x564d9a629b95 <unknown>\n' +
+    '#12 0x564d9a63fb05 <unknown>\n' +
+    '#13 0x564d9a61e2ab <unknown>\n' +
+    '#14 0x564d9a65a248 <unknown>\n' +
+    '#15 0x564d9a65a3c8 <unknown>\n' +
+    '#16 0x564d9a67533d <unknown>\n' +
+    '#17 0x7fefb7284609 start_thread\n'
 }
-2021-10-30T11:32:59.446Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T11:32:59.446Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/element
-2021-10-30T11:32:59.446Z INFO webdriver: DATA {
+2021-10-30T13:05:33.447Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
+2021-10-30T13:05:33.447Z INFO webdriver: [POST] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/element
+2021-10-30T13:05:33.447Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
 }
-2021-10-30T11:32:59.477Z INFO webdriver: RESULT {
+2021-10-30T13:05:33.475Z INFO webdriver: RESULT {
   error: 'no such element',
   message: 'no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a"}\n' +
     '  (Session info: chrome=94.0.4606.81)',
-  stacktrace: '#0 0x55b9910998f3 <unknown>\n' +
-    '#1 0x55b990b7eba8 <unknown>\n' +
-    '#2 0x55b990bb49b5 <unknown>\n' +
-    '#3 0x55b990be7104 <unknown>\n' +
-    '#4 0x55b990bd1e9d <unknown>\n' +
-    '#5 0x55b990be4dac <unknown>\n' +
-    '#6 0x55b990bd1d63 <unknown>\n' +
-    '#7 0x55b990ba8144 <unknown>\n' +
-    '#8 0x55b990ba9135 <unknown>\n' +
-    '#9 0x55b9910c8c3e <unknown>\n' +
-    '#10 0x55b9910de6b7 <unknown>\n' +
-    '#11 0x55b9910c9b95 <unknown>\n' +
-    '#12 0x55b9910dfb05 <unknown>\n' +
-    '#13 0x55b9910be2ab <unknown>\n' +
-    '#14 0x55b9910fa248 <unknown>\n' +
-    '#15 0x55b9910fa3c8 <unknown>\n' +
-    '#16 0x55b99111533d <unknown>\n' +
-    '#17 0x7fd2b5c0d609 start_thread\n'
+  stacktrace: '#0 0x564d9a5f98f3 <unknown>\n' +
+    '#1 0x564d9a0deba8 <unknown>\n' +
+    '#2 0x564d9a1149b5 <unknown>\n' +
+    '#3 0x564d9a147104 <unknown>\n' +
+    '#4 0x564d9a131e9d <unknown>\n' +
+    '#5 0x564d9a144dac <unknown>\n' +
+    '#6 0x564d9a131d63 <unknown>\n' +
+    '#7 0x564d9a108144 <unknown>\n' +
+    '#8 0x564d9a109135 <unknown>\n' +
+    '#9 0x564d9a628c3e <unknown>\n' +
+    '#10 0x564d9a63e6b7 <unknown>\n' +
+    '#11 0x564d9a629b95 <unknown>\n' +
+    '#12 0x564d9a63fb05 <unknown>\n' +
+    '#13 0x564d9a61e2ab <unknown>\n' +
+    '#14 0x564d9a65a248 <unknown>\n' +
+    '#15 0x564d9a65a3c8 <unknown>\n' +
+    '#16 0x564d9a67533d <unknown>\n' +
+    '#17 0x7fefb7284609 start_thread\n'
 }
-2021-10-30T11:32:59.949Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T11:32:59.949Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/element
-2021-10-30T11:32:59.949Z INFO webdriver: DATA {
+2021-10-30T13:05:33.949Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
+2021-10-30T13:05:33.949Z INFO webdriver: [POST] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/element
+2021-10-30T13:05:33.949Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
 }
-2021-10-30T11:32:59.977Z INFO webdriver: RESULT {
+2021-10-30T13:05:33.979Z INFO webdriver: RESULT {
   error: 'no such element',
   message: 'no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a"}\n' +
     '  (Session info: chrome=94.0.4606.81)',
-  stacktrace: '#0 0x55b9910998f3 <unknown>\n' +
-    '#1 0x55b990b7eba8 <unknown>\n' +
-    '#2 0x55b990bb49b5 <unknown>\n' +
-    '#3 0x55b990be7104 <unknown>\n' +
-    '#4 0x55b990bd1e9d <unknown>\n' +
-    '#5 0x55b990be4dac <unknown>\n' +
-    '#6 0x55b990bd1d63 <unknown>\n' +
-    '#7 0x55b990ba8144 <unknown>\n' +
-    '#8 0x55b990ba9135 <unknown>\n' +
-    '#9 0x55b9910c8c3e <unknown>\n' +
-    '#10 0x55b9910de6b7 <unknown>\n' +
-    '#11 0x55b9910c9b95 <unknown>\n' +
-    '#12 0x55b9910dfb05 <unknown>\n' +
-    '#13 0x55b9910be2ab <unknown>\n' +
-    '#14 0x55b9910fa248 <unknown>\n' +
-    '#15 0x55b9910fa3c8 <unknown>\n' +
-    '#16 0x55b99111533d <unknown>\n' +
-    '#17 0x7fd2b5c0d609 start_thread\n'
+  stacktrace: '#0 0x564d9a5f98f3 <unknown>\n' +
+    '#1 0x564d9a0deba8 <unknown>\n' +
+    '#2 0x564d9a1149b5 <unknown>\n' +
+    '#3 0x564d9a147104 <unknown>\n' +
+    '#4 0x564d9a131e9d <unknown>\n' +
+    '#5 0x564d9a144dac <unknown>\n' +
+    '#6 0x564d9a131d63 <unknown>\n' +
+    '#7 0x564d9a108144 <unknown>\n' +
+    '#8 0x564d9a109135 <unknown>\n' +
+    '#9 0x564d9a628c3e <unknown>\n' +
+    '#10 0x564d9a63e6b7 <unknown>\n' +
+    '#11 0x564d9a629b95 <unknown>\n' +
+    '#12 0x564d9a63fb05 <unknown>\n' +
+    '#13 0x564d9a61e2ab <unknown>\n' +
+    '#14 0x564d9a65a248 <unknown>\n' +
+    '#15 0x564d9a65a3c8 <unknown>\n' +
+    '#16 0x564d9a67533d <unknown>\n' +
+    '#17 0x7fefb7284609 start_thread\n'
 }
-2021-10-30T11:33:00.449Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T11:33:00.449Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/element
-2021-10-30T11:33:00.449Z INFO webdriver: DATA {
+2021-10-30T13:05:34.449Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
+2021-10-30T13:05:34.449Z INFO webdriver: [POST] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/element
+2021-10-30T13:05:34.449Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
 }
-2021-10-30T11:33:00.488Z INFO webdriver: RESULT {
+2021-10-30T13:05:34.476Z INFO webdriver: RESULT {
   error: 'no such element',
   message: 'no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a"}\n' +
     '  (Session info: chrome=94.0.4606.81)',
-  stacktrace: '#0 0x55b9910998f3 <unknown>\n' +
-    '#1 0x55b990b7eba8 <unknown>\n' +
-    '#2 0x55b990bb49b5 <unknown>\n' +
-    '#3 0x55b990be7104 <unknown>\n' +
-    '#4 0x55b990bd1e9d <unknown>\n' +
-    '#5 0x55b990be4dac <unknown>\n' +
-    '#6 0x55b990bd1d63 <unknown>\n' +
-    '#7 0x55b990ba8144 <unknown>\n' +
-    '#8 0x55b990ba9135 <unknown>\n' +
-    '#9 0x55b9910c8c3e <unknown>\n' +
-    '#10 0x55b9910de6b7 <unknown>\n' +
-    '#11 0x55b9910c9b95 <unknown>\n' +
-    '#12 0x55b9910dfb05 <unknown>\n' +
-    '#13 0x55b9910be2ab <unknown>\n' +
-    '#14 0x55b9910fa248 <unknown>\n' +
-    '#15 0x55b9910fa3c8 <unknown>\n' +
-    '#16 0x55b99111533d <unknown>\n' +
-    '#17 0x7fd2b5c0d609 start_thread\n'
+  stacktrace: '#0 0x564d9a5f98f3 <unknown>\n' +
+    '#1 0x564d9a0deba8 <unknown>\n' +
+    '#2 0x564d9a1149b5 <unknown>\n' +
+    '#3 0x564d9a147104 <unknown>\n' +
+    '#4 0x564d9a131e9d <unknown>\n' +
+    '#5 0x564d9a144dac <unknown>\n' +
+    '#6 0x564d9a131d63 <unknown>\n' +
+    '#7 0x564d9a108144 <unknown>\n' +
+    '#8 0x564d9a109135 <unknown>\n' +
+    '#9 0x564d9a628c3e <unknown>\n' +
+    '#10 0x564d9a63e6b7 <unknown>\n' +
+    '#11 0x564d9a629b95 <unknown>\n' +
+    '#12 0x564d9a63fb05 <unknown>\n' +
+    '#13 0x564d9a61e2ab <unknown>\n' +
+    '#14 0x564d9a65a248 <unknown>\n' +
+    '#15 0x564d9a65a3c8 <unknown>\n' +
+    '#16 0x564d9a67533d <unknown>\n' +
+    '#17 0x7fefb7284609 start_thread\n'
 }
-2021-10-30T11:33:00.949Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T11:33:00.950Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/element
-2021-10-30T11:33:00.950Z INFO webdriver: DATA {
+2021-10-30T13:05:34.948Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
+2021-10-30T13:05:34.948Z INFO webdriver: [POST] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/element
+2021-10-30T13:05:34.948Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
 }
-2021-10-30T11:33:00.982Z INFO webdriver: RESULT {
+2021-10-30T13:05:34.982Z INFO webdriver: RESULT {
   error: 'no such element',
   message: 'no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a"}\n' +
     '  (Session info: chrome=94.0.4606.81)',
-  stacktrace: '#0 0x55b9910998f3 <unknown>\n' +
-    '#1 0x55b990b7eba8 <unknown>\n' +
-    '#2 0x55b990bb49b5 <unknown>\n' +
-    '#3 0x55b990be7104 <unknown>\n' +
-    '#4 0x55b990bd1e9d <unknown>\n' +
-    '#5 0x55b990be4dac <unknown>\n' +
-    '#6 0x55b990bd1d63 <unknown>\n' +
-    '#7 0x55b990ba8144 <unknown>\n' +
-    '#8 0x55b990ba9135 <unknown>\n' +
-    '#9 0x55b9910c8c3e <unknown>\n' +
-    '#10 0x55b9910de6b7 <unknown>\n' +
-    '#11 0x55b9910c9b95 <unknown>\n' +
-    '#12 0x55b9910dfb05 <unknown>\n' +
-    '#13 0x55b9910be2ab <unknown>\n' +
-    '#14 0x55b9910fa248 <unknown>\n' +
-    '#15 0x55b9910fa3c8 <unknown>\n' +
-    '#16 0x55b99111533d <unknown>\n' +
-    '#17 0x7fd2b5c0d609 start_thread\n'
+  stacktrace: '#0 0x564d9a5f98f3 <unknown>\n' +
+    '#1 0x564d9a0deba8 <unknown>\n' +
+    '#2 0x564d9a1149b5 <unknown>\n' +
+    '#3 0x564d9a147104 <unknown>\n' +
+    '#4 0x564d9a131e9d <unknown>\n' +
+    '#5 0x564d9a144dac <unknown>\n' +
+    '#6 0x564d9a131d63 <unknown>\n' +
+    '#7 0x564d9a108144 <unknown>\n' +
+    '#8 0x564d9a109135 <unknown>\n' +
+    '#9 0x564d9a628c3e <unknown>\n' +
+    '#10 0x564d9a63e6b7 <unknown>\n' +
+    '#11 0x564d9a629b95 <unknown>\n' +
+    '#12 0x564d9a63fb05 <unknown>\n' +
+    '#13 0x564d9a61e2ab <unknown>\n' +
+    '#14 0x564d9a65a248 <unknown>\n' +
+    '#15 0x564d9a65a3c8 <unknown>\n' +
+    '#16 0x564d9a67533d <unknown>\n' +
+    '#17 0x7fefb7284609 start_thread\n'
 }
-2021-10-30T11:33:01.447Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T11:33:01.447Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/element
-2021-10-30T11:33:01.447Z INFO webdriver: DATA {
+2021-10-30T13:05:35.448Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
+2021-10-30T13:05:35.449Z INFO webdriver: [POST] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/element
+2021-10-30T13:05:35.449Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
 }
-2021-10-30T11:33:01.479Z INFO webdriver: RESULT {
+2021-10-30T13:05:35.477Z INFO webdriver: RESULT {
   error: 'no such element',
   message: 'no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a"}\n' +
     '  (Session info: chrome=94.0.4606.81)',
-  stacktrace: '#0 0x55b9910998f3 <unknown>\n' +
-    '#1 0x55b990b7eba8 <unknown>\n' +
-    '#2 0x55b990bb49b5 <unknown>\n' +
-    '#3 0x55b990be7104 <unknown>\n' +
-    '#4 0x55b990bd1e9d <unknown>\n' +
-    '#5 0x55b990be4dac <unknown>\n' +
-    '#6 0x55b990bd1d63 <unknown>\n' +
-    '#7 0x55b990ba8144 <unknown>\n' +
-    '#8 0x55b990ba9135 <unknown>\n' +
-    '#9 0x55b9910c8c3e <unknown>\n' +
-    '#10 0x55b9910de6b7 <unknown>\n' +
-    '#11 0x55b9910c9b95 <unknown>\n' +
-    '#12 0x55b9910dfb05 <unknown>\n' +
-    '#13 0x55b9910be2ab <unknown>\n' +
-    '#14 0x55b9910fa248 <unknown>\n' +
-    '#15 0x55b9910fa3c8 <unknown>\n' +
-    '#16 0x55b99111533d <unknown>\n' +
-    '#17 0x7fd2b5c0d609 start_thread\n'
+  stacktrace: '#0 0x564d9a5f98f3 <unknown>\n' +
+    '#1 0x564d9a0deba8 <unknown>\n' +
+    '#2 0x564d9a1149b5 <unknown>\n' +
+    '#3 0x564d9a147104 <unknown>\n' +
+    '#4 0x564d9a131e9d <unknown>\n' +
+    '#5 0x564d9a144dac <unknown>\n' +
+    '#6 0x564d9a131d63 <unknown>\n' +
+    '#7 0x564d9a108144 <unknown>\n' +
+    '#8 0x564d9a109135 <unknown>\n' +
+    '#9 0x564d9a628c3e <unknown>\n' +
+    '#10 0x564d9a63e6b7 <unknown>\n' +
+    '#11 0x564d9a629b95 <unknown>\n' +
+    '#12 0x564d9a63fb05 <unknown>\n' +
+    '#13 0x564d9a61e2ab <unknown>\n' +
+    '#14 0x564d9a65a248 <unknown>\n' +
+    '#15 0x564d9a65a3c8 <unknown>\n' +
+    '#16 0x564d9a67533d <unknown>\n' +
+    '#17 0x7fefb7284609 start_thread\n'
 }
-2021-10-30T11:33:01.946Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T11:33:01.946Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/element
-2021-10-30T11:33:01.946Z INFO webdriver: DATA {
+2021-10-30T13:05:35.949Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
+2021-10-30T13:05:35.949Z INFO webdriver: [POST] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/element
+2021-10-30T13:05:35.949Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
 }
-2021-10-30T11:33:01.978Z INFO webdriver: RESULT {
+2021-10-30T13:05:35.979Z INFO webdriver: RESULT {
   error: 'no such element',
   message: 'no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a"}\n' +
     '  (Session info: chrome=94.0.4606.81)',
-  stacktrace: '#0 0x55b9910998f3 <unknown>\n' +
-    '#1 0x55b990b7eba8 <unknown>\n' +
-    '#2 0x55b990bb49b5 <unknown>\n' +
-    '#3 0x55b990be7104 <unknown>\n' +
-    '#4 0x55b990bd1e9d <unknown>\n' +
-    '#5 0x55b990be4dac <unknown>\n' +
-    '#6 0x55b990bd1d63 <unknown>\n' +
-    '#7 0x55b990ba8144 <unknown>\n' +
-    '#8 0x55b990ba9135 <unknown>\n' +
-    '#9 0x55b9910c8c3e <unknown>\n' +
-    '#10 0x55b9910de6b7 <unknown>\n' +
-    '#11 0x55b9910c9b95 <unknown>\n' +
-    '#12 0x55b9910dfb05 <unknown>\n' +
-    '#13 0x55b9910be2ab <unknown>\n' +
-    '#14 0x55b9910fa248 <unknown>\n' +
-    '#15 0x55b9910fa3c8 <unknown>\n' +
-    '#16 0x55b99111533d <unknown>\n' +
-    '#17 0x7fd2b5c0d609 start_thread\n'
+  stacktrace: '#0 0x564d9a5f98f3 <unknown>\n' +
+    '#1 0x564d9a0deba8 <unknown>\n' +
+    '#2 0x564d9a1149b5 <unknown>\n' +
+    '#3 0x564d9a147104 <unknown>\n' +
+    '#4 0x564d9a131e9d <unknown>\n' +
+    '#5 0x564d9a144dac <unknown>\n' +
+    '#6 0x564d9a131d63 <unknown>\n' +
+    '#7 0x564d9a108144 <unknown>\n' +
+    '#8 0x564d9a109135 <unknown>\n' +
+    '#9 0x564d9a628c3e <unknown>\n' +
+    '#10 0x564d9a63e6b7 <unknown>\n' +
+    '#11 0x564d9a629b95 <unknown>\n' +
+    '#12 0x564d9a63fb05 <unknown>\n' +
+    '#13 0x564d9a61e2ab <unknown>\n' +
+    '#14 0x564d9a65a248 <unknown>\n' +
+    '#15 0x564d9a65a3c8 <unknown>\n' +
+    '#16 0x564d9a67533d <unknown>\n' +
+    '#17 0x7fefb7284609 start_thread\n'
 }
-2021-10-30T11:33:02.445Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T11:33:02.446Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/element
-2021-10-30T11:33:02.446Z INFO webdriver: DATA {
+2021-10-30T13:05:36.448Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
+2021-10-30T13:05:36.448Z INFO webdriver: [POST] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/element
+2021-10-30T13:05:36.448Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
 }
-2021-10-30T11:33:02.474Z INFO webdriver: RESULT {
+2021-10-30T13:05:36.474Z INFO webdriver: RESULT {
   error: 'no such element',
   message: 'no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a"}\n' +
     '  (Session info: chrome=94.0.4606.81)',
-  stacktrace: '#0 0x55b9910998f3 <unknown>\n' +
-    '#1 0x55b990b7eba8 <unknown>\n' +
-    '#2 0x55b990bb49b5 <unknown>\n' +
-    '#3 0x55b990be7104 <unknown>\n' +
-    '#4 0x55b990bd1e9d <unknown>\n' +
-    '#5 0x55b990be4dac <unknown>\n' +
-    '#6 0x55b990bd1d63 <unknown>\n' +
-    '#7 0x55b990ba8144 <unknown>\n' +
-    '#8 0x55b990ba9135 <unknown>\n' +
-    '#9 0x55b9910c8c3e <unknown>\n' +
-    '#10 0x55b9910de6b7 <unknown>\n' +
-    '#11 0x55b9910c9b95 <unknown>\n' +
-    '#12 0x55b9910dfb05 <unknown>\n' +
-    '#13 0x55b9910be2ab <unknown>\n' +
-    '#14 0x55b9910fa248 <unknown>\n' +
-    '#15 0x55b9910fa3c8 <unknown>\n' +
-    '#16 0x55b99111533d <unknown>\n' +
-    '#17 0x7fd2b5c0d609 start_thread\n'
+  stacktrace: '#0 0x564d9a5f98f3 <unknown>\n' +
+    '#1 0x564d9a0deba8 <unknown>\n' +
+    '#2 0x564d9a1149b5 <unknown>\n' +
+    '#3 0x564d9a147104 <unknown>\n' +
+    '#4 0x564d9a131e9d <unknown>\n' +
+    '#5 0x564d9a144dac <unknown>\n' +
+    '#6 0x564d9a131d63 <unknown>\n' +
+    '#7 0x564d9a108144 <unknown>\n' +
+    '#8 0x564d9a109135 <unknown>\n' +
+    '#9 0x564d9a628c3e <unknown>\n' +
+    '#10 0x564d9a63e6b7 <unknown>\n' +
+    '#11 0x564d9a629b95 <unknown>\n' +
+    '#12 0x564d9a63fb05 <unknown>\n' +
+    '#13 0x564d9a61e2ab <unknown>\n' +
+    '#14 0x564d9a65a248 <unknown>\n' +
+    '#15 0x564d9a65a3c8 <unknown>\n' +
+    '#16 0x564d9a67533d <unknown>\n' +
+    '#17 0x7fefb7284609 start_thread\n'
 }
-2021-10-30T11:33:05.303Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="Video-1"]/section/div/button/div/video")
-2021-10-30T11:33:05.304Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/element
-2021-10-30T11:33:05.304Z INFO webdriver: DATA {
+2021-10-30T13:05:40.678Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="Video-1"]/section/div/button/div/video")
+2021-10-30T13:05:40.679Z INFO webdriver: [POST] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/element
+2021-10-30T13:05:40.679Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="Video-1"]/section/div/button/div/video'
 }
-2021-10-30T11:33:05.342Z INFO webdriver: RESULT {
+2021-10-30T13:05:40.714Z INFO webdriver: RESULT {
   error: 'no such element',
   message: 'no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="Video-1"]/section/div/button/div/video"}\n' +
     '  (Session info: chrome=94.0.4606.81)',
-  stacktrace: '#0 0x55b9910998f3 <unknown>\n' +
-    '#1 0x55b990b7eba8 <unknown>\n' +
-    '#2 0x55b990bb49b5 <unknown>\n' +
-    '#3 0x55b990be7104 <unknown>\n' +
-    '#4 0x55b990bd1e9d <unknown>\n' +
-    '#5 0x55b990be4dac <unknown>\n' +
-    '#6 0x55b990bd1d63 <unknown>\n' +
-    '#7 0x55b990ba8144 <unknown>\n' +
-    '#8 0x55b990ba9135 <unknown>\n' +
-    '#9 0x55b9910c8c3e <unknown>\n' +
-    '#10 0x55b9910de6b7 <unknown>\n' +
-    '#11 0x55b9910c9b95 <unknown>\n' +
-    '#12 0x55b9910dfb05 <unknown>\n' +
-    '#13 0x55b9910be2ab <unknown>\n' +
-    '#14 0x55b9910fa248 <unknown>\n' +
-    '#15 0x55b9910fa3c8 <unknown>\n' +
-    '#16 0x55b99111533d <unknown>\n' +
-    '#17 0x7fd2b5c0d609 start_thread\n'
+  stacktrace: '#0 0x564d9a5f98f3 <unknown>\n' +
+    '#1 0x564d9a0deba8 <unknown>\n' +
+    '#2 0x564d9a1149b5 <unknown>\n' +
+    '#3 0x564d9a147104 <unknown>\n' +
+    '#4 0x564d9a131e9d <unknown>\n' +
+    '#5 0x564d9a144dac <unknown>\n' +
+    '#6 0x564d9a131d63 <unknown>\n' +
+    '#7 0x564d9a108144 <unknown>\n' +
+    '#8 0x564d9a109135 <unknown>\n' +
+    '#9 0x564d9a628c3e <unknown>\n' +
+    '#10 0x564d9a63e6b7 <unknown>\n' +
+    '#11 0x564d9a629b95 <unknown>\n' +
+    '#12 0x564d9a63fb05 <unknown>\n' +
+    '#13 0x564d9a61e2ab <unknown>\n' +
+    '#14 0x564d9a65a248 <unknown>\n' +
+    '#15 0x564d9a65a3c8 <unknown>\n' +
+    '#16 0x564d9a67533d <unknown>\n' +
+    '#17 0x7fefb7284609 start_thread\n'
 }
-2021-10-30T11:33:05.375Z INFO webdriver: COMMAND getLogTypes()
-2021-10-30T11:33:05.375Z INFO webdriver: [GET] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/se/log/types
-2021-10-30T11:33:05.386Z INFO webdriver: RESULT [ 'browser', 'driver' ]
-2021-10-30T11:33:05.386Z INFO webdriver: COMMAND getLogs("driver")
-2021-10-30T11:33:05.386Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/se/log
-2021-10-30T11:33:05.387Z INFO webdriver: DATA { type: 'driver' }
-2021-10-30T11:33:05.387Z INFO webdriver: COMMAND getLogs("browser")
-2021-10-30T11:33:05.387Z INFO webdriver: [POST] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09/se/log
-2021-10-30T11:33:05.387Z INFO webdriver: DATA { type: 'browser' }
-2021-10-30T11:33:05.431Z INFO webdriver: RESULT []
-2021-10-30T11:33:05.433Z INFO webdriver: RESULT [
-  {
-    level: 'SEVERE',
-    message: 'https://p.adsymptotic.com/d/px/?_pid=16218&_psign=0aa5badf92527f7732e22463d6fa4dbc&coopa=0&gdpr=0&gdpr_consent=&_puuid=ff189e2f-fd73-4f7f-8418-36a965401de2 - Failed to load resource: the server responded with a status of 403 (Forbidden)',
-    source: 'network',
-    timestamp: 1635593565632
-  },
-  {
-    level: 'SEVERE',
-    message: 'https://p.adsymptotic.com/d/px/?_pid=16218&_psign=0aa5badf92527f7732e22463d6fa4dbc&coopa=0&gdpr=0&gdpr_consent=&_puuid=ff189e2f-fd73-4f7f-8418-36a965401de2 - Failed to load resource: the server responded with a status of 403 (Forbidden)',
-    source: 'network',
-    timestamp: 1635593568306
-  },
-  {
-    level: 'SEVERE',
-    message: 'https://p.adsymptotic.com/d/px/?_pid=16218&_psign=0aa5badf92527f7732e22463d6fa4dbc&coopa=0&gdpr=0&gdpr_consent=&_puuid=ff189e2f-fd73-4f7f-8418-36a965401de2 - Failed to load resource: the server responded with a status of 403 (Forbidden)',
-    source: 'network',
-    timestamp: 1635593569668
-  },
+2021-10-30T13:05:40.761Z INFO webdriver: COMMAND getLogTypes()
+2021-10-30T13:05:40.762Z INFO webdriver: [GET] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/se/log/types
+2021-10-30T13:05:40.773Z INFO webdriver: RESULT [ 'browser', 'driver' ]
+2021-10-30T13:05:40.774Z INFO webdriver: COMMAND getLogs("driver")
+2021-10-30T13:05:40.774Z INFO webdriver: [POST] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/se/log
+2021-10-30T13:05:40.774Z INFO webdriver: DATA { type: 'driver' }
+2021-10-30T13:05:40.775Z INFO webdriver: COMMAND getLogs("browser")
+2021-10-30T13:05:40.775Z INFO webdriver: [POST] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71/se/log
+2021-10-30T13:05:40.775Z INFO webdriver: DATA { type: 'browser' }
+2021-10-30T13:05:40.788Z INFO webdriver: RESULT [
   {
     level: 'WARNING',
     message: "https://code.jquery.com/jquery-3.3.1.min.js 1 Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check https://xhr.spec.whatwg.org/.",
     source: 'deprecation',
-    timestamp: 1635593571550
-  },
-  {
-    level: 'SEVERE',
-    message: 'https://p.adsymptotic.com/d/px/?_pid=16218&_psign=0aa5badf92527f7732e22463d6fa4dbc&coopa=0&gdpr=0&gdpr_consent=&_puuid=ff189e2f-fd73-4f7f-8418-36a965401de2 - Failed to load resource: the server responded with a status of 403 (Forbidden)',
-    source: 'network',
-    timestamp: 1635593573743
-  },
-  {
-    level: 'SEVERE',
-    message: 'https://p.adsymptotic.com/d/px/?_pid=16218&_psign=0aa5badf92527f7732e22463d6fa4dbc&coopa=0&gdpr=0&gdpr_consent=&_puuid=ff189e2f-fd73-4f7f-8418-36a965401de2 - Failed to load resource: the server responded with a status of 403 (Forbidden)',
-    source: 'network',
-    timestamp: 1635593575976
+    timestamp: 1635599125396
   }
 ]
-2021-10-30T11:33:05.436Z INFO webdriver: COMMAND deleteSession()
-2021-10-30T11:33:05.436Z INFO webdriver: [DELETE] http://localhost:4444/session/589f5cc2f16c9a48362aa7f712ccff09
+2021-10-30T13:05:40.790Z INFO webdriver: RESULT []
+2021-10-30T13:05:40.791Z INFO webdriver: COMMAND deleteSession()
+2021-10-30T13:05:40.792Z INFO webdriver: [DELETE] http://localhost:4444/session/b57da7fe15005ab424191a76b73eef71

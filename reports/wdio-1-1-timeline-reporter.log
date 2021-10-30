@@ -1,29 +1,29 @@
 {
-  "start": "2021-10-30T11:32:44.028Z",
-  "end": "2021-10-30T11:32:54.135Z",
+  "start": "2021-10-30T13:06:03.583Z",
+  "end": "2021-10-30T13:06:11.064Z",
   "capabilities": {
     "acceptInsecureCerts": true,
     "browserName": "firefox",
     "browserVersion": "93.0",
     "moz:accessibilityChecks": false,
     "moz:buildID": "20210927210923",
-    "moz:debuggerAddress": "localhost:58988",
+    "moz:debuggerAddress": "localhost:44355",
     "moz:geckodriverVersion": "0.30.0",
     "moz:headless": false,
-    "moz:processID": 7163,
-    "moz:profile": "/tmp/rust_mozprofilekw8tD8",
+    "moz:processID": 6172,
+    "moz:profile": "/tmp/rust_mozprofiley31bVq",
     "moz:shutdownTimeout": 60000,
     "moz:useNonSpecCompliantPointerOrigin": false,
     "moz:webdriverClick": true,
     "pageLoadStrategy": "normal",
     "platformName": "linux",
-    "platformVersion": "5.10.47-linuxkit",
+    "platformVersion": "5.10.68+",
     "proxy": {},
-    "se:cdp": "ws://localhost:4444/session/90ab7a69-f0ee-4d4c-958e-22076f5616ea/se/cdp",
+    "se:cdp": "ws://localhost:4444/session/dc99ec44-d607-40bd-a328-c974080772ad/se/cdp",
     "se:cdpVersion": "85",
-    "se:vnc": "ws://localhost:4444/session/90ab7a69-f0ee-4d4c-958e-22076f5616ea/se/vnc",
+    "se:vnc": "ws://localhost:4444/session/dc99ec44-d607-40bd-a328-c974080772ad/se/vnc",
     "se:vncEnabled": true,
-    "se:vncLocalAddress": "ws://192.168.176.3:7900",
+    "se:vncLocalAddress": "ws://172.21.0.4:7900",
     "setWindowRect": true,
     "strictFileInteractability": false,
     "timeouts": {
@@ -32,49 +32,49 @@
       "script": 30000
     },
     "unhandledPromptBehavior": "dismiss and notify",
-    "sessionId": "90ab7a69-f0ee-4d4c-958e-22076f5616ea"
+    "sessionId": "dc99ec44-d607-40bd-a328-c974080772ad"
   },
   "host": "localhost",
   "port": 4444,
   "baseUrl": "http://localhost",
   "framework": "mocha",
-  "duration": 10107,
+  "duration": 7481,
   "suites": [
     {
       "title": "Volvo Mild Hybrid Page Validator",
-      "duration": 9174,
-      "start": "2021-10-30T11:32:44.032Z",
-      "end": "2021-10-30T11:32:53.206Z",
+      "duration": 6421,
+      "start": "2021-10-30T13:06:03.589Z",
+      "end": "2021-10-30T13:06:10.010Z",
       "tests": [
         {
           "title": "Launch Home Page",
-          "start": "2021-10-30T11:32:44.033Z",
-          "end": "2021-10-30T11:32:49.398Z",
-          "duration": 5365,
+          "start": "2021-10-30T13:06:03.590Z",
+          "end": "2021-10-30T13:06:08.530Z",
+          "duration": 4940,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Launch Mild Hybrid Page",
-          "start": "2021-10-30T11:32:49.398Z",
-          "end": "2021-10-30T11:32:52.996Z",
-          "duration": 3598,
+          "start": "2021-10-30T13:06:08.531Z",
+          "end": "2021-10-30T13:06:09.737Z",
+          "duration": 1206,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Validate Mild Hybrid Page URL",
-          "start": "2021-10-30T11:32:52.996Z",
-          "end": "2021-10-30T11:32:53.036Z",
-          "duration": 40,
+          "start": "2021-10-30T13:06:09.738Z",
+          "end": "2021-10-30T13:06:09.771Z",
+          "duration": 33,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Validate Mild Hybrid Page - Header",
-          "start": "2021-10-30T11:32:53.036Z",
-          "end": "2021-10-30T11:32:53.194Z",
-          "duration": 158,
+          "start": "2021-10-30T13:06:09.772Z",
+          "end": "2021-10-30T13:06:09.986Z",
+          "duration": 214,
           "state": "passed",
           "screenshots": []
         }
@@ -83,7 +83,7 @@
     }
   ],
   "specs": [
-    "/Users/ksaminat/testing/git_volvo/volvo-kube/test/specs/MildHybridPage.spec.js"
+    "/home/kirub_invest/git/volvo-kube-wdio/test/specs/MildHybridPage.spec.js"
   ],
   "state": {
     "passed": 4,

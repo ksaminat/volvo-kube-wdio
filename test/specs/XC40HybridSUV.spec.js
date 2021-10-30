@@ -9,7 +9,7 @@ describe('Volvo XC40-Hybrid SUV Page Validator', async()=> {
 
     it('Launch XC40-Hybrid SUV Page', async()=> {
         const xc40HBPageLink = xc40HybridSUVPage.xc40LaunchLink
-        await xc40HybridSUVPage.waitThenClick(xc40HBPageLink, 6000)
+        await xc40HybridSUVPage.waitThenClick(xc40HBPageLink)
     })
 
     it('Validate XC40-Hybrid SUV URL', async()=> {
@@ -24,7 +24,7 @@ describe('Volvo XC40-Hybrid SUV Page Validator', async()=> {
 
     it('Validate XC40-Hybrid SUV SHOP URL Launch', async()=> {
         const xc40HBShopButton = xc40HybridSUVPage.xc40PageShopButton
-        await xc40HybridSUVPage.waitThenClick(xc40HBShopButton, 6000)
+        await xc40HybridSUVPage.waitThenClick(xc40HBShopButton)
     })
 
     it('Validate XC40-Hybrid SUV SHOP URL', async()=> {

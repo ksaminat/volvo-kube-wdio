@@ -7,6 +7,13 @@ class CarSaftyPage extends BasePageConfig{
       await super.openUrl()
     }
 
+    async waitThenClick(e, timeout){
+        await super.waitThenClick(e, timeout)
+    }
+
+    async waitThenClick(e){
+        await super.waitThenClick(e)
+    }
       get title() {
         return validatorData.carSafety.title
       }

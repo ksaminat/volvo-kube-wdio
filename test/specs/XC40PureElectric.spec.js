@@ -9,7 +9,7 @@ describe('Volvo XC40 Pure Electric Page Validator', async()=> {
 
     it('Validate XC40 Pure Electric Link', async()=> {
         const xc40PEpageLink = xc40PureElectricPage.launchLink
-        await xc40PureElectricPage.waitThenClick(xc40PEpageLink, 6000)
+        await xc40PureElectricPage.waitThenClick(xc40PEpageLink)
         //browser.waitUntil(()=> xc40PEpageLink.isDisplayedInViewport(), 6000)
         //await xc40PEpageLink.click()
     })
@@ -26,7 +26,7 @@ describe('Volvo XC40 Pure Electric Page Validator', async()=> {
 
     it('Validate XC40 Pure Electric SHOP URL Launch', async()=> {
         const xc40PEShopButton = xc40PureElectricPage.shopButton
-        await xc40PureElectricPage.waitThenClick(xc40PEShopButton, 6000)
+        await xc40PureElectricPage.waitThenClick(xc40PEShopButton)
         //browser.waitUntil(()=> xc40PEShopButton.isDisplayedInViewport(), 6000)
         //await xc40PEShopButton.click()
     })

@@ -11,6 +11,10 @@ class XC40PureElectricPage extends BasePageConfig{
         await super.waitThenClick(e, timeout)
     }
     
+    async waitThenClick(e){
+        await super.waitThenClick(e)
+    }
+    
     get launchLink(){
         return $(locatorTags.xc40PureElectric.launchLink)
     }

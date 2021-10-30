@@ -19,7 +19,7 @@ exports.config = {
     // backend you should define the host address, port, and path here.
     //
     hostname: selennium_host || 'localhost',
-    port: parseInt(process.env.SELENIUM_ROUTER_SERVICE_PORT, 10) || 4444,
+    port: 4444,
     path: '/',
     //
     // ==================
