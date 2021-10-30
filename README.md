@@ -97,9 +97,18 @@ allure generate -c allure-results/ && allure open
 <img width="1680" alt="Behaviour-Result" src="https://user-images.githubusercontent.com/13710428/139538802-7d904f7b-01c4-4aff-87bd-347ca04df2e4.png">
 <img width="1680" alt="test1" src="https://user-images.githubusercontent.com/13710428/139538807-94130641-5660-4a6d-9193-291494a0c8d5.png">
 
-#### Spec-Report Sample
+#### Spec-Report - Kubernetes - Sample
+
+<img width="1680" alt="kube-start" src="https://user-images.githubusercontent.com/13710428/139542892-ee866f0e-f97e-4f87-81c1-39349b26f8d8.png">
+![kube-test1](https://user-images.githubusercontent.com/13710428/139542904-077bd730-adb5-435e-8a53-ebfb566bac89.png)
+![kube-test2](https://user-images.githubusercontent.com/13710428/139542917-4fa85cd9-e70c-46b1-9cca-5362e714f18d.png)
+![kube-test3](https://user-images.githubusercontent.com/13710428/139542926-33fbdea8-2d24-4140-a1b6-abeef3535663.png)
+
+#### Spec-Report - Docker - Sample
 
 <img width="1680" alt="Spec1" src="https://user-images.githubusercontent.com/13710428/139538855-6bf7e4e4-238a-4344-ae12-5cdce4e2b190.png">
 <img width="1680" alt="spec2" src="https://user-images.githubusercontent.com/13710428/139538864-29401223-0080-4853-8253-ab7dd0a3c8e0.png">
 <img width="1680" alt="spec3" src="https://user-images.githubusercontent.com/13710428/139538867-d2505112-7d82-4502-a66a-a552fa9ffca1.png">
+
+
 
