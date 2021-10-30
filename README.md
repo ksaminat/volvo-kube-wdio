@@ -86,8 +86,20 @@ allure generate -c allure-results/ && allure open
 2. To view Timeline reports,
     - .json reports will be generated under './reports'
 
-<img width="1680" alt="allure-report-Testcases-status" src="https://user-images.githubusercontent.com/13710428/139401906-8e02ecd8-9048-44ca-b57f-84a43545c7e3.png">
-<img width="1680" alt="Test-Suite-Report" src="https://user-images.githubusercontent.com/13710428/139401376-6e5ace32-8816-43e5-8753-56035258d593.png">
-<img width="1680" alt="Graph-Status" src="https://user-images.githubusercontent.com/13710428/139402101-153350b5-2367-41b7-87fd-9c2477249713.png">
-<img width="1680" alt="car-safty-page" src="https://user-images.githubusercontent.com/13710428/139402080-e635d978-aafa-439d-bee0-5319e0e0926b.png">
-<img width="1680" alt="XC40-Hybrid-SUV-Page" src="https://user-images.githubusercontent.com/13710428/139402119-6e8cb67f-834e-4743-bea5-2520c3375813.png">
+
+### 4) Sample Output
+
+#### Allure HTML Report
+
+<img width="1680" alt="Overall-Test-Result" src="https://user-images.githubusercontent.com/13710428/139538753-4a4396b4-b76f-4fad-a507-e3a05fe243b7.png">
+<img width="1680" alt="Suites-Wise-Result" src="https://user-images.githubusercontent.com/13710428/139538767-8e390b65-71c1-422f-9d14-7d6123c6e5d7.png">
+<img width="1680" alt="Graphical-Result" src="https://user-images.githubusercontent.com/13710428/139538791-52b1a692-7a09-421c-b50b-3fd65c280f63.png">
+<img width="1680" alt="Behaviour-Result" src="https://user-images.githubusercontent.com/13710428/139538802-7d904f7b-01c4-4aff-87bd-347ca04df2e4.png">
+<img width="1680" alt="test1" src="https://user-images.githubusercontent.com/13710428/139538807-94130641-5660-4a6d-9193-291494a0c8d5.png">
+
+#### Spec-Report Sample
+
+<img width="1680" alt="Spec1" src="https://user-images.githubusercontent.com/13710428/139538855-6bf7e4e4-238a-4344-ae12-5cdce4e2b190.png">
+<img width="1680" alt="spec2" src="https://user-images.githubusercontent.com/13710428/139538864-29401223-0080-4853-8253-ab7dd0a3c8e0.png">
+<img width="1680" alt="spec3" src="https://user-images.githubusercontent.com/13710428/139538867-d2505112-7d82-4502-a66a-a552fa9ffca1.png">
+
