@@ -21,8 +21,7 @@
     "mildHybrid":{
       "url": "https://www.volvocars.com/intl/v/cars/other-powertrains",
       "launchLink" : "//a[text()='Mild hybrid cars']",
-      "pageHeader" : "//*[@id=\"ModelTitle-1\"]/section/div/div/div/h1",
-      "pageHeaderText" : "Mild hybrids"
+      "pageHeader" : "//*[@id=\"ModelTitle-1\"]/section/div/div/div/h1"
     },
 
     "xc40HybridSUV":{

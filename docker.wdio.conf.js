@@ -38,18 +38,18 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        //'./test/specs/**/*.js'
+        './test/specs/**/*.js'
         /*'./test/specs/carSafetyPage.spec.js',
         './test/specs/XC40HybridSUV.spec.js',
         './test/specs/MildHybridPage.spec.js'*/
         //'./test/specs/XC40PureElectric.spec.js'
         //'./test/specs/MildHybridPage.spec.js'
-        './test/specs/MildHybrid-VisualRegression.js'
+        //'./test/specs/MildHybrid-VisualRegression.js'
     ],
     // Patterns to exclude.
     exclude: [
-        './test/specs/example.e2e.js',
-        './test/specs/index.spec.js'
+        './test/specs/index.spec.js',
+        './test/specs/MildHybridPage.spec.js'
     ],
     //
     // ============

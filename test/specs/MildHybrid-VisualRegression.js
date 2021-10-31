@@ -1,6 +1,7 @@
 const mildHybridPage = require("../pageobjects/MildHybrid.page")
+const pageTitle = mildHybridPage.url
 
-describe('Visual Regression Test Suite', async()=>{
+describe('Visual Regression Test Suite, Mild-Hybrid Page', async()=>{
 
     beforeEach(async () => {
         await mildHybridPage.openMyUrl()
@@ -10,14 +11,19 @@ describe('Visual Regression Test Suite', async()=>{
         await mildHybridPage.handleCookies()
     })
 
+    it('Validate Mild Hybrid Page - Header', async()=>{
+        const headerLink = mildHybridPage.pageHeader
+        const headerText = mildHybridPage.pageHeaderText
+        await expect(await headerLink).toHaveText(headerText)
+    })
+
     it('Mild-Hybrid Page, Initial Screen Save', async()=>{
-        await browser.pause(1000)
+        browser.waitUntil(()=>  browser.getUrl() == pageTitle, 6000)
         await browser.saveScreen("mildscreen", {})
     })
 
     it('Validate Mild-Hybrid Page, Initial Screen Save', async()=>{
         await browser.pause(1000)
-        browser.debug()
         await expect(await browser.checkScreen("mildscreen", {})).toEqual(0)
      })
 

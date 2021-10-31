@@ -44,8 +44,8 @@ exports.config = {
     ],
     // Patterns to exclude.
     exclude: [
-        './test/specs/example.e2e.js',
-        './test/specs/index.spec.js'
+        './test/specs/index.spec.js',
+        './test/specs/MildHybridPage.spec.js'
     ],
     //
     // ============
