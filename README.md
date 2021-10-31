@@ -91,24 +91,28 @@ allure generate -c allure-results/ && allure open
 
 #### HTML Report
 
-<img width="1680" alt="Overall-Test-Result" src="https://user-images.githubusercontent.com/13710428/139538753-4a4396b4-b76f-4fad-a507-e3a05fe243b7.png">
-<img width="1680" alt="Suites-Wise-Result" src="https://user-images.githubusercontent.com/13710428/139538767-8e390b65-71c1-422f-9d14-7d6123c6e5d7.png">
-<img width="1680" alt="Graphical-Result" src="https://user-images.githubusercontent.com/13710428/139538791-52b1a692-7a09-421c-b50b-3fd65c280f63.png">
-<img width="1680" alt="Behaviour-Result" src="https://user-images.githubusercontent.com/13710428/139538802-7d904f7b-01c4-4aff-87bd-347ca04df2e4.png">
-<img width="1680" alt="test1" src="https://user-images.githubusercontent.com/13710428/139538807-94130641-5660-4a6d-9193-291494a0c8d5.png">
+<img width="1680" alt="allure-output1" src="https://user-images.githubusercontent.com/13710428/139573387-e987a23c-19f1-4a5f-a712-a5a71917edfb.png">
+<img width="1680" alt="suit-output" src="https://user-images.githubusercontent.com/13710428/139573433-c4ba7e5c-e0b5-424e-bd9e-afb53495855b.png">
+<img width="1680" alt="behaviour-wise-output" src="https://user-images.githubusercontent.com/13710428/139573404-fbce38f4-da15-407b-8f1f-6d8de6a3a95b.png">
+<img width="1680" alt="graph-output" src="https://user-images.githubusercontent.com/13710428/139573421-677e42fc-d71e-4248-8c0d-8b636f72164a.png">
+<img width="1680" alt="vr-output1" src="https://user-images.githubusercontent.com/13710428/139573430-696c95cb-8f90-4c52-bc05-210d9abd956c.png">
+<img width="1680" alt="vr3-output" src="https://user-images.githubusercontent.com/13710428/139573446-e3682aab-75a3-4b26-b653-5a4ec4db2978.png">
+
 
 #### Spec-Report - Kubernetes
 
-<img width="1680" alt="kube-start" src="https://user-images.githubusercontent.com/13710428/139542892-ee866f0e-f97e-4f87-81c1-39349b26f8d8.png">
-<img width="1680" alt="Spec1" src="https://user-images.githubusercontent.com/13710428/139542955-1fc89aa7-281e-4465-b68b-019c3bea7a7f.png">
-<img width="1680" alt="Spec2" src="https://user-images.githubusercontent.com/13710428/139543016-ba01c3dc-5d8f-4d99-ae7c-266edfe3ebef.png">
-<img width="1680" alt="Spec3" src="https://user-images.githubusercontent.com/13710428/139543074-928f9343-4f0b-4c98-9bb9-4ed6c8e71ecc.png">
+<img width="1680" alt="Kube-test1" src="https://user-images.githubusercontent.com/13710428/139573535-2472e8e9-98ea-4187-95bd-d4ffbe521e58.png">
+<img width="1680" alt="Kube-test2" src="https://user-images.githubusercontent.com/13710428/139573548-87477a64-a5f3-4d1a-a2ca-b2db35cb1868.png">
+<img width="1680" alt="Kube-test3" src="https://user-images.githubusercontent.com/13710428/139573563-2199ed95-2630-44a4-82e0-9812680db639.png">
+<img width="1680" alt="Kube-test3" src="https://user-images.githubusercontent.com/13710428/139573752-0086e8f3-8437-4a6f-9fb0-d36ffc2a520d.png:>
 
 #### Spec-Report - Docker
 
-<img width="1680" alt="Spec1" src="https://user-images.githubusercontent.com/13710428/139538855-6bf7e4e4-238a-4344-ae12-5cdce4e2b190.png">
-<img width="1680" alt="spec2" src="https://user-images.githubusercontent.com/13710428/139538864-29401223-0080-4853-8253-ab7dd0a3c8e0.png">
-<img width="1680" alt="spec3" src="https://user-images.githubusercontent.com/13710428/139538867-d2505112-7d82-4502-a66a-a552fa9ffca1.png">
+<img width="1680" alt="Docker-test1" src="https://user-images.githubusercontent.com/13710428/139573459-929c9d83-cb38-4e96-a5ae-f3eec42a4614.png">
+<img width="1680" alt="Docker-test2" src="https://user-images.githubusercontent.com/13710428/139573470-49c778e2-81c1-48a4-ac45-915ac22fcb73.png">
+<img width="1680" alt="Docker-test3" src="https://user-images.githubusercontent.com/13710428/139573473-e929c66d-358d-4ee9-89d0-bb661d007859.png">
+<img width="1680" alt="Docker-test4" src="https://user-images.githubusercontent.com/13710428/139573490-2d8777a1-0b3f-482e-9865-d025f7147db1.png">
+
 
 
 
