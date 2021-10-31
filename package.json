@@ -8,7 +8,9 @@
     "kube-get": "kubectl get all",
     "docker-start": "docker-compose up -d",
     "kube-test": "npx wdio run kube.wdio.conf.js",
+    "kube-test-visual": "npx wdio run kube.wdio.conf.js --spec MildHybrid-VisualRegression.js",
     "docker-test": "npx wdio run docker.wdio.conf.js",
+    "docker-test-visual": "npx wdio run docker.wdio.conf.js --spec MildHybrid-VisualRegression.js",
     "kube-stop": "kubectl delete all -l component=selenium-grid",
     "docker-stop": "docker-compose down"
   },

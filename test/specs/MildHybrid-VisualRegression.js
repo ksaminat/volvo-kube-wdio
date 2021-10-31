@@ -9,6 +9,7 @@ describe('Visual Regression Test Suite, Mild-Hybrid Page', async()=>{
 
     it('Handle Cookies', async()=>{
         await mildHybridPage.handleCookies()
+        console.log('Testing - Visual Regression Mild-Hybrid Page Suite')
     })
 
     it('Validate Mild Hybrid Page - Header', async()=>{

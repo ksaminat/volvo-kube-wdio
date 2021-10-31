@@ -1,17 +1,17 @@
 {
-  "start": "2021-10-30T16:06:36.176Z",
-  "end": "2021-10-30T16:06:47.719Z",
+  "start": "2021-10-31T06:51:07.432Z",
+  "end": "2021-10-31T06:53:03.203Z",
   "capabilities": {
     "acceptInsecureCerts": true,
     "browserName": "firefox",
     "browserVersion": "93.0",
     "moz:accessibilityChecks": false,
     "moz:buildID": "20210927210923",
-    "moz:debuggerAddress": "localhost:45069",
+    "moz:debuggerAddress": "localhost:44881",
     "moz:geckodriverVersion": "0.30.0",
     "moz:headless": false,
-    "moz:processID": 919,
-    "moz:profile": "/tmp/rust_mozprofileOOYLBJ",
+    "moz:processID": 184,
+    "moz:profile": "/tmp/rust_mozprofilekZbM3A",
     "moz:shutdownTimeout": 60000,
     "moz:useNonSpecCompliantPointerOrigin": false,
     "moz:webdriverClick": true,
@@ -19,11 +19,11 @@
     "platformName": "linux",
     "platformVersion": "5.4.120+",
     "proxy": {},
-    "se:cdp": "ws://0.0.0.0:4444/session/99fab472-2108-4c51-9f7a-340aff957e31/se/cdp",
+    "se:cdp": "ws://0.0.0.0:4444/session/0e68c4cb-5edd-417b-916a-49223068e5a2/se/cdp",
     "se:cdpVersion": "85",
-    "se:vnc": "ws://0.0.0.0:4444/session/99fab472-2108-4c51-9f7a-340aff957e31/se/vnc",
+    "se:vnc": "ws://0.0.0.0:4444/session/0e68c4cb-5edd-417b-916a-49223068e5a2/se/vnc",
     "se:vncEnabled": true,
-    "se:vncLocalAddress": "ws://10.104.2.51:7900",
+    "se:vncLocalAddress": "ws://10.104.1.61:7900",
     "setWindowRect": true,
     "strictFileInteractability": false,
     "timeouts": {
@@ -32,61 +32,150 @@
       "script": 30000
     },
     "unhandledPromptBehavior": "dismiss and notify",
-    "sessionId": "99fab472-2108-4c51-9f7a-340aff957e31"
+    "sessionId": "0e68c4cb-5edd-417b-916a-49223068e5a2"
   },
   "host": "34.72.180.106",
   "port": 4444,
   "baseUrl": "http://localhost",
   "framework": "mocha",
-  "duration": 11543,
+  "duration": 115771,
   "suites": [
     {
-      "title": "Volvo Mild Hybrid Page Validator",
-      "duration": 10549,
-      "start": "2021-10-30T16:06:36.182Z",
-      "end": "2021-10-30T16:06:46.731Z",
+      "title": "Visual Regression Test Suite, Mild-Hybrid Page",
+      "duration": 114801,
+      "start": "2021-10-31T06:51:07.437Z",
+      "end": "2021-10-31T06:53:02.238Z",
       "tests": [
         {
-          "title": "Launch Home Page",
-          "start": "2021-10-30T16:06:36.183Z",
-          "end": "2021-10-30T16:06:42.041Z",
-          "duration": 5858,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Launch Mild Hybrid Page",
-          "start": "2021-10-30T16:06:42.042Z",
-          "end": "2021-10-30T16:06:45.939Z",
-          "duration": 3897,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Validate Mild Hybrid Page URL",
-          "start": "2021-10-30T16:06:45.939Z",
-          "end": "2021-10-30T16:06:46.173Z",
-          "duration": 234,
+          "title": "Handle Cookies",
+          "start": "2021-10-31T06:51:07.437Z",
+          "end": "2021-10-31T06:51:14.087Z",
+          "duration": 6650,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Validate Mild Hybrid Page - Header",
-          "start": "2021-10-30T16:06:46.173Z",
-          "end": "2021-10-30T16:06:46.718Z",
-          "duration": 545,
+          "start": "2021-10-31T06:51:14.087Z",
+          "end": "2021-10-31T06:51:15.617Z",
+          "duration": 1530,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Mild-Hybrid Page, Initial Screen Save",
+          "start": "2021-10-31T06:51:15.617Z",
+          "end": "2021-10-31T06:51:20.385Z",
+          "duration": 4768,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Validate Mild-Hybrid Page, Initial Screen Save",
+          "start": "2021-10-31T06:51:20.385Z",
+          "end": "2021-10-31T06:51:25.857Z",
+          "duration": 5472,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "FullScreen Capture, Mild-Hybrid Page",
+          "start": "2021-10-31T06:51:25.861Z",
+          "end": "2021-10-31T06:51:48.589Z",
+          "duration": 22728,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Validate FullScree Capture, Mild-Hybrid Page",
+          "start": "2021-10-31T06:51:48.590Z",
+          "end": "2021-10-31T06:52:12.163Z",
+          "duration": 23573,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Tabbed Screen Test, Mild-Hybrid Page",
+          "start": "2021-10-31T06:52:12.169Z",
+          "end": "2021-10-31T06:52:37.365Z",
+          "duration": 25196,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Validate Tabbed Screen Captured, Mild-Hybrid Page",
+          "start": "2021-10-31T06:52:37.367Z",
+          "end": "2021-10-31T06:53:02.187Z",
+          "duration": 24820,
           "state": "passed",
           "screenshots": []
         }
       ],
-      "hooks": []
+      "hooks": [
+        {
+          "start": "2021-10-31T06:51:07.437Z",
+          "end": "2021-10-31T06:51:09.094Z",
+          "duration": 1657,
+          "title": "\"before each\" hook for Visual Regression Test Suite, Mild-Hybrid Page",
+          "associatedSuite": "Visual Regression Test Suite, Mild-Hybrid Page"
+        },
+        {
+          "start": "2021-10-31T06:51:14.087Z",
+          "end": "2021-10-31T06:51:14.957Z",
+          "duration": 870,
+          "title": "\"before each\" hook for Visual Regression Test Suite, Mild-Hybrid Page",
+          "associatedSuite": "Visual Regression Test Suite, Mild-Hybrid Page"
+        },
+        {
+          "start": "2021-10-31T06:51:15.617Z",
+          "end": "2021-10-31T06:51:16.800Z",
+          "duration": 1183,
+          "title": "\"before each\" hook for Visual Regression Test Suite, Mild-Hybrid Page",
+          "associatedSuite": "Visual Regression Test Suite, Mild-Hybrid Page"
+        },
+        {
+          "start": "2021-10-31T06:51:20.385Z",
+          "end": "2021-10-31T06:51:21.324Z",
+          "duration": 939,
+          "title": "\"before each\" hook for Visual Regression Test Suite, Mild-Hybrid Page",
+          "associatedSuite": "Visual Regression Test Suite, Mild-Hybrid Page"
+        },
+        {
+          "start": "2021-10-31T06:51:25.862Z",
+          "end": "2021-10-31T06:51:26.696Z",
+          "duration": 834,
+          "title": "\"before each\" hook for Visual Regression Test Suite, Mild-Hybrid Page",
+          "associatedSuite": "Visual Regression Test Suite, Mild-Hybrid Page"
+        },
+        {
+          "start": "2021-10-31T06:51:48.591Z",
+          "end": "2021-10-31T06:51:49.372Z",
+          "duration": 781,
+          "title": "\"before each\" hook for Visual Regression Test Suite, Mild-Hybrid Page",
+          "associatedSuite": "Visual Regression Test Suite, Mild-Hybrid Page"
+        },
+        {
+          "start": "2021-10-31T06:52:12.170Z",
+          "end": "2021-10-31T06:52:12.929Z",
+          "duration": 759,
+          "title": "\"before each\" hook for Visual Regression Test Suite, Mild-Hybrid Page",
+          "associatedSuite": "Visual Regression Test Suite, Mild-Hybrid Page"
+        },
+        {
+          "start": "2021-10-31T06:52:37.367Z",
+          "end": "2021-10-31T06:52:38.153Z",
+          "duration": 786,
+          "title": "\"before each\" hook for Visual Regression Test Suite, Mild-Hybrid Page",
+          "associatedSuite": "Visual Regression Test Suite, Mild-Hybrid Page"
+        }
+      ]
     }
   ],
   "specs": [
-    "/home/kirub_invest/git/volvo-kube-wdio/test/specs/MildHybridPage.spec.js"
+    "/home/kirub_invest/kube/volvo-kube-wdio/test/specs/MildHybrid-VisualRegression.js"
   ],
   "state": {
-    "passed": 4,
+    "passed": 8,
     "failed": 0,
     "skipped": 0
   }

@@ -4,6 +4,7 @@ describe('Volvo Mild Hybrid Page Validator', async()=> {
 
     it('Launch Home Page', async()=> {
         await mildHybridPage.openUrl()
+        console.log('Testing - Volvo Mild Hybrid Page Validator')
     })
 
     it('Launch Mild Hybrid Page', async()=>{

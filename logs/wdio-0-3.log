@@ -1,42 +1,43 @@
-2021-10-30T16:05:27.061Z INFO @wdio/local-runner: Run worker command: run
-2021-10-30T16:05:31.167Z INFO webdriver: Initiate new session using the WebDriver protocol
-2021-10-30T16:05:31.268Z INFO webdriver: [POST] http://34.72.180.106:4444/session
-2021-10-30T16:05:31.269Z INFO webdriver: DATA {
+2021-10-31T06:50:55.508Z INFO @wdio/local-runner: Run worker command: run
+2021-10-31T06:51:00.117Z INFO webdriver: Initiate new session using the WebDriver protocol
+2021-10-31T06:51:00.159Z INFO webdriver: [POST] http://34.72.180.106:4444/session
+2021-10-31T06:51:00.159Z INFO webdriver: DATA {
   capabilities: {
     alwaysMatch: { browserName: 'chrome', acceptInsecureCerts: true },
     firstMatch: [ {} ]
   },
   desiredCapabilities: { browserName: 'chrome', acceptInsecureCerts: true }
 }
-2021-10-30T16:05:54.355Z INFO webdriver: COMMAND navigateTo("https://www.volvocars.com/intl/v/car-safety/a-million-more")
-2021-10-30T16:05:54.356Z INFO webdriver: [POST] http://34.72.180.106:4444/session/0df80d1f75b3c95379c014f03cd52288/url
-2021-10-30T16:05:54.356Z INFO webdriver: DATA { url: 'https://www.volvocars.com/intl/v/car-safety/a-million-more' }
-2021-10-30T16:05:57.938Z INFO webdriver: COMMAND maximizeWindow()
-2021-10-30T16:05:57.939Z INFO webdriver: [POST] http://34.72.180.106:4444/session/0df80d1f75b3c95379c014f03cd52288/window/maximize
-2021-10-30T16:05:58.389Z INFO webdriver: RESULT { height: 998, width: 1360, x: 0, y: 0 }
-2021-10-30T16:06:01.393Z INFO webdriver: COMMAND findElement("xpath", "/html/body/div[1]/div[2]/div[4]/div[2]/div/button")
-2021-10-30T16:06:01.394Z INFO webdriver: [POST] http://34.72.180.106:4444/session/0df80d1f75b3c95379c014f03cd52288/element
-2021-10-30T16:06:01.394Z INFO webdriver: DATA {
+2021-10-31T06:52:57.335Z INFO wdio-image-comparison-service: Adding commands to global browser
+2021-10-31T06:52:57.345Z INFO webdriver: COMMAND navigateTo("https://www.volvocars.com/intl/v/car-safety/a-million-more")
+2021-10-31T06:52:57.345Z INFO webdriver: [POST] http://34.72.180.106:4444/session/47ef9b5bf6c0c622287c894eeb37a0b7/url
+2021-10-31T06:52:57.346Z INFO webdriver: DATA { url: 'https://www.volvocars.com/intl/v/car-safety/a-million-more' }
+2021-10-31T06:53:02.536Z INFO webdriver: COMMAND maximizeWindow()
+2021-10-31T06:53:02.537Z INFO webdriver: [POST] http://34.72.180.106:4444/session/47ef9b5bf6c0c622287c894eeb37a0b7/window/maximize
+2021-10-31T06:53:02.922Z INFO webdriver: RESULT { height: 998, width: 1360, x: 0, y: 0 }
+2021-10-31T06:53:05.927Z INFO webdriver: COMMAND findElement("xpath", "/html/body/div[1]/div[2]/div[4]/div[2]/div/button")
+2021-10-31T06:53:05.928Z INFO webdriver: [POST] http://34.72.180.106:4444/session/47ef9b5bf6c0c622287c894eeb37a0b7/element
+2021-10-31T06:53:05.928Z INFO webdriver: DATA {
   using: 'xpath',
   value: '/html/body/div[1]/div[2]/div[4]/div[2]/div/button'
 }
-2021-10-30T16:06:01.687Z INFO webdriver: RESULT {
-  'element-6066-11e4-a52e-4f735466cecf': '4549eb01-9256-46cb-98b5-807dfbba9e44'
+2021-10-31T06:53:06.376Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '1a6779f9-da15-49ec-8bf3-6ecb0c523c87'
 }
-2021-10-30T16:06:01.696Z INFO webdriver: COMMAND elementClick("4549eb01-9256-46cb-98b5-807dfbba9e44")
-2021-10-30T16:06:01.697Z INFO webdriver: [POST] http://34.72.180.106:4444/session/0df80d1f75b3c95379c014f03cd52288/element/4549eb01-9256-46cb-98b5-807dfbba9e44/click
-2021-10-30T16:06:02.518Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ProductListCarousel-1"]/section/div[1]/div/div/div/div[1]/div/div/div/div/div[4]/div/a/div[2]/picture")
-2021-10-30T16:06:02.518Z INFO webdriver: [POST] http://34.72.180.106:4444/session/0df80d1f75b3c95379c014f03cd52288/element
-2021-10-30T16:06:02.518Z INFO webdriver: DATA {
+2021-10-31T06:53:06.386Z INFO webdriver: COMMAND elementClick("1a6779f9-da15-49ec-8bf3-6ecb0c523c87")
+2021-10-31T06:53:06.387Z INFO webdriver: [POST] http://34.72.180.106:4444/session/47ef9b5bf6c0c622287c894eeb37a0b7/element/1a6779f9-da15-49ec-8bf3-6ecb0c523c87/click
+2021-10-31T06:53:07.540Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ProductListCarousel-1"]/section/div[1]/div/div/div/div[1]/div/div/div/div/div[4]/div/a/div[2]/picture")
+2021-10-31T06:53:07.540Z INFO webdriver: [POST] http://34.72.180.106:4444/session/47ef9b5bf6c0c622287c894eeb37a0b7/element
+2021-10-31T06:53:07.540Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="ProductListCarousel-1"]/section/div[1]/div/div/div/div[1]/div/div/div/div/div[4]/div/a/div[2]/picture'
 }
-2021-10-30T16:06:03.516Z INFO webdriver: RESULT {
-  'element-6066-11e4-a52e-4f735466cecf': 'b3ef0c4e-ea85-4f08-a278-09a387e044ef'
+2021-10-31T06:53:08.201Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '5fe06669-8d0f-43df-b25e-e27bb7a337e8'
 }
-2021-10-30T16:06:03.524Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
-2021-10-30T16:06:03.524Z INFO webdriver: [POST] http://34.72.180.106:4444/session/0df80d1f75b3c95379c014f03cd52288/execute/sync
-2021-10-30T16:06:03.524Z INFO webdriver: DATA {
+2021-10-31T06:53:08.207Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T06:53:08.208Z INFO webdriver: [POST] http://34.72.180.106:4444/session/47ef9b5bf6c0c622287c894eeb37a0b7/execute/sync
+2021-10-31T06:53:08.208Z INFO webdriver: DATA {
   script: 'return (function isElementDisplayed(element) {\n' +
     '    function nodeIsElement(node) {\n' +
     '        if (!node) {\n' +
@@ -223,32 +224,32 @@
     '}).apply(null, arguments)',
   args: [
     {
-      'element-6066-11e4-a52e-4f735466cecf': 'b3ef0c4e-ea85-4f08-a278-09a387e044ef',
-      ELEMENT: 'b3ef0c4e-ea85-4f08-a278-09a387e044ef'
+      'element-6066-11e4-a52e-4f735466cecf': '5fe06669-8d0f-43df-b25e-e27bb7a337e8',
+      ELEMENT: '5fe06669-8d0f-43df-b25e-e27bb7a337e8'
     }
   ]
 }
-2021-10-30T16:06:04.362Z INFO webdriver: RESULT true
-2021-10-30T16:06:04.363Z INFO webdriver: COMMAND elementClick("b3ef0c4e-ea85-4f08-a278-09a387e044ef")
-2021-10-30T16:06:04.364Z INFO webdriver: [POST] http://34.72.180.106:4444/session/0df80d1f75b3c95379c014f03cd52288/element/b3ef0c4e-ea85-4f08-a278-09a387e044ef/click
-2021-10-30T16:06:10.148Z INFO webdriver: COMMAND getUrl()
-2021-10-30T16:06:10.148Z INFO webdriver: [GET] http://34.72.180.106:4444/session/0df80d1f75b3c95379c014f03cd52288/url
-2021-10-30T16:06:10.740Z INFO webdriver: RESULT https://www.volvocars.com/intl/v/cars/xc40-electric
-2021-10-30T16:06:10.744Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:06:10.744Z INFO webdriver: [GET] http://34.72.180.106:4444/session/0df80d1f75b3c95379c014f03cd52288/title
-2021-10-30T16:06:10.998Z INFO webdriver: RESULT Volvo XC40 Recharge pure electric | Volvo Cars
-2021-10-30T16:06:11.000Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="PdpSubmenu-1"]/div[2]/div/section/div[1]/div[2]/div/div/a")
-2021-10-30T16:06:11.000Z INFO webdriver: [POST] http://34.72.180.106:4444/session/0df80d1f75b3c95379c014f03cd52288/element
-2021-10-30T16:06:11.000Z INFO webdriver: DATA {
+2021-10-31T06:53:08.483Z INFO webdriver: RESULT true
+2021-10-31T06:53:08.484Z INFO webdriver: COMMAND elementClick("5fe06669-8d0f-43df-b25e-e27bb7a337e8")
+2021-10-31T06:53:08.484Z INFO webdriver: [POST] http://34.72.180.106:4444/session/47ef9b5bf6c0c622287c894eeb37a0b7/element/5fe06669-8d0f-43df-b25e-e27bb7a337e8/click
+2021-10-31T06:53:10.987Z INFO webdriver: COMMAND getUrl()
+2021-10-31T06:53:10.987Z INFO webdriver: [GET] http://34.72.180.106:4444/session/47ef9b5bf6c0c622287c894eeb37a0b7/url
+2021-10-31T06:53:11.460Z INFO webdriver: RESULT https://www.volvocars.com/intl/v/cars/xc40-electric
+2021-10-31T06:53:11.465Z INFO webdriver: COMMAND getTitle()
+2021-10-31T06:53:11.465Z INFO webdriver: [GET] http://34.72.180.106:4444/session/47ef9b5bf6c0c622287c894eeb37a0b7/title
+2021-10-31T06:53:11.678Z INFO webdriver: RESULT Volvo XC40 Recharge pure electric | Volvo Cars
+2021-10-31T06:53:11.680Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="PdpSubmenu-1"]/div[2]/div/section/div[1]/div[2]/div/div/a")
+2021-10-31T06:53:11.680Z INFO webdriver: [POST] http://34.72.180.106:4444/session/47ef9b5bf6c0c622287c894eeb37a0b7/element
+2021-10-31T06:53:11.680Z INFO webdriver: DATA {
   using: 'xpath',
   value: '//*[@id="PdpSubmenu-1"]/div[2]/div/section/div[1]/div[2]/div/div/a'
 }
-2021-10-30T16:06:11.307Z INFO webdriver: RESULT {
-  'element-6066-11e4-a52e-4f735466cecf': '147731fe-675e-472c-beaf-6ea8b1303b73'
+2021-10-31T06:53:11.902Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '09d080f0-24bb-4ca8-b33f-568117becb8e'
 }
-2021-10-30T16:06:11.311Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
-2021-10-30T16:06:11.311Z INFO webdriver: [POST] http://34.72.180.106:4444/session/0df80d1f75b3c95379c014f03cd52288/execute/sync
-2021-10-30T16:06:11.311Z INFO webdriver: DATA {
+2021-10-31T06:53:11.906Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T06:53:11.906Z INFO webdriver: [POST] http://34.72.180.106:4444/session/47ef9b5bf6c0c622287c894eeb37a0b7/execute/sync
+2021-10-31T06:53:11.906Z INFO webdriver: DATA {
   script: 'return (function isElementDisplayed(element) {\n' +
     '    function nodeIsElement(node) {\n' +
     '        if (!node) {\n' +
@@ -435,37 +436,37 @@
     '}).apply(null, arguments)',
   args: [
     {
-      'element-6066-11e4-a52e-4f735466cecf': '147731fe-675e-472c-beaf-6ea8b1303b73',
-      ELEMENT: '147731fe-675e-472c-beaf-6ea8b1303b73'
+      'element-6066-11e4-a52e-4f735466cecf': '09d080f0-24bb-4ca8-b33f-568117becb8e',
+      ELEMENT: '09d080f0-24bb-4ca8-b33f-568117becb8e'
     }
   ]
 }
-2021-10-30T16:06:11.593Z INFO webdriver: RESULT true
-2021-10-30T16:06:11.594Z INFO webdriver: COMMAND elementClick("147731fe-675e-472c-beaf-6ea8b1303b73")
-2021-10-30T16:06:11.594Z INFO webdriver: [POST] http://34.72.180.106:4444/session/0df80d1f75b3c95379c014f03cd52288/element/147731fe-675e-472c-beaf-6ea8b1303b73/click
-2021-10-30T16:06:21.826Z INFO webdriver: COMMAND getUrl()
-2021-10-30T16:06:21.827Z INFO webdriver: [GET] http://34.72.180.106:4444/session/0df80d1f75b3c95379c014f03cd52288/url
-2021-10-30T16:06:22.161Z INFO webdriver: RESULT https://www.volvocars.com/intl/build/xc40-electric
-2021-10-30T16:06:22.163Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:06:22.163Z INFO webdriver: [GET] http://34.72.180.106:4444/session/0df80d1f75b3c95379c014f03cd52288/title
-2021-10-30T16:06:22.405Z INFO webdriver: RESULT Design your XC40 Recharge | Volvo Cars International
-2021-10-30T16:06:22.422Z INFO webdriver: COMMAND getLogTypes()
-2021-10-30T16:06:22.422Z INFO webdriver: [GET] http://34.72.180.106:4444/session/0df80d1f75b3c95379c014f03cd52288/se/log/types
-2021-10-30T16:06:22.659Z INFO webdriver: RESULT [ 'browser', 'driver' ]
-2021-10-30T16:06:22.660Z INFO webdriver: COMMAND getLogs("driver")
-2021-10-30T16:06:22.660Z INFO webdriver: [POST] http://34.72.180.106:4444/session/0df80d1f75b3c95379c014f03cd52288/se/log
-2021-10-30T16:06:22.660Z INFO webdriver: DATA { type: 'driver' }
-2021-10-30T16:06:22.660Z INFO webdriver: COMMAND getLogs("browser")
-2021-10-30T16:06:22.661Z INFO webdriver: [POST] http://34.72.180.106:4444/session/0df80d1f75b3c95379c014f03cd52288/se/log
-2021-10-30T16:06:22.661Z INFO webdriver: DATA { type: 'browser' }
-2021-10-30T16:06:22.896Z INFO webdriver: RESULT []
-2021-10-30T16:06:23.085Z INFO webdriver: RESULT [
+2021-10-31T06:53:12.175Z INFO webdriver: RESULT true
+2021-10-31T06:53:12.175Z INFO webdriver: COMMAND elementClick("09d080f0-24bb-4ca8-b33f-568117becb8e")
+2021-10-31T06:53:12.176Z INFO webdriver: [POST] http://34.72.180.106:4444/session/47ef9b5bf6c0c622287c894eeb37a0b7/element/09d080f0-24bb-4ca8-b33f-568117becb8e/click
+2021-10-31T06:53:18.210Z INFO webdriver: COMMAND getUrl()
+2021-10-31T06:53:18.210Z INFO webdriver: [GET] http://34.72.180.106:4444/session/47ef9b5bf6c0c622287c894eeb37a0b7/url
+2021-10-31T06:53:19.772Z INFO webdriver: RESULT https://www.volvocars.com/intl/build/xc40-electric
+2021-10-31T06:53:19.774Z INFO webdriver: COMMAND getTitle()
+2021-10-31T06:53:19.774Z INFO webdriver: [GET] http://34.72.180.106:4444/session/47ef9b5bf6c0c622287c894eeb37a0b7/title
+2021-10-31T06:53:20.038Z INFO webdriver: RESULT Design your XC40 Recharge | Volvo Cars International
+2021-10-31T06:53:20.053Z INFO webdriver: COMMAND getLogTypes()
+2021-10-31T06:53:20.053Z INFO webdriver: [GET] http://34.72.180.106:4444/session/47ef9b5bf6c0c622287c894eeb37a0b7/se/log/types
+2021-10-31T06:53:20.291Z INFO webdriver: RESULT [ 'browser', 'driver' ]
+2021-10-31T06:53:20.291Z INFO webdriver: COMMAND getLogs("driver")
+2021-10-31T06:53:20.291Z INFO webdriver: [POST] http://34.72.180.106:4444/session/47ef9b5bf6c0c622287c894eeb37a0b7/se/log
+2021-10-31T06:53:20.291Z INFO webdriver: DATA { type: 'driver' }
+2021-10-31T06:53:20.292Z INFO webdriver: COMMAND getLogs("browser")
+2021-10-31T06:53:20.292Z INFO webdriver: [POST] http://34.72.180.106:4444/session/47ef9b5bf6c0c622287c894eeb37a0b7/se/log
+2021-10-31T06:53:20.292Z INFO webdriver: DATA { type: 'browser' }
+2021-10-31T06:53:20.524Z INFO webdriver: RESULT []
+2021-10-31T06:53:20.711Z INFO webdriver: RESULT [
   {
     level: 'SEVERE',
     message: 'https://sentry-ng.infrastructure.volvo.care/api/17/envelope/?sentry_key=b1745306e4124bb6b9780b43168ed004&sentry_version=7 - Failed to load resource: the server responded with a status of 429 ()',
     source: 'network',
-    timestamp: 1635609981647
+    timestamp: 1635663198076
   }
 ]
-2021-10-30T16:06:23.087Z INFO webdriver: COMMAND deleteSession()
-2021-10-30T16:06:23.088Z INFO webdriver: [DELETE] http://34.72.180.106:4444/session/0df80d1f75b3c95379c014f03cd52288
+2021-10-31T06:53:20.713Z INFO webdriver: COMMAND deleteSession()
+2021-10-31T06:53:20.713Z INFO webdriver: [DELETE] http://34.72.180.106:4444/session/47ef9b5bf6c0c622287c894eeb37a0b7

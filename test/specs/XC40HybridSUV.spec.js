@@ -5,6 +5,7 @@ describe('Volvo XC40-Hybrid SUV Page Validator', async()=> {
 
     it('Launch Home Page', async()=> {
         await xc40HybridSUVPage.openUrl()
+        console.log('Testing - Volvo XC40-Hybrid SUV Page Validator')
     })
 
     it('Launch XC40-Hybrid SUV Page', async()=> {

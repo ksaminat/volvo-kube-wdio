@@ -4,7 +4,8 @@ const saftyInnovationPage = require("../pageobjects/SaftyInnovation.page")
 describe('Volvo Cars Safety Page Validator', async()=> {
 
     it('Launch Volvo Home', async()=> {
-         await carSaftyPage.openUrl()
+        await carSaftyPage.openUrl()
+        console.log('Testing - Volvo Cars Safety Page Validator')
     })
 
     it('Validate Title', async()=> {

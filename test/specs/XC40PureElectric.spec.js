@@ -5,6 +5,7 @@ describe('Volvo XC40 Pure Electric Page Validator', async()=> {
 
     it('Launch Home Page', async()=> {
         await xc40PureElectricPage.openUrl()
+        console.log('Testing - Volvo XC40 Pure Electric Page Validator')
     })
 
     it('Validate XC40 Pure Electric Link', async()=> {
