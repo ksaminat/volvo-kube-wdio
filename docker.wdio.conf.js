@@ -1,3 +1,5 @@
+const { join } = require('path');
+
 exports.config = {
     //
     // ====================
@@ -36,12 +38,13 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        './test/specs/**/*.js'
+        //'./test/specs/**/*.js'
         /*'./test/specs/carSafetyPage.spec.js',
         './test/specs/XC40HybridSUV.spec.js',
         './test/specs/MildHybridPage.spec.js'*/
         //'./test/specs/XC40PureElectric.spec.js'
         //'./test/specs/MildHybridPage.spec.js'
+        './test/specs/MildHybrid-VisualRegression.js'
     ],
     // Patterns to exclude.
     exclude: [
@@ -147,7 +150,37 @@ exports.config = {
     // Services take over a specific job you don't want to take care of. They enhance
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
-    services: ['docker'],
+    services: ['docker',
+
+    ['image-comparison',
+        // The options
+        {
+            // Some options, see the docs for more
+            baselineFolder: join(process.cwd(), './visual-reggression/screen-capture/'),
+            formatImageName: '{tag}-{logName}-{width}x{height}',
+            screenshotPath: join(process.cwd(), '.tmp/'),
+            savePerInstance: true,
+            autoSaveBaseline: true,
+            blockOutStatusBar: true,
+            blockOutToolBar: true,
+            // NOTE: When you are testing a hybrid app please use this setting
+            isHybridApp: true,
+            // Options for the tabbing image
+            tabbableOptions:{
+                circle:{
+                    size: 18,
+                    fontSize: 18,
+                    // ...
+                },
+                line:{
+                    color: '#ff221a', // hex-code or for example words like `red|black|green`
+                    width: 3,
+                },
+            }
+            // ... more options
+        }]
+
+    ],
     
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber

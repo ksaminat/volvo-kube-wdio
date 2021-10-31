@@ -1,4 +1,3 @@
-const carSaftyPage = require("../pageobjects/CarSafety.page")
 const mildHybridPage = require("../pageobjects/MildHybrid.page")
 
 describe('Volvo Mild Hybrid Page Validator', async()=> {

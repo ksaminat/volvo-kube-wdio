@@ -1,34 +1,21 @@
-2021-10-30T16:05:24.844Z WARN @wdio/config:ConfigParser: pattern ./test/specs/example.e2e.js did not match any file
-2021-10-30T16:05:24.847Z WARN @wdio/config:ConfigParser: pattern ./test/specs/example.e2e.js did not match any file
-2021-10-30T16:05:24.938Z INFO @wdio/cli:launcher: Run onPrepare hook
-2021-10-30T16:05:24.941Z ERROR @wdio/cli:utils: A service failed in the 'onPrepare' hook
-TypeError: Cannot destructure property `args` of 'undefined' or 'null'.
-    at DockerLauncher.onPrepare (/home/kirub_invest/git/volvo-kube-wdio/node_modules/wdio-docker-service/lib/launcher.js:29:22)
-    at /home/kirub_invest/git/volvo-kube-wdio/node_modules/@wdio/cli/build/utils.js:28:40
+2021-10-31T05:12:03.890Z WARN @wdio/config:ConfigParser: pattern ./test/specs/example.e2e.js did not match any file
+2021-10-31T05:12:03.892Z WARN @wdio/config:ConfigParser: pattern ./test/specs/example.e2e.js did not match any file
+2021-10-31T05:12:04.085Z INFO @wdio/cli:launcher: Run onPrepare hook
+2021-10-31T05:12:04.087Z ERROR @wdio/cli:utils: A service failed in the 'onPrepare' hook
+TypeError: Cannot read property 'args' of undefined
+    at DockerLauncher.onPrepare (/Users/ksaminat/testing/git_volvo/volvo-kube-wdio/node_modules/wdio-docker-service/lib/launcher.js:30:9)
+    at /Users/ksaminat/testing/git_volvo/volvo-kube-wdio/node_modules/@wdio/cli/build/utils.js:28:40
     at Array.map (<anonymous>)
-    at runServiceHook (/home/kirub_invest/git/volvo-kube-wdio/node_modules/@wdio/cli/build/utils.js:25:33)
-    at Launcher.run (/home/kirub_invest/git/volvo-kube-wdio/node_modules/@wdio/cli/build/launcher.js:86:46)
-    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+    at runServiceHook (/Users/ksaminat/testing/git_volvo/volvo-kube-wdio/node_modules/@wdio/cli/build/utils.js:25:33)
+    at Launcher.run (/Users/ksaminat/testing/git_volvo/volvo-kube-wdio/node_modules/@wdio/cli/build/launcher.js:86:46)
 
 Continue...
-2021-10-30T16:05:24.942Z WARN @wdio/config:ConfigParser: pattern ./test/specs/example.e2e.js did not match any file
-2021-10-30T16:05:24.943Z WARN @wdio/config:ConfigParser: pattern ./test/specs/example.e2e.js did not match any file
-2021-10-30T16:05:24.944Z INFO @wdio/cli:launcher: Run onWorkerStart hook
-2021-10-30T16:05:24.944Z INFO @wdio/cli:launcher: Run onWorkerStart hook
-2021-10-30T16:05:24.944Z INFO @wdio/cli:launcher: Run onWorkerStart hook
-2021-10-30T16:05:24.944Z INFO @wdio/cli:launcher: Run onWorkerStart hook
-2021-10-30T16:05:24.944Z INFO @wdio/cli:launcher: Run onWorkerStart hook
-2021-10-30T16:05:24.944Z INFO @wdio/cli:launcher: Run onWorkerStart hook
-2021-10-30T16:05:24.944Z INFO @wdio/cli:launcher: Run onWorkerStart hook
-2021-10-30T16:05:24.944Z INFO @wdio/cli:launcher: Run onWorkerStart hook
-2021-10-30T16:05:24.945Z INFO @wdio/local-runner: Start worker 0-0 with arg: run,kube.wdio.conf.js
-2021-10-30T16:05:24.956Z INFO @wdio/local-runner: Start worker 1-0 with arg: run,kube.wdio.conf.js
-2021-10-30T16:05:24.965Z INFO @wdio/local-runner: Start worker 0-1 with arg: run,kube.wdio.conf.js
-2021-10-30T16:05:24.976Z INFO @wdio/local-runner: Start worker 1-1 with arg: run,kube.wdio.conf.js
-2021-10-30T16:05:24.987Z INFO @wdio/local-runner: Start worker 0-2 with arg: run,kube.wdio.conf.js
-2021-10-30T16:05:25.011Z INFO @wdio/local-runner: Start worker 1-2 with arg: run,kube.wdio.conf.js
-2021-10-30T16:05:25.028Z INFO @wdio/local-runner: Start worker 0-3 with arg: run,kube.wdio.conf.js
-2021-10-30T16:05:25.045Z INFO @wdio/local-runner: Start worker 1-3 with arg: run,kube.wdio.conf.js
-2021-10-30T16:06:47.832Z INFO @wdio/cli:launcher: Run onComplete hook
-2021-10-30T16:06:47.834Z INFO @wdio/local-runner: Shutting down spawned worker
-2021-10-30T16:06:48.085Z INFO @wdio/local-runner: Waiting for 0 to shut down gracefully
+2021-10-31T05:12:04.088Z WARN @wdio/config:ConfigParser: pattern ./test/specs/example.e2e.js did not match any file
+2021-10-31T05:12:04.089Z WARN @wdio/config:ConfigParser: pattern ./test/specs/example.e2e.js did not match any file
+2021-10-31T05:12:04.089Z INFO @wdio/cli:launcher: Run onWorkerStart hook
+2021-10-31T05:12:04.089Z INFO @wdio/cli:launcher: Run onWorkerStart hook
+2021-10-31T05:12:04.091Z INFO @wdio/local-runner: Start worker 0-0 with arg: run,docker.wdio.conf.js
+2021-10-31T05:12:04.100Z INFO @wdio/local-runner: Start worker 1-0 with arg: run,docker.wdio.conf.js
+2021-10-31T05:13:21.431Z INFO @wdio/cli:launcher: Run onComplete hook
+2021-10-31T05:13:21.432Z INFO @wdio/local-runner: Shutting down spawned worker
+2021-10-31T05:13:21.687Z INFO @wdio/local-runner: Waiting for 0 to shut down gracefully

@@ -14,11 +14,15 @@ export default class BasePageConfig{
         //console.log(await browser.getTitle())
     }
 
+    async openUrl(url){
+        await browser.url(url);
+    }
+
     async handleCookies(){
+        await browser.maximizeWindow()
+        await browser.pause(3000)
         const cookieButton = $(config.base.cookieButton)
         await (await cookieButton).click()
-
-        console.log(await browser.getTitle())
     }
 
     async waitThenClick(e, timeout){

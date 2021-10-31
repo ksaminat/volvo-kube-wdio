@@ -1,7 +1,7 @@
-2021-10-30T16:05:26.407Z INFO @wdio/local-runner: Run worker command: run
-2021-10-30T16:05:30.915Z INFO webdriver: Initiate new session using the WebDriver protocol
-2021-10-30T16:05:30.975Z INFO webdriver: [POST] http://34.72.180.106:4444/session
-2021-10-30T16:05:30.976Z INFO webdriver: DATA {
+2021-10-31T05:12:04.467Z INFO @wdio/local-runner: Run worker command: run
+2021-10-31T05:12:05.733Z INFO webdriver: Initiate new session using the WebDriver protocol
+2021-10-31T05:12:05.804Z INFO webdriver: [POST] http://localhost:4444/session
+2021-10-31T05:12:05.804Z INFO webdriver: DATA {
   capabilities: {
     alwaysMatch: {
       browserName: 'firefox',
@@ -16,561 +16,2123 @@
     'moz:firefoxOptions': { args: [Array] }
   }
 }
-2021-10-30T16:05:44.244Z INFO webdriver: COMMAND navigateTo("https://www.volvocars.com/intl/v/car-safety/a-million-more")
-2021-10-30T16:05:44.244Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/url
-2021-10-30T16:05:44.244Z INFO webdriver: DATA { url: 'https://www.volvocars.com/intl/v/car-safety/a-million-more' }
-2021-10-30T16:05:47.753Z INFO webdriver: COMMAND maximizeWindow()
-2021-10-30T16:05:47.753Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/window/maximize
-2021-10-30T16:05:47.991Z INFO webdriver: RESULT { x: 0, y: 0, width: 1360, height: 973 }
-2021-10-30T16:05:50.994Z INFO webdriver: COMMAND findElement("xpath", "/html/body/div[1]/div[2]/div[4]/div[2]/div/button")
-2021-10-30T16:05:50.994Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element
-2021-10-30T16:05:50.994Z INFO webdriver: DATA {
+2021-10-31T05:12:12.828Z INFO wdio-image-comparison-service: Adding commands to global browser
+2021-10-31T05:12:12.838Z INFO webdriver: COMMAND navigateTo("https://www.volvocars.com/intl/v/cars/other-powertrains")
+2021-10-31T05:12:12.838Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/url
+2021-10-31T05:12:12.838Z INFO webdriver: DATA { url: 'https://www.volvocars.com/intl/v/cars/other-powertrains' }
+2021-10-31T05:12:14.079Z INFO webdriver: COMMAND maximizeWindow()
+2021-10-31T05:12:14.079Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/window/maximize
+2021-10-31T05:12:14.130Z INFO webdriver: RESULT { x: 0, y: 0, width: 1360, height: 973 }
+2021-10-31T05:12:17.138Z INFO webdriver: COMMAND findElement("xpath", "/html/body/div[1]/div[2]/div[4]/div[2]/div/button")
+2021-10-31T05:12:17.138Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/element
+2021-10-31T05:12:17.138Z INFO webdriver: DATA {
   using: 'xpath',
   value: '/html/body/div[1]/div[2]/div[4]/div[2]/div/button'
 }
-2021-10-30T16:05:51.261Z INFO webdriver: RESULT {
-  'element-6066-11e4-a52e-4f735466cecf': '1c9f3225-bc9a-4d56-afd7-882e5ed48fee'
+2021-10-31T05:12:17.169Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'ea7bcbdc-22fb-4977-bc55-64d46ffb2df2'
 }
-2021-10-30T16:05:51.271Z INFO webdriver: COMMAND elementClick("1c9f3225-bc9a-4d56-afd7-882e5ed48fee")
-2021-10-30T16:05:51.272Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element/1c9f3225-bc9a-4d56-afd7-882e5ed48fee/click
-2021-10-30T16:05:52.115Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:05:52.115Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:05:53.438Z INFO webdriver: RESULT A million more | Volvo Cars - International
-2021-10-30T16:05:53.443Z INFO webdriver: COMMAND findElement("xpath", "//a[text()='Learn more about car safety']")
-2021-10-30T16:05:53.443Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element
-2021-10-30T16:05:53.443Z INFO webdriver: DATA { using: 'xpath', value: "//a[text()='Learn more about car safety']" }
-2021-10-30T16:05:53.774Z INFO webdriver: RESULT {
-  'element-6066-11e4-a52e-4f735466cecf': 'be3ecb69-c478-4a27-afd4-23d1932c5c1f'
-}
-2021-10-30T16:05:53.783Z INFO webdriver: COMMAND isElementDisplayed("be3ecb69-c478-4a27-afd4-23d1932c5c1f")
-2021-10-30T16:05:53.784Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element/be3ecb69-c478-4a27-afd4-23d1932c5c1f/displayed
-2021-10-30T16:05:54.185Z INFO webdriver: RESULT true
-2021-10-30T16:05:54.186Z INFO webdriver: COMMAND elementClick("be3ecb69-c478-4a27-afd4-23d1932c5c1f")
-2021-10-30T16:05:54.186Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element/be3ecb69-c478-4a27-afd4-23d1932c5c1f/click
-2021-10-30T16:05:55.698Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:05:55.699Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:05:55.700Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:05:55.700Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:05:55.977Z INFO webdriver: RESULT Car safety | Volvo Cars - International
-2021-10-30T16:05:55.979Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-1"]/section/div[1]/div[2]/div/div/div/h2")
-2021-10-30T16:05:55.980Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element
-2021-10-30T16:05:55.980Z INFO webdriver: DATA {
-  using: 'xpath',
-  value: '//*[@id="ImageWithText-1"]/section/div[1]/div[2]/div/div/div/h2'
-}
-2021-10-30T16:05:55.981Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-1"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T16:05:55.981Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element
-2021-10-30T16:05:55.981Z INFO webdriver: DATA {
-  using: 'xpath',
-  value: '//*[@id="ImageWithText-1"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
-}
-2021-10-30T16:05:56.175Z INFO webdriver: RESULT Car safety | Volvo Cars - International
-2021-10-30T16:05:56.200Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:05:56.200Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:05:56.377Z INFO webdriver: RESULT {
-  'element-6066-11e4-a52e-4f735466cecf': 'f445ac30-19b2-4ddc-ac30-982046bf466a'
-}
-2021-10-30T16:05:56.381Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
-2021-10-30T16:05:56.381Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/execute/sync
-2021-10-30T16:05:56.381Z INFO webdriver: DATA {
-  script: 'return (function (elem, options) {\n' +
-    '        elem.scrollIntoView(options);\n' +
-    '    }).apply(null, arguments)',
-  args: [
-    {
-      'element-6066-11e4-a52e-4f735466cecf': 'f445ac30-19b2-4ddc-ac30-982046bf466a',
-      ELEMENT: 'f445ac30-19b2-4ddc-ac30-982046bf466a'
-    },
-    true
-  ]
-}
-2021-10-30T16:05:56.505Z INFO webdriver: RESULT Car safety | Volvo Cars - International
-2021-10-30T16:05:56.507Z INFO webdriver: RESULT {
-  'element-6066-11e4-a52e-4f735466cecf': '2246cb38-0dd9-4811-9a8e-252a90d95526'
-}
-2021-10-30T16:05:56.699Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:05:56.699Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:05:56.797Z INFO webdriver: COMMAND isElementDisplayed("2246cb38-0dd9-4811-9a8e-252a90d95526")
-2021-10-30T16:05:56.797Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element/2246cb38-0dd9-4811-9a8e-252a90d95526/displayed
-2021-10-30T16:05:57.032Z INFO webdriver: RESULT Car safety | Volvo Cars - International
-2021-10-30T16:05:57.123Z INFO webdriver: RESULT true
-2021-10-30T16:05:57.124Z INFO webdriver: COMMAND elementClick("2246cb38-0dd9-4811-9a8e-252a90d95526")
-2021-10-30T16:05:57.125Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element/2246cb38-0dd9-4811-9a8e-252a90d95526/click
-2021-10-30T16:05:57.199Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:05:57.199Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:05:57.700Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:05:57.701Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:05:58.200Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:05:58.200Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:05:58.699Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:05:58.700Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:05:59.200Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:05:59.201Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:05:59.700Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:05:59.700Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:06:00.200Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:06:00.201Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:06:00.700Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:06:00.701Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:06:01.154Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:06:01.154Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:06:01.155Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:06:01.156Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:06:01.164Z INFO webdriver: RESULT Driver assistance systems | Volvo Cars
-2021-10-30T16:06:01.200Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:06:01.200Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:06:01.202Z INFO webdriver: RESULT Driver assistance systems | Volvo Cars
-2021-10-30T16:06:01.239Z INFO webdriver: RESULT Driver assistance systems | Volvo Cars
-2021-10-30T16:06:01.253Z INFO webdriver: RESULT Driver assistance systems | Volvo Cars
-2021-10-30T16:06:01.266Z INFO webdriver: RESULT Driver assistance systems | Volvo Cars
-2021-10-30T16:06:01.271Z INFO webdriver: RESULT Driver assistance systems | Volvo Cars
-2021-10-30T16:06:01.284Z INFO webdriver: RESULT Driver assistance systems | Volvo Cars
-2021-10-30T16:06:01.293Z INFO webdriver: RESULT Driver assistance systems | Volvo Cars
-2021-10-30T16:06:01.402Z INFO webdriver: RESULT Driver assistance systems | Volvo Cars
-2021-10-30T16:06:01.403Z INFO webdriver: COMMAND back()
-2021-10-30T16:06:01.403Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/back
-2021-10-30T16:06:01.447Z INFO webdriver: RESULT Driver assistance systems | Volvo Cars
-2021-10-30T16:06:01.656Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:06:01.656Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:06:01.668Z INFO webdriver: RESULT Driver assistance systems | Volvo Cars
-2021-10-30T16:06:01.700Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:06:01.700Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:06:02.156Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:06:02.157Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:06:02.200Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:06:02.201Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:06:02.656Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:06:02.656Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:06:02.700Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:06:02.700Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:06:03.156Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:06:03.157Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:06:03.200Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:06:03.200Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:06:03.578Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-2"]/section/div[1]/div[2]/div/div/div/h2")
-2021-10-30T16:06:03.579Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element
-2021-10-30T16:06:03.579Z INFO webdriver: DATA {
-  using: 'xpath',
-  value: '//*[@id="ImageWithText-2"]/section/div[1]/div[2]/div/div/div/h2'
-}
-2021-10-30T16:06:03.580Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-2"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T16:06:03.580Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element
-2021-10-30T16:06:03.580Z INFO webdriver: DATA {
-  using: 'xpath',
-  value: '//*[@id="ImageWithText-2"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
-}
-2021-10-30T16:06:03.597Z INFO webdriver: RESULT Car safety | Volvo Cars - International
-2021-10-30T16:06:03.655Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:06:03.656Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:06:03.665Z INFO webdriver: RESULT Car safety | Volvo Cars - International
-2021-10-30T16:06:03.691Z INFO webdriver: RESULT Car safety | Volvo Cars - International
-2021-10-30T16:06:03.700Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:06:03.700Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:06:03.790Z INFO webdriver: RESULT Car safety | Volvo Cars - International
-2021-10-30T16:06:03.976Z INFO webdriver: RESULT Car safety | Volvo Cars - International
-2021-10-30T16:06:04.060Z INFO webdriver: RESULT Car safety | Volvo Cars - International
-2021-10-30T16:06:04.086Z INFO webdriver: RESULT Car safety | Volvo Cars - International
-2021-10-30T16:06:04.118Z INFO webdriver: RESULT Car safety | Volvo Cars - International
-2021-10-30T16:06:04.156Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:06:04.156Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:06:04.200Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:06:04.201Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:06:04.348Z INFO webdriver: RESULT {
-  'element-6066-11e4-a52e-4f735466cecf': '02ff9b44-f87f-4978-889a-5bb58136071f'
-}
-2021-10-30T16:06:04.352Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
-2021-10-30T16:06:04.352Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/execute/sync
-2021-10-30T16:06:04.352Z INFO webdriver: DATA {
-  script: 'return (function (elem, options) {\n' +
-    '        elem.scrollIntoView(options);\n' +
-    '    }).apply(null, arguments)',
-  args: [
-    {
-      'element-6066-11e4-a52e-4f735466cecf': '02ff9b44-f87f-4978-889a-5bb58136071f',
-      ELEMENT: '02ff9b44-f87f-4978-889a-5bb58136071f'
-    },
-    true
-  ]
-}
-2021-10-30T16:06:04.454Z INFO webdriver: RESULT {
-  'element-6066-11e4-a52e-4f735466cecf': 'f3d8cd05-1ee6-4034-b5fb-5e2197285d9a'
-}
-2021-10-30T16:06:04.470Z INFO webdriver: RESULT Car safety | Volvo Cars - International
-2021-10-30T16:06:04.479Z INFO webdriver: RESULT Car safety | Volvo Cars - International
-2021-10-30T16:06:04.498Z INFO webdriver: RESULT Car safety | Volvo Cars - International
-2021-10-30T16:06:04.499Z INFO webdriver: RESULT Car safety | Volvo Cars - International
-2021-10-30T16:06:04.656Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:06:04.656Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:06:04.700Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:06:04.700Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:06:04.992Z INFO webdriver: COMMAND isElementDisplayed("f3d8cd05-1ee6-4034-b5fb-5e2197285d9a")
-2021-10-30T16:06:04.992Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element/f3d8cd05-1ee6-4034-b5fb-5e2197285d9a/displayed
-2021-10-30T16:06:05.013Z INFO webdriver: RESULT Car safety | Volvo Cars - International
-2021-10-30T16:06:05.037Z INFO webdriver: RESULT Car safety | Volvo Cars - International
-2021-10-30T16:06:05.156Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:06:05.157Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:06:05.200Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:06:05.200Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:06:05.334Z INFO webdriver: RESULT true
-2021-10-30T16:06:05.335Z INFO webdriver: COMMAND elementClick("f3d8cd05-1ee6-4034-b5fb-5e2197285d9a")
-2021-10-30T16:06:05.335Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element/f3d8cd05-1ee6-4034-b5fb-5e2197285d9a/click
-2021-10-30T16:06:05.439Z INFO webdriver: RESULT Car safety | Volvo Cars - International
-2021-10-30T16:06:05.452Z INFO webdriver: RESULT Car safety | Volvo Cars - International
-2021-10-30T16:06:05.656Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:06:05.656Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:06:06.157Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:06:06.157Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:06:06.655Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:06:06.656Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:06:07.156Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:06:07.157Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:06:07.656Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:06:07.656Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:06:08.155Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:06:08.156Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:06:08.656Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:06:08.657Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:06:09.156Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:06:09.156Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:06:09.656Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:06:09.656Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:06:10.157Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:06:10.158Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:06:10.656Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:06:10.656Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:06:11.464Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:06:11.465Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:06:11.466Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:06:11.466Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:06:11.504Z INFO webdriver: RESULT Child Safety innovations for our most precious passengers | Volvo Cars
-2021-10-30T16:06:11.606Z INFO webdriver: RESULT Child Safety innovations for our most precious passengers | Volvo Cars
-2021-10-30T16:06:11.639Z INFO webdriver: RESULT Child Safety innovations for our most precious passengers | Volvo Cars
-2021-10-30T16:06:11.642Z INFO webdriver: RESULT Child Safety innovations for our most precious passengers | Volvo Cars
-2021-10-30T16:06:11.643Z INFO webdriver: RESULT Child Safety innovations for our most precious passengers | Volvo Cars
-2021-10-30T16:06:11.669Z INFO webdriver: RESULT Child Safety innovations for our most precious passengers | Volvo Cars
-2021-10-30T16:06:11.673Z INFO webdriver: RESULT Child Safety innovations for our most precious passengers | Volvo Cars
-2021-10-30T16:06:11.697Z INFO webdriver: RESULT Child Safety innovations for our most precious passengers | Volvo Cars
-2021-10-30T16:06:11.706Z INFO webdriver: RESULT Child Safety innovations for our most precious passengers | Volvo Cars
-2021-10-30T16:06:11.723Z INFO webdriver: RESULT Child Safety innovations for our most precious passengers | Volvo Cars
-2021-10-30T16:06:11.745Z INFO webdriver: RESULT Child Safety innovations for our most precious passengers | Volvo Cars
-2021-10-30T16:06:11.746Z INFO webdriver: COMMAND back()
-2021-10-30T16:06:11.746Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/back
-2021-10-30T16:06:11.748Z INFO webdriver: RESULT Child Safety innovations for our most precious passengers | Volvo Cars
-2021-10-30T16:06:11.908Z INFO webdriver: RESULT Child Safety innovations for our most precious passengers | Volvo Cars
-2021-10-30T16:06:11.965Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:06:11.965Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:06:12.466Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:06:12.466Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:06:12.966Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:06:12.967Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:06:13.466Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:06:13.466Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:06:13.967Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:06:13.967Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:06:14.466Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:06:14.467Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:06:14.638Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T16:06:14.639Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element
-2021-10-30T16:06:14.639Z INFO webdriver: DATA {
-  using: 'xpath',
-  value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
-}
-2021-10-30T16:06:14.673Z INFO webdriver: RESULT Car safety | Volvo Cars - International
-2021-10-30T16:06:14.685Z INFO webdriver: RESULT Car safety | Volvo Cars - International
-2021-10-30T16:06:14.709Z INFO webdriver: RESULT Car safety | Volvo Cars - International
-2021-10-30T16:06:14.710Z INFO webdriver: RESULT Car safety | Volvo Cars - International
-2021-10-30T16:06:14.718Z INFO webdriver: RESULT Car safety | Volvo Cars - International
-2021-10-30T16:06:14.730Z INFO webdriver: RESULT Car safety | Volvo Cars - International
-2021-10-30T16:06:14.966Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:06:14.966Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:06:15.115Z INFO webdriver: RESULT {
-  'element-6066-11e4-a52e-4f735466cecf': 'ac7ca4a5-0408-425d-a210-06acf29edc5e'
-}
-2021-10-30T16:06:15.121Z INFO webdriver: COMMAND elementClick("ac7ca4a5-0408-425d-a210-06acf29edc5e")
-2021-10-30T16:06:15.121Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element/ac7ca4a5-0408-425d-a210-06acf29edc5e/click
-2021-10-30T16:06:15.123Z INFO webdriver: COMMAND isElementDisplayed("ac7ca4a5-0408-425d-a210-06acf29edc5e")
-2021-10-30T16:06:15.123Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element/ac7ca4a5-0408-425d-a210-06acf29edc5e/displayed
-2021-10-30T16:06:15.202Z INFO webdriver: RESULT Car safety | Volvo Cars - International
-2021-10-30T16:06:15.466Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:06:15.466Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:06:15.566Z INFO webdriver: RESULT true
-2021-10-30T16:06:15.567Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
-2021-10-30T16:06:15.567Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/execute/sync
-2021-10-30T16:06:15.567Z INFO webdriver: DATA {
-  script: 'return (function isElementInViewport(elem) {\n' +
-    '    if (!elem.getBoundingClientRect) {\n' +
-    '        return false;\n' +
+2021-10-31T05:12:17.173Z INFO webdriver: COMMAND elementClick("ea7bcbdc-22fb-4977-bc55-64d46ffb2df2")
+2021-10-31T05:12:17.174Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/element/ea7bcbdc-22fb-4977-bc55-64d46ffb2df2/click
+2021-10-31T05:12:17.535Z INFO webdriver: COMMAND navigateTo("https://www.volvocars.com/intl/v/cars/other-powertrains")
+2021-10-31T05:12:17.535Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/url
+2021-10-31T05:12:17.535Z INFO webdriver: DATA { url: 'https://www.volvocars.com/intl/v/cars/other-powertrains' }
+2021-10-31T05:12:22.541Z INFO webdriver: COMMAND saveScreen("mildscreen", <object>)
+2021-10-31T05:12:22.544Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:12:22.544Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:12:22.544Z INFO webdriver: DATA {
+  script: 'return (function hideScrollBars(hide) {\n' +
+    '    try {\n' +
+    '        if (hide) {\n' +
+    "            document.body.style.overflow = 'hidden';\n" +
+    '        }\n' +
+    '        else {\n' +
+    "            document.body.style.overflow = '';\n" +
+    '        }\n' +
     '    }\n' +
-    '    const rect = elem.getBoundingClientRect();\n' +
-    '    const windowHeight = (window.innerHeight || document.documentElement.clientHeight);\n' +
-    '    const windowWidth = (window.innerWidth || document.documentElement.clientWidth);\n' +
-    '    const vertInView = (rect.top <= windowHeight) && ((rect.top + rect.height) > 0);\n' +
-    '    const horInView = (rect.left <= windowWidth) && ((rect.left + rect.width) > 0);\n' +
-    '    return (vertInView && horInView);\n' +
+    '    catch (e) {\n' +
+    '    }\n' +
     '}).apply(null, arguments)',
-  args: [
-    {
-      'element-6066-11e4-a52e-4f735466cecf': 'ac7ca4a5-0408-425d-a210-06acf29edc5e',
-      ELEMENT: 'ac7ca4a5-0408-425d-a210-06acf29edc5e'
+  args: [ true ]
+}
+2021-10-31T05:12:22.602Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:12:22.603Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:12:22.603Z INFO webdriver: DATA {
+  script: 'return (function getScreenDimensions() {\n' +
+    '    var body = document.body;\n' +
+    '    var html = document.documentElement;\n' +
+    '    var bodyDimensions = {\n' +
+    '        scrollHeight: body == null ? 0 : body.scrollHeight,\n' +
+    '        offsetHeight: body == null ? 0 : body.offsetHeight\n' +
+    '    };\n' +
+    '    var htmlDimensions = {\n' +
+    '        clientHeight: html == null ? 0 : html.clientHeight,\n' +
+    '        clientWidth: html == null ? 0 : html.clientWidth,\n' +
+    '        scrollHeight: html == null ? 0 : html.scrollHeight,\n' +
+    '        scrollWidth: html == null ? 0 : html.scrollWidth,\n' +
+    '        offsetHeight: html == null ? 0 : html.offsetHeight\n' +
+    '    };\n' +
+    '    var windowDimensions = {\n' +
+    '        innerWidth: window.innerWidth,\n' +
+    '        innerHeight: window.innerHeight,\n' +
+    '        outerHeight: window.outerHeight === 0 ? htmlDimensions.clientHeight : window.outerHeight,\n' +
+    '        outerWidth: window.outerWidth === 0 ? htmlDimensions.clientWidth : window.outerWidth,\n' +
+    '        devicePixelRatio: window.devicePixelRatio,\n' +
+    '        screenWidth: window.screen.width,\n' +
+    '        screenHeight: window.screen.height,\n' +
+    '    };\n' +
+    '    return {\n' +
+    '        dimensions: {\n' +
+    '            body: bodyDimensions,\n' +
+    '            html: htmlDimensions,\n' +
+    '            window: windowDimensions\n' +
+    '        }\n' +
+    '    };\n' +
+    '}).apply(null, arguments)',
+  args: []
+}
+2021-10-31T05:12:22.641Z INFO webdriver: RESULT {
+  dimensions: {
+    body: { offsetHeight: 4380, scrollHeight: 4380 },
+    html: {
+      clientHeight: 888,
+      clientWidth: 1360,
+      offsetHeight: 4380,
+      scrollHeight: 4380,
+      scrollWidth: 1360
+    },
+    window: {
+      devicePixelRatio: 1,
+      innerHeight: 888,
+      innerWidth: 1360,
+      outerHeight: 973,
+      outerWidth: 1360,
+      screenHeight: 1020,
+      screenWidth: 1360
     }
-  ]
+  }
 }
-2021-10-30T16:06:15.965Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:06:15.966Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:06:16.465Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:06:16.466Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:06:16.966Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:06:16.967Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:06:17.466Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:06:17.467Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:06:17.967Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:06:17.967Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:06:18.131Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:06:18.132Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:06:18.136Z INFO webdriver: RESULT The E.V.A. Initiative | Cars safe for all
-2021-10-30T16:06:18.230Z WARN webdriver: Request encountered a stale element - terminating request
-2021-10-30T16:06:18.232Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T16:06:18.232Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element
-2021-10-30T16:06:18.232Z INFO webdriver: DATA {
-  using: 'xpath',
-  value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
+2021-10-31T05:12:22.642Z INFO webdriver: COMMAND takeScreenshot()
+2021-10-31T05:12:22.642Z INFO webdriver: [GET] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/screenshot
+2021-10-31T05:12:23.000Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAABVAAAAN4CAYAAAAlUcMpAAAgAElEQVR4nOzd+...
+2021-10-31T05:12:23.477Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:12:23.477Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:12:23.478Z INFO webdriver: DATA {
+  script: 'return (function hideScrollBars(hide) {\n' +
+    '    try {\n' +
+    '        if (hide) {\n' +
+    "            document.body.style.overflow = 'hidden';\n" +
+    '        }\n' +
+    '        else {\n' +
+    "            document.body.style.overflow = '';\n" +
+    '        }\n' +
+    '    }\n' +
+    '    catch (e) {\n' +
+    '    }\n' +
+    '}).apply(null, arguments)',
+  args: [ false ]
 }
-2021-10-30T16:06:18.245Z INFO webdriver: RESULT The E.V.A. Initiative | Cars safe for all
-2021-10-30T16:06:18.260Z INFO webdriver: RESULT The E.V.A. Initiative | Cars safe for all
-2021-10-30T16:06:18.266Z INFO webdriver: RESULT The E.V.A. Initiative | Cars safe for all
-2021-10-30T16:06:18.296Z INFO webdriver: RESULT The E.V.A. Initiative | Cars safe for all
-2021-10-30T16:06:18.312Z INFO webdriver: RESULT The E.V.A. Initiative | Cars safe for all
-2021-10-30T16:06:18.364Z INFO webdriver: RESULT The E.V.A. Initiative | Cars safe for all
-2021-10-30T16:06:18.366Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="Video-1"]/section/div/div/div/button")
-2021-10-30T16:06:18.366Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element
-2021-10-30T16:06:18.366Z INFO webdriver: DATA {
-  using: 'xpath',
-  value: '//*[@id="Video-1"]/section/div/div/div/button'
+2021-10-31T05:12:23.509Z INFO webdriver: RESULT {
+  fileName: 'mildscreen--1360x973.png',
+  path: '/Users/ksaminat/testing/git_volvo/volvo-kube-wdio/.tmp/actual/desktop_firefox',
+  devicePixelRatio: 1
 }
-2021-10-30T16:06:18.467Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:06:18.467Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:06:18.955Z INFO webdriver: RESULT {
-  error: 'no such element',
-  message: 'Unable to locate element: //*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a',
-  stacktrace: 'WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:181:5\n' +
-    'NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:393:5\n' +
-    'element.find/</<@chrome://remote/content/marionette/element.js:305:16\n'
+2021-10-31T05:12:23.510Z INFO webdriver: COMMAND navigateTo("https://www.volvocars.com/intl/v/cars/other-powertrains")
+2021-10-31T05:12:23.510Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/url
+2021-10-31T05:12:23.510Z INFO webdriver: DATA { url: 'https://www.volvocars.com/intl/v/cars/other-powertrains' }
+2021-10-31T05:12:25.131Z INFO webdriver: COMMAND checkScreen("mildscreen", <object>)
+2021-10-31T05:12:25.133Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:12:25.133Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:12:25.133Z INFO webdriver: DATA {
+  script: 'return (function hideScrollBars(hide) {\n' +
+    '    try {\n' +
+    '        if (hide) {\n' +
+    "            document.body.style.overflow = 'hidden';\n" +
+    '        }\n' +
+    '        else {\n' +
+    "            document.body.style.overflow = '';\n" +
+    '        }\n' +
+    '    }\n' +
+    '    catch (e) {\n' +
+    '    }\n' +
+    '}).apply(null, arguments)',
+  args: [ true ]
 }
-2021-10-30T16:06:18.961Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T16:06:18.961Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element
-2021-10-30T16:06:18.961Z INFO webdriver: DATA {
-  using: 'xpath',
-  value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
+2021-10-31T05:12:25.296Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:12:25.296Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:12:25.296Z INFO webdriver: DATA {
+  script: 'return (function getScreenDimensions() {\n' +
+    '    var body = document.body;\n' +
+    '    var html = document.documentElement;\n' +
+    '    var bodyDimensions = {\n' +
+    '        scrollHeight: body == null ? 0 : body.scrollHeight,\n' +
+    '        offsetHeight: body == null ? 0 : body.offsetHeight\n' +
+    '    };\n' +
+    '    var htmlDimensions = {\n' +
+    '        clientHeight: html == null ? 0 : html.clientHeight,\n' +
+    '        clientWidth: html == null ? 0 : html.clientWidth,\n' +
+    '        scrollHeight: html == null ? 0 : html.scrollHeight,\n' +
+    '        scrollWidth: html == null ? 0 : html.scrollWidth,\n' +
+    '        offsetHeight: html == null ? 0 : html.offsetHeight\n' +
+    '    };\n' +
+    '    var windowDimensions = {\n' +
+    '        innerWidth: window.innerWidth,\n' +
+    '        innerHeight: window.innerHeight,\n' +
+    '        outerHeight: window.outerHeight === 0 ? htmlDimensions.clientHeight : window.outerHeight,\n' +
+    '        outerWidth: window.outerWidth === 0 ? htmlDimensions.clientWidth : window.outerWidth,\n' +
+    '        devicePixelRatio: window.devicePixelRatio,\n' +
+    '        screenWidth: window.screen.width,\n' +
+    '        screenHeight: window.screen.height,\n' +
+    '    };\n' +
+    '    return {\n' +
+    '        dimensions: {\n' +
+    '            body: bodyDimensions,\n' +
+    '            html: htmlDimensions,\n' +
+    '            window: windowDimensions\n' +
+    '        }\n' +
+    '    };\n' +
+    '}).apply(null, arguments)',
+  args: []
 }
-2021-10-30T16:06:18.965Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:06:18.965Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:06:19.061Z INFO webdriver: RESULT {
-  'element-6066-11e4-a52e-4f735466cecf': '9c65b296-ff7d-417c-8e8f-35d8fd5f9c6a'
+2021-10-31T05:12:25.363Z INFO webdriver: RESULT {
+  dimensions: {
+    body: { offsetHeight: 4380, scrollHeight: 4380 },
+    html: {
+      clientHeight: 888,
+      clientWidth: 1360,
+      offsetHeight: 4380,
+      scrollHeight: 4380,
+      scrollWidth: 1360
+    },
+    window: {
+      devicePixelRatio: 1,
+      innerHeight: 888,
+      innerWidth: 1360,
+      outerHeight: 973,
+      outerWidth: 1360,
+      screenHeight: 1020,
+      screenWidth: 1360
+    }
+  }
 }
-2021-10-30T16:06:19.065Z INFO webdriver: COMMAND elementClick("9c65b296-ff7d-417c-8e8f-35d8fd5f9c6a")
-2021-10-30T16:06:19.065Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element/9c65b296-ff7d-417c-8e8f-35d8fd5f9c6a/click
-2021-10-30T16:06:19.073Z INFO webdriver: RESULT The E.V.A. Initiative | Cars safe for all
-2021-10-30T16:06:19.222Z INFO webdriver: RESULT The E.V.A. Initiative | Cars safe for all
-2021-10-30T16:06:19.380Z INFO webdriver: RESULT {
-  error: 'no such element',
-  message: 'Unable to locate element: //*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a',
-  stacktrace: 'WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:181:5\n' +
-    'NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:393:5\n' +
-    'element.find/</<@chrome://remote/content/marionette/element.js:305:16\n'
+2021-10-31T05:12:25.363Z INFO webdriver: COMMAND takeScreenshot()
+2021-10-31T05:12:25.364Z INFO webdriver: [GET] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/screenshot
+2021-10-31T05:12:25.794Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAABVAAAAN4CAYAAAAlUcMpAAAgAElEQVR4nOzd+...
+2021-10-31T05:12:26.156Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:12:26.156Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:12:26.156Z INFO webdriver: DATA {
+  script: 'return (function hideScrollBars(hide) {\n' +
+    '    try {\n' +
+    '        if (hide) {\n' +
+    "            document.body.style.overflow = 'hidden';\n" +
+    '        }\n' +
+    '        else {\n' +
+    "            document.body.style.overflow = '';\n" +
+    '        }\n' +
+    '    }\n' +
+    '    catch (e) {\n' +
+    '    }\n' +
+    '}).apply(null, arguments)',
+  args: [ false ]
 }
-2021-10-30T16:06:19.387Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T16:06:19.387Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element
-2021-10-30T16:06:19.387Z INFO webdriver: DATA {
-  using: 'xpath',
-  value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
+2021-10-31T05:12:26.324Z INFO webdriver: RESULT 0
+2021-10-31T05:12:26.331Z INFO webdriver: COMMAND navigateTo("https://www.volvocars.com/intl/v/cars/other-powertrains")
+2021-10-31T05:12:26.331Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/url
+2021-10-31T05:12:26.331Z INFO webdriver: DATA { url: 'https://www.volvocars.com/intl/v/cars/other-powertrains' }
+2021-10-31T05:12:27.861Z INFO webdriver: COMMAND saveFullPageScreen("mildsfullpage", <object>)
+2021-10-31T05:12:27.862Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:12:27.862Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:12:27.862Z INFO webdriver: DATA {
+  script: 'return (function hideScrollBars(hide) {\n' +
+    '    try {\n' +
+    '        if (hide) {\n' +
+    "            document.body.style.overflow = 'hidden';\n" +
+    '        }\n' +
+    '        else {\n' +
+    "            document.body.style.overflow = '';\n" +
+    '        }\n' +
+    '    }\n' +
+    '    catch (e) {\n' +
+    '    }\n' +
+    '}).apply(null, arguments)',
+  args: [ true ]
 }
-2021-10-30T16:06:19.464Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:06:19.465Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:06:19.966Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:06:19.966Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:06:20.177Z INFO webdriver: RESULT {
-  error: 'no such element',
-  message: 'Unable to locate element: //*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a',
-  stacktrace: 'WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:181:5\n' +
-    'NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:393:5\n' +
-    'element.find/</<@chrome://remote/content/marionette/element.js:305:16\n'
+2021-10-31T05:12:27.954Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:12:27.954Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:12:27.954Z INFO webdriver: DATA {
+  script: 'return (function getScreenDimensions() {\n' +
+    '    var body = document.body;\n' +
+    '    var html = document.documentElement;\n' +
+    '    var bodyDimensions = {\n' +
+    '        scrollHeight: body == null ? 0 : body.scrollHeight,\n' +
+    '        offsetHeight: body == null ? 0 : body.offsetHeight\n' +
+    '    };\n' +
+    '    var htmlDimensions = {\n' +
+    '        clientHeight: html == null ? 0 : html.clientHeight,\n' +
+    '        clientWidth: html == null ? 0 : html.clientWidth,\n' +
+    '        scrollHeight: html == null ? 0 : html.scrollHeight,\n' +
+    '        scrollWidth: html == null ? 0 : html.scrollWidth,\n' +
+    '        offsetHeight: html == null ? 0 : html.offsetHeight\n' +
+    '    };\n' +
+    '    var windowDimensions = {\n' +
+    '        innerWidth: window.innerWidth,\n' +
+    '        innerHeight: window.innerHeight,\n' +
+    '        outerHeight: window.outerHeight === 0 ? htmlDimensions.clientHeight : window.outerHeight,\n' +
+    '        outerWidth: window.outerWidth === 0 ? htmlDimensions.clientWidth : window.outerWidth,\n' +
+    '        devicePixelRatio: window.devicePixelRatio,\n' +
+    '        screenWidth: window.screen.width,\n' +
+    '        screenHeight: window.screen.height,\n' +
+    '    };\n' +
+    '    return {\n' +
+    '        dimensions: {\n' +
+    '            body: bodyDimensions,\n' +
+    '            html: htmlDimensions,\n' +
+    '            window: windowDimensions\n' +
+    '        }\n' +
+    '    };\n' +
+    '}).apply(null, arguments)',
+  args: []
 }
-2021-10-30T16:06:20.184Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T16:06:20.185Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element
-2021-10-30T16:06:20.185Z INFO webdriver: DATA {
-  using: 'xpath',
-  value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
+2021-10-31T05:12:27.978Z INFO webdriver: RESULT {
+  dimensions: {
+    body: { offsetHeight: 4380, scrollHeight: 4380 },
+    html: {
+      clientHeight: 888,
+      clientWidth: 1360,
+      offsetHeight: 4380,
+      scrollHeight: 4380,
+      scrollWidth: 1360
+    },
+    window: {
+      devicePixelRatio: 1,
+      innerHeight: 888,
+      innerWidth: 1360,
+      outerHeight: 973,
+      outerWidth: 1360,
+      screenHeight: 1020,
+      screenWidth: 1360
+    }
+  }
 }
-2021-10-30T16:06:20.194Z INFO webdriver: RESULT The E.V.A. Initiative | Cars safe for all
-2021-10-30T16:06:20.232Z INFO webdriver: RESULT The E.V.A. Initiative | Cars safe for all
-2021-10-30T16:06:20.465Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:06:20.466Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:06:20.967Z INFO webdriver: COMMAND getTitle()
-2021-10-30T16:06:20.967Z INFO webdriver: [GET] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/title
-2021-10-30T16:06:21.019Z INFO webdriver: RESULT {
-  error: 'no such element',
-  message: 'Unable to locate element: //*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a',
-  stacktrace: 'WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:181:5\n' +
-    'NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:393:5\n' +
-    'element.find/</<@chrome://remote/content/marionette/element.js:305:16\n'
+2021-10-31T05:12:27.980Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:12:27.980Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:12:27.980Z INFO webdriver: DATA {
+  script: 'return (function scrollToPosition(yPosition) {\n' +
+    '    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\n' +
+    '}).apply(null, arguments)',
+  args: [ 0 ]
 }
-2021-10-30T16:06:21.029Z INFO webdriver: RESULT The E.V.A. Initiative | Cars safe for all
-2021-10-30T16:06:21.030Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T16:06:21.030Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element
-2021-10-30T16:06:21.030Z INFO webdriver: DATA {
-  using: 'xpath',
-  value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
+2021-10-31T05:12:29.503Z INFO webdriver: COMMAND takeScreenshot()
+2021-10-31T05:12:29.503Z INFO webdriver: [GET] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/screenshot
+2021-10-31T05:12:29.829Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAABVAAAAN4CAYAAAAlUcMpAAAgAElEQVR4nOzd+...
+2021-10-31T05:12:29.840Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:12:29.841Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:12:29.841Z INFO webdriver: DATA {
+  script: 'return (function getDocumentScrollHeight() {\n' +
+    '    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\n' +
+    '    var scrollHeight = document.documentElement.scrollHeight;\n' +
+    '    var bodyScrollHeight = document.body.scrollHeight;\n' +
+    '    if ((viewPortHeight === scrollHeight) && (bodyScrollHeight > scrollHeight)) {\n' +
+    '        return bodyScrollHeight;\n' +
+    '    }\n' +
+    '    var pageHeight = 0;\n' +
+    "    var largestNodeElement = document.querySelector('body');\n" +
+    '    if (bodyScrollHeight === scrollHeight && bodyScrollHeight === viewPortHeight) {\n' +
+    '        findHighestNode(document.documentElement.childNodes);\n' +
+    '        return pageHeight + largestNodeElement.getBoundingClientRect().top;\n' +
+    '    }\n' +
+    '    return scrollHeight;\n' +
+    '    function findHighestNode(nodesList) {\n' +
+    '        for (var i = nodesList.length - 1; i >= 0; i--) {\n' +
+    '            var currentNode = nodesList[i];\n' +
+    '            if (currentNode.scrollHeight && currentNode.clientHeight) {\n' +
+    '                var elHeight = Math.max(currentNode.scrollHeight, currentNode.clientHeight);\n' +
+    '                pageHeight = Math.max(elHeight, pageHeight);\n' +
+    '                if (elHeight === pageHeight) {\n' +
+    '                    largestNodeElement = currentNode;\n' +
+    '                }\n' +
+    '            }\n' +
+    '            if (currentNode.childNodes.length) {\n' +
+    '                findHighestNode(currentNode.childNodes);\n' +
+    '            }\n' +
+    '        }\n' +
+    '    }\n' +
+    '}).apply(null, arguments)',
+  args: []
 }
-2021-10-30T16:06:21.200Z INFO webdriver: RESULT The E.V.A. Initiative | Cars safe for all
-2021-10-30T16:06:21.718Z INFO webdriver: RESULT {
-  error: 'no such element',
-  message: 'Unable to locate element: //*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a',
-  stacktrace: 'WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:181:5\n' +
-    'NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:393:5\n' +
-    'element.find/</<@chrome://remote/content/marionette/element.js:305:16\n'
+2021-10-31T05:12:29.867Z INFO webdriver: RESULT 4380
+2021-10-31T05:12:29.868Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:12:29.869Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:12:29.869Z INFO webdriver: DATA {
+  script: 'return (function scrollToPosition(yPosition) {\n' +
+    '    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\n' +
+    '}).apply(null, arguments)',
+  args: [ 888 ]
 }
-2021-10-30T16:06:21.723Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T16:06:21.723Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element
-2021-10-30T16:06:21.723Z INFO webdriver: DATA {
-  using: 'xpath',
-  value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
+2021-10-31T05:12:31.423Z INFO webdriver: COMMAND takeScreenshot()
+2021-10-31T05:12:31.423Z INFO webdriver: [GET] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/screenshot
+2021-10-31T05:12:31.530Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAABVAAAAN4CAYAAAAlUcMpAAAgAElEQVR4nOzd+...
+2021-10-31T05:12:31.535Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:12:31.535Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:12:31.535Z INFO webdriver: DATA {
+  script: 'return (function getDocumentScrollHeight() {\n' +
+    '    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\n' +
+    '    var scrollHeight = document.documentElement.scrollHeight;\n' +
+    '    var bodyScrollHeight = document.body.scrollHeight;\n' +
+    '    if ((viewPortHeight === scrollHeight) && (bodyScrollHeight > scrollHeight)) {\n' +
+    '        return bodyScrollHeight;\n' +
+    '    }\n' +
+    '    var pageHeight = 0;\n' +
+    "    var largestNodeElement = document.querySelector('body');\n" +
+    '    if (bodyScrollHeight === scrollHeight && bodyScrollHeight === viewPortHeight) {\n' +
+    '        findHighestNode(document.documentElement.childNodes);\n' +
+    '        return pageHeight + largestNodeElement.getBoundingClientRect().top;\n' +
+    '    }\n' +
+    '    return scrollHeight;\n' +
+    '    function findHighestNode(nodesList) {\n' +
+    '        for (var i = nodesList.length - 1; i >= 0; i--) {\n' +
+    '            var currentNode = nodesList[i];\n' +
+    '            if (currentNode.scrollHeight && currentNode.clientHeight) {\n' +
+    '                var elHeight = Math.max(currentNode.scrollHeight, currentNode.clientHeight);\n' +
+    '                pageHeight = Math.max(elHeight, pageHeight);\n' +
+    '                if (elHeight === pageHeight) {\n' +
+    '                    largestNodeElement = currentNode;\n' +
+    '                }\n' +
+    '            }\n' +
+    '            if (currentNode.childNodes.length) {\n' +
+    '                findHighestNode(currentNode.childNodes);\n' +
+    '            }\n' +
+    '        }\n' +
+    '    }\n' +
+    '}).apply(null, arguments)',
+  args: []
 }
-2021-10-30T16:06:22.204Z INFO webdriver: RESULT {
-  error: 'no such element',
-  message: 'Unable to locate element: //*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a',
-  stacktrace: 'WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:181:5\n' +
-    'NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:393:5\n' +
-    'element.find/</<@chrome://remote/content/marionette/element.js:305:16\n'
+2021-10-31T05:12:31.553Z INFO webdriver: RESULT 4476
+2021-10-31T05:12:31.554Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:12:31.554Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:12:31.554Z INFO webdriver: DATA {
+  script: 'return (function scrollToPosition(yPosition) {\n' +
+    '    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\n' +
+    '}).apply(null, arguments)',
+  args: [ 1776 ]
 }
-2021-10-30T16:06:22.209Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T16:06:22.209Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element
-2021-10-30T16:06:22.209Z INFO webdriver: DATA {
-  using: 'xpath',
-  value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
+2021-10-31T05:12:33.094Z INFO webdriver: COMMAND takeScreenshot()
+2021-10-31T05:12:33.094Z INFO webdriver: [GET] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/screenshot
+2021-10-31T05:12:33.200Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAABVAAAAN4CAYAAAAlUcMpAAAgAElEQVR4nOzd+...
+2021-10-31T05:12:33.203Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:12:33.203Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:12:33.203Z INFO webdriver: DATA {
+  script: 'return (function getDocumentScrollHeight() {\n' +
+    '    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\n' +
+    '    var scrollHeight = document.documentElement.scrollHeight;\n' +
+    '    var bodyScrollHeight = document.body.scrollHeight;\n' +
+    '    if ((viewPortHeight === scrollHeight) && (bodyScrollHeight > scrollHeight)) {\n' +
+    '        return bodyScrollHeight;\n' +
+    '    }\n' +
+    '    var pageHeight = 0;\n' +
+    "    var largestNodeElement = document.querySelector('body');\n" +
+    '    if (bodyScrollHeight === scrollHeight && bodyScrollHeight === viewPortHeight) {\n' +
+    '        findHighestNode(document.documentElement.childNodes);\n' +
+    '        return pageHeight + largestNodeElement.getBoundingClientRect().top;\n' +
+    '    }\n' +
+    '    return scrollHeight;\n' +
+    '    function findHighestNode(nodesList) {\n' +
+    '        for (var i = nodesList.length - 1; i >= 0; i--) {\n' +
+    '            var currentNode = nodesList[i];\n' +
+    '            if (currentNode.scrollHeight && currentNode.clientHeight) {\n' +
+    '                var elHeight = Math.max(currentNode.scrollHeight, currentNode.clientHeight);\n' +
+    '                pageHeight = Math.max(elHeight, pageHeight);\n' +
+    '                if (elHeight === pageHeight) {\n' +
+    '                    largestNodeElement = currentNode;\n' +
+    '                }\n' +
+    '            }\n' +
+    '            if (currentNode.childNodes.length) {\n' +
+    '                findHighestNode(currentNode.childNodes);\n' +
+    '            }\n' +
+    '        }\n' +
+    '    }\n' +
+    '}).apply(null, arguments)',
+  args: []
 }
-2021-10-30T16:06:22.652Z INFO webdriver: RESULT {
-  error: 'no such element',
-  message: 'Unable to locate element: //*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a',
-  stacktrace: 'WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:181:5\n' +
-    'NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:393:5\n' +
-    'element.find/</<@chrome://remote/content/marionette/element.js:305:16\n'
+2021-10-31T05:12:33.220Z INFO webdriver: RESULT 4476
+2021-10-31T05:12:33.221Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:12:33.221Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:12:33.221Z INFO webdriver: DATA {
+  script: 'return (function scrollToPosition(yPosition) {\n' +
+    '    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\n' +
+    '}).apply(null, arguments)',
+  args: [ 2664 ]
 }
-2021-10-30T16:06:22.658Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T16:06:22.658Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element
-2021-10-30T16:06:22.658Z INFO webdriver: DATA {
-  using: 'xpath',
-  value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
+2021-10-31T05:12:34.750Z INFO webdriver: COMMAND takeScreenshot()
+2021-10-31T05:12:34.750Z INFO webdriver: [GET] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/screenshot
+2021-10-31T05:12:34.940Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAABVAAAAN4CAYAAAAlUcMpAAAgAElEQVR4nOy9+...
+2021-10-31T05:12:34.944Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:12:34.944Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:12:34.944Z INFO webdriver: DATA {
+  script: 'return (function getDocumentScrollHeight() {\n' +
+    '    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\n' +
+    '    var scrollHeight = document.documentElement.scrollHeight;\n' +
+    '    var bodyScrollHeight = document.body.scrollHeight;\n' +
+    '    if ((viewPortHeight === scrollHeight) && (bodyScrollHeight > scrollHeight)) {\n' +
+    '        return bodyScrollHeight;\n' +
+    '    }\n' +
+    '    var pageHeight = 0;\n' +
+    "    var largestNodeElement = document.querySelector('body');\n" +
+    '    if (bodyScrollHeight === scrollHeight && bodyScrollHeight === viewPortHeight) {\n' +
+    '        findHighestNode(document.documentElement.childNodes);\n' +
+    '        return pageHeight + largestNodeElement.getBoundingClientRect().top;\n' +
+    '    }\n' +
+    '    return scrollHeight;\n' +
+    '    function findHighestNode(nodesList) {\n' +
+    '        for (var i = nodesList.length - 1; i >= 0; i--) {\n' +
+    '            var currentNode = nodesList[i];\n' +
+    '            if (currentNode.scrollHeight && currentNode.clientHeight) {\n' +
+    '                var elHeight = Math.max(currentNode.scrollHeight, currentNode.clientHeight);\n' +
+    '                pageHeight = Math.max(elHeight, pageHeight);\n' +
+    '                if (elHeight === pageHeight) {\n' +
+    '                    largestNodeElement = currentNode;\n' +
+    '                }\n' +
+    '            }\n' +
+    '            if (currentNode.childNodes.length) {\n' +
+    '                findHighestNode(currentNode.childNodes);\n' +
+    '            }\n' +
+    '        }\n' +
+    '    }\n' +
+    '}).apply(null, arguments)',
+  args: []
 }
-2021-10-30T16:06:23.032Z INFO webdriver: RESULT {
-  error: 'no such element',
-  message: 'Unable to locate element: //*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a',
-  stacktrace: 'WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:181:5\n' +
-    'NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:393:5\n' +
-    'element.find/</<@chrome://remote/content/marionette/element.js:305:16\n'
+2021-10-31T05:12:34.963Z INFO webdriver: RESULT 4476
+2021-10-31T05:12:34.964Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:12:34.964Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:12:34.964Z INFO webdriver: DATA {
+  script: 'return (function scrollToPosition(yPosition) {\n' +
+    '    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\n' +
+    '}).apply(null, arguments)',
+  args: [ 3552 ]
 }
-2021-10-30T16:06:23.037Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T16:06:23.037Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element
-2021-10-30T16:06:23.037Z INFO webdriver: DATA {
-  using: 'xpath',
-  value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
+2021-10-31T05:12:36.499Z INFO webdriver: COMMAND takeScreenshot()
+2021-10-31T05:12:36.499Z INFO webdriver: [GET] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/screenshot
+2021-10-31T05:12:36.619Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAABVAAAAN4CAYAAAAlUcMpAAAgAElEQVR4nOzd+...
+2021-10-31T05:12:36.632Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:12:36.632Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:12:36.633Z INFO webdriver: DATA {
+  script: 'return (function getDocumentScrollHeight() {\n' +
+    '    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\n' +
+    '    var scrollHeight = document.documentElement.scrollHeight;\n' +
+    '    var bodyScrollHeight = document.body.scrollHeight;\n' +
+    '    if ((viewPortHeight === scrollHeight) && (bodyScrollHeight > scrollHeight)) {\n' +
+    '        return bodyScrollHeight;\n' +
+    '    }\n' +
+    '    var pageHeight = 0;\n' +
+    "    var largestNodeElement = document.querySelector('body');\n" +
+    '    if (bodyScrollHeight === scrollHeight && bodyScrollHeight === viewPortHeight) {\n' +
+    '        findHighestNode(document.documentElement.childNodes);\n' +
+    '        return pageHeight + largestNodeElement.getBoundingClientRect().top;\n' +
+    '    }\n' +
+    '    return scrollHeight;\n' +
+    '    function findHighestNode(nodesList) {\n' +
+    '        for (var i = nodesList.length - 1; i >= 0; i--) {\n' +
+    '            var currentNode = nodesList[i];\n' +
+    '            if (currentNode.scrollHeight && currentNode.clientHeight) {\n' +
+    '                var elHeight = Math.max(currentNode.scrollHeight, currentNode.clientHeight);\n' +
+    '                pageHeight = Math.max(elHeight, pageHeight);\n' +
+    '                if (elHeight === pageHeight) {\n' +
+    '                    largestNodeElement = currentNode;\n' +
+    '                }\n' +
+    '            }\n' +
+    '            if (currentNode.childNodes.length) {\n' +
+    '                findHighestNode(currentNode.childNodes);\n' +
+    '            }\n' +
+    '        }\n' +
+    '    }\n' +
+    '}).apply(null, arguments)',
+  args: []
 }
-2021-10-30T16:06:23.302Z INFO webdriver: RESULT {
-  error: 'no such element',
-  message: 'Unable to locate element: //*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a',
-  stacktrace: 'WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:181:5\n' +
-    'NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:393:5\n' +
-    'element.find/</<@chrome://remote/content/marionette/element.js:305:16\n'
+2021-10-31T05:12:36.655Z INFO webdriver: RESULT 4476
+2021-10-31T05:12:36.656Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:12:36.656Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:12:36.656Z INFO webdriver: DATA {
+  script: 'return (function scrollToPosition(yPosition) {\n' +
+    '    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\n' +
+    '}).apply(null, arguments)',
+  args: [ 4440 ]
 }
-2021-10-30T16:06:23.310Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T16:06:23.310Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element
-2021-10-30T16:06:23.310Z INFO webdriver: DATA {
-  using: 'xpath',
-  value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
+2021-10-31T05:12:38.190Z INFO webdriver: COMMAND takeScreenshot()
+2021-10-31T05:12:38.190Z INFO webdriver: [GET] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/screenshot
+2021-10-31T05:12:38.319Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAABVAAAAN4CAYAAAAlUcMpAAAgAElEQVR4nOzd+...
+2021-10-31T05:12:38.323Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:12:38.323Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:12:38.323Z INFO webdriver: DATA {
+  script: 'return (function getDocumentScrollHeight() {\n' +
+    '    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\n' +
+    '    var scrollHeight = document.documentElement.scrollHeight;\n' +
+    '    var bodyScrollHeight = document.body.scrollHeight;\n' +
+    '    if ((viewPortHeight === scrollHeight) && (bodyScrollHeight > scrollHeight)) {\n' +
+    '        return bodyScrollHeight;\n' +
+    '    }\n' +
+    '    var pageHeight = 0;\n' +
+    "    var largestNodeElement = document.querySelector('body');\n" +
+    '    if (bodyScrollHeight === scrollHeight && bodyScrollHeight === viewPortHeight) {\n' +
+    '        findHighestNode(document.documentElement.childNodes);\n' +
+    '        return pageHeight + largestNodeElement.getBoundingClientRect().top;\n' +
+    '    }\n' +
+    '    return scrollHeight;\n' +
+    '    function findHighestNode(nodesList) {\n' +
+    '        for (var i = nodesList.length - 1; i >= 0; i--) {\n' +
+    '            var currentNode = nodesList[i];\n' +
+    '            if (currentNode.scrollHeight && currentNode.clientHeight) {\n' +
+    '                var elHeight = Math.max(currentNode.scrollHeight, currentNode.clientHeight);\n' +
+    '                pageHeight = Math.max(elHeight, pageHeight);\n' +
+    '                if (elHeight === pageHeight) {\n' +
+    '                    largestNodeElement = currentNode;\n' +
+    '                }\n' +
+    '            }\n' +
+    '            if (currentNode.childNodes.length) {\n' +
+    '                findHighestNode(currentNode.childNodes);\n' +
+    '            }\n' +
+    '        }\n' +
+    '    }\n' +
+    '}).apply(null, arguments)',
+  args: []
 }
-2021-10-30T16:06:23.606Z INFO webdriver: RESULT {
-  error: 'no such element',
-  message: 'Unable to locate element: //*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a',
-  stacktrace: 'WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:181:5\n' +
-    'NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:393:5\n' +
-    'element.find/</<@chrome://remote/content/marionette/element.js:305:16\n'
+2021-10-31T05:12:38.374Z INFO webdriver: RESULT 4476
+2021-10-31T05:12:39.103Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:12:39.104Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:12:39.104Z INFO webdriver: DATA {
+  script: 'return (function hideScrollBars(hide) {\n' +
+    '    try {\n' +
+    '        if (hide) {\n' +
+    "            document.body.style.overflow = 'hidden';\n" +
+    '        }\n' +
+    '        else {\n' +
+    "            document.body.style.overflow = '';\n" +
+    '        }\n' +
+    '    }\n' +
+    '    catch (e) {\n' +
+    '    }\n' +
+    '}).apply(null, arguments)',
+  args: [ false ]
 }
-2021-10-30T16:06:23.616Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T16:06:23.616Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element
-2021-10-30T16:06:23.617Z INFO webdriver: DATA {
-  using: 'xpath',
-  value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
+2021-10-31T05:12:39.136Z INFO webdriver: RESULT {
+  fileName: 'mildsfullpage--1360x973.png',
+  path: '/Users/ksaminat/testing/git_volvo/volvo-kube-wdio/.tmp/actual/desktop_firefox',
+  devicePixelRatio: 1
 }
-2021-10-30T16:06:23.848Z INFO webdriver: RESULT {
-  error: 'no such element',
-  message: 'Unable to locate element: //*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a',
-  stacktrace: 'WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:181:5\n' +
-    'NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:393:5\n' +
-    'element.find/</<@chrome://remote/content/marionette/element.js:305:16\n'
+2021-10-31T05:12:39.137Z INFO webdriver: COMMAND navigateTo("https://www.volvocars.com/intl/v/cars/other-powertrains")
+2021-10-31T05:12:39.137Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/url
+2021-10-31T05:12:39.137Z INFO webdriver: DATA { url: 'https://www.volvocars.com/intl/v/cars/other-powertrains' }
+2021-10-31T05:12:40.713Z INFO webdriver: COMMAND checkFullPageScreen("mildsfullpage", <object>)
+2021-10-31T05:12:40.714Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:12:40.715Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:12:40.715Z INFO webdriver: DATA {
+  script: 'return (function hideScrollBars(hide) {\n' +
+    '    try {\n' +
+    '        if (hide) {\n' +
+    "            document.body.style.overflow = 'hidden';\n" +
+    '        }\n' +
+    '        else {\n' +
+    "            document.body.style.overflow = '';\n" +
+    '        }\n' +
+    '    }\n' +
+    '    catch (e) {\n' +
+    '    }\n' +
+    '}).apply(null, arguments)',
+  args: [ true ]
 }
-2021-10-30T16:06:23.852Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T16:06:23.853Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element
-2021-10-30T16:06:23.853Z INFO webdriver: DATA {
-  using: 'xpath',
-  value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
+2021-10-31T05:12:40.798Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:12:40.798Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:12:40.798Z INFO webdriver: DATA {
+  script: 'return (function getScreenDimensions() {\n' +
+    '    var body = document.body;\n' +
+    '    var html = document.documentElement;\n' +
+    '    var bodyDimensions = {\n' +
+    '        scrollHeight: body == null ? 0 : body.scrollHeight,\n' +
+    '        offsetHeight: body == null ? 0 : body.offsetHeight\n' +
+    '    };\n' +
+    '    var htmlDimensions = {\n' +
+    '        clientHeight: html == null ? 0 : html.clientHeight,\n' +
+    '        clientWidth: html == null ? 0 : html.clientWidth,\n' +
+    '        scrollHeight: html == null ? 0 : html.scrollHeight,\n' +
+    '        scrollWidth: html == null ? 0 : html.scrollWidth,\n' +
+    '        offsetHeight: html == null ? 0 : html.offsetHeight\n' +
+    '    };\n' +
+    '    var windowDimensions = {\n' +
+    '        innerWidth: window.innerWidth,\n' +
+    '        innerHeight: window.innerHeight,\n' +
+    '        outerHeight: window.outerHeight === 0 ? htmlDimensions.clientHeight : window.outerHeight,\n' +
+    '        outerWidth: window.outerWidth === 0 ? htmlDimensions.clientWidth : window.outerWidth,\n' +
+    '        devicePixelRatio: window.devicePixelRatio,\n' +
+    '        screenWidth: window.screen.width,\n' +
+    '        screenHeight: window.screen.height,\n' +
+    '    };\n' +
+    '    return {\n' +
+    '        dimensions: {\n' +
+    '            body: bodyDimensions,\n' +
+    '            html: htmlDimensions,\n' +
+    '            window: windowDimensions\n' +
+    '        }\n' +
+    '    };\n' +
+    '}).apply(null, arguments)',
+  args: []
 }
-2021-10-30T16:06:24.075Z INFO webdriver: RESULT {
-  error: 'no such element',
-  message: 'Unable to locate element: //*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a',
-  stacktrace: 'WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:181:5\n' +
-    'NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:393:5\n' +
-    'element.find/</<@chrome://remote/content/marionette/element.js:305:16\n'
+2021-10-31T05:12:40.827Z INFO webdriver: RESULT {
+  dimensions: {
+    body: { offsetHeight: 4380, scrollHeight: 4380 },
+    html: {
+      clientHeight: 888,
+      clientWidth: 1360,
+      offsetHeight: 4380,
+      scrollHeight: 4380,
+      scrollWidth: 1360
+    },
+    window: {
+      devicePixelRatio: 1,
+      innerHeight: 888,
+      innerWidth: 1360,
+      outerHeight: 973,
+      outerWidth: 1360,
+      screenHeight: 1020,
+      screenWidth: 1360
+    }
+  }
 }
-2021-10-30T16:06:24.077Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T16:06:24.078Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element
-2021-10-30T16:06:24.078Z INFO webdriver: DATA {
-  using: 'xpath',
-  value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
+2021-10-31T05:12:40.828Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:12:40.828Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:12:40.829Z INFO webdriver: DATA {
+  script: 'return (function scrollToPosition(yPosition) {\n' +
+    '    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\n' +
+    '}).apply(null, arguments)',
+  args: [ 0 ]
 }
-2021-10-30T16:06:24.324Z INFO webdriver: RESULT {
-  error: 'no such element',
-  message: 'Unable to locate element: //*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a',
-  stacktrace: 'WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:181:5\n' +
-    'NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:393:5\n' +
-    'element.find/</<@chrome://remote/content/marionette/element.js:305:16\n'
+2021-10-31T05:12:42.364Z INFO webdriver: COMMAND takeScreenshot()
+2021-10-31T05:12:42.364Z INFO webdriver: [GET] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/screenshot
+2021-10-31T05:12:42.644Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAABVAAAAN4CAYAAAAlUcMpAAAgAElEQVR4nOzd+...
+2021-10-31T05:12:42.661Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:12:42.661Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:12:42.662Z INFO webdriver: DATA {
+  script: 'return (function getDocumentScrollHeight() {\n' +
+    '    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\n' +
+    '    var scrollHeight = document.documentElement.scrollHeight;\n' +
+    '    var bodyScrollHeight = document.body.scrollHeight;\n' +
+    '    if ((viewPortHeight === scrollHeight) && (bodyScrollHeight > scrollHeight)) {\n' +
+    '        return bodyScrollHeight;\n' +
+    '    }\n' +
+    '    var pageHeight = 0;\n' +
+    "    var largestNodeElement = document.querySelector('body');\n" +
+    '    if (bodyScrollHeight === scrollHeight && bodyScrollHeight === viewPortHeight) {\n' +
+    '        findHighestNode(document.documentElement.childNodes);\n' +
+    '        return pageHeight + largestNodeElement.getBoundingClientRect().top;\n' +
+    '    }\n' +
+    '    return scrollHeight;\n' +
+    '    function findHighestNode(nodesList) {\n' +
+    '        for (var i = nodesList.length - 1; i >= 0; i--) {\n' +
+    '            var currentNode = nodesList[i];\n' +
+    '            if (currentNode.scrollHeight && currentNode.clientHeight) {\n' +
+    '                var elHeight = Math.max(currentNode.scrollHeight, currentNode.clientHeight);\n' +
+    '                pageHeight = Math.max(elHeight, pageHeight);\n' +
+    '                if (elHeight === pageHeight) {\n' +
+    '                    largestNodeElement = currentNode;\n' +
+    '                }\n' +
+    '            }\n' +
+    '            if (currentNode.childNodes.length) {\n' +
+    '                findHighestNode(currentNode.childNodes);\n' +
+    '            }\n' +
+    '        }\n' +
+    '    }\n' +
+    '}).apply(null, arguments)',
+  args: []
 }
-2021-10-30T16:06:24.329Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T16:06:24.329Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element
-2021-10-30T16:06:24.329Z INFO webdriver: DATA {
-  using: 'xpath',
-  value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
+2021-10-31T05:12:42.694Z INFO webdriver: RESULT 4380
+2021-10-31T05:12:42.695Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:12:42.695Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:12:42.696Z INFO webdriver: DATA {
+  script: 'return (function scrollToPosition(yPosition) {\n' +
+    '    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\n' +
+    '}).apply(null, arguments)',
+  args: [ 888 ]
 }
-2021-10-30T16:06:24.563Z INFO webdriver: RESULT {
-  error: 'no such element',
-  message: 'Unable to locate element: //*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a',
-  stacktrace: 'WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:181:5\n' +
-    'NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:393:5\n' +
-    'element.find/</<@chrome://remote/content/marionette/element.js:305:16\n'
+2021-10-31T05:12:44.228Z INFO webdriver: COMMAND takeScreenshot()
+2021-10-31T05:12:44.229Z INFO webdriver: [GET] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/screenshot
+2021-10-31T05:12:44.373Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAABVAAAAN4CAYAAAAlUcMpAAAgAElEQVR4nOzd+...
+2021-10-31T05:12:44.377Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:12:44.377Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:12:44.378Z INFO webdriver: DATA {
+  script: 'return (function getDocumentScrollHeight() {\n' +
+    '    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\n' +
+    '    var scrollHeight = document.documentElement.scrollHeight;\n' +
+    '    var bodyScrollHeight = document.body.scrollHeight;\n' +
+    '    if ((viewPortHeight === scrollHeight) && (bodyScrollHeight > scrollHeight)) {\n' +
+    '        return bodyScrollHeight;\n' +
+    '    }\n' +
+    '    var pageHeight = 0;\n' +
+    "    var largestNodeElement = document.querySelector('body');\n" +
+    '    if (bodyScrollHeight === scrollHeight && bodyScrollHeight === viewPortHeight) {\n' +
+    '        findHighestNode(document.documentElement.childNodes);\n' +
+    '        return pageHeight + largestNodeElement.getBoundingClientRect().top;\n' +
+    '    }\n' +
+    '    return scrollHeight;\n' +
+    '    function findHighestNode(nodesList) {\n' +
+    '        for (var i = nodesList.length - 1; i >= 0; i--) {\n' +
+    '            var currentNode = nodesList[i];\n' +
+    '            if (currentNode.scrollHeight && currentNode.clientHeight) {\n' +
+    '                var elHeight = Math.max(currentNode.scrollHeight, currentNode.clientHeight);\n' +
+    '                pageHeight = Math.max(elHeight, pageHeight);\n' +
+    '                if (elHeight === pageHeight) {\n' +
+    '                    largestNodeElement = currentNode;\n' +
+    '                }\n' +
+    '            }\n' +
+    '            if (currentNode.childNodes.length) {\n' +
+    '                findHighestNode(currentNode.childNodes);\n' +
+    '            }\n' +
+    '        }\n' +
+    '    }\n' +
+    '}).apply(null, arguments)',
+  args: []
 }
-2021-10-30T16:06:24.569Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a")
-2021-10-30T16:06:24.569Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element
-2021-10-30T16:06:24.569Z INFO webdriver: DATA {
-  using: 'xpath',
-  value: '//*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a'
+2021-10-31T05:12:44.402Z INFO webdriver: RESULT 4476
+2021-10-31T05:12:44.404Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:12:44.404Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:12:44.404Z INFO webdriver: DATA {
+  script: 'return (function scrollToPosition(yPosition) {\n' +
+    '    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\n' +
+    '}).apply(null, arguments)',
+  args: [ 1776 ]
 }
-2021-10-30T16:06:24.803Z INFO webdriver: RESULT {
-  error: 'no such element',
-  message: 'Unable to locate element: //*[@id="ImageWithText-3"]/section/div[1]/div[2]/div/div/div/div[3]/div/div/a',
-  stacktrace: 'WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:181:5\n' +
-    'NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:393:5\n' +
-    'element.find/</<@chrome://remote/content/marionette/element.js:305:16\n'
+2021-10-31T05:12:45.951Z INFO webdriver: COMMAND takeScreenshot()
+2021-10-31T05:12:45.951Z INFO webdriver: [GET] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/screenshot
+2021-10-31T05:12:46.115Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAABVAAAAN4CAYAAAAlUcMpAAAgAElEQVR4nOzd+...
+2021-10-31T05:12:46.128Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:12:46.128Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:12:46.128Z INFO webdriver: DATA {
+  script: 'return (function getDocumentScrollHeight() {\n' +
+    '    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\n' +
+    '    var scrollHeight = document.documentElement.scrollHeight;\n' +
+    '    var bodyScrollHeight = document.body.scrollHeight;\n' +
+    '    if ((viewPortHeight === scrollHeight) && (bodyScrollHeight > scrollHeight)) {\n' +
+    '        return bodyScrollHeight;\n' +
+    '    }\n' +
+    '    var pageHeight = 0;\n' +
+    "    var largestNodeElement = document.querySelector('body');\n" +
+    '    if (bodyScrollHeight === scrollHeight && bodyScrollHeight === viewPortHeight) {\n' +
+    '        findHighestNode(document.documentElement.childNodes);\n' +
+    '        return pageHeight + largestNodeElement.getBoundingClientRect().top;\n' +
+    '    }\n' +
+    '    return scrollHeight;\n' +
+    '    function findHighestNode(nodesList) {\n' +
+    '        for (var i = nodesList.length - 1; i >= 0; i--) {\n' +
+    '            var currentNode = nodesList[i];\n' +
+    '            if (currentNode.scrollHeight && currentNode.clientHeight) {\n' +
+    '                var elHeight = Math.max(currentNode.scrollHeight, currentNode.clientHeight);\n' +
+    '                pageHeight = Math.max(elHeight, pageHeight);\n' +
+    '                if (elHeight === pageHeight) {\n' +
+    '                    largestNodeElement = currentNode;\n' +
+    '                }\n' +
+    '            }\n' +
+    '            if (currentNode.childNodes.length) {\n' +
+    '                findHighestNode(currentNode.childNodes);\n' +
+    '            }\n' +
+    '        }\n' +
+    '    }\n' +
+    '}).apply(null, arguments)',
+  args: []
 }
-2021-10-30T16:06:30.037Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="Video-1"]/section/div/button/div/video")
-2021-10-30T16:06:30.037Z INFO webdriver: [POST] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/element
-2021-10-30T16:06:30.037Z INFO webdriver: DATA {
-  using: 'xpath',
-  value: '//*[@id="Video-1"]/section/div/button/div/video'
+2021-10-31T05:12:46.160Z INFO webdriver: RESULT 4476
+2021-10-31T05:12:46.162Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:12:46.162Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:12:46.162Z INFO webdriver: DATA {
+  script: 'return (function scrollToPosition(yPosition) {\n' +
+    '    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\n' +
+    '}).apply(null, arguments)',
+  args: [ 2664 ]
 }
-2021-10-30T16:06:30.261Z INFO webdriver: RESULT {
-  error: 'no such element',
-  message: 'Unable to locate element: //*[@id="Video-1"]/section/div/button/div/video',
-  stacktrace: 'WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:181:5\n' +
-    'NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:393:5\n' +
-    'element.find/</<@chrome://remote/content/marionette/element.js:305:16\n'
+2021-10-31T05:12:47.706Z INFO webdriver: COMMAND takeScreenshot()
+2021-10-31T05:12:47.706Z INFO webdriver: [GET] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/screenshot
+2021-10-31T05:12:47.860Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAABVAAAAN4CAYAAAAlUcMpAAAgAElEQVR4nOy9+...
+2021-10-31T05:12:47.866Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:12:47.866Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:12:47.867Z INFO webdriver: DATA {
+  script: 'return (function getDocumentScrollHeight() {\n' +
+    '    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\n' +
+    '    var scrollHeight = document.documentElement.scrollHeight;\n' +
+    '    var bodyScrollHeight = document.body.scrollHeight;\n' +
+    '    if ((viewPortHeight === scrollHeight) && (bodyScrollHeight > scrollHeight)) {\n' +
+    '        return bodyScrollHeight;\n' +
+    '    }\n' +
+    '    var pageHeight = 0;\n' +
+    "    var largestNodeElement = document.querySelector('body');\n" +
+    '    if (bodyScrollHeight === scrollHeight && bodyScrollHeight === viewPortHeight) {\n' +
+    '        findHighestNode(document.documentElement.childNodes);\n' +
+    '        return pageHeight + largestNodeElement.getBoundingClientRect().top;\n' +
+    '    }\n' +
+    '    return scrollHeight;\n' +
+    '    function findHighestNode(nodesList) {\n' +
+    '        for (var i = nodesList.length - 1; i >= 0; i--) {\n' +
+    '            var currentNode = nodesList[i];\n' +
+    '            if (currentNode.scrollHeight && currentNode.clientHeight) {\n' +
+    '                var elHeight = Math.max(currentNode.scrollHeight, currentNode.clientHeight);\n' +
+    '                pageHeight = Math.max(elHeight, pageHeight);\n' +
+    '                if (elHeight === pageHeight) {\n' +
+    '                    largestNodeElement = currentNode;\n' +
+    '                }\n' +
+    '            }\n' +
+    '            if (currentNode.childNodes.length) {\n' +
+    '                findHighestNode(currentNode.childNodes);\n' +
+    '            }\n' +
+    '        }\n' +
+    '    }\n' +
+    '}).apply(null, arguments)',
+  args: []
 }
-2021-10-30T16:06:30.318Z INFO webdriver: COMMAND deleteSession()
-2021-10-30T16:06:30.318Z INFO webdriver: [DELETE] http://34.72.180.106:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0
+2021-10-31T05:12:47.886Z INFO webdriver: RESULT 4476
+2021-10-31T05:12:47.887Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:12:47.887Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:12:47.887Z INFO webdriver: DATA {
+  script: 'return (function scrollToPosition(yPosition) {\n' +
+    '    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\n' +
+    '}).apply(null, arguments)',
+  args: [ 3552 ]
+}
+2021-10-31T05:12:49.422Z INFO webdriver: COMMAND takeScreenshot()
+2021-10-31T05:12:49.422Z INFO webdriver: [GET] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/screenshot
+2021-10-31T05:12:49.574Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAABVAAAAN4CAYAAAAlUcMpAAAgAElEQVR4nOzd+...
+2021-10-31T05:12:49.577Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:12:49.578Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:12:49.578Z INFO webdriver: DATA {
+  script: 'return (function getDocumentScrollHeight() {\n' +
+    '    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\n' +
+    '    var scrollHeight = document.documentElement.scrollHeight;\n' +
+    '    var bodyScrollHeight = document.body.scrollHeight;\n' +
+    '    if ((viewPortHeight === scrollHeight) && (bodyScrollHeight > scrollHeight)) {\n' +
+    '        return bodyScrollHeight;\n' +
+    '    }\n' +
+    '    var pageHeight = 0;\n' +
+    "    var largestNodeElement = document.querySelector('body');\n" +
+    '    if (bodyScrollHeight === scrollHeight && bodyScrollHeight === viewPortHeight) {\n' +
+    '        findHighestNode(document.documentElement.childNodes);\n' +
+    '        return pageHeight + largestNodeElement.getBoundingClientRect().top;\n' +
+    '    }\n' +
+    '    return scrollHeight;\n' +
+    '    function findHighestNode(nodesList) {\n' +
+    '        for (var i = nodesList.length - 1; i >= 0; i--) {\n' +
+    '            var currentNode = nodesList[i];\n' +
+    '            if (currentNode.scrollHeight && currentNode.clientHeight) {\n' +
+    '                var elHeight = Math.max(currentNode.scrollHeight, currentNode.clientHeight);\n' +
+    '                pageHeight = Math.max(elHeight, pageHeight);\n' +
+    '                if (elHeight === pageHeight) {\n' +
+    '                    largestNodeElement = currentNode;\n' +
+    '                }\n' +
+    '            }\n' +
+    '            if (currentNode.childNodes.length) {\n' +
+    '                findHighestNode(currentNode.childNodes);\n' +
+    '            }\n' +
+    '        }\n' +
+    '    }\n' +
+    '}).apply(null, arguments)',
+  args: []
+}
+2021-10-31T05:12:49.606Z INFO webdriver: RESULT 4476
+2021-10-31T05:12:49.607Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:12:49.607Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:12:49.607Z INFO webdriver: DATA {
+  script: 'return (function scrollToPosition(yPosition) {\n' +
+    '    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\n' +
+    '}).apply(null, arguments)',
+  args: [ 4440 ]
+}
+2021-10-31T05:12:51.134Z INFO webdriver: COMMAND takeScreenshot()
+2021-10-31T05:12:51.135Z INFO webdriver: [GET] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/screenshot
+2021-10-31T05:12:51.299Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAABVAAAAN4CAYAAAAlUcMpAAAgAElEQVR4nOzd+...
+2021-10-31T05:12:51.302Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:12:51.302Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:12:51.302Z INFO webdriver: DATA {
+  script: 'return (function getDocumentScrollHeight() {\n' +
+    '    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\n' +
+    '    var scrollHeight = document.documentElement.scrollHeight;\n' +
+    '    var bodyScrollHeight = document.body.scrollHeight;\n' +
+    '    if ((viewPortHeight === scrollHeight) && (bodyScrollHeight > scrollHeight)) {\n' +
+    '        return bodyScrollHeight;\n' +
+    '    }\n' +
+    '    var pageHeight = 0;\n' +
+    "    var largestNodeElement = document.querySelector('body');\n" +
+    '    if (bodyScrollHeight === scrollHeight && bodyScrollHeight === viewPortHeight) {\n' +
+    '        findHighestNode(document.documentElement.childNodes);\n' +
+    '        return pageHeight + largestNodeElement.getBoundingClientRect().top;\n' +
+    '    }\n' +
+    '    return scrollHeight;\n' +
+    '    function findHighestNode(nodesList) {\n' +
+    '        for (var i = nodesList.length - 1; i >= 0; i--) {\n' +
+    '            var currentNode = nodesList[i];\n' +
+    '            if (currentNode.scrollHeight && currentNode.clientHeight) {\n' +
+    '                var elHeight = Math.max(currentNode.scrollHeight, currentNode.clientHeight);\n' +
+    '                pageHeight = Math.max(elHeight, pageHeight);\n' +
+    '                if (elHeight === pageHeight) {\n' +
+    '                    largestNodeElement = currentNode;\n' +
+    '                }\n' +
+    '            }\n' +
+    '            if (currentNode.childNodes.length) {\n' +
+    '                findHighestNode(currentNode.childNodes);\n' +
+    '            }\n' +
+    '        }\n' +
+    '    }\n' +
+    '}).apply(null, arguments)',
+  args: []
+}
+2021-10-31T05:12:51.327Z INFO webdriver: RESULT 4476
+2021-10-31T05:12:52.137Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:12:52.138Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:12:52.138Z INFO webdriver: DATA {
+  script: 'return (function hideScrollBars(hide) {\n' +
+    '    try {\n' +
+    '        if (hide) {\n' +
+    "            document.body.style.overflow = 'hidden';\n" +
+    '        }\n' +
+    '        else {\n' +
+    "            document.body.style.overflow = '';\n" +
+    '        }\n' +
+    '    }\n' +
+    '    catch (e) {\n' +
+    '    }\n' +
+    '}).apply(null, arguments)',
+  args: [ false ]
+}
+2021-10-31T05:12:52.724Z INFO webdriver: RESULT 0
+2021-10-31T05:12:52.735Z INFO webdriver: COMMAND navigateTo("https://www.volvocars.com/intl/v/cars/other-powertrains")
+2021-10-31T05:12:52.735Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/url
+2021-10-31T05:12:52.735Z INFO webdriver: DATA { url: 'https://www.volvocars.com/intl/v/cars/other-powertrains' }
+2021-10-31T05:12:54.155Z INFO webdriver: COMMAND saveTabbablePage("mildstabbedpage", <object>)
+2021-10-31T05:12:54.156Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:12:54.156Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:12:54.156Z INFO webdriver: DATA {
+  script: 'return (function drawTabbableOnCanvas(drawOptions) {\n' +
+    '    window.scrollTo(0, 0);\n' +
+    '    var width = window.innerWidth;\n' +
+    '    var height = getDocumentScrollHeight();\n' +
+    '    var canvasNode = "<canvas id=\\"wic-tabbable-canvas\\" width=\\"" + width + "\\" height=\\"" + height + "\\" style=\\"position:absolute;top:0;left:0;z-index:999999;\\">";\n' +
+    "    document.body.insertAdjacentHTML('afterbegin', canvasNode);\n" +
+    '    var accessibleElements = tabbable();\n' +
+    '    var elementCoordinates = accessibleElements.map(function (node) {\n' +
+    '        var currentElement = node.getBoundingClientRect();\n' +
+    '        return {\n' +
+    '            x: currentElement.left + (currentElement.width / 2),\n' +
+    '            y: currentElement.top + (currentElement.height / 2),\n' +
+    '        };\n' +
+    '    });\n' +
+    '    elementCoordinates.unshift({ x: 0, y: 0 });\n' +
+    '    elementCoordinates.forEach(function (elementCoordinate, i) {\n' +
+    '        if (i === 0) {\n' +
+    '            return;\n' +
+    '        }\n' +
+    '        drawLine(drawOptions.line, elementCoordinates[i - 1], elementCoordinate);\n' +
+    '        drawCircleAndNumber(drawOptions.circle, elementCoordinate, i);\n' +
+    '    });\n' +
+    '    function drawLine(options, start, end) {\n' +
+    "        var tabbableCanvasContext = document.getElementById('wic-tabbable-canvas').getContext('2d');\n" +
+    '        tabbableCanvasContext.beginPath();\n' +
+    "        tabbableCanvasContext.globalCompositeOperation = 'destination-over';\n" +
+    '        tabbableCanvasContext.lineWidth = options.width;\n' +
+    '        tabbableCanvasContext.strokeStyle = options.color;\n' +
+    '        tabbableCanvasContext.moveTo(start.x, start.y);\n' +
+    '        tabbableCanvasContext.lineTo(end.x, end.y);\n' +
+    '        tabbableCanvasContext.stroke();\n' +
+    '    }\n' +
+    '    function drawCircleAndNumber(options, position, i) {\n' +
+    "        var tabbableCanvasContext = document.getElementById('wic-tabbable-canvas').getContext('2d');\n" +
+    '        tabbableCanvasContext.beginPath();\n' +
+    "        tabbableCanvasContext.globalCompositeOperation = 'source-over';\n" +
+    '        tabbableCanvasContext.fillStyle = options.backgroundColor;\n' +
+    '        tabbableCanvasContext.arc(position.x, position.y, options.size, 0, Math.PI * 2, true);\n' +
+    '        tabbableCanvasContext.fill();\n' +
+    '        tabbableCanvasContext.lineWidth = options.borderWidth;\n' +
+    '        tabbableCanvasContext.strokeStyle = options.borderColor;\n' +
+    '        tabbableCanvasContext.stroke();\n' +
+    '        if (options.showNumber) {\n' +
+    '            tabbableCanvasContext.font = options.fontSize + "px " + options.fontFamily;\n' +
+    "            tabbableCanvasContext.textAlign = 'center';\n" +
+    "            tabbableCanvasContext.textBaseline = 'middle';\n" +
+    '            tabbableCanvasContext.fillStyle = options.fontColor;\n' +
+    '            tabbableCanvasContext.fillText(i.toString(), position.x, position.y);\n' +
+    '        }\n' +
+    '    }\n' +
+    '    function tabbable() {\n' +
+    '        var regularTabbables = [];\n' +
+    '        var orderedTabbables = [];\n' +
+    '        var candidateSelectors = [\n' +
+    "            'input',\n" +
+    "            'select',\n" +
+    "            'textarea',\n" +
+    "            'a[href]',\n" +
+    "            'button',\n" +
+    "            '[tabindex]',\n" +
+    "            'audio[controls]',\n" +
+    "            'video[controls]',\n" +
+    `            '[contenteditable]:not([contenteditable="false"])',\n` +
+    "        ].join(',');\n" +
+    '        var candidates = document.querySelectorAll(candidateSelectors);\n' +
+    '        for (var i = 0; i < candidates.length; i++) {\n' +
+    '            var candidate = candidates[i];\n' +
+    '            if (!isNodeMatchingSelectorTabbable(candidate)) {\n' +
+    '                continue;\n' +
+    '            }\n' +
+    '            var candidateTabindex = getTabindex(candidate);\n' +
+    '            if (candidateTabindex === 0) {\n' +
+    '                regularTabbables.push(candidate);\n' +
+    '            }\n' +
+    '            else {\n' +
+    '                orderedTabbables.push({\n' +
+    '                    documentOrder: i,\n' +
+    '                    tabIndex: candidateTabindex,\n' +
+    '                    node: candidate,\n' +
+    '                });\n' +
+    '            }\n' +
+    '        }\n' +
+    '        return Array.prototype.slice.call(orderedTabbables.sort(sortOrderedTabbables).map(function (a) { return a.node; }).concat(regularTabbables));\n' +
+    '    }\n' +
+    '    function isNodeMatchingSelectorTabbable(node) {\n' +
+    '        return !(!isNodeMatchingSelectorFocusable(node) ||\n' +
+    '            isNonTabbableRadio(node) ||\n' +
+    '            getTabindex(node) < 0);\n' +
+    '    }\n' +
+    '    function isNodeMatchingSelectorFocusable(node) {\n' +
+    "        return !((node.hasAttribute('disabled') || node.getAttribute('disabled'))\n" +
+    '            || isHiddenInput(node)\n' +
+    '            || isHidden(node));\n' +
+    '    }\n' +
+    '    function getTabindex(node) {\n' +
+    "        var tabindexAttr = parseInt(node.getAttribute('tabindex'), 10);\n" +
+    '        if (!isNaN(tabindexAttr)) {\n' +
+    '            return tabindexAttr;\n' +
+    '        }\n' +
+    '        if (isContentEditable(node)) {\n' +
+    '            return 0;\n' +
+    '        }\n' +
+    '        return node.tabIndex;\n' +
+    '    }\n' +
+    '    function sortOrderedTabbables(nodeA, nodeB) {\n' +
+    '        return nodeA.tabIndex === nodeB.tabIndex\n' +
+    '            ? nodeA.documentOrder - nodeB.documentOrder\n' +
+    '            : nodeA.tabIndex - nodeB.tabIndex;\n' +
+    '    }\n' +
+    '    function isContentEditable(node) {\n' +
+    "        return node.contentEditable === 'true';\n" +
+    '    }\n' +
+    '    function isInput(node) {\n' +
+    "        return node.tagName === 'INPUT';\n" +
+    '    }\n' +
+    '    function isHiddenInput(node) {\n' +
+    "        return isInput(node) && node.type === 'hidden';\n" +
+    '    }\n' +
+    '    function isRadio(node) {\n' +
+    "        return isInput(node) && node.type === 'radio';\n" +
+    '    }\n' +
+    '    function isNonTabbableRadio(node) {\n' +
+    '        return isRadio(node) && !isTabbableRadio(node);\n' +
+    '    }\n' +
+    '    function getCheckedRadio(nodes) {\n' +
+    '        for (var i = 0; i < nodes.length; i++) {\n' +
+    '            if (nodes[i].checked) {\n' +
+    '                return nodes[i];\n' +
+    '            }\n' +
+    '        }\n' +
+    '    }\n' +
+    '    function isTabbableRadio(node) {\n' +
+    '        if (!node.name) {\n' +
+    '            return true;\n' +
+    '        }\n' +
+    '        var radioSet = node.ownerDocument.querySelectorAll("input[type=\\"radio\\"][name=\\"" + node.name + "\\"]");\n' +
+    '        var checked = getCheckedRadio(radioSet);\n' +
+    '        return !checked || checked === node;\n' +
+    '    }\n' +
+    '    function isHidden(node) {\n' +
+    "        return (node.offsetParent === null || getComputedStyle(node).visibility === 'hidden');\n" +
+    '    }\n' +
+    '    function getDocumentScrollHeight() {\n' +
+    '        var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\n' +
+    '        var scrollHeight = document.documentElement.scrollHeight;\n' +
+    '        var bodyScrollHeight = document.body.scrollHeight;\n' +
+    '        if ((viewPortHeight === scrollHeight) && (bodyScrollHeight > scrollHeight)) {\n' +
+    '            return bodyScrollHeight;\n' +
+    '        }\n' +
+    '        var pageHeight = 0;\n' +
+    "        var largestNodeElement = document.querySelector('body');\n" +
+    '        if (bodyScrollHeight === scrollHeight && bodyScrollHeight === viewPortHeight) {\n' +
+    '            findHighestNode(document.documentElement.childNodes);\n' +
+    '            return pageHeight + largestNodeElement.getBoundingClientRect().top;\n' +
+    '        }\n' +
+    '        return scrollHeight;\n' +
+    '        function findHighestNode(nodesList) {\n' +
+    '            for (var i = nodesList.length - 1; i >= 0; i--) {\n' +
+    '                var currentNode = nodesList[i];\n' +
+    '                if (currentNode.scrollHeight && currentNode.clientHeight) {\n' +
+    '                    var elHeight = Math.max(currentNode.scrollHeight, currentNode.clientHeight);\n' +
+    '                    pageHeight = Math.max(elHeight, pageHeight);\n' +
+    '                    if (elHeight === pageHeight) {\n' +
+    '                        largestNodeElement = currentNode;\n' +
+    '                    }\n' +
+    '                }\n' +
+    '                if (currentNode.childNodes.length) {\n' +
+    '                    findHighestNode(currentNode.childNodes);\n' +
+    '                }\n' +
+    '            }\n' +
+    '        }\n' +
+    '    }\n' +
+    '}).apply(null, arguments)',
+  args: [ { circle: [Object], line: [Object] } ]
+}
+2021-10-31T05:12:54.232Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:12:54.232Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:12:54.232Z INFO webdriver: DATA {
+  script: 'return (function hideScrollBars(hide) {\n' +
+    '    try {\n' +
+    '        if (hide) {\n' +
+    "            document.body.style.overflow = 'hidden';\n" +
+    '        }\n' +
+    '        else {\n' +
+    "            document.body.style.overflow = '';\n" +
+    '        }\n' +
+    '    }\n' +
+    '    catch (e) {\n' +
+    '    }\n' +
+    '}).apply(null, arguments)',
+  args: [ true ]
+}
+2021-10-31T05:12:54.261Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:12:54.261Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:12:54.262Z INFO webdriver: DATA {
+  script: 'return (function getScreenDimensions() {\n' +
+    '    var body = document.body;\n' +
+    '    var html = document.documentElement;\n' +
+    '    var bodyDimensions = {\n' +
+    '        scrollHeight: body == null ? 0 : body.scrollHeight,\n' +
+    '        offsetHeight: body == null ? 0 : body.offsetHeight\n' +
+    '    };\n' +
+    '    var htmlDimensions = {\n' +
+    '        clientHeight: html == null ? 0 : html.clientHeight,\n' +
+    '        clientWidth: html == null ? 0 : html.clientWidth,\n' +
+    '        scrollHeight: html == null ? 0 : html.scrollHeight,\n' +
+    '        scrollWidth: html == null ? 0 : html.scrollWidth,\n' +
+    '        offsetHeight: html == null ? 0 : html.offsetHeight\n' +
+    '    };\n' +
+    '    var windowDimensions = {\n' +
+    '        innerWidth: window.innerWidth,\n' +
+    '        innerHeight: window.innerHeight,\n' +
+    '        outerHeight: window.outerHeight === 0 ? htmlDimensions.clientHeight : window.outerHeight,\n' +
+    '        outerWidth: window.outerWidth === 0 ? htmlDimensions.clientWidth : window.outerWidth,\n' +
+    '        devicePixelRatio: window.devicePixelRatio,\n' +
+    '        screenWidth: window.screen.width,\n' +
+    '        screenHeight: window.screen.height,\n' +
+    '    };\n' +
+    '    return {\n' +
+    '        dimensions: {\n' +
+    '            body: bodyDimensions,\n' +
+    '            html: htmlDimensions,\n' +
+    '            window: windowDimensions\n' +
+    '        }\n' +
+    '    };\n' +
+    '}).apply(null, arguments)',
+  args: []
+}
+2021-10-31T05:12:54.281Z INFO webdriver: RESULT {
+  dimensions: {
+    body: { offsetHeight: 4380, scrollHeight: 4380 },
+    html: {
+      clientHeight: 888,
+      clientWidth: 1360,
+      offsetHeight: 4380,
+      scrollHeight: 4380,
+      scrollWidth: 1360
+    },
+    window: {
+      devicePixelRatio: 1,
+      innerHeight: 888,
+      innerWidth: 1360,
+      outerHeight: 973,
+      outerWidth: 1360,
+      screenHeight: 1020,
+      screenWidth: 1360
+    }
+  }
+}
+2021-10-31T05:12:54.283Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:12:54.283Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:12:54.283Z INFO webdriver: DATA {
+  script: 'return (function scrollToPosition(yPosition) {\n' +
+    '    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\n' +
+    '}).apply(null, arguments)',
+  args: [ 0 ]
+}
+2021-10-31T05:12:55.819Z INFO webdriver: COMMAND takeScreenshot()
+2021-10-31T05:12:55.819Z INFO webdriver: [GET] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/screenshot
+2021-10-31T05:12:56.285Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAABVAAAAN4CAYAAAAlUcMpAAAgAElEQVR4nOzde...
+2021-10-31T05:12:56.296Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:12:56.296Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:12:56.297Z INFO webdriver: DATA {
+  script: 'return (function getDocumentScrollHeight() {\n' +
+    '    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\n' +
+    '    var scrollHeight = document.documentElement.scrollHeight;\n' +
+    '    var bodyScrollHeight = document.body.scrollHeight;\n' +
+    '    if ((viewPortHeight === scrollHeight) && (bodyScrollHeight > scrollHeight)) {\n' +
+    '        return bodyScrollHeight;\n' +
+    '    }\n' +
+    '    var pageHeight = 0;\n' +
+    "    var largestNodeElement = document.querySelector('body');\n" +
+    '    if (bodyScrollHeight === scrollHeight && bodyScrollHeight === viewPortHeight) {\n' +
+    '        findHighestNode(document.documentElement.childNodes);\n' +
+    '        return pageHeight + largestNodeElement.getBoundingClientRect().top;\n' +
+    '    }\n' +
+    '    return scrollHeight;\n' +
+    '    function findHighestNode(nodesList) {\n' +
+    '        for (var i = nodesList.length - 1; i >= 0; i--) {\n' +
+    '            var currentNode = nodesList[i];\n' +
+    '            if (currentNode.scrollHeight && currentNode.clientHeight) {\n' +
+    '                var elHeight = Math.max(currentNode.scrollHeight, currentNode.clientHeight);\n' +
+    '                pageHeight = Math.max(elHeight, pageHeight);\n' +
+    '                if (elHeight === pageHeight) {\n' +
+    '                    largestNodeElement = currentNode;\n' +
+    '                }\n' +
+    '            }\n' +
+    '            if (currentNode.childNodes.length) {\n' +
+    '                findHighestNode(currentNode.childNodes);\n' +
+    '            }\n' +
+    '        }\n' +
+    '    }\n' +
+    '}).apply(null, arguments)',
+  args: []
+}
+2021-10-31T05:12:56.333Z INFO webdriver: RESULT 4380
+2021-10-31T05:12:56.334Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:12:56.334Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:12:56.334Z INFO webdriver: DATA {
+  script: 'return (function scrollToPosition(yPosition) {\n' +
+    '    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\n' +
+    '}).apply(null, arguments)',
+  args: [ 888 ]
+}
+2021-10-31T05:12:57.871Z INFO webdriver: COMMAND takeScreenshot()
+2021-10-31T05:12:57.871Z INFO webdriver: [GET] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/screenshot
+2021-10-31T05:12:58.060Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAABVAAAAN4CAYAAAAlUcMpAAAgAElEQVR4nOzd+...
+2021-10-31T05:12:58.063Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:12:58.063Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:12:58.063Z INFO webdriver: DATA {
+  script: 'return (function getDocumentScrollHeight() {\n' +
+    '    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\n' +
+    '    var scrollHeight = document.documentElement.scrollHeight;\n' +
+    '    var bodyScrollHeight = document.body.scrollHeight;\n' +
+    '    if ((viewPortHeight === scrollHeight) && (bodyScrollHeight > scrollHeight)) {\n' +
+    '        return bodyScrollHeight;\n' +
+    '    }\n' +
+    '    var pageHeight = 0;\n' +
+    "    var largestNodeElement = document.querySelector('body');\n" +
+    '    if (bodyScrollHeight === scrollHeight && bodyScrollHeight === viewPortHeight) {\n' +
+    '        findHighestNode(document.documentElement.childNodes);\n' +
+    '        return pageHeight + largestNodeElement.getBoundingClientRect().top;\n' +
+    '    }\n' +
+    '    return scrollHeight;\n' +
+    '    function findHighestNode(nodesList) {\n' +
+    '        for (var i = nodesList.length - 1; i >= 0; i--) {\n' +
+    '            var currentNode = nodesList[i];\n' +
+    '            if (currentNode.scrollHeight && currentNode.clientHeight) {\n' +
+    '                var elHeight = Math.max(currentNode.scrollHeight, currentNode.clientHeight);\n' +
+    '                pageHeight = Math.max(elHeight, pageHeight);\n' +
+    '                if (elHeight === pageHeight) {\n' +
+    '                    largestNodeElement = currentNode;\n' +
+    '                }\n' +
+    '            }\n' +
+    '            if (currentNode.childNodes.length) {\n' +
+    '                findHighestNode(currentNode.childNodes);\n' +
+    '            }\n' +
+    '        }\n' +
+    '    }\n' +
+    '}).apply(null, arguments)',
+  args: []
+}
+2021-10-31T05:12:58.080Z INFO webdriver: RESULT 4476
+2021-10-31T05:12:58.081Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:12:58.081Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:12:58.081Z INFO webdriver: DATA {
+  script: 'return (function scrollToPosition(yPosition) {\n' +
+    '    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\n' +
+    '}).apply(null, arguments)',
+  args: [ 1776 ]
+}
+2021-10-31T05:12:59.625Z INFO webdriver: COMMAND takeScreenshot()
+2021-10-31T05:12:59.625Z INFO webdriver: [GET] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/screenshot
+2021-10-31T05:12:59.831Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAABVAAAAN4CAYAAAAlUcMpAAAgAElEQVR4nOzde...
+2021-10-31T05:12:59.836Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:12:59.836Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:12:59.836Z INFO webdriver: DATA {
+  script: 'return (function getDocumentScrollHeight() {\n' +
+    '    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\n' +
+    '    var scrollHeight = document.documentElement.scrollHeight;\n' +
+    '    var bodyScrollHeight = document.body.scrollHeight;\n' +
+    '    if ((viewPortHeight === scrollHeight) && (bodyScrollHeight > scrollHeight)) {\n' +
+    '        return bodyScrollHeight;\n' +
+    '    }\n' +
+    '    var pageHeight = 0;\n' +
+    "    var largestNodeElement = document.querySelector('body');\n" +
+    '    if (bodyScrollHeight === scrollHeight && bodyScrollHeight === viewPortHeight) {\n' +
+    '        findHighestNode(document.documentElement.childNodes);\n' +
+    '        return pageHeight + largestNodeElement.getBoundingClientRect().top;\n' +
+    '    }\n' +
+    '    return scrollHeight;\n' +
+    '    function findHighestNode(nodesList) {\n' +
+    '        for (var i = nodesList.length - 1; i >= 0; i--) {\n' +
+    '            var currentNode = nodesList[i];\n' +
+    '            if (currentNode.scrollHeight && currentNode.clientHeight) {\n' +
+    '                var elHeight = Math.max(currentNode.scrollHeight, currentNode.clientHeight);\n' +
+    '                pageHeight = Math.max(elHeight, pageHeight);\n' +
+    '                if (elHeight === pageHeight) {\n' +
+    '                    largestNodeElement = currentNode;\n' +
+    '                }\n' +
+    '            }\n' +
+    '            if (currentNode.childNodes.length) {\n' +
+    '                findHighestNode(currentNode.childNodes);\n' +
+    '            }\n' +
+    '        }\n' +
+    '    }\n' +
+    '}).apply(null, arguments)',
+  args: []
+}
+2021-10-31T05:12:59.862Z INFO webdriver: RESULT 4476
+2021-10-31T05:12:59.863Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:12:59.863Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:12:59.863Z INFO webdriver: DATA {
+  script: 'return (function scrollToPosition(yPosition) {\n' +
+    '    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\n' +
+    '}).apply(null, arguments)',
+  args: [ 2664 ]
+}
+2021-10-31T05:13:01.404Z INFO webdriver: COMMAND takeScreenshot()
+2021-10-31T05:13:01.405Z INFO webdriver: [GET] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/screenshot
+2021-10-31T05:13:01.643Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAABVAAAAN4CAYAAAAlUcMpAAAgAElEQVR4nOydd...
+2021-10-31T05:13:01.650Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:13:01.650Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:13:01.650Z INFO webdriver: DATA {
+  script: 'return (function getDocumentScrollHeight() {\n' +
+    '    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\n' +
+    '    var scrollHeight = document.documentElement.scrollHeight;\n' +
+    '    var bodyScrollHeight = document.body.scrollHeight;\n' +
+    '    if ((viewPortHeight === scrollHeight) && (bodyScrollHeight > scrollHeight)) {\n' +
+    '        return bodyScrollHeight;\n' +
+    '    }\n' +
+    '    var pageHeight = 0;\n' +
+    "    var largestNodeElement = document.querySelector('body');\n" +
+    '    if (bodyScrollHeight === scrollHeight && bodyScrollHeight === viewPortHeight) {\n' +
+    '        findHighestNode(document.documentElement.childNodes);\n' +
+    '        return pageHeight + largestNodeElement.getBoundingClientRect().top;\n' +
+    '    }\n' +
+    '    return scrollHeight;\n' +
+    '    function findHighestNode(nodesList) {\n' +
+    '        for (var i = nodesList.length - 1; i >= 0; i--) {\n' +
+    '            var currentNode = nodesList[i];\n' +
+    '            if (currentNode.scrollHeight && currentNode.clientHeight) {\n' +
+    '                var elHeight = Math.max(currentNode.scrollHeight, currentNode.clientHeight);\n' +
+    '                pageHeight = Math.max(elHeight, pageHeight);\n' +
+    '                if (elHeight === pageHeight) {\n' +
+    '                    largestNodeElement = currentNode;\n' +
+    '                }\n' +
+    '            }\n' +
+    '            if (currentNode.childNodes.length) {\n' +
+    '                findHighestNode(currentNode.childNodes);\n' +
+    '            }\n' +
+    '        }\n' +
+    '    }\n' +
+    '}).apply(null, arguments)',
+  args: []
+}
+2021-10-31T05:13:01.685Z INFO webdriver: RESULT 4476
+2021-10-31T05:13:01.686Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:13:01.686Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:13:01.686Z INFO webdriver: DATA {
+  script: 'return (function scrollToPosition(yPosition) {\n' +
+    '    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\n' +
+    '}).apply(null, arguments)',
+  args: [ 3552 ]
+}
+2021-10-31T05:13:03.249Z INFO webdriver: COMMAND takeScreenshot()
+2021-10-31T05:13:03.249Z INFO webdriver: [GET] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/screenshot
+2021-10-31T05:13:03.451Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAABVAAAAN4CAYAAAAlUcMpAAAgAElEQVR4nOzd+...
+2021-10-31T05:13:03.458Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:13:03.458Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:13:03.458Z INFO webdriver: DATA {
+  script: 'return (function getDocumentScrollHeight() {\n' +
+    '    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\n' +
+    '    var scrollHeight = document.documentElement.scrollHeight;\n' +
+    '    var bodyScrollHeight = document.body.scrollHeight;\n' +
+    '    if ((viewPortHeight === scrollHeight) && (bodyScrollHeight > scrollHeight)) {\n' +
+    '        return bodyScrollHeight;\n' +
+    '    }\n' +
+    '    var pageHeight = 0;\n' +
+    "    var largestNodeElement = document.querySelector('body');\n" +
+    '    if (bodyScrollHeight === scrollHeight && bodyScrollHeight === viewPortHeight) {\n' +
+    '        findHighestNode(document.documentElement.childNodes);\n' +
+    '        return pageHeight + largestNodeElement.getBoundingClientRect().top;\n' +
+    '    }\n' +
+    '    return scrollHeight;\n' +
+    '    function findHighestNode(nodesList) {\n' +
+    '        for (var i = nodesList.length - 1; i >= 0; i--) {\n' +
+    '            var currentNode = nodesList[i];\n' +
+    '            if (currentNode.scrollHeight && currentNode.clientHeight) {\n' +
+    '                var elHeight = Math.max(currentNode.scrollHeight, currentNode.clientHeight);\n' +
+    '                pageHeight = Math.max(elHeight, pageHeight);\n' +
+    '                if (elHeight === pageHeight) {\n' +
+    '                    largestNodeElement = currentNode;\n' +
+    '                }\n' +
+    '            }\n' +
+    '            if (currentNode.childNodes.length) {\n' +
+    '                findHighestNode(currentNode.childNodes);\n' +
+    '            }\n' +
+    '        }\n' +
+    '    }\n' +
+    '}).apply(null, arguments)',
+  args: []
+}
+2021-10-31T05:13:03.492Z INFO webdriver: RESULT 4476
+2021-10-31T05:13:03.493Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:13:03.493Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:13:03.493Z INFO webdriver: DATA {
+  script: 'return (function scrollToPosition(yPosition) {\n' +
+    '    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\n' +
+    '}).apply(null, arguments)',
+  args: [ 4440 ]
+}
+2021-10-31T05:13:05.035Z INFO webdriver: COMMAND takeScreenshot()
+2021-10-31T05:13:05.036Z INFO webdriver: [GET] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/screenshot
+2021-10-31T05:13:05.221Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAABVAAAAN4CAYAAAAlUcMpAAAgAElEQVR4nOzd+...
+2021-10-31T05:13:05.229Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:13:05.230Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:13:05.230Z INFO webdriver: DATA {
+  script: 'return (function getDocumentScrollHeight() {\n' +
+    '    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\n' +
+    '    var scrollHeight = document.documentElement.scrollHeight;\n' +
+    '    var bodyScrollHeight = document.body.scrollHeight;\n' +
+    '    if ((viewPortHeight === scrollHeight) && (bodyScrollHeight > scrollHeight)) {\n' +
+    '        return bodyScrollHeight;\n' +
+    '    }\n' +
+    '    var pageHeight = 0;\n' +
+    "    var largestNodeElement = document.querySelector('body');\n" +
+    '    if (bodyScrollHeight === scrollHeight && bodyScrollHeight === viewPortHeight) {\n' +
+    '        findHighestNode(document.documentElement.childNodes);\n' +
+    '        return pageHeight + largestNodeElement.getBoundingClientRect().top;\n' +
+    '    }\n' +
+    '    return scrollHeight;\n' +
+    '    function findHighestNode(nodesList) {\n' +
+    '        for (var i = nodesList.length - 1; i >= 0; i--) {\n' +
+    '            var currentNode = nodesList[i];\n' +
+    '            if (currentNode.scrollHeight && currentNode.clientHeight) {\n' +
+    '                var elHeight = Math.max(currentNode.scrollHeight, currentNode.clientHeight);\n' +
+    '                pageHeight = Math.max(elHeight, pageHeight);\n' +
+    '                if (elHeight === pageHeight) {\n' +
+    '                    largestNodeElement = currentNode;\n' +
+    '                }\n' +
+    '            }\n' +
+    '            if (currentNode.childNodes.length) {\n' +
+    '                findHighestNode(currentNode.childNodes);\n' +
+    '            }\n' +
+    '        }\n' +
+    '    }\n' +
+    '}).apply(null, arguments)',
+  args: []
+}
+2021-10-31T05:13:05.251Z INFO webdriver: RESULT 4476
+2021-10-31T05:13:06.034Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:13:06.034Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:13:06.034Z INFO webdriver: DATA {
+  script: 'return (function hideScrollBars(hide) {\n' +
+    '    try {\n' +
+    '        if (hide) {\n' +
+    "            document.body.style.overflow = 'hidden';\n" +
+    '        }\n' +
+    '        else {\n' +
+    "            document.body.style.overflow = '';\n" +
+    '        }\n' +
+    '    }\n' +
+    '    catch (e) {\n' +
+    '    }\n' +
+    '}).apply(null, arguments)',
+  args: [ false ]
+}
+2021-10-31T05:13:06.069Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:13:06.070Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:13:06.070Z INFO webdriver: DATA {
+  script: 'return (function removeElementFromDom(id) {\n' +
+    '    var elem = document.querySelector("#" + id);\n' +
+    '    if (elem != null) {\n' +
+    '        elem.parentNode.removeChild(elem);\n' +
+    '    }\n' +
+    '}).apply(null, arguments)',
+  args: [ 'wic-tabbable-canvas' ]
+}
+2021-10-31T05:13:06.096Z INFO webdriver: RESULT {
+  fileName: 'mildstabbedpage--1360x973.png',
+  path: '/Users/ksaminat/testing/git_volvo/volvo-kube-wdio/.tmp/actual/desktop_firefox',
+  devicePixelRatio: 1
+}
+2021-10-31T05:13:06.101Z INFO webdriver: COMMAND navigateTo("https://www.volvocars.com/intl/v/cars/other-powertrains")
+2021-10-31T05:13:06.101Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/url
+2021-10-31T05:13:06.101Z INFO webdriver: DATA { url: 'https://www.volvocars.com/intl/v/cars/other-powertrains' }
+2021-10-31T05:13:07.508Z INFO webdriver: COMMAND checkTabbablePage("mildstabbedpage", <object>)
+2021-10-31T05:13:07.509Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:13:07.510Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:13:07.510Z INFO webdriver: DATA {
+  script: 'return (function drawTabbableOnCanvas(drawOptions) {\n' +
+    '    window.scrollTo(0, 0);\n' +
+    '    var width = window.innerWidth;\n' +
+    '    var height = getDocumentScrollHeight();\n' +
+    '    var canvasNode = "<canvas id=\\"wic-tabbable-canvas\\" width=\\"" + width + "\\" height=\\"" + height + "\\" style=\\"position:absolute;top:0;left:0;z-index:999999;\\">";\n' +
+    "    document.body.insertAdjacentHTML('afterbegin', canvasNode);\n" +
+    '    var accessibleElements = tabbable();\n' +
+    '    var elementCoordinates = accessibleElements.map(function (node) {\n' +
+    '        var currentElement = node.getBoundingClientRect();\n' +
+    '        return {\n' +
+    '            x: currentElement.left + (currentElement.width / 2),\n' +
+    '            y: currentElement.top + (currentElement.height / 2),\n' +
+    '        };\n' +
+    '    });\n' +
+    '    elementCoordinates.unshift({ x: 0, y: 0 });\n' +
+    '    elementCoordinates.forEach(function (elementCoordinate, i) {\n' +
+    '        if (i === 0) {\n' +
+    '            return;\n' +
+    '        }\n' +
+    '        drawLine(drawOptions.line, elementCoordinates[i - 1], elementCoordinate);\n' +
+    '        drawCircleAndNumber(drawOptions.circle, elementCoordinate, i);\n' +
+    '    });\n' +
+    '    function drawLine(options, start, end) {\n' +
+    "        var tabbableCanvasContext = document.getElementById('wic-tabbable-canvas').getContext('2d');\n" +
+    '        tabbableCanvasContext.beginPath();\n' +
+    "        tabbableCanvasContext.globalCompositeOperation = 'destination-over';\n" +
+    '        tabbableCanvasContext.lineWidth = options.width;\n' +
+    '        tabbableCanvasContext.strokeStyle = options.color;\n' +
+    '        tabbableCanvasContext.moveTo(start.x, start.y);\n' +
+    '        tabbableCanvasContext.lineTo(end.x, end.y);\n' +
+    '        tabbableCanvasContext.stroke();\n' +
+    '    }\n' +
+    '    function drawCircleAndNumber(options, position, i) {\n' +
+    "        var tabbableCanvasContext = document.getElementById('wic-tabbable-canvas').getContext('2d');\n" +
+    '        tabbableCanvasContext.beginPath();\n' +
+    "        tabbableCanvasContext.globalCompositeOperation = 'source-over';\n" +
+    '        tabbableCanvasContext.fillStyle = options.backgroundColor;\n' +
+    '        tabbableCanvasContext.arc(position.x, position.y, options.size, 0, Math.PI * 2, true);\n' +
+    '        tabbableCanvasContext.fill();\n' +
+    '        tabbableCanvasContext.lineWidth = options.borderWidth;\n' +
+    '        tabbableCanvasContext.strokeStyle = options.borderColor;\n' +
+    '        tabbableCanvasContext.stroke();\n' +
+    '        if (options.showNumber) {\n' +
+    '            tabbableCanvasContext.font = options.fontSize + "px " + options.fontFamily;\n' +
+    "            tabbableCanvasContext.textAlign = 'center';\n" +
+    "            tabbableCanvasContext.textBaseline = 'middle';\n" +
+    '            tabbableCanvasContext.fillStyle = options.fontColor;\n' +
+    '            tabbableCanvasContext.fillText(i.toString(), position.x, position.y);\n' +
+    '        }\n' +
+    '    }\n' +
+    '    function tabbable() {\n' +
+    '        var regularTabbables = [];\n' +
+    '        var orderedTabbables = [];\n' +
+    '        var candidateSelectors = [\n' +
+    "            'input',\n" +
+    "            'select',\n" +
+    "            'textarea',\n" +
+    "            'a[href]',\n" +
+    "            'button',\n" +
+    "            '[tabindex]',\n" +
+    "            'audio[controls]',\n" +
+    "            'video[controls]',\n" +
+    `            '[contenteditable]:not([contenteditable="false"])',\n` +
+    "        ].join(',');\n" +
+    '        var candidates = document.querySelectorAll(candidateSelectors);\n' +
+    '        for (var i = 0; i < candidates.length; i++) {\n' +
+    '            var candidate = candidates[i];\n' +
+    '            if (!isNodeMatchingSelectorTabbable(candidate)) {\n' +
+    '                continue;\n' +
+    '            }\n' +
+    '            var candidateTabindex = getTabindex(candidate);\n' +
+    '            if (candidateTabindex === 0) {\n' +
+    '                regularTabbables.push(candidate);\n' +
+    '            }\n' +
+    '            else {\n' +
+    '                orderedTabbables.push({\n' +
+    '                    documentOrder: i,\n' +
+    '                    tabIndex: candidateTabindex,\n' +
+    '                    node: candidate,\n' +
+    '                });\n' +
+    '            }\n' +
+    '        }\n' +
+    '        return Array.prototype.slice.call(orderedTabbables.sort(sortOrderedTabbables).map(function (a) { return a.node; }).concat(regularTabbables));\n' +
+    '    }\n' +
+    '    function isNodeMatchingSelectorTabbable(node) {\n' +
+    '        return !(!isNodeMatchingSelectorFocusable(node) ||\n' +
+    '            isNonTabbableRadio(node) ||\n' +
+    '            getTabindex(node) < 0);\n' +
+    '    }\n' +
+    '    function isNodeMatchingSelectorFocusable(node) {\n' +
+    "        return !((node.hasAttribute('disabled') || node.getAttribute('disabled'))\n" +
+    '            || isHiddenInput(node)\n' +
+    '            || isHidden(node));\n' +
+    '    }\n' +
+    '    function getTabindex(node) {\n' +
+    "        var tabindexAttr = parseInt(node.getAttribute('tabindex'), 10);\n" +
+    '        if (!isNaN(tabindexAttr)) {\n' +
+    '            return tabindexAttr;\n' +
+    '        }\n' +
+    '        if (isContentEditable(node)) {\n' +
+    '            return 0;\n' +
+    '        }\n' +
+    '        return node.tabIndex;\n' +
+    '    }\n' +
+    '    function sortOrderedTabbables(nodeA, nodeB) {\n' +
+    '        return nodeA.tabIndex === nodeB.tabIndex\n' +
+    '            ? nodeA.documentOrder - nodeB.documentOrder\n' +
+    '            : nodeA.tabIndex - nodeB.tabIndex;\n' +
+    '    }\n' +
+    '    function isContentEditable(node) {\n' +
+    "        return node.contentEditable === 'true';\n" +
+    '    }\n' +
+    '    function isInput(node) {\n' +
+    "        return node.tagName === 'INPUT';\n" +
+    '    }\n' +
+    '    function isHiddenInput(node) {\n' +
+    "        return isInput(node) && node.type === 'hidden';\n" +
+    '    }\n' +
+    '    function isRadio(node) {\n' +
+    "        return isInput(node) && node.type === 'radio';\n" +
+    '    }\n' +
+    '    function isNonTabbableRadio(node) {\n' +
+    '        return isRadio(node) && !isTabbableRadio(node);\n' +
+    '    }\n' +
+    '    function getCheckedRadio(nodes) {\n' +
+    '        for (var i = 0; i < nodes.length; i++) {\n' +
+    '            if (nodes[i].checked) {\n' +
+    '                return nodes[i];\n' +
+    '            }\n' +
+    '        }\n' +
+    '    }\n' +
+    '    function isTabbableRadio(node) {\n' +
+    '        if (!node.name) {\n' +
+    '            return true;\n' +
+    '        }\n' +
+    '        var radioSet = node.ownerDocument.querySelectorAll("input[type=\\"radio\\"][name=\\"" + node.name + "\\"]");\n' +
+    '        var checked = getCheckedRadio(radioSet);\n' +
+    '        return !checked || checked === node;\n' +
+    '    }\n' +
+    '    function isHidden(node) {\n' +
+    "        return (node.offsetParent === null || getComputedStyle(node).visibility === 'hidden');\n" +
+    '    }\n' +
+    '    function getDocumentScrollHeight() {\n' +
+    '        var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\n' +
+    '        var scrollHeight = document.documentElement.scrollHeight;\n' +
+    '        var bodyScrollHeight = document.body.scrollHeight;\n' +
+    '        if ((viewPortHeight === scrollHeight) && (bodyScrollHeight > scrollHeight)) {\n' +
+    '            return bodyScrollHeight;\n' +
+    '        }\n' +
+    '        var pageHeight = 0;\n' +
+    "        var largestNodeElement = document.querySelector('body');\n" +
+    '        if (bodyScrollHeight === scrollHeight && bodyScrollHeight === viewPortHeight) {\n' +
+    '            findHighestNode(document.documentElement.childNodes);\n' +
+    '            return pageHeight + largestNodeElement.getBoundingClientRect().top;\n' +
+    '        }\n' +
+    '        return scrollHeight;\n' +
+    '        function findHighestNode(nodesList) {\n' +
+    '            for (var i = nodesList.length - 1; i >= 0; i--) {\n' +
+    '                var currentNode = nodesList[i];\n' +
+    '                if (currentNode.scrollHeight && currentNode.clientHeight) {\n' +
+    '                    var elHeight = Math.max(currentNode.scrollHeight, currentNode.clientHeight);\n' +
+    '                    pageHeight = Math.max(elHeight, pageHeight);\n' +
+    '                    if (elHeight === pageHeight) {\n' +
+    '                        largestNodeElement = currentNode;\n' +
+    '                    }\n' +
+    '                }\n' +
+    '                if (currentNode.childNodes.length) {\n' +
+    '                    findHighestNode(currentNode.childNodes);\n' +
+    '                }\n' +
+    '            }\n' +
+    '        }\n' +
+    '    }\n' +
+    '}).apply(null, arguments)',
+  args: [ { circle: [Object], line: [Object] } ]
+}
+2021-10-31T05:13:07.576Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:13:07.577Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:13:07.577Z INFO webdriver: DATA {
+  script: 'return (function hideScrollBars(hide) {\n' +
+    '    try {\n' +
+    '        if (hide) {\n' +
+    "            document.body.style.overflow = 'hidden';\n" +
+    '        }\n' +
+    '        else {\n' +
+    "            document.body.style.overflow = '';\n" +
+    '        }\n' +
+    '    }\n' +
+    '    catch (e) {\n' +
+    '    }\n' +
+    '}).apply(null, arguments)',
+  args: [ true ]
+}
+2021-10-31T05:13:07.636Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:13:07.636Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:13:07.636Z INFO webdriver: DATA {
+  script: 'return (function getScreenDimensions() {\n' +
+    '    var body = document.body;\n' +
+    '    var html = document.documentElement;\n' +
+    '    var bodyDimensions = {\n' +
+    '        scrollHeight: body == null ? 0 : body.scrollHeight,\n' +
+    '        offsetHeight: body == null ? 0 : body.offsetHeight\n' +
+    '    };\n' +
+    '    var htmlDimensions = {\n' +
+    '        clientHeight: html == null ? 0 : html.clientHeight,\n' +
+    '        clientWidth: html == null ? 0 : html.clientWidth,\n' +
+    '        scrollHeight: html == null ? 0 : html.scrollHeight,\n' +
+    '        scrollWidth: html == null ? 0 : html.scrollWidth,\n' +
+    '        offsetHeight: html == null ? 0 : html.offsetHeight\n' +
+    '    };\n' +
+    '    var windowDimensions = {\n' +
+    '        innerWidth: window.innerWidth,\n' +
+    '        innerHeight: window.innerHeight,\n' +
+    '        outerHeight: window.outerHeight === 0 ? htmlDimensions.clientHeight : window.outerHeight,\n' +
+    '        outerWidth: window.outerWidth === 0 ? htmlDimensions.clientWidth : window.outerWidth,\n' +
+    '        devicePixelRatio: window.devicePixelRatio,\n' +
+    '        screenWidth: window.screen.width,\n' +
+    '        screenHeight: window.screen.height,\n' +
+    '    };\n' +
+    '    return {\n' +
+    '        dimensions: {\n' +
+    '            body: bodyDimensions,\n' +
+    '            html: htmlDimensions,\n' +
+    '            window: windowDimensions\n' +
+    '        }\n' +
+    '    };\n' +
+    '}).apply(null, arguments)',
+  args: []
+}
+2021-10-31T05:13:07.661Z INFO webdriver: RESULT {
+  dimensions: {
+    body: { offsetHeight: 4380, scrollHeight: 4380 },
+    html: {
+      clientHeight: 888,
+      clientWidth: 1360,
+      offsetHeight: 4380,
+      scrollHeight: 4380,
+      scrollWidth: 1360
+    },
+    window: {
+      devicePixelRatio: 1,
+      innerHeight: 888,
+      innerWidth: 1360,
+      outerHeight: 973,
+      outerWidth: 1360,
+      screenHeight: 1020,
+      screenWidth: 1360
+    }
+  }
+}
+2021-10-31T05:13:07.662Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:13:07.662Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:13:07.662Z INFO webdriver: DATA {
+  script: 'return (function scrollToPosition(yPosition) {\n' +
+    '    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\n' +
+    '}).apply(null, arguments)',
+  args: [ 0 ]
+}
+2021-10-31T05:13:09.200Z INFO webdriver: COMMAND takeScreenshot()
+2021-10-31T05:13:09.200Z INFO webdriver: [GET] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/screenshot
+2021-10-31T05:13:09.573Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAABVAAAAN4CAYAAAAlUcMpAAAgAElEQVR4nOzde...
+2021-10-31T05:13:09.591Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:13:09.592Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:13:09.592Z INFO webdriver: DATA {
+  script: 'return (function getDocumentScrollHeight() {\n' +
+    '    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\n' +
+    '    var scrollHeight = document.documentElement.scrollHeight;\n' +
+    '    var bodyScrollHeight = document.body.scrollHeight;\n' +
+    '    if ((viewPortHeight === scrollHeight) && (bodyScrollHeight > scrollHeight)) {\n' +
+    '        return bodyScrollHeight;\n' +
+    '    }\n' +
+    '    var pageHeight = 0;\n' +
+    "    var largestNodeElement = document.querySelector('body');\n" +
+    '    if (bodyScrollHeight === scrollHeight && bodyScrollHeight === viewPortHeight) {\n' +
+    '        findHighestNode(document.documentElement.childNodes);\n' +
+    '        return pageHeight + largestNodeElement.getBoundingClientRect().top;\n' +
+    '    }\n' +
+    '    return scrollHeight;\n' +
+    '    function findHighestNode(nodesList) {\n' +
+    '        for (var i = nodesList.length - 1; i >= 0; i--) {\n' +
+    '            var currentNode = nodesList[i];\n' +
+    '            if (currentNode.scrollHeight && currentNode.clientHeight) {\n' +
+    '                var elHeight = Math.max(currentNode.scrollHeight, currentNode.clientHeight);\n' +
+    '                pageHeight = Math.max(elHeight, pageHeight);\n' +
+    '                if (elHeight === pageHeight) {\n' +
+    '                    largestNodeElement = currentNode;\n' +
+    '                }\n' +
+    '            }\n' +
+    '            if (currentNode.childNodes.length) {\n' +
+    '                findHighestNode(currentNode.childNodes);\n' +
+    '            }\n' +
+    '        }\n' +
+    '    }\n' +
+    '}).apply(null, arguments)',
+  args: []
+}
+2021-10-31T05:13:09.629Z INFO webdriver: RESULT 4380
+2021-10-31T05:13:09.631Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:13:09.631Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:13:09.631Z INFO webdriver: DATA {
+  script: 'return (function scrollToPosition(yPosition) {\n' +
+    '    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\n' +
+    '}).apply(null, arguments)',
+  args: [ 888 ]
+}
+2021-10-31T05:13:11.175Z INFO webdriver: COMMAND takeScreenshot()
+2021-10-31T05:13:11.175Z INFO webdriver: [GET] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/screenshot
+2021-10-31T05:13:11.416Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAABVAAAAN4CAYAAAAlUcMpAAAgAElEQVR4nOzd+...
+2021-10-31T05:13:11.418Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:13:11.419Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:13:11.419Z INFO webdriver: DATA {
+  script: 'return (function getDocumentScrollHeight() {\n' +
+    '    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\n' +
+    '    var scrollHeight = document.documentElement.scrollHeight;\n' +
+    '    var bodyScrollHeight = document.body.scrollHeight;\n' +
+    '    if ((viewPortHeight === scrollHeight) && (bodyScrollHeight > scrollHeight)) {\n' +
+    '        return bodyScrollHeight;\n' +
+    '    }\n' +
+    '    var pageHeight = 0;\n' +
+    "    var largestNodeElement = document.querySelector('body');\n" +
+    '    if (bodyScrollHeight === scrollHeight && bodyScrollHeight === viewPortHeight) {\n' +
+    '        findHighestNode(document.documentElement.childNodes);\n' +
+    '        return pageHeight + largestNodeElement.getBoundingClientRect().top;\n' +
+    '    }\n' +
+    '    return scrollHeight;\n' +
+    '    function findHighestNode(nodesList) {\n' +
+    '        for (var i = nodesList.length - 1; i >= 0; i--) {\n' +
+    '            var currentNode = nodesList[i];\n' +
+    '            if (currentNode.scrollHeight && currentNode.clientHeight) {\n' +
+    '                var elHeight = Math.max(currentNode.scrollHeight, currentNode.clientHeight);\n' +
+    '                pageHeight = Math.max(elHeight, pageHeight);\n' +
+    '                if (elHeight === pageHeight) {\n' +
+    '                    largestNodeElement = currentNode;\n' +
+    '                }\n' +
+    '            }\n' +
+    '            if (currentNode.childNodes.length) {\n' +
+    '                findHighestNode(currentNode.childNodes);\n' +
+    '            }\n' +
+    '        }\n' +
+    '    }\n' +
+    '}).apply(null, arguments)',
+  args: []
+}
+2021-10-31T05:13:11.466Z INFO webdriver: RESULT 4476
+2021-10-31T05:13:11.467Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:13:11.467Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:13:11.467Z INFO webdriver: DATA {
+  script: 'return (function scrollToPosition(yPosition) {\n' +
+    '    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\n' +
+    '}).apply(null, arguments)',
+  args: [ 1776 ]
+}
+2021-10-31T05:13:13.056Z INFO webdriver: COMMAND takeScreenshot()
+2021-10-31T05:13:13.056Z INFO webdriver: [GET] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/screenshot
+2021-10-31T05:13:13.478Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAABVAAAAN4CAYAAAAlUcMpAAAgAElEQVR4nOzde...
+2021-10-31T05:13:13.480Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:13:13.480Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:13:13.480Z INFO webdriver: DATA {
+  script: 'return (function getDocumentScrollHeight() {\n' +
+    '    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\n' +
+    '    var scrollHeight = document.documentElement.scrollHeight;\n' +
+    '    var bodyScrollHeight = document.body.scrollHeight;\n' +
+    '    if ((viewPortHeight === scrollHeight) && (bodyScrollHeight > scrollHeight)) {\n' +
+    '        return bodyScrollHeight;\n' +
+    '    }\n' +
+    '    var pageHeight = 0;\n' +
+    "    var largestNodeElement = document.querySelector('body');\n" +
+    '    if (bodyScrollHeight === scrollHeight && bodyScrollHeight === viewPortHeight) {\n' +
+    '        findHighestNode(document.documentElement.childNodes);\n' +
+    '        return pageHeight + largestNodeElement.getBoundingClientRect().top;\n' +
+    '    }\n' +
+    '    return scrollHeight;\n' +
+    '    function findHighestNode(nodesList) {\n' +
+    '        for (var i = nodesList.length - 1; i >= 0; i--) {\n' +
+    '            var currentNode = nodesList[i];\n' +
+    '            if (currentNode.scrollHeight && currentNode.clientHeight) {\n' +
+    '                var elHeight = Math.max(currentNode.scrollHeight, currentNode.clientHeight);\n' +
+    '                pageHeight = Math.max(elHeight, pageHeight);\n' +
+    '                if (elHeight === pageHeight) {\n' +
+    '                    largestNodeElement = currentNode;\n' +
+    '                }\n' +
+    '            }\n' +
+    '            if (currentNode.childNodes.length) {\n' +
+    '                findHighestNode(currentNode.childNodes);\n' +
+    '            }\n' +
+    '        }\n' +
+    '    }\n' +
+    '}).apply(null, arguments)',
+  args: []
+}
+2021-10-31T05:13:13.544Z INFO webdriver: RESULT 4476
+2021-10-31T05:13:13.545Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:13:13.545Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:13:13.545Z INFO webdriver: DATA {
+  script: 'return (function scrollToPosition(yPosition) {\n' +
+    '    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\n' +
+    '}).apply(null, arguments)',
+  args: [ 2664 ]
+}
+2021-10-31T05:13:15.088Z INFO webdriver: COMMAND takeScreenshot()
+2021-10-31T05:13:15.088Z INFO webdriver: [GET] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/screenshot
+2021-10-31T05:13:15.525Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAABVAAAAN4CAYAAAAlUcMpAAAgAElEQVR4nOydd...
+2021-10-31T05:13:15.530Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:13:15.530Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:13:15.530Z INFO webdriver: DATA {
+  script: 'return (function getDocumentScrollHeight() {\n' +
+    '    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\n' +
+    '    var scrollHeight = document.documentElement.scrollHeight;\n' +
+    '    var bodyScrollHeight = document.body.scrollHeight;\n' +
+    '    if ((viewPortHeight === scrollHeight) && (bodyScrollHeight > scrollHeight)) {\n' +
+    '        return bodyScrollHeight;\n' +
+    '    }\n' +
+    '    var pageHeight = 0;\n' +
+    "    var largestNodeElement = document.querySelector('body');\n" +
+    '    if (bodyScrollHeight === scrollHeight && bodyScrollHeight === viewPortHeight) {\n' +
+    '        findHighestNode(document.documentElement.childNodes);\n' +
+    '        return pageHeight + largestNodeElement.getBoundingClientRect().top;\n' +
+    '    }\n' +
+    '    return scrollHeight;\n' +
+    '    function findHighestNode(nodesList) {\n' +
+    '        for (var i = nodesList.length - 1; i >= 0; i--) {\n' +
+    '            var currentNode = nodesList[i];\n' +
+    '            if (currentNode.scrollHeight && currentNode.clientHeight) {\n' +
+    '                var elHeight = Math.max(currentNode.scrollHeight, currentNode.clientHeight);\n' +
+    '                pageHeight = Math.max(elHeight, pageHeight);\n' +
+    '                if (elHeight === pageHeight) {\n' +
+    '                    largestNodeElement = currentNode;\n' +
+    '                }\n' +
+    '            }\n' +
+    '            if (currentNode.childNodes.length) {\n' +
+    '                findHighestNode(currentNode.childNodes);\n' +
+    '            }\n' +
+    '        }\n' +
+    '    }\n' +
+    '}).apply(null, arguments)',
+  args: []
+}
+2021-10-31T05:13:15.574Z INFO webdriver: RESULT 4476
+2021-10-31T05:13:15.575Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:13:15.575Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:13:15.575Z INFO webdriver: DATA {
+  script: 'return (function scrollToPosition(yPosition) {\n' +
+    '    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\n' +
+    '}).apply(null, arguments)',
+  args: [ 3552 ]
+}
+2021-10-31T05:13:17.104Z INFO webdriver: COMMAND takeScreenshot()
+2021-10-31T05:13:17.105Z INFO webdriver: [GET] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/screenshot
+2021-10-31T05:13:17.379Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAABVAAAAN4CAYAAAAlUcMpAAAgAElEQVR4nOzd+...
+2021-10-31T05:13:17.382Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:13:17.382Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:13:17.382Z INFO webdriver: DATA {
+  script: 'return (function getDocumentScrollHeight() {\n' +
+    '    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\n' +
+    '    var scrollHeight = document.documentElement.scrollHeight;\n' +
+    '    var bodyScrollHeight = document.body.scrollHeight;\n' +
+    '    if ((viewPortHeight === scrollHeight) && (bodyScrollHeight > scrollHeight)) {\n' +
+    '        return bodyScrollHeight;\n' +
+    '    }\n' +
+    '    var pageHeight = 0;\n' +
+    "    var largestNodeElement = document.querySelector('body');\n" +
+    '    if (bodyScrollHeight === scrollHeight && bodyScrollHeight === viewPortHeight) {\n' +
+    '        findHighestNode(document.documentElement.childNodes);\n' +
+    '        return pageHeight + largestNodeElement.getBoundingClientRect().top;\n' +
+    '    }\n' +
+    '    return scrollHeight;\n' +
+    '    function findHighestNode(nodesList) {\n' +
+    '        for (var i = nodesList.length - 1; i >= 0; i--) {\n' +
+    '            var currentNode = nodesList[i];\n' +
+    '            if (currentNode.scrollHeight && currentNode.clientHeight) {\n' +
+    '                var elHeight = Math.max(currentNode.scrollHeight, currentNode.clientHeight);\n' +
+    '                pageHeight = Math.max(elHeight, pageHeight);\n' +
+    '                if (elHeight === pageHeight) {\n' +
+    '                    largestNodeElement = currentNode;\n' +
+    '                }\n' +
+    '            }\n' +
+    '            if (currentNode.childNodes.length) {\n' +
+    '                findHighestNode(currentNode.childNodes);\n' +
+    '            }\n' +
+    '        }\n' +
+    '    }\n' +
+    '}).apply(null, arguments)',
+  args: []
+}
+2021-10-31T05:13:17.413Z INFO webdriver: RESULT 4476
+2021-10-31T05:13:17.414Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:13:17.414Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:13:17.414Z INFO webdriver: DATA {
+  script: 'return (function scrollToPosition(yPosition) {\n' +
+    '    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\n' +
+    '}).apply(null, arguments)',
+  args: [ 4440 ]
+}
+2021-10-31T05:13:18.949Z INFO webdriver: COMMAND takeScreenshot()
+2021-10-31T05:13:18.950Z INFO webdriver: [GET] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/screenshot
+2021-10-31T05:13:19.175Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAABVAAAAN4CAYAAAAlUcMpAAAgAElEQVR4nOzd+...
+2021-10-31T05:13:19.181Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:13:19.181Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:13:19.181Z INFO webdriver: DATA {
+  script: 'return (function getDocumentScrollHeight() {\n' +
+    '    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\n' +
+    '    var scrollHeight = document.documentElement.scrollHeight;\n' +
+    '    var bodyScrollHeight = document.body.scrollHeight;\n' +
+    '    if ((viewPortHeight === scrollHeight) && (bodyScrollHeight > scrollHeight)) {\n' +
+    '        return bodyScrollHeight;\n' +
+    '    }\n' +
+    '    var pageHeight = 0;\n' +
+    "    var largestNodeElement = document.querySelector('body');\n" +
+    '    if (bodyScrollHeight === scrollHeight && bodyScrollHeight === viewPortHeight) {\n' +
+    '        findHighestNode(document.documentElement.childNodes);\n' +
+    '        return pageHeight + largestNodeElement.getBoundingClientRect().top;\n' +
+    '    }\n' +
+    '    return scrollHeight;\n' +
+    '    function findHighestNode(nodesList) {\n' +
+    '        for (var i = nodesList.length - 1; i >= 0; i--) {\n' +
+    '            var currentNode = nodesList[i];\n' +
+    '            if (currentNode.scrollHeight && currentNode.clientHeight) {\n' +
+    '                var elHeight = Math.max(currentNode.scrollHeight, currentNode.clientHeight);\n' +
+    '                pageHeight = Math.max(elHeight, pageHeight);\n' +
+    '                if (elHeight === pageHeight) {\n' +
+    '                    largestNodeElement = currentNode;\n' +
+    '                }\n' +
+    '            }\n' +
+    '            if (currentNode.childNodes.length) {\n' +
+    '                findHighestNode(currentNode.childNodes);\n' +
+    '            }\n' +
+    '        }\n' +
+    '    }\n' +
+    '}).apply(null, arguments)',
+  args: []
+}
+2021-10-31T05:13:19.222Z INFO webdriver: RESULT 4476
+2021-10-31T05:13:19.961Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:13:19.961Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:13:19.961Z INFO webdriver: DATA {
+  script: 'return (function hideScrollBars(hide) {\n' +
+    '    try {\n' +
+    '        if (hide) {\n' +
+    "            document.body.style.overflow = 'hidden';\n" +
+    '        }\n' +
+    '        else {\n' +
+    "            document.body.style.overflow = '';\n" +
+    '        }\n' +
+    '    }\n' +
+    '    catch (e) {\n' +
+    '    }\n' +
+    '}).apply(null, arguments)',
+  args: [ false ]
+}
+2021-10-31T05:13:20.602Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2021-10-31T05:13:20.602Z INFO webdriver: [POST] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/execute/sync
+2021-10-31T05:13:20.602Z INFO webdriver: DATA {
+  script: 'return (function removeElementFromDom(id) {\n' +
+    '    var elem = document.querySelector("#" + id);\n' +
+    '    if (elem != null) {\n' +
+    '        elem.parentNode.removeChild(elem);\n' +
+    '    }\n' +
+    '}).apply(null, arguments)',
+  args: [ 'wic-tabbable-canvas' ]
+}
+2021-10-31T05:13:20.636Z INFO webdriver: RESULT 0
+2021-10-31T05:13:20.675Z INFO webdriver: COMMAND deleteSession()
+2021-10-31T05:13:20.675Z INFO webdriver: [DELETE] http://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e

@@ -1,29 +1,29 @@
 {
-  "start": "2021-10-30T16:05:44.234Z",
-  "end": "2021-10-30T16:06:31.521Z",
+  "start": "2021-10-31T05:12:12.829Z",
+  "end": "2021-10-31T05:13:21.299Z",
   "capabilities": {
     "acceptInsecureCerts": true,
     "browserName": "firefox",
     "browserVersion": "93.0",
     "moz:accessibilityChecks": false,
     "moz:buildID": "20210927210923",
-    "moz:debuggerAddress": "localhost:33887",
+    "moz:debuggerAddress": "localhost:63109",
     "moz:geckodriverVersion": "0.30.0",
     "moz:headless": false,
-    "moz:processID": 626,
-    "moz:profile": "/tmp/rust_mozprofileZPuGf6",
+    "moz:processID": 1354,
+    "moz:profile": "/tmp/rust_mozprofilefJXyQ9",
     "moz:shutdownTimeout": 60000,
     "moz:useNonSpecCompliantPointerOrigin": false,
     "moz:webdriverClick": true,
     "pageLoadStrategy": "normal",
     "platformName": "linux",
-    "platformVersion": "5.4.120+",
+    "platformVersion": "5.10.47-linuxkit",
     "proxy": {},
-    "se:cdp": "ws://0.0.0.0:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/se/cdp",
+    "se:cdp": "ws://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/se/cdp",
     "se:cdpVersion": "85",
-    "se:vnc": "ws://0.0.0.0:4444/session/b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0/se/vnc",
+    "se:vnc": "ws://localhost:4444/session/44ebe39b-5721-49a7-acea-1f124b5a270e/se/vnc",
     "se:vncEnabled": true,
-    "se:vncLocalAddress": "ws://10.104.2.51:7900",
+    "se:vncLocalAddress": "ws://172.20.0.4:7900",
     "setWindowRect": true,
     "strictFileInteractability": false,
     "timeouts": {
@@ -32,117 +32,135 @@
       "script": 30000
     },
     "unhandledPromptBehavior": "dismiss and notify",
-    "sessionId": "b8b33a4a-9f26-4ff2-86b5-432c4e36c2a0"
+    "sessionId": "44ebe39b-5721-49a7-acea-1f124b5a270e"
   },
-  "host": "34.72.180.106",
+  "host": "localhost",
   "port": 4444,
   "baseUrl": "http://localhost",
   "framework": "mocha",
-  "duration": 47287,
+  "duration": 68470,
   "suites": [
     {
-      "title": "Volvo Cars Safety Page Validator",
-      "duration": 46077,
-      "start": "2021-10-30T16:05:44.239Z",
-      "end": "2021-10-30T16:06:30.316Z",
+      "title": "Visual Regression Test Suite",
+      "duration": 67840,
+      "start": "2021-10-31T05:12:12.833Z",
+      "end": "2021-10-31T05:13:20.673Z",
       "tests": [
         {
-          "title": "Launch Volvo Home",
-          "start": "2021-10-30T16:05:44.239Z",
-          "end": "2021-10-30T16:05:52.112Z",
-          "duration": 7873,
+          "title": "Handle Cookies",
+          "start": "2021-10-31T05:12:12.834Z",
+          "end": "2021-10-31T05:12:17.533Z",
+          "duration": 4699,
           "state": "passed",
           "screenshots": []
         },
         {
-          "title": "Validate Title",
-          "start": "2021-10-30T16:05:52.112Z",
-          "end": "2021-10-30T16:05:53.441Z",
-          "duration": 1329,
+          "title": "Mild-Hybrid Page, Initial Screen Save",
+          "start": "2021-10-31T05:12:17.534Z",
+          "end": "2021-10-31T05:12:23.509Z",
+          "duration": 5975,
           "state": "passed",
           "screenshots": []
         },
         {
-          "title": "Validate Care Safety Link",
-          "start": "2021-10-30T16:05:53.442Z",
-          "end": "2021-10-30T16:05:55.697Z",
-          "duration": 2255,
+          "title": "Validate Mild-Hybrid Page, Initial Screen Save",
+          "start": "2021-10-31T05:12:23.509Z",
+          "end": "2021-10-31T05:12:26.327Z",
+          "duration": 2818,
           "state": "passed",
           "screenshots": []
         },
         {
-          "title": "Validate Car Safety Title",
-          "start": "2021-10-30T16:05:55.697Z",
-          "end": "2021-10-30T16:05:55.978Z",
-          "duration": 281,
+          "title": "FullScreen Capture, Mild-Hybrid Page",
+          "start": "2021-10-31T05:12:26.330Z",
+          "end": "2021-10-31T05:12:39.136Z",
+          "duration": 12806,
           "state": "passed",
           "screenshots": []
         },
         {
-          "title": "Validate Driver assistance Link",
-          "start": "2021-10-30T16:05:55.979Z",
-          "end": "2021-10-30T16:06:01.153Z",
-          "duration": 5174,
+          "title": "Validate FullScree Capture, Mild-Hybrid Page",
+          "start": "2021-10-31T05:12:39.136Z",
+          "end": "2021-10-31T05:12:52.731Z",
+          "duration": 13595,
           "state": "passed",
           "screenshots": []
         },
         {
-          "title": "Validate Driver assistance Title",
-          "start": "2021-10-30T16:06:01.153Z",
-          "end": "2021-10-30T16:06:03.577Z",
-          "duration": 2424,
+          "title": "Tabbed Screen Test, Mild-Hybrid Page",
+          "start": "2021-10-31T05:12:52.733Z",
+          "end": "2021-10-31T05:13:06.097Z",
+          "duration": 13364,
           "state": "passed",
           "screenshots": []
         },
         {
-          "title": "Validate Child Safety Link",
-          "start": "2021-10-30T16:06:03.578Z",
-          "end": "2021-10-30T16:06:11.463Z",
-          "duration": 7885,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Validate Child Safety Title",
-          "start": "2021-10-30T16:06:11.464Z",
-          "end": "2021-10-30T16:06:14.637Z",
-          "duration": 3173,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Validate EVA Initiative Link",
-          "start": "2021-10-30T16:06:14.637Z",
-          "end": "2021-10-30T16:06:18.130Z",
-          "duration": 3493,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Validate EVA Initiative Title",
-          "start": "2021-10-30T16:06:18.130Z",
-          "end": "2021-10-30T16:06:18.365Z",
-          "duration": 235,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Validate EVA Initiative Video",
-          "start": "2021-10-30T16:06:18.365Z",
-          "end": "2021-10-30T16:06:30.264Z",
-          "duration": 11899,
+          "title": "Validate Tabbed Screen Captured, Mild-Hybrid Page",
+          "start": "2021-10-31T05:13:06.099Z",
+          "end": "2021-10-31T05:13:20.639Z",
+          "duration": 14540,
           "state": "passed",
           "screenshots": []
         }
       ],
-      "hooks": []
+      "hooks": [
+        {
+          "start": "2021-10-31T05:12:12.834Z",
+          "end": "2021-10-31T05:12:14.078Z",
+          "duration": 1244,
+          "title": "\"before each\" hook for Visual Regression Test Suite",
+          "associatedSuite": "Visual Regression Test Suite"
+        },
+        {
+          "start": "2021-10-31T05:12:17.534Z",
+          "end": "2021-10-31T05:12:21.537Z",
+          "duration": 4003,
+          "title": "\"before each\" hook for Visual Regression Test Suite",
+          "associatedSuite": "Visual Regression Test Suite"
+        },
+        {
+          "start": "2021-10-31T05:12:23.509Z",
+          "end": "2021-10-31T05:12:24.131Z",
+          "duration": 622,
+          "title": "\"before each\" hook for Visual Regression Test Suite",
+          "associatedSuite": "Visual Regression Test Suite"
+        },
+        {
+          "start": "2021-10-31T05:12:26.330Z",
+          "end": "2021-10-31T05:12:26.856Z",
+          "duration": 526,
+          "title": "\"before each\" hook for Visual Regression Test Suite",
+          "associatedSuite": "Visual Regression Test Suite"
+        },
+        {
+          "start": "2021-10-31T05:12:39.136Z",
+          "end": "2021-10-31T05:12:39.709Z",
+          "duration": 573,
+          "title": "\"before each\" hook for Visual Regression Test Suite",
+          "associatedSuite": "Visual Regression Test Suite"
+        },
+        {
+          "start": "2021-10-31T05:12:52.733Z",
+          "end": "2021-10-31T05:12:53.149Z",
+          "duration": 416,
+          "title": "\"before each\" hook for Visual Regression Test Suite",
+          "associatedSuite": "Visual Regression Test Suite"
+        },
+        {
+          "start": "2021-10-31T05:13:06.099Z",
+          "end": "2021-10-31T05:13:06.508Z",
+          "duration": 409,
+          "title": "\"before each\" hook for Visual Regression Test Suite",
+          "associatedSuite": "Visual Regression Test Suite"
+        }
+      ]
     }
   ],
   "specs": [
-    "/home/kirub_invest/git/volvo-kube-wdio/test/specs/carSafetyPage.spec.js"
+    "/Users/ksaminat/testing/git_volvo/volvo-kube-wdio/test/specs/MildHybrid-VisualRegression.js"
   ],
   "state": {
-    "passed": 11,
+    "passed": 7,
     "failed": 0,
     "skipped": 0
   }

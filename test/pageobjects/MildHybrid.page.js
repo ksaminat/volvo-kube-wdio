@@ -7,6 +7,14 @@ class MildHybridPage extends BasePageConfig{
         await super.openUrl()
     }
 
+    async openMyUrl() {
+        await super.openUrl(locatorTags.mildHybrid.url);
+    }
+
+    async handleCookies(){
+        await super.handleCookies()
+    }
+
     async waitThenClick(e, timeout){
         await super.waitThenClick(e, timeout)
     }
