@@ -104,7 +104,7 @@ allure generate -c allure-results/ && allure open
 <img width="1680" alt="Kube-test1" src="https://user-images.githubusercontent.com/13710428/139573535-2472e8e9-98ea-4187-95bd-d4ffbe521e58.png">
 <img width="1680" alt="Kube-test2" src="https://user-images.githubusercontent.com/13710428/139573548-87477a64-a5f3-4d1a-a2ca-b2db35cb1868.png">
 <img width="1680" alt="Kube-test3" src="https://user-images.githubusercontent.com/13710428/139573563-2199ed95-2630-44a4-82e0-9812680db639.png">
-<img width="1680" alt="Kube-test3" src="https://user-images.githubusercontent.com/13710428/139573752-0086e8f3-8437-4a6f-9fb0-d36ffc2a520d.png:>
+<img width="1680" alt="Kube-test3" src="https://user-images.githubusercontent.com/13710428/139573752-0086e8f3-8437-4a6f-9fb0-d36ffc2a520d.png">
 
 #### Spec-Report - Docker
 
